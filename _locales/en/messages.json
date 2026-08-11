@@ -719,9 +719,6 @@
   "sb_submitted": {
     "message": "Contribution submitted"
   },
-  "sb_confirm_open": {
-    "message": "Confirmation page opened"
-  },
   "sb_submit_failed": {
     "message": "Failed — could not reach server"
   },

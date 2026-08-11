@@ -280,6 +280,27 @@
     });
   }
 
+  // ─── Kendi sunucumuza segment gönder (doğrudan kayıt) ───
+  async function submitSegmentToVade(payload) {
+    try {
+      const res = await fetch(VADE_API + '/skipsegments.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
+        console.log('[vAdBlock SponsorSkip] Segment eklendi (vade.pro):', payload);
+        return true;
+      }
+      console.log('[vAdBlock SponsorSkip] vade.pro ekleme sonucu:', res.status, data);
+      return false;
+    } catch (e) {
+      console.log('[vAdBlock SponsorSkip] vade.pro ekleme hatası:', e);
+      return false;
+    }
+  }
+
   // ─── Sponsor Analizi ───
   function analyzeSegments(captions) {
     if (!captions || captions.length === 0) return [];
@@ -1096,22 +1117,24 @@
   async function submitAdd(start, end, category) {
     const userID = await ensureUserID();
     const seg = { videoId: currentVideoId, start, end, category };
-    const params = new URLSearchParams({
+    const payload = {
       videoID: seg.videoId,
-      start: seg.start,
-      end: seg.end,
+      startTime: seg.start,
+      endTime: seg.end,
       category: seg.category,
       userID: userID,
-      title: (document.title || '').replace(/\s*-\s*YouTube\s*$/, '').trim(),
-      duration: (videoEl && videoEl.duration) ? Math.round(videoEl.duration) : 0
-    });
-    const url = VADE_API + '/submit.php?' + params.toString();
-    chrome.runtime.sendMessage({ type: 'OPEN_SUBMIT_CONFIRM', url }, () => {
-      // Görsel geri bildirim için segmenti yerel listeye ekle (sunucuya onay sayfasında yazılır)
+      videoTitle: (document.title || '').replace(/\s*-\s*YouTube\s*$/, '').trim(),
+      videoDuration: (videoEl && videoEl.duration) ? Math.round(videoEl.duration) : 0
+    };
+    const ok = await submitSegmentToVade(payload);
+    if (ok) {
+      // Görsel geri bildirim için segmenti yerel listeye ekle
       segments.push({ start, end, category, confidence: 3, source: 'vade' });
       renderOverlays();
-      showToast(category, Math.round(end - start), true, _t('sb_confirm_open', 'Onaylama sayfası açıldı'));
-    });
+      showToast(category, Math.round(end - start), true, _t('sb_submitted', 'Katkın gönderildi'));
+    } else {
+      showToast(category, 0, true, _t('sb_submit_failed', 'Gönderilemedi — sunucuya ulaşılamadı'));
+    }
   }
 
   // ─── Toast Bildirimi ───

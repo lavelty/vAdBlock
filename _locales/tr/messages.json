@@ -719,9 +719,6 @@
   "sb_submitted": {
     "message": "Katkın gönderildi"
   },
-  "sb_confirm_open": {
-    "message": "Onaylama sayfası açıldı"
-  },
   "sb_submit_failed": {
     "message": "Gönderilemedi — sunucuya ulaşılamadı"
   },
