@@ -17,7 +17,7 @@
         <!-- Sidebar Navigation -->
         <nav class="sidebar">
             <div class="logo-area">
-                <img src="icons/icon128.png" alt="vAdBlock Logo" style="width: 24px; height: 24px;">
+                <img src="../icons/icon128.png" alt="vAdBlock Logo" style="width: 24px; height: 24px;">
                 <span data-i18n="extName">vAdBlock</span>
             </div>
 
@@ -81,7 +81,9 @@
                         <div class="report-stat"><div class="report-stat-value" id="reportTotal">0</div><div class="report-stat-label" data-i18n="opt_report_total">Engellenen istek</div></div>
                         <div class="report-stat"><div class="report-stat-value" id="reportAds">0</div><div class="report-stat-label" data-i18n="opt_report_ads">Reklam</div></div>
                         <div class="report-stat"><div class="report-stat-value" id="reportTrackers">0</div><div class="report-stat-label" data-i18n="opt_report_trackers">İzleyici</div></div>
+                        <div class="report-stat"><div class="report-stat-value amber" id="reportDaily">0</div><div class="report-stat-label" data-i18n="opt_report_daily">Günlük ortalama</div></div>
                     </div>
+                    <div class="top-domains" id="topDomainsList"></div>
                 </div>
             </section>
 
@@ -299,7 +301,7 @@
                             <button class="primary-button" id="addWhitelistBtn" data-i18n="opt_add" style="margin: 0; border-radius: 12px; padding: 0 20px;">Ekle</button>
                         </div>
 
-                        <div class="whitelist-list" id="whitelistContainer" style="flex: 1; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); overflow-y: auto; max-height: 380px;">
+                        <div class="whitelist-list" id="whitelistContainer" style="flex: 1; overflow-y: auto; max-height: 380px;">
                             <div class="empty-state" data-i18n="opt_allowlist_empty" style="padding: 32px 24px; text-align: center; color: var(--text-muted);">Henüz site eklenmemiş. Yukarıdan bir alan adı ekleyin.</div>
                         </div>
                     </div>
@@ -349,50 +351,61 @@
                 <p class="subtitle" data-i18n="opt_filters_subtitle">Hangi filtre listelerinin kullanılacağını seçin ve listeleri güncelleyin.</p>
                 
                 <div class="feature-card" style="margin-top: 24px;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 20px;">
                         <div>
-                            <h3 data-i18n="opt_update_title" style="margin: 0; margin-bottom: 4px;">Listeleri Güncelle</h3>
-                            <p style="font-size: 13px; color: var(--text-muted); margin: 0;">
+                            <h3 data-i18n="opt_update_title" style="margin: 0; margin-bottom: 6px;">Listeleri Güncelle</h3>
+                            <p style="font-size: 13px; color: var(--text-muted); margin: 0; line-height: 1.6;">
                                 <span data-i18n="opt_update_desc">Filtre listeleri otomatik olarak haftada bir güncellenir. Son güncelleme:</span>
-                                <strong id="filterUpdatedAt" style="color: var(--text-main);">bilinmiyor</strong>
+                                <strong id="filterUpdatedAt" style="color: var(--text-highlight); font-weight: 600;">—</strong>
                             </p>
                         </div>
-                        <button class="primary-button" id="updateFiltersBtn" data-i18n="opt_update_btn">Filtreleri Güncelle</button>
+                        <button class="primary-button" id="updateFiltersBtn" style="display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px; font-size: 13px; border-radius: 100px; margin: 0; white-space: nowrap;">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M23 4v6h-6"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                            <span data-i18n="opt_update_btn">Filtreleri Güncelle</span>
+                        </button>
                     </div>
-                    <div style="background: rgba(15, 23, 42, 0.03); padding: 12px 16px; border-radius: 8px; border: 1px solid var(--border-color); font-size: 13px;">
-                        <div id="filterAutoStatus" style="font-weight: 500; margin-bottom: 4px;">Durum yükleniyor...</div>
-                        <div id="filterCounts" style="color: var(--text-muted);">...</div>
+                    <div style="background: rgba(15, 23, 42, 0.03); padding: 14px 18px; border-radius: 14px; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                        <span id="filterAutoStatus" class="filter-auto-status">Durum yükleniyor...</span>
+                        <div id="filterCounts" class="filter-counts" style="flex: 1; text-align: right; min-width: 200px;"></div>
                     </div>
                 </div>
 
-                <div class="settings-grid" style="margin-top: 24px;">
-                    <div class="setting-row">
-                        <div class="setting-info">
-                            <div class="setting-title">EasyList</div>
-                            <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" data-i18n="opt_filter_easylist_desc">Ana reklam filtreleri — çoğu reklam ağını engeller.</div>
+                <div class="feature-card" style="margin-top: 24px;">
+                    <h3 data-i18n="opt_filters_lists" style="margin: 0 0 6px 0;">Aktif Filtre Listeleri</h3>
+                    <p style="font-size: 13px; color: var(--text-muted); margin: 0 0 8px 0;" data-i18n="opt_filters_lists_desc">Engelleme için kullanılan filtre listeleri.</p>
+                    <div class="settings-grid">
+                        <div class="setting-row">
+                            <div class="setting-info">
+                                <div class="setting-title">EasyList</div>
+                                <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" data-i18n="opt_filter_easylist_desc">Ana reklam filtreleri — çoğu reklam ağını engeller.</div>
+                            </div>
+                            <span class="filter-counts" style="color: var(--text-muted);">esas liste</span>
+                            <label class="switch"><input type="checkbox" class="filter-list-cb" data-list="easylist" checked><span class="slider round"></span></label>
                         </div>
-                        <label class="switch"><input type="checkbox" checked disabled><span class="slider round"></span></label>
-                    </div>
-                    <div class="setting-row">
-                        <div class="setting-info">
-                            <div class="setting-title">EasyPrivacy</div>
-                            <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" data-i18n="opt_filter_easyprivacy_desc">İzleyici ve analitik alan adlarını engeller.</div>
+                        <div class="setting-row">
+                            <div class="setting-info">
+                                <div class="setting-title">EasyPrivacy</div>
+                                <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" data-i18n="opt_filter_easyprivacy_desc">İzleyici ve analitik alan adlarını engeller.</div>
+                            </div>
+                            <span class="filter-counts" style="color: var(--text-muted);">gizlilik</span>
+                            <label class="switch"><input type="checkbox" class="filter-list-cb" data-list="easyprivacy" checked><span class="slider round"></span></label>
                         </div>
-                        <label class="switch"><input type="checkbox" checked disabled><span class="slider round"></span></label>
-                    </div>
-                    <div class="setting-row">
-                        <div class="setting-info">
-                            <div class="setting-title">AdGuard Base & Tracking</div>
-                            <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" data-i18n="opt_filter_adguard_desc">Reklam sunucuları ve izleme sunucuları listeleri.</div>
+                        <div class="setting-row">
+                            <div class="setting-info">
+                                <div class="setting-title">AdGuard Base & Tracking</div>
+                                <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" data-i18n="opt_filter_adguard_desc">Reklam sunucuları ve izleme sunucuları listeleri.</div>
+                            </div>
+                            <span class="filter-counts" style="color: var(--text-muted);">ek liste</span>
+                            <label class="switch"><input type="checkbox" class="filter-list-cb" data-list="adguard" checked><span class="slider round"></span></label>
                         </div>
-                        <label class="switch"><input type="checkbox" checked disabled><span class="slider round"></span></label>
-                    </div>
-                    <div class="setting-row" style="border-bottom:none;">
-                        <div class="setting-info">
-                            <div class="setting-title">vAdBlock Filters</div>
-                            <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" data-i18n="opt_filter_ubo_desc">vAdBlock filtreleri ve gizlilik listeleri.</div>
+                        <div class="setting-row" style="border-bottom:none;">
+                            <div class="setting-info">
+                                <div class="setting-title">vAdBlock Filters</div>
+                                <div style="font-size: 12px; color: var(--text-muted); margin-top: 4px;" data-i18n="opt_filter_ubo_desc">vAdBlock filtreleri ve gizlilik listeleri.</div>
+                            </div>
+                            <span class="filter-counts" style="color: var(--text-muted);">vAdBlock</span>
+                            <label class="switch"><input type="checkbox" class="filter-list-cb" data-list="ubo" checked><span class="slider round"></span></label>
                         </div>
-                        <label class="switch"><input type="checkbox" checked disabled><span class="slider round"></span></label>
                     </div>
                 </div>
             </section>

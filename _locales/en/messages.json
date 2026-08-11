@@ -383,6 +383,12 @@
   "opt_filter_ubo_desc": {
     "message": "vAdBlock filters and privacy lists."
   },
+  "opt_filters_lists": {
+    "message": "Active Filter Lists"
+  },
+  "opt_filters_lists_desc": {
+    "message": "Filter lists used for blocking."
+  },
   "opt_update_title": {
     "message": "Update Lists"
   },
@@ -667,6 +673,9 @@
   },
   "opt_update_success": {
     "message": "GUI updated and filters synced!"
+  },
+  "opt_update_err_conn": {
+    "message": "Connection failed"
   },
   "global_temp_off_msg": {
     "message": "Paused on all sites for $1 mins"

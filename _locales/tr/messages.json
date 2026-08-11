@@ -377,6 +377,12 @@
   "opt_filter_ubo_desc": {
     "message": "vAdBlock filtreleri ve gizlilik listeleri."
   },
+  "opt_filters_lists": {
+    "message": "Aktif Filtre Listeleri"
+  },
+  "opt_filters_lists_desc": {
+    "message": "Engelleme için kullanılan filtre listeleri."
+  },
   "opt_update_title": {
     "message": "Listeleri Güncelle"
   },
@@ -667,6 +673,9 @@
   },
   "opt_update_success": {
     "message": "GUI güncellendi ve filtreler senkronize edildi!"
+  },
+  "opt_update_err_conn": {
+    "message": "Bağlantı kurulamadı"
   },
   "global_temp_off_msg": {
     "message": "Tüm sitelerde $1 dk durduruldu"

@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         languageSelect.addEventListener('change', () => {
             chrome.storage.local.set({ vadblockLang: languageSelect.value }, () => {
-                window.vAdBlockRefresh && window.vAdBlockRefresh(); setTimeout(() => location.reload(), 200);
+                window.vAdBlockRefresh && window.vAdBlockRefresh();
             });
         });
     }
@@ -85,12 +85,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateFiltersBtn = document.getElementById('updateFiltersBtn');
     function refreshFilterStatus() {
         chrome.runtime.sendMessage({ type: 'GET_FILTER_STATUS' }, (r) => {
-            if (!r) return;
+            const autoStatus = document.getElementById('filterAutoStatus');
+            const t = (key, subs) => window.vAdBlockT ? vAdBlockT(key, subs) : null;
+            if (!r) {
+                if (autoStatus) {
+                    autoStatus.textContent = t('opt_update_err_conn') || 'Bağlantı kurulamadı';
+                    autoStatus.classList.add('stale');
+                }
+                return;
+            }
             const at = document.getElementById('filterUpdatedAt');
             if (at) at.textContent = r.updatedAt ? new Date(r.updatedAt).toLocaleString('tr-TR') : (window.vAdBlockT ? vAdBlockT('opt_update_unknown') : 'bilinmiyor');
-            const autoStatus = document.getElementById('filterAutoStatus');
             if (autoStatus) {
-                const t = (key, subs) => window.vAdBlockT ? vAdBlockT(key, subs) : null;
                 if (r.updatedAt) {
                     const days = Math.floor((Date.now() - r.updatedAt) / 86400000);
                     if (days >= 7) {
@@ -119,20 +125,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (updateFiltersBtn) {
+        const setUpdateBtnText = (text) => {
+            const span = updateFiltersBtn.querySelector('span');
+            if (span) span.textContent = text;
+            else updateFiltersBtn.textContent = text;
+        };
         updateFiltersBtn.addEventListener('click', () => {
             updateFiltersBtn.disabled = true;
-            updateFiltersBtn.textContent = window.vAdBlockT ? vAdBlockT('opt_update_running') : 'Güncelleniyor...';
+            setUpdateBtnText(window.vAdBlockT ? vAdBlockT('opt_update_running') : 'Güncelleniyor...');
             chrome.runtime.sendMessage({ type: 'UPDATE_FILTERS' }, (res) => {
                 updateFiltersBtn.disabled = false;
                 if (res && res.success) {
-                    updateFiltersBtn.textContent = window.vAdBlockT ? vAdBlockT('opt_update_done') : 'Güncel!';
+                    setUpdateBtnText(window.vAdBlockT ? vAdBlockT('opt_update_done') : 'Güncel!');
                     refreshFilterStatus();
-            document.addEventListener('vAdBlockLangLoaded', refreshFilterStatus);
+                    document.addEventListener('vAdBlockLangLoaded', refreshFilterStatus);
                 } else {
-                    updateFiltersBtn.textContent = window.vAdBlockT ? vAdBlockT('opt_update_error', { ERROR: (res && res.error) || '' }) : 'Hata!';
+                    setUpdateBtnText(window.vAdBlockT ? vAdBlockT('opt_update_error', { ERROR: (res && res.error) || '' }) : 'Hata!');
                     console.log('update filters error:', res && res.error);
                 }
-                setTimeout(() => { updateFiltersBtn.textContent = window.vAdBlockT ? vAdBlockT('opt_update_btn') : 'Filtreleri Güncelle'; }, 2500);
+                setTimeout(() => { setUpdateBtnText(window.vAdBlockT ? vAdBlockT('opt_update_btn') : 'Filtreleri Güncelle'); }, 2500);
             });
         });
         refreshFilterStatus();

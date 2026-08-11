@@ -1,5 +1,5 @@
 // background.js — vAdBlock service worker
-importScripts('js/filter_parser.js');
+importScripts('filter_parser.js');
 
 // Kozmetik enjektörü (content script) chrome.storage.session kullanabilmeli.
 if (chrome.storage && chrome.storage.session && chrome.storage.session.setAccessLevel) {
@@ -78,12 +78,6 @@ function syncHttpsUpgrade() {
 
 let pageBlocked = {};
 
-const GRAY_ICON = {
-    16: 'icons/icon-gray16.png',
-    32: 'icons/icon-gray32.png',
-    48: 'icons/icon-gray48.png',
-    128: 'icons/icon-gray128.png'
-};
 const COLOR_ICON = {
     16: 'icons/icon16.png',
     32: 'icons/icon32.png',
@@ -462,7 +456,6 @@ function updateBadge() {
         if (!r.globalEnabled) {
             chrome.action.setBadgeText({ text: '' });
             chrome.action.setBadgeBackgroundColor({ color: '#94A3B8' });
-            chrome.action.setIcon({ path: GRAY_ICON });
             return;
         }
         chrome.action.setIcon({ path: COLOR_ICON });
