@@ -314,7 +314,7 @@ function stripOldThemes(css) {
     return css.trimEnd() + '\n';
 }
 
-['options.css', 'popup.css', 'welcome.css'].forEach(file => {
+['css/options.css', 'css/popup.css', 'css/welcome.css'].forEach(file => {
     let css = fs.readFileSync(file, 'utf8');
     css = stripOldThemes(css);
     css += themeCss;
@@ -322,7 +322,7 @@ function stripOldThemes(css) {
 });
 console.log('Done CSS');
 
-const jsFiles = ['popup.js', 'welcome.js'];
+const jsFiles = ['js/popup.js', 'js/welcome.js'];
 jsFiles.forEach(file => {
     let content = fs.readFileSync(file, 'utf8');
     if (!content.includes('data-theme')) {

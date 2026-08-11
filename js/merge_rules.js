@@ -1,5 +1,5 @@
 const fs = require('fs');
-let rules = JSON.parse(fs.readFileSync('rules.json'));
+let rules = JSON.parse(fs.readFileSync('data/rules.json'));
 let newRules = [
   {
     "id": 1,
@@ -103,5 +103,5 @@ let newRules = [
 rules = rules.filter(r => r.id > 10);
 // Merge new rules
 rules = [...newRules, ...rules];
-fs.writeFileSync('rules.json', JSON.stringify(rules, null, 4));
+fs.writeFileSync('data/rules.json', JSON.stringify(rules, null, 4));
 console.log('Added the 10 specific rules');

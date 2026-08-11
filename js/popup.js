@@ -492,7 +492,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('btnSettings').addEventListener('click', () => {
     if (chrome.runtime.openOptionsPage) chrome.runtime.openOptionsPage();
-    else window.open('options.html');
+    else window.open('html/options.html');
   });
 
   // ── Toast ──
@@ -690,7 +690,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (chrome.runtime.lastError) {
             chrome.scripting.executeScript({
               target: {tabId: tabs[0].id},
-              files: ['picker.js']
+              files: ['js/picker.js']
             }, () => {
               if (chrome.runtime.lastError) {
                 showToast(window.vAdBlockT('toast_page_not_available') || 'Bu sayfada kullanılamaz (Chrome koruması)', true);

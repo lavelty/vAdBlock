@@ -1,5 +1,5 @@
 // background.js — vAdBlock service worker
-importScripts('filter_parser.js');
+importScripts('js/filter_parser.js');
 
 // Kozmetik enjektörü (content script) chrome.storage.session kullanabilmeli.
 if (chrome.storage && chrome.storage.session && chrome.storage.session.setAccessLevel) {
@@ -21,7 +21,7 @@ function isProtectedDomain(d) {
 
 chrome.runtime.onInstalled.addListener((details) => {
     if (details.reason === "install") {
-        chrome.tabs.create({ url: "welcome.html" });
+        chrome.tabs.create({ url: "html/welcome.html" });
     }
     
     // Create Context Menu for Zapper
@@ -212,7 +212,7 @@ async function getFilterListData() {
     const r = await chrome.storage.local.get({ laveFilterLists: null });
     if (r.laveFilterLists) return r.laveFilterLists;
     try {
-        const res = await fetch(chrome.runtime.getURL('filter_lists.json'));
+        const res = await fetch(chrome.runtime.getURL('data/filter_lists.json'));
         if (res.ok) return await res.json();
     } catch (e) {
         console.log('filter_lists.json load error:', e);
@@ -703,7 +703,7 @@ async function updateDynamicScripts() {
                 id: 'strict_protection_main',
                 matches: ["<all_urls>"],
                 excludeMatches: ["*://*.aternos.org/*", "*://aternos.org/*", "*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
-                js: ["inject.js", "scriptlets.js", "scriptlet_injector.js"],
+                js: ["js/inject.js", "data/scriptlets.js", "js/scriptlet_injector.js"],
                 runAt: "document_start",
                 world: "MAIN",
                 allFrames: true,
@@ -716,7 +716,7 @@ async function updateDynamicScripts() {
                 id: 'premium_cookie_blocker',
                 matches: ["<all_urls>"],
                 excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
-                css: ["premium_cookie.css"],
+                css: ["css/premium_cookie.css"],
                 runAt: "document_start",
                 allFrames: true
             });
@@ -727,7 +727,7 @@ async function updateDynamicScripts() {
                 id: 'cookie_auto_click',
                 matches: ["<all_urls>"],
                 excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
-                js: ["cookie_auto.js"],
+                js: ["js/cookie_auto.js"],
                 runAt: "document_idle",
                 allFrames: false
             });
@@ -738,7 +738,7 @@ async function updateDynamicScripts() {
                 id: 'premium_focus_mode',
                 matches: ["<all_urls>"],
                 excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
-                css: ["premium_focus.css"],
+                css: ["css/premium_focus.css"],
                 runAt: "document_start",
                 allFrames: true
             });
@@ -749,7 +749,7 @@ async function updateDynamicScripts() {
                 id: 'fingerprint_blocker',
                 matches: ["<all_urls>"],
                 excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
-                js: ["fingerprint.js"],
+                js: ["js/fingerprint.js"],
                 runAt: "document_start",
                 allFrames: true,
                 world: "MAIN"
@@ -760,9 +760,9 @@ async function updateDynamicScripts() {
             scripts.push({
                 id: 'anti_adblock_hide',
                 matches: ["<all_urls>"],
-                css: ["anti_adblock.css"],
+                css: ["css/anti_adblock.css"],
                 excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
-                js: ["anti_adblock.js"],
+                js: ["js/anti_adblock.js"],
                 runAt: "document_idle",
                 allFrames: true
             });
@@ -1007,7 +1007,7 @@ chrome.commands && chrome.commands.onCommand.addListener(async (command) => {
                 await chrome.tabs.sendMessage(tab.id, { action: 'START_PICKER' });
             } catch (e) {
                 try {
-                    await chrome.scripting.executeScript({ target: { tabId: tab.id }, files: ['picker.js'] });
+                    await chrome.scripting.executeScript({ target: { tabId: tab.id }, files: ['js/picker.js'] });
                     chrome.tabs.sendMessage(tab.id, { action: 'START_PICKER' }).catch(() => {});
                 } catch (e2) {
                     console.log('picker on command failed:', e2);

@@ -45,7 +45,7 @@ async function getCosmeticData(host) {
         cache = null;
     }
 
-    const list = await fetch(chrome.runtime.getURL('cosmetic_rules.txt')).then(r => r.text());
+    const list = await fetch(chrome.runtime.getURL('data/cosmetic_rules.txt')).then(r => r.text());
     const data = parseCosmeticList(list, host.toLowerCase());
 
     if (cache) {
@@ -90,7 +90,7 @@ chrome.storage.local.get({ userRules: [], globalEnabled: true, allowlist: [] }, 
     }
 
     Promise.all([
-        fetch(chrome.runtime.getURL('cosmetic.css')).then(r => r.text()).catch(() => ''),
+        fetch(chrome.runtime.getURL('css/cosmetic.css')).then(r => r.text()).catch(() => ''),
         getCosmeticData(domain)
     ]).then(([baseCss, data]) => {
         let cssString = baseCss;

@@ -16,7 +16,8 @@ const fs = require('fs');
 const path = require('path');
 const fp = require('./filter_parser.js');
 
-const EXT_DIR = __dirname;
+const EXT_DIR = path.join(__dirname, '..');
+const DATA_DIR = path.join(EXT_DIR, 'data');
 const LISTS_DIR = path.join(require('os').tmpdir(), 'vadblock-lists');
 
 async function fetchRawLists() {
@@ -58,24 +59,24 @@ async function fetchRawLists() {
     }
 
     // ---- rules.json: base kurallar (chunk kurallarini kaldir) ----
-    const rulesPath = path.join(EXT_DIR, 'rules.json');
+    const rulesPath = path.join(DATA_DIR, 'rules.json');
     let rules = JSON.parse(fs.readFileSync(rulesPath, 'utf8'));
     const baseRules = rules.filter(r => r.id < 2000000);
     fs.writeFileSync(rulesPath, JSON.stringify(baseRules));
 
     // ---- filter_lists.json ----
-    fs.writeFileSync(path.join(EXT_DIR, 'filter_lists.json'), JSON.stringify(lists));
+    fs.writeFileSync(path.join(DATA_DIR, 'filter_lists.json'), JSON.stringify(lists));
 
     // ---- cosmetic_rules.txt ----
     const uniqueCosmetic = [...new Set(cosmetic)];
-    fs.writeFileSync(path.join(EXT_DIR, 'cosmetic_rules.txt'), uniqueCosmetic.join('\n'));
+    fs.writeFileSync(path.join(DATA_DIR, 'cosmetic_rules.txt'), uniqueCosmetic.join('\n'));
 
     console.log('==============================');
     for (const [k, v] of Object.entries(lists)) console.log('  ' + k + ': ' + v.length + ' domain');
     console.log('Total unique (sum):', totalDomains);
     console.log('Base rules in rules.json:', baseRules.length);
     console.log('rules.json size:', (fs.statSync(rulesPath).size / 1024 / 1024).toFixed(2), 'MB');
-    console.log('filter_lists.json size:', (fs.statSync(path.join(EXT_DIR, 'filter_lists.json')).size / 1024 / 1024).toFixed(2), 'MB');
+    console.log('filter_lists.json size:', (fs.statSync(path.join(DATA_DIR, 'filter_lists.json')).size / 1024 / 1024).toFixed(2), 'MB');
     console.log('Cosmetic rules:', uniqueCosmetic.length);
-    console.log('cosmetic_rules.txt size:', (fs.statSync(path.join(EXT_DIR, 'cosmetic_rules.txt')).size / 1024 / 1024).toFixed(2), 'MB');
+    console.log('cosmetic_rules.txt size:', (fs.statSync(path.join(DATA_DIR, 'cosmetic_rules.txt')).size / 1024 / 1024).toFixed(2), 'MB');
 })().catch(e => { console.error('FATAL', e); process.exit(1); });

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (chrome.runtime && chrome.runtime.openOptionsPage) {
                 chrome.runtime.openOptionsPage();
             } else {
-                window.open('options.html');
+                window.open('html/options.html');
             }
         });
     }

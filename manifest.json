@@ -29,7 +29,7 @@
             {
                 "id": "ruleset_1",
                 "enabled": true,
-                "path": "rules.json"
+                "path": "data/rules.json"
             }
         ]
     },
@@ -48,7 +48,7 @@
         }
     },
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "html/popup.html",
         "default_title": "vAdBlock",
         "default_icon": {
             "16": "icons/icon16.png",
@@ -57,9 +57,9 @@
             "128": "icons/icon128.png"
         }
     },
-    "options_page": "options.html",
+    "options_page": "html/options.html",
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "js/background.js"
     },
     "content_scripts": [
         {
@@ -67,9 +67,9 @@
                 "<all_urls>"
             ],
             "js": [
-                "picker.js",
-                "cosmetic_injector.js",
-                "space_remover.js"
+                "js/picker.js",
+                "js/cosmetic_injector.js",
+                "js/space_remover.js"
             ],
             "run_at": "document_start",
             "all_frames": true,
@@ -81,7 +81,7 @@
                 "<all_urls>"
             ],
             "js": [
-                "i18n.js"
+                "js/i18n.js"
             ],
             "run_at": "document_idle",
             "all_frames": true,
@@ -93,7 +93,7 @@
                 "https://*.youtube.com/*"
             ],
             "js": [
-                "sponsorblock.js"
+                "js/sponsorblock.js"
             ],
             "run_at": "document_idle",
             "all_frames": false,
@@ -103,8 +103,8 @@
     "web_accessible_resources": [
         {
             "resources": [
-                "cosmetic.css",
-                "cosmetic_rules.txt",
+                "css/cosmetic.css",
+                "data/cosmetic_rules.txt",
                 "_locales/tr/messages.json",
                 "_locales/en/messages.json"
             ],

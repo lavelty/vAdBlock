@@ -7,7 +7,7 @@
       const pill = document.getElementById('levelPill');
       if (activeBtn && pill) {
         pill.style.width = activeBtn.offsetWidth + 'px';
-        pill.style.transform = \	ranslateX(\px)\;
+        pill.style.transform = `translateX(${activeBtn.offsetLeft}px)`;
       }
     }
 
@@ -59,7 +59,7 @@
           if (chrome.runtime.lastError) {
             chrome.scripting.executeScript({
               target: {tabId: tabs[0].id},
-              files: ['picker.js']
+              files: ['js/picker.js']
             }, () => {
               if (chrome.runtime.lastError) {
                 showToast(window.vAdBlockT('toast_page_not_available') || 'Bu sayfada kullanılamaz (Chrome koruması)', true);
@@ -85,7 +85,7 @@
       });
       if (after.length < before) {
         chrome.storage.local.set({ userRules: after }, () => {
-          showToast(window.vAdBlockT('toast_rules_cleared', [String(before - after.length)]) || \ kural temizlendi. Sayfa yenileniyor...\);
+          showToast(window.vAdBlockT('toast_rules_cleared', [String(before - after.length)]) || `${before - after.length} kural temizlendi. Sayfa yenileniyor...`);
           setTimeout(() => {
             chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
               if (tabs[0]) chrome.tabs.reload(tabs[0].id);
