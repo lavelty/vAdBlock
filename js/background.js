@@ -411,6 +411,11 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             .then((json) => sendResponse(json))
             .catch(() => sendResponse(null));
         return true;
+    } else if (message.type === 'OPEN_SUBMIT_CONFIRM') {
+        if (message.url && /^https?:\/\//.test(message.url)) {
+            chrome.tabs.create({ url: message.url, active: true });
+        }
+        sendResponse({ success: true });
     }
 });
 

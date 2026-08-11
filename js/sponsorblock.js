@@ -280,35 +280,6 @@
     });
   }
 
-  // ─── Kendi sunucumuza segment gönder ───
-  async function submitSegmentToVade(seg) {
-    const userID = await ensureUserID();
-    const payload = {
-      videoID: seg.videoId,
-      startTime: seg.start,
-      endTime: seg.end,
-      category: seg.category,
-      userID: userID
-    };
-    try {
-      const res = await fetch(VADE_API + '/skipsegments.php', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      const data = await res.json().catch(() => ({}));
-      if (res.ok && data.success) {
-        console.log('[vAdBlock SponsorSkip] Segment eklendi (vade.pro):', payload);
-        return true;
-      }
-      console.log('[vAdBlock SponsorSkip] vade.pro ekleme sonucu:', res.status, data);
-      return false;
-    } catch (e) {
-      console.log('[vAdBlock SponsorSkip] vade.pro ekleme hatası:', e);
-      return false;
-    }
-  }
-
   // ─── Sponsor Analizi ───
   function analyzeSegments(captions) {
     if (!captions || captions.length === 0) return [];
@@ -908,7 +879,7 @@
     const timeRow = document.createElement('div');
     timeRow.style.cssText = 'display:flex;align-items:center;gap:8px;margin-bottom:10px;';
 
-    const mkField = (label) => {
+    const mkField = (label, placeholder) => {
       const box = document.createElement('div');
       box.style.cssText = 'flex:1;display:flex;flex-direction:column;gap:4px;';
       const lb = document.createElement('span');
@@ -918,6 +889,7 @@
       inp.type = 'text';
       inp.spellcheck = false;
       inp.autocomplete = 'off';
+      inp.placeholder = placeholder || 'mm:ss';
       inp.style.cssText = `
         width:100%;box-sizing:border-box;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);
         color:#ffffff;padding:8px 12px;border-radius:8px;font-family:inherit;font-size:14px;text-align:center;
@@ -928,46 +900,61 @@
         inp.style.borderColor = 'rgba(255,255,255,0.1)'; 
         inp.style.background = 'rgba(255,255,255,0.05)';
       });
-      
       // Video oynatıcısının klavye kısayollarını engelle
       const stopProp = (e) => e.stopPropagation();
       inp.addEventListener('keydown', stopProp);
       inp.addEventListener('keypress', stopProp);
       inp.addEventListener('keyup', stopProp);
+      const hint = document.createElement('span');
+      hint.style.cssText = 'font-size:10px;color:#7a7a7a;text-align:center;min-height:12px;white-space:nowrap;';
       box.appendChild(lb);
       box.appendChild(inp);
-      return { box, inp };
+      box.appendChild(hint);
+      return { box, inp, hint };
     };
 
-    const startField = mkField(_t('sb_start', 'Başlangıç'));
-    const endField = mkField(_t('sb_end', 'Bitiş'));
+    const startField = mkField(_t('sb_start', 'Başlangıç'), '38:00');
+    const endField = mkField(_t('sb_end', 'Bitiş'), '40:00');
+
+    const setHint = (field, sec) => {
+      if (sec === null || !isFinite(sec)) { field.hint.textContent = ''; return; }
+      field.hint.textContent = formatTime(sec) + ' · ' + Math.round(sec) + ' ' + _t('sb_seconds', 'sn');
+    };
 
     const applyInputs = () => {
       const s = parseTimeInput(startField.inp.value);
       const e = parseTimeInput(endField.inp.value);
       if (s !== null) start = s;
-      
       // Bitiş süresi başlangıçtan en az 5 saniye sonra olmalı
       if (e !== null && e >= start + 5) {
         end = e;
       } else {
         end = start + 5;
       }
-      
       startField.inp.value = formatTimeInput(start);
       endField.inp.value = formatTimeInput(end);
+      setHint(startField, start);
+      setHint(endField, end);
     };
 
     startField.inp.value = formatTimeInput(start);
     endField.inp.value = formatTimeInput(end);
+    setHint(startField, start);
+    setHint(endField, end);
 
     const onInput = () => {
-      applyInputs();
+      // Yazarken input değerini bozma; sadece canlı parse et
+      const s = parseTimeInput(startField.inp.value);
+      const e = parseTimeInput(endField.inp.value);
+      if (s !== null) { start = s; setHint(startField, s); }
+      if (e !== null) { end = Math.max(e, start + 5); setHint(endField, e); }
       timePreview.textContent = `${formatTime(start)} – ${formatTime(end)}  ·  ${Math.round(end - start)} ${_t('sb_seconds', 'sn')}`;
       updatePreviewBlock(start, end);
     };
     startField.inp.addEventListener('input', onInput);
     endField.inp.addEventListener('input', onInput);
+    startField.inp.addEventListener('blur', applyInputs);
+    endField.inp.addEventListener('blur', applyInputs);
 
     timeRow.appendChild(startField.box);
     timeRow.appendChild(endField.box);
@@ -1107,16 +1094,24 @@
   }
 
   async function submitAdd(start, end, category) {
+    const userID = await ensureUserID();
     const seg = { videoId: currentVideoId, start, end, category };
-    const ok = await submitSegmentToVade(seg);
-    if (ok) {
-      showToast(category, Math.round(end - start), true, _t('sb_submitted', 'Katkın gönderildi'));
-      // Görsel geri bildirim ve kullanım için geçici segment ekle
+    const params = new URLSearchParams({
+      videoID: seg.videoId,
+      start: seg.start,
+      end: seg.end,
+      category: seg.category,
+      userID: userID,
+      title: (document.title || '').replace(/\s*-\s*YouTube\s*$/, '').trim(),
+      duration: (videoEl && videoEl.duration) ? Math.round(videoEl.duration) : 0
+    });
+    const url = VADE_API + '/submit.php?' + params.toString();
+    chrome.runtime.sendMessage({ type: 'OPEN_SUBMIT_CONFIRM', url }, () => {
+      // Görsel geri bildirim için segmenti yerel listeye ekle (sunucuya onay sayfasında yazılır)
       segments.push({ start, end, category, confidence: 3, source: 'vade' });
       renderOverlays();
-    } else {
-      showToast(category, 0, true, _t('sb_submit_failed', 'Gönderilemedi — sunucuya ulaşılamadı'));
-    }
+      showToast(category, Math.round(end - start), true, _t('sb_confirm_open', 'Onaylama sayfası açıldı'));
+    });
   }
 
   // ─── Toast Bildirimi ───
@@ -1200,29 +1195,29 @@
     if (typeof str !== 'string') return null;
     str = str.trim();
     if (!str) return null;
-    
-    // Nokta/virgülleri iki noktaya çevir
+
+    // Nokta/virgülleri iki noktaya çevir (38,00 -> 38:00)
     str = str.replace(/[.,]/g, ':');
-    
-    // Yalnızca rakam girilmişse (örn: 423), sağdan 2 haneyi saniye, kalanını dakika say
-    if (/^\d+$/.test(str)) {
-      if (str.length >= 3) {
-        str = str.slice(0, -2) + ':' + str.slice(-2);
-      }
-      if (str.length >= 6) {
-        // "14230" -> "1:42:30"
-        const parts = str.split(':');
-        str = parts[0].slice(0, -2) + ':' + parts[0].slice(-2) + ':' + parts[1];
-      }
-    }
-    
-    const parts = str.split(':').map(p => parseInt(p, 10));
-    if (parts.some(p => isNaN(p))) return null;
+
+    const parts = str.split(':').map(p => p.trim());
+    if (parts.length > 3) return null;
+    const nums = parts.map(p => {
+      if (!/^\d+$/.test(p)) return NaN;
+      return parseInt(p, 10);
+    });
+    if (nums.some(n => isNaN(n))) return null;
+
     let sec = 0;
-    if (parts.length === 1) sec = parts[0];
-    else if (parts.length === 2) sec = parts[0] * 60 + parts[1];
-    else if (parts.length === 3) sec = parts[0] * 3600 + parts[1] * 60 + parts[2];
-    else return null;
+    if (nums.length === 1) {
+      // Yalnızca rakam -> saniye (örn: 42 -> 0:42)
+      sec = nums[0];
+    } else if (nums.length === 2) {
+      // mm:ss (örn: 38:00 -> 38 dk 0 sn)
+      sec = nums[0] * 60 + nums[1];
+    } else {
+      // hh:mm:ss
+      sec = nums[0] * 3600 + nums[1] * 60 + nums[2];
+    }
     if (!isFinite(sec) || sec < 0) return null;
     return sec;
   }
