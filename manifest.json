@@ -105,8 +105,7 @@
             "resources": [
                 "css/cosmetic.css",
                 "data/cosmetic_rules.txt",
-                "_locales/tr/messages.json",
-                "_locales/en/messages.json"
+                "_locales/*/messages.json"
             ],
             "matches": [
                 "<all_urls>"

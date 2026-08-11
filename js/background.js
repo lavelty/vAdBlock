@@ -79,10 +79,10 @@ function syncHttpsUpgrade() {
 let pageBlocked = {};
 
 const COLOR_ICON = {
-    16: 'icons/icon16.png',
-    32: 'icons/icon32.png',
-    48: 'icons/icon48.png',
-    128: 'icons/icon128.png'
+    16: chrome.runtime.getURL('icons/icon16.png'),
+    32: chrome.runtime.getURL('icons/icon32.png'),
+    48: chrome.runtime.getURL('icons/icon48.png'),
+    128: chrome.runtime.getURL('icons/icon128.png')
 };
 
 chrome.tabs.onRemoved.addListener((tabId) => {

@@ -71,7 +71,7 @@ function renderPickerUI() {
 <div style="display:flex;justify-content:space-between;align-items:flex-start;padding:24px 24px 8px;">
     <div>
         <div style="font-weight:800;font-size:22px;color:#fff;letter-spacing:-0.5px;">${T('picker_title', 'Bir öğeyi engelle')}</div>
-        <div style="font-size:14px;color:#94a3b8;margin-top:4px;font-weight:500;">${T('picker_subtitle', 'Lave kurallarına ekleyin')}</div>
+        <div style="font-size:14px;color:#94a3b8;margin-top:4px;font-weight:500;">${T('picker_subtitle', 'vAdBlock kurallarına ekleyin')}</div>
     </div>
     <button id="lave-picker-close" style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);color:#cbd5e1;cursor:pointer;font-size:20px;width:32px;height:32px;border-radius:12px;display:flex;align-items:center;justify-content:center;transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.1)';this.style.color='#fff';" onmouseout="this.style.background='rgba(255,255,255,0.05)';this.style.color='#cbd5e1';">&times;</button>
 </div>
