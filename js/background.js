@@ -419,7 +419,7 @@ const DEFAULT_ALLOWLIST = [
     'riotgames.com', 'auth.riotgames.com', 'valorant.com', 'leagueoflegends.com', 
     'twitch.tv', 'discord.com', 'github.com', 'microsoft.com', 'live.com', 
     'office.com', 'apple.com', 'icloud.com', 'steampowered.com', 'epicgames.com',
-    'mail.google.com', 'spaceship.com', 'natro.com'
+    'mail.google.com', 'spaceship.com', 'natro.com', 'ishostname.com'
 ];
 
 // Bu alan adlarına asla enjeksiyon yapma
