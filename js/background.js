@@ -414,6 +414,26 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     }
 });
 
+// Kullanıcıların sıkça sorun yaşadığı kritik siteleri otomatik olarak beyaz listeye ekle
+const DEFAULT_ALLOWLIST = [
+    'riotgames.com', 'auth.riotgames.com', 'valorant.com', 'leagueoflegends.com', 
+    'twitch.tv', 'discord.com', 'github.com', 'microsoft.com', 'live.com', 
+    'office.com', 'apple.com', 'icloud.com', 'steampowered.com', 'epicgames.com',
+    'mail.google.com', 'spaceship.com', 'natro.com'
+];
+
+// Bu alan adlarına asla enjeksiyon yapma
+const ALWAYS_EXCLUDED = ['aternos.org', 'mail.google.com', 'spaceship.com'];
+
+function allowedSitePatterns(domains) {
+    const out = [];
+    for (const d of new Set(domains)) {
+        out.push('*://' + d + '/*');
+        out.push('*://*.' + d + '/*');
+    }
+    return out;
+}
+
 function syncAllowlistRules() {
     chrome.storage.local.get({ allowlist: [], settings: {} }, (r) => {
         if (!chrome.declarativeNetRequest) return;
@@ -422,14 +442,6 @@ function syncAllowlistRules() {
 
         chrome.declarativeNetRequest.getDynamicRules((existingRules) => {
             const rulesToRemove = existingRules.filter(rule => rule.id >= 1000000 && rule.id < 2000000).map(r => r.id);
-            
-            // Kullanıcıların sıkça sorun yaşadığı kritik siteleri otomatik olarak beyaz listeye ekle
-            const DEFAULT_ALLOWLIST = [
-                'riotgames.com', 'auth.riotgames.com', 'valorant.com', 'leagueoflegends.com', 
-                'twitch.tv', 'discord.com', 'github.com', 'microsoft.com', 'live.com', 
-                'office.com', 'apple.com', 'icloud.com', 'steampowered.com', 'epicgames.com',
-                'mail.google.com', 'spaceship.com', 'natro.com'
-            ];
             
             const combinedAllowlist = [...new Set([...(r.allowlist || []), ...DEFAULT_ALLOWLIST])];
 
@@ -691,10 +703,11 @@ async function updateDynamicScripts() {
             await chrome.scripting.unregisterContentScripts({ ids });
         }
 
-        const r = await chrome.storage.local.get({ settings: {}, protectionLevel: 'balanced', globalEnabled: true });
+        const r = await chrome.storage.local.get({ settings: {}, protectionLevel: 'balanced', globalEnabled: true, allowlist: [] });
 
         if (!r.globalEnabled) return;
 
+        const exclude = allowedSitePatterns([...ALWAYS_EXCLUDED, ...DEFAULT_ALLOWLIST, ...(r.allowlist || [])]);
         const scripts = [];
 
         updateProtectionRules(r.protectionLevel);
@@ -703,7 +716,7 @@ async function updateDynamicScripts() {
             scripts.push({
                 id: 'strict_protection_main',
                 matches: ["<all_urls>"],
-                excludeMatches: ["*://*.aternos.org/*", "*://aternos.org/*", "*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
+                excludeMatches: exclude,
                 js: ["js/inject.js", "data/scriptlets.js", "js/scriptlet_injector.js"],
                 runAt: "document_start",
                 world: "MAIN",
@@ -716,7 +729,7 @@ async function updateDynamicScripts() {
             scripts.push({
                 id: 'premium_cookie_blocker',
                 matches: ["<all_urls>"],
-                excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
+                excludeMatches: exclude,
                 css: ["css/premium_cookie.css"],
                 runAt: "document_start",
                 allFrames: true
@@ -727,7 +740,7 @@ async function updateDynamicScripts() {
             scripts.push({
                 id: 'cookie_auto_click',
                 matches: ["<all_urls>"],
-                excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
+                excludeMatches: exclude,
                 js: ["js/cookie_auto.js"],
                 runAt: "document_idle",
                 allFrames: false
@@ -738,7 +751,7 @@ async function updateDynamicScripts() {
             scripts.push({
                 id: 'premium_focus_mode',
                 matches: ["<all_urls>"],
-                excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
+                excludeMatches: exclude,
                 css: ["css/premium_focus.css"],
                 runAt: "document_start",
                 allFrames: true
@@ -749,7 +762,7 @@ async function updateDynamicScripts() {
             scripts.push({
                 id: 'fingerprint_blocker',
                 matches: ["<all_urls>"],
-                excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
+                excludeMatches: exclude,
                 js: ["js/fingerprint.js"],
                 runAt: "document_start",
                 allFrames: true,
@@ -762,7 +775,7 @@ async function updateDynamicScripts() {
                 id: 'anti_adblock_hide',
                 matches: ["<all_urls>"],
                 css: ["css/anti_adblock.css"],
-                excludeMatches: ["*://mail.google.com/*", "*://*.spaceship.com/*", "*://spaceship.com/*"],
+                excludeMatches: exclude,
                 js: ["js/anti_adblock.js"],
                 runAt: "document_idle",
                 allFrames: true
