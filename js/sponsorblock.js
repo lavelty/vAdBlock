@@ -196,10 +196,14 @@
 
   // ─── SponsorBlock API ───
   async function fetchSBSegments(videoId) {
-    // Önce kendi sunucumuzdan çek (vade.pro), boşsa açık SponsorBlock API'den
+    // Kendi sunucumuz (vade.pro) ve açık SponsorBlock API her ikisi de çekilir;
+    // biri boşsa diğerini yutmasın diye birleştirilir.
     const ours = await fetchVadeSegments(videoId);
-    if (ours.length > 0) return ours;
+    const external = await fetchSBExternalSegments(videoId);
+    return mergeSegments(ours, external);
+  }
 
+  async function fetchSBExternalSegments(videoId) {
     const categories = ['sponsor', 'selfpromo', 'interaction', 'intro', 'outro', 'preview', 'music_offtopic'];
     const url = SB_API + '/api/skipSegments?videoID=' + encodeURIComponent(videoId) +
                 '&categories=' + encodeURIComponent(JSON.stringify(categories));
@@ -214,7 +218,7 @@
       const push = (start, end, category) => {
         if (typeof start !== 'number' || typeof end !== 'number' || !(end > start)) return;
         const cat = CATEGORY_COLORS[category] ? category : 'sponsor';
-        out.push({ start, end, category: cat, confidence: 3 });
+        out.push({ start, end, category: cat, confidence: 3, source: 'sb' });
       };
       const items = Array.isArray(data) ? data : (data && Array.isArray(data.segments) ? data.segments : []);
       for (const it of items) {
@@ -1128,13 +1132,39 @@
     };
     const ok = await submitSegmentToVade(payload);
     if (ok) {
-      // Görsel geri bildirim için segmenti yerel listeye ekle
-      segments.push({ start, end, category, confidence: 3, source: 'vade' });
-      renderOverlays();
+      // Segment sunucuya "bekliyor" olarak kaydedildi; onaylanınca otomatik görünür.
+      // Bu yüzden burada yerel listeye EKLEME — aksi halde F5'e kadar görünür,
+      // sonra kaybolur (tutarsız). Gösterilecek olan onaylanmış segmentlerdir.
       showToast(category, Math.round(end - start), true, _t('sb_submitted', 'Katkın gönderildi'));
+      refreshVadeSegments();
     } else {
       showToast(category, 0, true, _t('sb_submit_failed', 'Gönderilemedi — sunucuya ulaşılamadı'));
     }
+  }
+
+  // Gönderim sonrası onaylı listeyi tazele: kullanıcının katkısı onaylandıysa
+  // F5 beklemeden yeni segmentler de görünsün.
+  async function refreshVadeSegments() {
+    if (!currentVideoId) return;
+    const ours = await fetchVadeSegments(currentVideoId);
+    const merged = mergeSegments(ours, segments.filter(s => s.source !== 'vade'));
+    if (merged.length !== segments.length ||
+        merged.some((s, i) => s.start !== segments[i].start || s.end !== segments[i].end)) {
+      segments = merged;
+      renderOverlays();
+    }
+  }
+
+  // İki kaynağı birleştir: vade segmentleri önceliklidir, çakışanlar teke iner.
+  function mergeSegments(vade, others) {
+    const out = vade.slice();
+    for (const s of others) {
+      const dup = out.some(o =>
+        Math.abs(o.start - s.start) < 0.5 && Math.abs(o.end - s.end) < 0.5);
+      if (!dup) out.push(s);
+    }
+    out.sort((a, b) => a.start - b.start);
+    return out;
   }
 
   // ─── Toast Bildirimi ───
