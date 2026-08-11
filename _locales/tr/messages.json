@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "Reklamları ve açılır pencereleri engelleyen eşsiz uzantı. Facebook, YouTube ve diğer tüm sitelerdeki reklamları engeller."
+  },
+  "cmd_toggle": {
+    "message": "Korumayı aç/kapat"
+  },
+  "cmd_picker": {
+    "message": "Reklam seçiciyi başlat"
+  },
+  "nav_stats": {
+    "message": "İstatistikler"
+  },
+  "nav_general": {
+    "message": "Genel"
+  },
+  "nav_protection": {
+    "message": "Koruma Seviyesi"
+  },
+  "nav_customize": {
+    "message": "Özelleştir"
+  },
+  "nav_filters": {
+    "message": "Filtreler"
+  },
+  "nav_support": {
+    "message": "Destek"
+  },
+  "popup_unknown": {
+    "message": "Bilinmeyen"
+  },
+  "popup_blocked": {
+    "message": "Engellenen:"
+  },
+  "popup_protection_on": {
+    "message": "Koruma Açık"
+  },
+  "popup_protection_off": {
+    "message": "Koruma Kapalı"
+  },
+  "popup_menu_manual": {
+    "message": "Reklamları manuel engelle"
+  },
+  "popup_menu_custom": {
+    "message": "Özel engellemelerim"
+  },
+  "popup_menu_diag": {
+    "message": "Tanı bilgisini kopyala"
+  },
+  "popup_menu_clear": {
+    "message": "Site kurallarını temizle"
+  },
+  "pause_paused_state": {
+    "message": "Duraklatıldı"
+  },
+  "pause_title": {
+    "message": "Duraklat"
+  },
+  "pause_min_unit": {
+    "message": "dk"
+  },
+  "pause_sec_unit": {
+    "message": "sn"
+  },
+  "pause_site": {
+    "message": "Bu sitede"
+  },
+  "site_temp_30": {
+    "message": "30 dakika kapat"
+  },
+  "site_temp_120": {
+    "message": "2 saat kapat"
+  },
+  "site_temp_0": {
+    "message": "Siteyi tekrar aç"
+  },
+  "site_temp_off_msg": {
+    "message": "Bu site $1 dk kapatıldı"
+  },
+  "site_temp_on_msg": {
+    "message": "Bu site tekrar açıldı"
+  },
+  "pause_toast": {
+    "message": "$1 dakika duraklatıldı"
+  },
+  "pause_toast_resume": {
+    "message": "Koruma devam ettirildi"
+  },
+  "chart_all": {
+    "message": "Tümü"
+  },
+  "chart_ads": {
+    "message": "Reklamlar"
+  },
+  "chart_trackers": {
+    "message": "İzleyiciler"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "Diğer"
+  },
+  "chart_7days": {
+    "message": "7 gün"
+  },
+  "chart_24h": {
+    "message": "24 saat"
+  },
+  "chart_30d": {
+    "message": "30 gün"
+  },
+  "chart_1y": {
+    "message": "1 yıl"
+  },
+  "rules_title": {
+    "message": "Özel Kurallarım"
+  },
+  "rules_empty": {
+    "message": "Henüz özel kural eklenmemiş."
+  },
+  "rules_global": {
+    "message": "Global"
+  },
+  "rules_preview": {
+    "message": "Önizle"
+  },
+  "rules_delete": {
+    "message": "Sil"
+  },
+  "toast_rules_cleared": {
+    "message": "$1 kural temizlendi. Sayfa yenileniyor..."
+  },
+  "toast_no_rules_site": {
+    "message": "Bu sitede kural yok"
+  },
+  "toast_protection_updated": {
+    "message": "Koruma seviyesi güncellendi"
+  },
+  "toast_report_copied": {
+    "message": "Tanı bilgisi panoya kopyalandı"
+  },
+  "toast_copy_failed": {
+    "message": "Kopyalanamadı"
+  },
+  "toast_site_info_failed": {
+    "message": "Site bilgisi alınamadı"
+  },
+  "toast_page_not_available": {
+    "message": "Bu sayfada kullanılamaz (Chrome koruması)"
+  },
+  "toast_protection_on": {
+    "message": "Koruma: Açık"
+  },
+  "toast_protection_off": {
+    "message": "Koruma: Kapalı"
+  },
+  "toast_redirect": {
+    "message": "Yönlendiriliyor..."
+  },
+  "report_title": {
+    "message": "Tanı bilgisi"
+  },
+  "report_version": {
+    "message": "Versiyon"
+  },
+  "report_page": {
+    "message": "Sayfa"
+  },
+  "report_date": {
+    "message": "Tarih"
+  },
+  "report_level": {
+    "message": "Seviye"
+  },
+  "footer_made_by": {
+    "message": "made by lave"
+  },
+  "opt_stats_title": {
+    "message": "İstatistikler"
+  },
+  "opt_stats_subtitle": {
+    "message": "vAdBlock'un arka planda ne kadar çalıştığını görün."
+  },
+  "opt_stat_ads_7d": {
+    "message": "Son 7 günde engellenen reklam"
+  },
+  "opt_stat_trackers": {
+    "message": "Engellenen veri toplayıcı izleyici"
+  },
+  "opt_stat_data": {
+    "message": "Tasarruf edilen veri"
+  },
+  "opt_stat_time": {
+    "message": "Sayfa yüklenmelerinde kazanılan süre"
+  },
+  "opt_report_title": {
+    "message": "Haftalık Rapor"
+  },
+  "opt_report_total": {
+    "message": "Engellenen istek"
+  },
+  "opt_report_ads": {
+    "message": "Reklam"
+  },
+  "opt_report_trackers": {
+    "message": "İzleyici"
+  },
+  "opt_report_daily": {
+    "message": "Günlük ortalama"
+  },
+  "opt_top_domains": {
+    "message": "En Çok Engellenen Siteler"
+  },
+  "opt_empty_data": {
+    "message": "Henüz veri yok."
+  },
+  "opt_log_title": {
+    "message": "Engelleme Günlüğü"
+  },
+  "opt_log_desc": {
+    "message": "Son 50 engellenen istek (yalnızca bu oturumda)."
+  },
+  "opt_log_search": {
+    "message": "Ara: alan adı veya URL..."
+  },
+  "opt_log_export": {
+    "message": "CSV Dışa Aktar"
+  },
+  "opt_empty_log": {
+    "message": "Henüz engellenen istek yok."
+  },
+  "opt_log_clear": {
+    "message": "Günlüğü Temizle"
+  },
+  "opt_general_title": {
+    "message": "Genel Ayarlar"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "Rahatsız etmeyen bazı reklamlara izin ver"
+  },
+  "opt_context_menu": {
+    "message": "Sağ tıklama menüsüne vAdBlock seçeneklerini ekle"
+  },
+  "opt_badge_count": {
+    "message": "vAdBlock düğmesi üzerinde kaç reklam engellendiğini göster"
+  },
+  "opt_dev_tools": {
+    "message": "Geliştirici araçlarında 'vAdBlock' panelini göster"
+  },
+  "opt_promotions": {
+    "message": "vAdBlock'in ara sıra tanıtım mesajları göstermesine izin ver"
+  },
+  "opt_fingerprint": {
+    "message": "Parmak izi koruması (Canvas/WebGL donanım bilgisini gizle)"
+  },
+  "opt_anti_adblock": {
+    "message": "\"Reklam engelleyici tespit edildi\" uyarılarını gizle"
+  },
+  "opt_https": {
+    "message": "Güvenli (HTTPS) bağlantıya zorla"
+  },
+  "opt_webrtc": {
+    "message": "WebRTC IP adresi sızıntısını engelle"
+  },
+  "opt_language_title": {
+    "message": "Dil / Language"
+  },
+  "opt_language_desc": {
+    "message": "Arayüz dilini seçin. Otomatik seçeneği tarayıcı dilini kullanır."
+  },
+  "opt_language_auto": {
+    "message": "Otomatik (tarayıcı diline göre)"
+  },
+  "opt_language_tr": {
+    "message": "Türkçe"
+  },
+  "opt_language_en": {
+    "message": "English"
+  },
+  "opt_lang_auto": {
+    "message": "Otomatik (tarayıcı dili)"
+  },
+  "opt_protection_title": {
+    "message": "Koruma Seviyesi"
+  },
+  "opt_protection_subtitle": {
+    "message": "İnternet gezinme alışkanlıklarınıza en uygun güvenlik modunu seçin."
+  },
+  "opt_mode_relaxed": {
+    "message": "Rahat Mod"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "Temel reklamları engeller. Gelişmiş izleyiciler ve siteyi bozma ihtimali olan sert filtreler kapalıdır. Performans ve uyumluluk en üst seviyededir."
+  },
+  "opt_mode_balanced": {
+    "message": "Dengeli Mod (Önerilen)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "Çoğu reklamı ve bilinen veri toplayıcıları engeller. Günlük internet kullanımı için ideal, performansı etkilemeyen pürüzsüz koruma."
+  },
+  "opt_mode_strict": {
+    "message": "Sıkı Mod"
+  },
+  "opt_mode_strict_desc": {
+    "message": "Maksimum gizlilik! Tüm GPC/DNT sinyallerini manipüle eder, parmak izi okuyucuları bozar ve agresif reklam ağlarını kökünden bloklar. (Test siteleri için ideal)"
+  },
+  "opt_customize_title": {
+    "message": "Özelleştir"
+  },
+  "opt_customize_subtitle": {
+    "message": "Eklentiyi tamamen ihtiyaçlarınıza göre şekillendirin."
+  },
+  "opt_allowlist_title": {
+    "message": "İzin Verilen Siteler (Allowlist)"
+  },
+  "opt_allowlist_desc": {
+    "message": "Aşağıdaki sitelerde reklam engelleme devre dışı bırakılmıştır."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "ornek.com"
+  },
+  "opt_add": {
+    "message": "Ekle"
+  },
+  "opt_allowlist_empty": {
+    "message": "Henüz site eklenmemiş. Yukarıdan bir alan adı ekleyin."
+  },
+  "opt_css_title": {
+    "message": "Özel CSS Kuralları"
+  },
+  "opt_css_desc": {
+    "message": "Gelişmiş kullanıcılar için özel CSS gizleme kuralları."
+  },
+  "opt_css_placeholder": {
+    "message": "ornek.com##.reklam-kutusu"
+  },
+  "opt_save": {
+    "message": "Kaydet"
+  },
+  "opt_network_title": {
+    "message": "Özel Ağ Kuralları"
+  },
+  "opt_network_desc": {
+    "message": "Her satıra bir kural. Format: ||ornek.com^ (engelle) veya @@||ornek.com^ (izin ver)."
+  },
+  "opt_backup_title": {
+    "message": "Yedekle & Geri Yükle"
+  },
+  "opt_backup_desc": {
+    "message": "Ayarlarınızı, izin verilen siteleri ve özel kurallarınızı dışa aktarın."
+  },
+  "opt_export": {
+    "message": "Yedeği İndir"
+  },
+  "opt_import": {
+    "message": "Yedeği Geri Yükle"
+  },
+  "opt_filters_title": {
+    "message": "Filtre Listeleri"
+  },
+  "opt_filters_subtitle": {
+    "message": "Hangi filtre listelerinin kullanılacağını seçin ve listeleri güncelleyin."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "Ana reklam filtreleri — çoğu reklam ağını engeller."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "İzleyici ve analitik alan adlarını engeller."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "Reklam sunucuları ve izleme sunucuları listeleri."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock filtreleri ve gizlilik listeleri."
+  },
+  "opt_update_title": {
+    "message": "Listeleri Güncelle"
+  },
+  "opt_update_desc": {
+    "message": "Filtre listeleri otomatik olarak haftada bir güncellenir. Son güncelleme:"
+  },
+  "opt_update_btn": {
+    "message": "Filtreleri Güncelle"
+  },
+  "opt_update_unknown": {
+    "message": "bilinmiyor"
+  },
+  "opt_update_stale": {
+    "message": "⚠ Otomatik güncelleme bekliyor ($1 gün önce)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ Güncel · $1 gün önce güncellendi"
+  },
+  "opt_update_first": {
+    "message": "İlk güncelleme bekleniyor"
+  },
+  "opt_update_off": {
+    "message": " (kapalı)"
+  },
+  "opt_update_running": {
+    "message": "Güncelleniyor..."
+  },
+  "opt_update_done": {
+    "message": "Listeler güncellendi!"
+  },
+  "opt_update_error": {
+    "message": "Güncelleme başarısız: $1"
+  },
+  "opt_support_title": {
+    "message": "Destek"
+  },
+  "opt_support_subtitle": {
+    "message": "Herhangi bir sorunuz veya sorununuz varsa bize ulaşın."
+  },
+  "opt_themes_title": {
+    "message": "Temalar"
+  },
+  "opt_themes_subtitle": {
+    "message": "vAdBlock görünümünü kişiselleştirin. Tarzınızı yansıtın."
+  },
+  "theme_default": {
+    "message": "Varsayılan (Aydınlık)"
+  },
+  "theme_dark": {
+    "message": "Karanlık Madde"
+  },
+  "theme_hover_preview": {
+    "message": "Önizlemek için üzerine gel"
+  },
+  "opt_premium_title": {
+    "message": "Premium Filtreler"
+  },
+  "opt_premium_subtitle": {
+    "message": "vAdBlock deneyiminizi en üst düzeye çıkarın."
+  },
+  "opt_premium_focus_title": {
+    "message": "Odaklanma Modu"
+  },
+  "opt_premium_focus_desc": {
+    "message": "Haber bülteni açılışlarını, kayan videoları ve reklam olmayan ama sinir bozan öğeleri gizleyin."
+  },
+  "opt_premium_cookie_title": {
+    "message": "Otomatik Çerez Kabul/Red"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "Popüler sitelerdeki çerez uyarılarını otomatik olarak gizleyin."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "Çerez Onayını Otomatik Kabul Et"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "Cookie bildirimlerindeki \"kabul et\" düğmesine otomatik tıklar."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "YouTube Sponsor Atlayıcı"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "YouTube videolarındaki sponsor bölümlerini, outro ve etkileşim çağrılarını altyazılardan otomatik tespit ederek atlar."
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium aktif! Tüm özelliklerin tadını çıkarın."
+  },
+  "welcome_title": {
+    "message": "vAdBlock'ye Hoş Geldiniz"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock artık sizinle."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ Premium Sürüm Aktif"
+  },
+  "welcome_subtitle": {
+    "message": "İnternet deneyiminiz artık çok daha temiz, hızlı ve tamamen size ait."
+  },
+  "welcome_feat1_title": {
+    "message": "Görünmez Koruma"
+  },
+  "welcome_feat1_desc": {
+    "message": "Siz gezinirken arka planda sessizce tüm izleyicileri engeller."
+  },
+  "welcome_feat2_title": {
+    "message": "Yıldız Hızı"
+  },
+  "welcome_feat2_desc": {
+    "message": "Gereksiz içerikler engellendiği için sayfalar anında yüklenir."
+  },
+  "welcome_feat3_title": {
+    "message": "Gelişmiş Filtreler"
+  },
+  "welcome_feat3_desc": {
+    "message": "Sıradan reklam engelleyicilerin kaçırdığı agresif reklamları yok eder."
+  },
+  "welcome_feat4_title": {
+    "message": "Tam Özelleştirme"
+  },
+  "welcome_feat4_desc": {
+    "message": "Kuralları ve filtre seviyesini ayarlar sayfasından yönetin."
+  },
+  "welcome_btn": {
+    "message": "Keşfetmeye Başla"
+  },
+  "ctx_block_element": {
+    "message": "vAdBlock ile bu öğeyi engelle"
+  },
+  "picker_title": {
+    "message": "Bir öğeyi engelle"
+  },
+  "picker_subtitle": {
+    "message": "Lave kurallarına ekleyin"
+  },
+  "picker_expand": {
+    "message": "Seçim alanını genişlet:"
+  },
+  "picker_advanced": {
+    "message": "Gelişmiş seçenekler"
+  },
+  "picker_apply_all": {
+    "message": "Kuralı tüm sitelerde uygula"
+  },
+  "picker_similar": {
+    "message": "Benzer öğeleri de engelle"
+  },
+  "picker_css_label": {
+    "message": "CSS Seçici (İleri Düzey):"
+  },
+  "picker_block": {
+    "message": "Engelle"
+  },
+  "picker_preview": {
+    "message": "Önizleme"
+  },
+  "picker_reselect": {
+    "message": "Farklı bir öğe seç"
+  },
+  "picker_preview_title": {
+    "message": "Önizleme modu"
+  },
+  "picker_preview_desc": {
+    "message": "Seçtiğiniz öğe gizlendi. Görüntü istediğiniz gibiyse kalıcı olarak engelleyebilirsiniz."
+  },
+  "picker_exit": {
+    "message": "Çıkış"
+  },
+  "picker_cancel": {
+    "message": "İptal (ESC)"
+  },
+  "picker_saved": {
+    "message": "Kural kaydedildi"
+  },
+  "picker_undo": {
+    "message": "Geri al"
+  },
+  "search_placeholder": {
+    "message": "Ara: ayar veya bölüm adı..."
+  },
+  "nav_themes": {
+    "message": "Temalar"
+  },
+  "nav_premium": {
+    "message": "Premium Filtreler"
+  },
+  "action_manual_block": {
+    "message": "Reklamları elle engelle"
+  },
+  "action_manage_rules": {
+    "message": "Özel Engellemelerim"
+  },
+  "action_report": {
+    "message": "Tanı bilgisini kopyala"
+  },
+  "action_clear_site": {
+    "message": "Site kurallarını temizle"
+  },
+  "tab_actions": {
+    "message": "Eylemler"
+  },
+  "tab_stats": {
+    "message": "İstatistikler"
+  },
+  "popup_refresh": {
+    "message": "Yenile"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "Duraklat"
+  },
+  "pause_10": {
+    "message": "10 dakika"
+  },
+  "pause_30": {
+    "message": "30 dakika"
+  },
+  "pause_60": {
+    "message": "1 saat"
+  },
+  "pause_300": {
+    "message": "5 saat"
+  },
+  "pause_resume": {
+    "message": "Devam ettir"
+  },
+  "popup_settings": {
+    "message": "Ayarlar"
+  },
+  "popup_total_blocked": {
+    "message": "Toplam engellenen:"
+  },
+  "level_relaxed": {
+    "message": "Rahat"
+  },
+  "level_balanced": {
+    "message": "Dengeli"
+  },
+  "level_strict": {
+    "message": "Sıkı"
+  },
+  "premium_section": {
+    "message": "Premium Özellikler"
+  },
+  "pause_scope": {
+    "message": "Uygulama Alanı"
+  },
+  "pause_site_only": {
+    "message": "Sadece bu site"
+  },
+  "pause_global": {
+    "message": "Tüm siteler (Global)"
+  },
+  "lang_tr": {
+    "message": "Türkçe"
+  },
+  "lang_en": {
+    "message": "İngilizce"
+  },
+  "opt_faq_title": {
+    "message": "Sıkça Sorulan Sorular"
+  },
+  "opt_faq_1_q": {
+    "message": "Eklenti YouTube reklamlarını engelliyor mu?"
+  },
+  "opt_faq_1_a": {
+    "message": "Evet, vAdBlock özel algoritmalarla YouTube video içi reklamlarını otomatik olarak engeller ve atlar."
+  },
+  "opt_faq_2_q": {
+    "message": "Bazı siteler kırık görünüyor, ne yapmalıyım?"
+  },
+  "opt_faq_2_a": {
+    "message": "Eğer bir site düzgün çalışmıyorsa, eklenti penceresinden o site için korumayı duraklatabilirsiniz (Allowlist)."
+  },
+  "opt_contact_title": {
+    "message": "Bize Ulaşın"
+  },
+  "opt_contact_desc": {
+    "message": "Hata bildirimleri, geri bildirimler veya yeni özellik istekleri için GitHub sayfamızı ziyaret edin."
+  },
+  "opt_contact_btn": {
+    "message": "GitHub'da İncele"
+  },
+  "popup_paused_site": {
+    "message": "Bu Sitede Duraklatıldı"
+  },
+  "opt_update_success": {
+    "message": "GUI güncellendi ve filtreler senkronize edildi!"
+  },
+  "global_temp_off_msg": {
+    "message": "Tüm sitelerde $1 dk durduruldu"
+  },
+  "nav_sponsor": {
+    "message": "Sponsor Atlama"
+  },
+  "popup_add_segment": {
+    "message": "Sponsor Alanı Bildir"
+  },
+  "popup_sponsor_skipped": {
+    "message": "Atlanan Sponsorlar"
+  },
+  "popup_waiting": {
+    "message": "bekleniyor..."
+  },
+  "sb_skip_sponsor": {
+    "message": "Sponsor Atla"
+  },
+  "sb_segment_add": {
+    "message": "Sponsor İşaretle"
+  },
+  "sb_set_times": {
+    "message": "Zamanları ayarla, sonra türünü seç:"
+  },
+  "sb_start": {
+    "message": "Başlangıç"
+  },
+  "sb_end": {
+    "message": "Bitiş"
+  },
+  "sb_select_type": {
+    "message": "Tür seç:"
+  },
+  "sb_cancel": {
+    "message": "Vazgeç"
+  },
+  "sb_submit": {
+    "message": "Gönder"
+  },
+  "sb_submitted": {
+    "message": "Katkın gönderildi"
+  },
+  "sb_submit_failed": {
+    "message": "Gönderilemedi — sunucuya ulaşılamadı"
+  },
+  "sb_skipped": {
+    "message": "atlandı"
+  },
+  "sb_manual_skipped": {
+    "message": "manuel atlandı"
+  },
+  "sb_time_saved": {
+    "message": "$1 sn kazandırdı"
+  },
+  "sb_total": {
+    "message": "Toplam:"
+  },
+  "sb_cat_sponsor": {
+    "message": "Sponsor"
+  },
+  "sb_cat_selfpromo": {
+    "message": "Öz Tanıtım"
+  },
+  "sb_cat_interaction": {
+    "message": "Etkileşim"
+  },
+  "sb_cat_intro": {
+    "message": "İntro"
+  },
+  "sb_cat_outro": {
+    "message": "Outro"
+  },
+  "sb_cat_preview": {
+    "message": "Önizleme"
+  },
+  "sb_cat_music": {
+    "message": "Müzik Dışı"
+  },
+  "sb_hours": {
+    "message": "sa"
+  },
+  "sb_minutes": {
+    "message": "dk"
+  },
+  "sb_seconds": {
+    "message": "sn"
+  },
+  "opt_saved": {
+    "message": "Kaydedildi!"
+  },
+  "opt_restored": {
+    "message": "Geri Yüklendi!"
+  },
+  "opt_remove": {
+    "message": "Kaldır"
+  },
+  "opt_sb_title": {
+    "message": "Sponsor Atlama"
+  },
+  "opt_sb_subtitle": {
+    "message": "YouTube videolarındaki sponsorlukları, girişleri ve gereksiz bölümleri atlayarak zaman kazanın."
+  },
+  "opt_sb_general": {
+    "message": "▶ Genel Ayarlar"
+  },
+  "opt_sb_general_desc": {
+    "message": "Sponsor atlama sisteminin temel işleyişini belirleyin."
+  },
+  "opt_sb_enable": {
+    "message": "Sponsor atlamayı etkinleştir"
+  },
+  "opt_sb_enable_desc": {
+    "message": "Tüm atlama özellikleri için ana şalter."
+  },
+  "opt_sb_auto": {
+    "message": "Otomatik atla"
+  },
+  "opt_sb_auto_desc": {
+    "message": "Bölüm geldiğinde sormadan direkt atlar. (Kapalıysa \"Atla\" butonu çıkar)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 Kategori Ayarları"
+  },
+  "opt_sb_categories_desc": {
+    "message": "Hangi tür segmentlerde ne yapılacağını tek tek belirleyin."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ Topluluğa Katkıda Bulun"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "Videolardaki reklamlı veya gereksiz alanları seçip veritabanına göndererek diğer kullanıcılara yardımcı olabilirsiniz."
+  },
+  "opt_sb_show_add": {
+    "message": "Sponsor Bildirme Butonunu Göster"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "Video oynatıcı üzerinde Sponsor Alanı Bildirme (Yapay Zeka) arayüzünü açar."
+  },
+  "opt_sb_api": {
+    "message": "Özel API Adresi"
+  },
+  "opt_sb_api_desc": {
+    "message": "Verilerin gönderileceği ve alınacağı sunucu bağlantısı. (Gelişmiş)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "Otomatik Atla"
+  },
+  "opt_sb_btn_show": {
+    "message": "Buton Göster"
+  },
+  "opt_sb_disabled": {
+    "message": "Devre Dışı"
+  },
+  "toast_refresh_youtube": {
+    "message": "YouTube sayfasını yenileyin."
+  },
+  "toast_youtube_only": {
+    "message": "Bu özellik sadece YouTube videolarında çalışır."
+  },
+  "promo_rate_title": {
+    "message": "⭐ vAdBlock'u beğendiniz mi?"
+  },
+  "promo_rate_desc": {
+    "message": "Geliştirmeye devam edebilmemiz için bize 5 yıldız vererek destek olabilirsiniz!"
+  },
+  "promo_rate_btn": {
+    "message": "Değerlendir"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock Premium"
+  },
+  "promo_premium_desc": {
+    "message": "Premium abonelik alarak %100 gizlilik ve ekstra özelliklerden faydalanmak ister misiniz?"
+  },
+  "promo_premium_btn": {
+    "message": "İncele"
+  },
+  "promo_discount_title": {
+    "message": "🎁 Sana Özel İndirim!"
+  },
+  "promo_discount_desc": {
+    "message": "Uzun süredir bizimlesin! Premium üyelikte %50 indirim kazanmak için kodun: LAVE-..."
+  },
+  "promo_discount_btn": {
+    "message": "Kodu Kullan"
+  },
+  "day_sun": {
+    "message": "Paz"
+  },
+  "day_mon": {
+    "message": "Pzt"
+  },
+  "day_tue": {
+    "message": "Sal"
+  },
+  "day_wed": {
+    "message": "Çar"
+  },
+  "day_thu": {
+    "message": "Per"
+  },
+  "day_fri": {
+    "message": "Cum"
+  },
+  "day_sat": {
+    "message": "Cmt"
+  },
+  "month_jan": {
+    "message": "Oca"
+  },
+  "month_feb": {
+    "message": "Şub"
+  },
+  "month_mar": {
+    "message": "Mar"
+  },
+  "month_apr": {
+    "message": "Nis"
+  },
+  "month_may": {
+    "message": "May"
+  },
+  "month_jun": {
+    "message": "Haz"
+  },
+  "month_jul": {
+    "message": "Tem"
+  },
+  "month_aug": {
+    "message": "Ağu"
+  },
+  "month_sep": {
+    "message": "Eyl"
+  },
+  "month_oct": {
+    "message": "Eki"
+  },
+  "month_nov": {
+    "message": "Kas"
+  },
+  "month_dec": {
+    "message": "Ara"
+  },
+  "time_hours": {
+    "message": "sa"
+  },
+  "time_minutes": {
+    "message": "dk"
+  },
+  "time_seconds": {
+    "message": "sn"
+  },
+  "appName": {
+    "message": "vAdBlock — en iyi reklam engelleyici"
+  }
+}

@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "Ekstensi utama untuk memblokir iklan dan pop-up. Memblokir iklan di Facebook, YouTube, dan semua situs web lainnya."
+  },
+  "appName": {
+    "message": "vAdBlock — Pemblokir Iklan Terbaik"
+  },
+  "cmd_toggle": {
+    "message": "Alihkan perlindungan"
+  },
+  "cmd_picker": {
+    "message": "Luncurkan pemilih iklan"
+  },
+  "nav_stats": {
+    "message": "Statistik"
+  },
+  "nav_general": {
+    "message": "Umum"
+  },
+  "nav_protection": {
+    "message": "Tingkat Perlindungan"
+  },
+  "nav_customize": {
+    "message": "menyesuaikan"
+  },
+  "nav_filters": {
+    "message": "Filter"
+  },
+  "nav_support": {
+    "message": "Mendukung"
+  },
+  "popup_unknown": {
+    "message": "Tidak dikenal"
+  },
+  "popup_blocked": {
+    "message": "Diblokir:"
+  },
+  "popup_protection_on": {
+    "message": "Perlindungan Aktif"
+  },
+  "popup_protection_off": {
+    "message": "Perlindungan Mati"
+  },
+  "popup_menu_manual": {
+    "message": "Blokir iklan secara manual"
+  },
+  "popup_menu_custom": {
+    "message": "Blok pribadi saya"
+  },
+  "popup_menu_diag": {
+    "message": "Salin informasi diagnostik"
+  },
+  "popup_menu_clear": {
+    "message": "Hapus aturan situs"
+  },
+  "pause_paused_state": {
+    "message": "dijeda"
+  },
+  "pause_title": {
+    "message": "berhenti sebentar"
+  },
+  "pause_min_unit": {
+    "message": "menit"
+  },
+  "pause_sec_unit": {
+    "message": "detik"
+  },
+  "pause_site": {
+    "message": "di situs ini"
+  },
+  "site_temp_30": {
+    "message": "matikan selama 30 menit"
+  },
+  "site_temp_120": {
+    "message": "tutup selama 2 jam"
+  },
+  "site_temp_0": {
+    "message": "Buka kembali situs tersebut"
+  },
+  "site_temp_off_msg": {
+    "message": "Situs ini ditutup selama $1 menit"
+  },
+  "site_temp_on_msg": {
+    "message": "Situs ini dibuka kembali"
+  },
+  "pause_toast": {
+    "message": "$1 menit dijeda"
+  },
+  "pause_toast_resume": {
+    "message": "Perlindungan berlanjut"
+  },
+  "chart_all": {
+    "message": "Semua"
+  },
+  "chart_ads": {
+    "message": "Iklan"
+  },
+  "chart_trackers": {
+    "message": "pemirsa"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "Lainnya"
+  },
+  "chart_7days": {
+    "message": "7 hari"
+  },
+  "chart_24h": {
+    "message": "24 jam"
+  },
+  "chart_30d": {
+    "message": "30 hari"
+  },
+  "chart_1y": {
+    "message": "1 tahun"
+  },
+  "rules_title": {
+    "message": "Aturan Khusus Saya"
+  },
+  "rules_empty": {
+    "message": "Belum ada aturan khusus yang ditambahkan."
+  },
+  "rules_global": {
+    "message": "Global"
+  },
+  "rules_preview": {
+    "message": "Pratinjau"
+  },
+  "rules_delete": {
+    "message": "Menghapus"
+  },
+  "toast_rules_cleared": {
+    "message": "Aturan $1 dihapus. Halamannya menyegarkan..."
+  },
+  "toast_no_rules_site": {
+    "message": "Tidak ada aturan di situs ini"
+  },
+  "toast_protection_updated": {
+    "message": "Tingkat perlindungan diperbarui"
+  },
+  "toast_report_copied": {
+    "message": "Informasi diagnostik disalin ke clipboard"
+  },
+  "toast_copy_failed": {
+    "message": "Tidak dapat menyalin"
+  },
+  "toast_site_info_failed": {
+    "message": "Informasi situs tidak dapat diperoleh"
+  },
+  "toast_page_not_available": {
+    "message": "Tidak tersedia di halaman ini (perlindungan Chrome)"
+  },
+  "toast_protection_on": {
+    "message": "Perlindungan: Aktif"
+  },
+  "toast_protection_off": {
+    "message": "Perlindungan: Mati"
+  },
+  "toast_redirect": {
+    "message": "Mengarahkan..."
+  },
+  "report_title": {
+    "message": "informasi diagnostik"
+  },
+  "report_version": {
+    "message": "Versi"
+  },
+  "report_page": {
+    "message": "Halaman"
+  },
+  "report_date": {
+    "message": "Sejarah"
+  },
+  "report_level": {
+    "message": "Tingkat"
+  },
+  "footer_made_by": {
+    "message": "dibuat oleh lava"
+  },
+  "opt_stats_title": {
+    "message": "Statistik"
+  },
+  "opt_stats_subtitle": {
+    "message": "Lihat berapa lama vAdBlock berjalan di latar belakang."
+  },
+  "opt_stat_ads_7d": {
+    "message": "Iklan diblokir dalam 7 hari terakhir"
+  },
+  "opt_stat_trackers": {
+    "message": "Pelacak pengumpul data yang diblokir"
+  },
+  "opt_stat_data": {
+    "message": "data yang disimpan"
+  },
+  "opt_stat_time": {
+    "message": "Waktu yang dihemat saat memuat halaman"
+  },
+  "opt_report_title": {
+    "message": "Laporan Mingguan"
+  },
+  "opt_report_total": {
+    "message": "Permintaan diblokir"
+  },
+  "opt_report_ads": {
+    "message": "Iklan"
+  },
+  "opt_report_trackers": {
+    "message": "Hadirin"
+  },
+  "opt_report_daily": {
+    "message": "Rata-rata harian"
+  },
+  "opt_top_domains": {
+    "message": "Situs Paling Banyak Diblokir"
+  },
+  "opt_empty_data": {
+    "message": "Belum ada datanya."
+  },
+  "opt_log_title": {
+    "message": "Blokir Log"
+  },
+  "opt_log_desc": {
+    "message": "50 permintaan terakhir yang diblokir (hanya dalam sesi ini)."
+  },
+  "opt_log_search": {
+    "message": "Pencarian: nama domain atau URL..."
+  },
+  "opt_log_export": {
+    "message": "Ekspor CSV"
+  },
+  "opt_empty_log": {
+    "message": "Belum ada permintaan yang diblokir."
+  },
+  "opt_log_clear": {
+    "message": "Hapus Catatan"
+  },
+  "opt_general_title": {
+    "message": "Pengaturan Umum"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "Izinkan beberapa iklan yang tidak mengganggu"
+  },
+  "opt_context_menu": {
+    "message": "Tambahkan opsi vAdBlock ke menu klik kanan"
+  },
+  "opt_badge_count": {
+    "message": "Tampilkan berapa banyak iklan yang diblokir pada tombol vAdBlock"
+  },
+  "opt_dev_tools": {
+    "message": "Tampilkan panel 'vAdBlock' di alat pengembang"
+  },
+  "opt_promotions": {
+    "message": "Izinkan vAdBlock sesekali menampilkan pesan promosi"
+  },
+  "opt_fingerprint": {
+    "message": "Perlindungan sidik jari (menyembunyikan informasi perangkat keras Canvas/WebGL)"
+  },
+  "opt_anti_adblock": {
+    "message": "Sembunyikan peringatan \"Pemblokir iklan terdeteksi\"."
+  },
+  "opt_https": {
+    "message": "Paksa koneksi aman (HTTPS)."
+  },
+  "opt_webrtc": {
+    "message": "Cegah kebocoran alamat IP WebRTC"
+  },
+  "opt_language_title": {
+    "message": "Bahasa"
+  },
+  "opt_language_desc": {
+    "message": "Pilih bahasa antarmuka. Opsi otomatis menggunakan bahasa browser."
+  },
+  "opt_language_auto": {
+    "message": "Otomatis (berdasarkan bahasa browser)"
+  },
+  "opt_language_tr": {
+    "message": "Turki"
+  },
+  "opt_language_en": {
+    "message": "Bahasa inggris"
+  },
+  "opt_lang_auto": {
+    "message": "Otomatis (bahasa browser)"
+  },
+  "opt_protection_title": {
+    "message": "Tingkat Perlindungan"
+  },
+  "opt_protection_subtitle": {
+    "message": "Pilih mode keamanan yang paling sesuai dengan kebiasaan browsing internet Anda."
+  },
+  "opt_mode_relaxed": {
+    "message": "Mode Kenyamanan"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "Memblokir iklan dasar. Pelacak tingkat lanjut dan filter keras yang dapat merusak situs dinonaktifkan. Performa dan kompatibilitas berada pada level tertinggi."
+  },
+  "opt_mode_balanced": {
+    "message": "Mode Seimbang (Disarankan)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "Memblokir sebagian besar iklan dan pengumpul data yang dikenal. Ideal untuk penggunaan internet sehari-hari, perlindungan lancar yang tidak mempengaruhi kinerja."
+  },
+  "opt_mode_strict": {
+    "message": "Modus Ketat"
+  },
+  "opt_mode_strict_desc": {
+    "message": "Privasi maksimal! Ini memanipulasi semua sinyal GPC/DNT, mengganggu pembaca sidik jari, dan memblokir jaringan iklan agresif di akarnya. (Ideal untuk lokasi pengujian)"
+  },
+  "opt_customize_title": {
+    "message": "menyesuaikan"
+  },
+  "opt_customize_subtitle": {
+    "message": "Sesuaikan plugin dengan kebutuhan Anda."
+  },
+  "opt_allowlist_title": {
+    "message": "Situs yang Diizinkan (Daftar yang Diizinkan)"
+  },
+  "opt_allowlist_desc": {
+    "message": "Pemblokiran iklan dinonaktifkan di situs berikut."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "sampel.com"
+  },
+  "opt_add": {
+    "message": "Menambahkan"
+  },
+  "opt_allowlist_empty": {
+    "message": "Belum ada situs yang ditambahkan. Tambahkan nama domain di atas."
+  },
+  "opt_css_title": {
+    "message": "Aturan CSS Khusus"
+  },
+  "opt_css_desc": {
+    "message": "Aturan penyembunyian CSS khusus untuk pengguna tingkat lanjut."
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.kotak iklan"
+  },
+  "opt_save": {
+    "message": "Menyimpan"
+  },
+  "opt_network_title": {
+    "message": "Aturan Jaringan Pribadi"
+  },
+  "opt_network_desc": {
+    "message": "Satu aturan per baris. Format: ||example.com^ (blok) atau @@||example.com^ (izinkan)."
+  },
+  "opt_backup_title": {
+    "message": "Cadangkan & Pulihkan"
+  },
+  "opt_backup_desc": {
+    "message": "Ekspor pengaturan Anda, situs yang diizinkan, dan aturan khusus."
+  },
+  "opt_export": {
+    "message": "Unduh Cadangan"
+  },
+  "opt_import": {
+    "message": "Pulihkan Cadangan"
+  },
+  "opt_filters_title": {
+    "message": "Daftar Filter"
+  },
+  "opt_filters_subtitle": {
+    "message": "Pilih daftar filter mana yang akan digunakan dan perbarui daftarnya."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "Filter iklan utama — memblokir sebagian besar jaringan iklan."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "Memblokir domain pelacak dan analitik."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "Server iklan dan daftar server pelacakan."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "Filter vAdBlock dan daftar privasi."
+  },
+  "opt_update_title": {
+    "message": "Perbarui Daftar"
+  },
+  "opt_update_desc": {
+    "message": "Daftar filter diperbarui secara otomatis setiap minggu. Pembaruan terakhir:"
+  },
+  "opt_update_btn": {
+    "message": "Perbarui Filter"
+  },
+  "opt_update_unknown": {
+    "message": "tidak dikenal"
+  },
+  "opt_update_stale": {
+    "message": "⚠ Pembaruan otomatis tertunda ($1 hari yang lalu)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ Saat ini · $Diperbarui 1 hari yang lalu"
+  },
+  "opt_update_first": {
+    "message": "Pembaruan pertama ditunggu"
+  },
+  "opt_update_off": {
+    "message": "(tertutup)"
+  },
+  "opt_update_running": {
+    "message": "Memperbarui..."
+  },
+  "opt_update_done": {
+    "message": "Daftar diperbarui!"
+  },
+  "opt_update_error": {
+    "message": "Pembaruan gagal: $1"
+  },
+  "opt_support_title": {
+    "message": "Mendukung"
+  },
+  "opt_support_subtitle": {
+    "message": "Hubungi kami jika Anda memiliki pertanyaan atau masalah."
+  },
+  "opt_themes_title": {
+    "message": "Tema"
+  },
+  "opt_themes_subtitle": {
+    "message": "Personalisasikan tampilan vAdBlock. Cerminkan gaya Anda."
+  },
+  "theme_default": {
+    "message": "Default (Terang)"
+  },
+  "theme_dark": {
+    "message": "Materi Gelap"
+  },
+  "theme_hover_preview": {
+    "message": "Arahkan kursor ke pratinjau"
+  },
+  "opt_premium_title": {
+    "message": "Filter Premium"
+  },
+  "opt_premium_subtitle": {
+    "message": "Maksimalkan pengalaman vAdBlock Anda."
+  },
+  "opt_premium_focus_title": {
+    "message": "Modus Fokus"
+  },
+  "opt_premium_focus_desc": {
+    "message": "Sembunyikan peluncuran buletin, pengguliran video, dan elemen non-iklan yang mengganggu."
+  },
+  "opt_premium_cookie_title": {
+    "message": "Terima/Tolak Cookie Otomatis"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "Secara otomatis menyembunyikan peringatan cookie di situs populer."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "Terima Persetujuan Cookie Secara Otomatis"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "Secara otomatis mengklik tombol \"terima\" pada pemberitahuan cookie."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "Pelompat Sponsor YouTube"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "Itu melewatkan bagian sponsor, outro dan panggilan interaksi dalam video YouTube dengan secara otomatis mendeteksinya dari subtitle."
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium aktif! Nikmati semua fiturnya."
+  },
+  "welcome_title": {
+    "message": "Selamat datang di vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock sekarang bersama Anda."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ Versi Premium Aktif"
+  },
+  "welcome_subtitle": {
+    "message": "Pengalaman berinternet Anda kini jauh lebih bersih, lebih cepat, dan sepenuhnya milik Anda."
+  },
+  "welcome_feat1_title": {
+    "message": "Perlindungan Tak Terlihat"
+  },
+  "welcome_feat1_desc": {
+    "message": "Ini secara diam-diam memblokir semua pelacak di latar belakang saat Anda menjelajah."
+  },
+  "welcome_feat2_title": {
+    "message": "Kecepatan Bintang"
+  },
+  "welcome_feat2_desc": {
+    "message": "Halaman dimuat secara instan karena konten yang tidak perlu diblokir."
+  },
+  "welcome_feat3_title": {
+    "message": "Filter Tingkat Lanjut"
+  },
+  "welcome_feat3_desc": {
+    "message": "Ini menghilangkan iklan agresif yang dilewatkan oleh pemblokir iklan biasa."
+  },
+  "welcome_feat4_title": {
+    "message": "Kustomisasi Penuh"
+  },
+  "welcome_feat4_desc": {
+    "message": "Kelola aturan dan tingkat filter dari halaman pengaturan."
+  },
+  "welcome_btn": {
+    "message": "Mulai Menjelajah"
+  },
+  "ctx_block_element": {
+    "message": "Blokir item ini dengan vAdBlock"
+  },
+  "picker_title": {
+    "message": "Blokir suatu item"
+  },
+  "picker_subtitle": {
+    "message": "Tambahkan ke aturan lave"
+  },
+  "picker_expand": {
+    "message": "Perluas area pilihan:"
+  },
+  "picker_advanced": {
+    "message": "Opsi lanjutan"
+  },
+  "picker_apply_all": {
+    "message": "Terapkan aturan tersebut di semua situs"
+  },
+  "picker_similar": {
+    "message": "Blokir juga item serupa"
+  },
+  "picker_css_label": {
+    "message": "Pemilih CSS (Lanjutan):"
+  },
+  "picker_block": {
+    "message": "memblokir"
+  },
+  "picker_preview": {
+    "message": "Pratinjau"
+  },
+  "picker_reselect": {
+    "message": "Pilih item lain"
+  },
+  "picker_preview_title": {
+    "message": "Modus pratinjau"
+  },
+  "picker_preview_desc": {
+    "message": "Item yang Anda pilih telah disembunyikan. Jika gambar tersebut sesuai dengan keinginan Anda, Anda dapat memblokirnya secara permanen."
+  },
+  "picker_exit": {
+    "message": "KELUAR"
+  },
+  "picker_cancel": {
+    "message": "Batalkan (ESC)"
+  },
+  "picker_saved": {
+    "message": "Aturan disimpan"
+  },
+  "picker_undo": {
+    "message": "membuka"
+  },
+  "search_placeholder": {
+    "message": "Cari: pengaturan atau nama bab..."
+  },
+  "nav_themes": {
+    "message": "Tema"
+  },
+  "nav_premium": {
+    "message": "Filter Premium"
+  },
+  "action_manual_block": {
+    "message": "Blokir iklan secara manual"
+  },
+  "action_manage_rules": {
+    "message": "Blok Pribadi Saya"
+  },
+  "action_report": {
+    "message": "Salin informasi diagnostik"
+  },
+  "action_clear_site": {
+    "message": "Hapus aturan situs"
+  },
+  "tab_actions": {
+    "message": "Tindakan"
+  },
+  "tab_stats": {
+    "message": "Statistik"
+  },
+  "popup_refresh": {
+    "message": "Menyegarkan"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "berhenti sebentar"
+  },
+  "pause_10": {
+    "message": "10 menit"
+  },
+  "pause_30": {
+    "message": "30 menit"
+  },
+  "pause_60": {
+    "message": "1 jam"
+  },
+  "pause_300": {
+    "message": "5 jam"
+  },
+  "pause_resume": {
+    "message": "melanjutkan"
+  },
+  "popup_settings": {
+    "message": "Pengaturan"
+  },
+  "popup_total_blocked": {
+    "message": "Jumlah yang diblokir:"
+  },
+  "level_relaxed": {
+    "message": "Nyaman"
+  },
+  "level_balanced": {
+    "message": "Seimbang"
+  },
+  "level_strict": {
+    "message": "Ketat"
+  },
+  "premium_section": {
+    "message": "Fitur Premium"
+  },
+  "pause_scope": {
+    "message": "Area Aplikasi"
+  },
+  "pause_site_only": {
+    "message": "hanya situs ini"
+  },
+  "pause_global": {
+    "message": "Semua situs (Global)"
+  },
+  "lang_tr": {
+    "message": "Turki"
+  },
+  "lang_en": {
+    "message": "Bahasa inggris"
+  },
+  "opt_faq_title": {
+    "message": "Pertanyaan yang Sering Diajukan"
+  },
+  "opt_faq_1_q": {
+    "message": "Apakah plugin memblokir iklan YouTube?"
+  },
+  "opt_faq_1_a": {
+    "message": "Ya, vAdBlock secara otomatis memblokir dan melewati iklan dalam video YouTube dengan algoritma khusus."
+  },
+  "opt_faq_2_q": {
+    "message": "Beberapa situs tampak rusak, apa yang harus saya lakukan?"
+  },
+  "opt_faq_2_a": {
+    "message": "Jika situs tidak berfungsi dengan benar, Anda dapat menjeda perlindungan situs tersebut dari jendela plugin (Daftar yang Diizinkan)."
+  },
+  "opt_contact_title": {
+    "message": "Hubungi kami"
+  },
+  "opt_contact_desc": {
+    "message": "Untuk laporan bug, masukan, atau permintaan fitur baru, kunjungi halaman GitHub kami."
+  },
+  "opt_contact_btn": {
+    "message": "Tinjau di GitHub"
+  },
+  "popup_paused_site": {
+    "message": "Dijeda di Situs Ini"
+  },
+  "opt_update_success": {
+    "message": "GUI diperbarui dan filter disinkronkan!"
+  },
+  "global_temp_off_msg": {
+    "message": "$1 menit dijeda di semua situs"
+  },
+  "nav_sponsor": {
+    "message": "Lompatan Bersponsor"
+  },
+  "popup_add_segment": {
+    "message": "Laporkan Area Bersponsor"
+  },
+  "popup_sponsor_skipped": {
+    "message": "Sponsor Terlewatkan"
+  },
+  "popup_waiting": {
+    "message": "mengharapkan..."
+  },
+  "sb_skip_sponsor": {
+    "message": "Lewati Sponsor"
+  },
+  "sb_segment_add": {
+    "message": "Tandai Sponsor"
+  },
+  "sb_set_times": {
+    "message": "Atur waktunya, lalu pilih jenis Anda:"
+  },
+  "sb_start": {
+    "message": "Awal"
+  },
+  "sb_end": {
+    "message": "Menyelesaikan"
+  },
+  "sb_select_type": {
+    "message": "Pilih jenis:"
+  },
+  "sb_cancel": {
+    "message": "Membatalkan"
+  },
+  "sb_submit": {
+    "message": "Mengirim"
+  },
+  "sb_submitted": {
+    "message": "Kontribusi Anda telah dikirim"
+  },
+  "sb_submit_failed": {
+    "message": "Gagal mengirim — server tidak dapat dijangkau"
+  },
+  "sb_skipped": {
+    "message": "dilewati"
+  },
+  "sb_manual_skipped": {
+    "message": "panduan dilewati"
+  },
+  "sb_time_saved": {
+    "message": "memperoleh $1 detik"
+  },
+  "sb_total": {
+    "message": "Total:"
+  },
+  "sb_cat_sponsor": {
+    "message": "Sponsor"
+  },
+  "sb_cat_selfpromo": {
+    "message": "Promosi Diri"
+  },
+  "sb_cat_interaction": {
+    "message": "Interaksi"
+  },
+  "sb_cat_intro": {
+    "message": "intro"
+  },
+  "sb_cat_outro": {
+    "message": "luar"
+  },
+  "sb_cat_preview": {
+    "message": "Pratinjau"
+  },
+  "sb_cat_music": {
+    "message": "Non-Musik"
+  },
+  "sb_hours": {
+    "message": "jam"
+  },
+  "sb_minutes": {
+    "message": "menit"
+  },
+  "sb_seconds": {
+    "message": "detik"
+  },
+  "opt_saved": {
+    "message": "Disimpan!"
+  },
+  "opt_restored": {
+    "message": "Pulih!"
+  },
+  "opt_remove": {
+    "message": "Menghapus"
+  },
+  "opt_sb_title": {
+    "message": "Lompatan Bersponsor"
+  },
+  "opt_sb_subtitle": {
+    "message": "Hemat waktu dengan melewatkan sponsorship, intro, dan bagian yang tidak diperlukan dalam video YouTube."
+  },
+  "opt_sb_general": {
+    "message": "▶ Pengaturan Umum"
+  },
+  "opt_sb_general_desc": {
+    "message": "Tentukan operasi dasar sistem bypass sponsor."
+  },
+  "opt_sb_enable": {
+    "message": "Aktifkan lewati sponsor"
+  },
+  "opt_sb_enable_desc": {
+    "message": "Sakelar utama untuk semua fitur lompat."
+  },
+  "opt_sb_auto": {
+    "message": "Lewati otomatis"
+  },
+  "opt_sb_auto_desc": {
+    "message": "Ketika episode itu tiba, dia langsung terjun ke dalamnya tanpa bertanya. (Jika ditutup, tombol \"Lewati\" akan muncul)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 Pengaturan Kategori"
+  },
+  "opt_sb_categories_desc": {
+    "message": "Tentukan apa yang harus dilakukan di jenis segmen mana satu per satu."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ Berkontribusi pada Komunitas"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "Anda dapat membantu pengguna lain dengan memilih iklan atau area yang tidak diperlukan dalam video dan mengirimkannya ke database."
+  },
+  "opt_sb_show_add": {
+    "message": "Tampilkan Tombol Laporan Sponsor"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "Membuka antarmuka Pelaporan Domain Sponsor (AI) pada pemutar video."
+  },
+  "opt_sb_api": {
+    "message": "Alamat API Pribadi"
+  },
+  "opt_sb_api_desc": {
+    "message": "Koneksi server untuk mengirim dan menerima data. (Dikembangkan)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "Lewati Otomatis"
+  },
+  "opt_sb_btn_show": {
+    "message": "Tampilkan Tombol"
+  },
+  "opt_sb_disabled": {
+    "message": "Dengan disabilitas"
+  },
+  "toast_refresh_youtube": {
+    "message": "Segarkan halaman YouTube."
+  },
+  "toast_youtube_only": {
+    "message": "Fitur ini hanya berfungsi pada video YouTube."
+  },
+  "promo_rate_title": {
+    "message": "⭐ Apakah Anda menyukai vAdBlock?"
+  },
+  "promo_rate_desc": {
+    "message": "Anda dapat mendukung kami dengan memberi kami 5 bintang agar kami dapat terus berkembang!"
+  },
+  "promo_rate_btn": {
+    "message": "Mengevaluasi"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock Premium"
+  },
+  "promo_premium_desc": {
+    "message": "Apakah Anda ingin mendapatkan manfaat privasi 100% dan fitur tambahan dengan membeli langganan premium?"
+  },
+  "promo_premium_btn": {
+    "message": "Tinjauan"
+  },
+  "promo_discount_title": {
+    "message": "🎁 Diskon Spesial untuk Anda!"
+  },
+  "promo_discount_desc": {
+    "message": "Anda sudah lama bersama kami! Untuk mendapatkan diskon 50% pada keanggotaan premium, gunakan kode: lave-..."
+  },
+  "promo_discount_btn": {
+    "message": "Tukarkan Kode"
+  },
+  "day_sun": {
+    "message": "matahari"
+  },
+  "day_mon": {
+    "message": "senin"
+  },
+  "day_tue": {
+    "message": "Selendang"
+  },
+  "day_wed": {
+    "message": "Kaisar"
+  },
+  "day_thu": {
+    "message": "kamis"
+  },
+  "day_fri": {
+    "message": "air mani"
+  },
+  "day_sat": {
+    "message": "Duduk"
+  },
+  "month_jan": {
+    "message": "Januari"
+  },
+  "month_feb": {
+    "message": "Februari"
+  },
+  "month_mar": {
+    "message": "Merusak"
+  },
+  "month_apr": {
+    "message": "April"
+  },
+  "month_may": {
+    "message": "Mungkin"
+  },
+  "month_jun": {
+    "message": "Kesenangan"
+  },
+  "month_jul": {
+    "message": "Juli"
+  },
+  "month_aug": {
+    "message": "hemlock"
+  },
+  "month_sep": {
+    "message": "September"
+  },
+  "month_oct": {
+    "message": "Oktober"
+  },
+  "month_nov": {
+    "message": "Alis"
+  },
+  "month_dec": {
+    "message": "Mencari"
+  },
+  "time_hours": {
+    "message": "jam"
+  },
+  "time_minutes": {
+    "message": "menit"
+  },
+  "time_seconds": {
+    "message": "detik"
+  }
+}

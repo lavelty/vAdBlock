@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "Tiện ích mở rộng tối ưu để chặn quảng cáo và cửa sổ bật lên. Chặn quảng cáo trên Facebook, YouTube và tất cả các trang web khác."
+  },
+  "appName": {
+    "message": "vAdBlock — Trình chặn quảng cáo tốt nhất"
+  },
+  "cmd_toggle": {
+    "message": "Chuyển đổi bảo vệ"
+  },
+  "cmd_picker": {
+    "message": "Khởi chạy bộ chọn quảng cáo"
+  },
+  "nav_stats": {
+    "message": "Thống kê"
+  },
+  "nav_general": {
+    "message": "Tổng quan"
+  },
+  "nav_protection": {
+    "message": "Cấp độ bảo vệ"
+  },
+  "nav_customize": {
+    "message": "tùy chỉnh"
+  },
+  "nav_filters": {
+    "message": "Bộ lọc"
+  },
+  "nav_support": {
+    "message": "Ủng hộ"
+  },
+  "popup_unknown": {
+    "message": "Không xác định"
+  },
+  "popup_blocked": {
+    "message": "Bị chặn:"
+  },
+  "popup_protection_on": {
+    "message": "Bật bảo vệ"
+  },
+  "popup_protection_off": {
+    "message": "Tắt bảo vệ"
+  },
+  "popup_menu_manual": {
+    "message": "Chặn quảng cáo theo cách thủ công"
+  },
+  "popup_menu_custom": {
+    "message": "Khối riêng tư của tôi"
+  },
+  "popup_menu_diag": {
+    "message": "Sao chép thông tin chẩn đoán"
+  },
+  "popup_menu_clear": {
+    "message": "Xóa quy tắc trang web"
+  },
+  "pause_paused_state": {
+    "message": "tạm dừng"
+  },
+  "pause_title": {
+    "message": "tạm dừng"
+  },
+  "pause_min_unit": {
+    "message": "phút"
+  },
+  "pause_sec_unit": {
+    "message": "giây"
+  },
+  "pause_site": {
+    "message": "trên trang web này"
+  },
+  "site_temp_30": {
+    "message": "tắt máy trong 30 phút"
+  },
+  "site_temp_120": {
+    "message": "đóng cửa trong 2 giờ"
+  },
+  "site_temp_0": {
+    "message": "Mở lại trang web"
+  },
+  "site_temp_off_msg": {
+    "message": "Trang web này đã bị đóng trong 1 phút"
+  },
+  "site_temp_on_msg": {
+    "message": "Trang web này được mở lại"
+  },
+  "pause_toast": {
+    "message": "$1 phút đã tạm dừng"
+  },
+  "pause_toast_resume": {
+    "message": "Bảo vệ tiếp tục"
+  },
+  "chart_all": {
+    "message": "Tất cả"
+  },
+  "chart_ads": {
+    "message": "Quảng cáo"
+  },
+  "chart_trackers": {
+    "message": "người xem"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "Khác"
+  },
+  "chart_7days": {
+    "message": "7 ngày"
+  },
+  "chart_24h": {
+    "message": "24 giờ"
+  },
+  "chart_30d": {
+    "message": "30 ngày"
+  },
+  "chart_1y": {
+    "message": "1 năm"
+  },
+  "rules_title": {
+    "message": "Quy tắc đặc biệt của tôi"
+  },
+  "rules_empty": {
+    "message": "Chưa có quy tắc đặc biệt nào được thêm vào."
+  },
+  "rules_global": {
+    "message": "Toàn cầu"
+  },
+  "rules_preview": {
+    "message": "Xem trước"
+  },
+  "rules_delete": {
+    "message": "Xóa bỏ"
+  },
+  "toast_rules_cleared": {
+    "message": "Đã xóa quy tắc $1. Trang đang được làm mới..."
+  },
+  "toast_no_rules_site": {
+    "message": "Không có quy tắc trên trang web này"
+  },
+  "toast_protection_updated": {
+    "message": "Đã cập nhật cấp độ bảo vệ"
+  },
+  "toast_report_copied": {
+    "message": "Đã sao chép thông tin chẩn đoán vào bảng nhớ tạm"
+  },
+  "toast_copy_failed": {
+    "message": "Không thể sao chép"
+  },
+  "toast_site_info_failed": {
+    "message": "Không thể lấy được thông tin trang web"
+  },
+  "toast_page_not_available": {
+    "message": "Không có sẵn trên trang này (bảo vệ Chrome)"
+  },
+  "toast_protection_on": {
+    "message": "Bảo vệ: Bật"
+  },
+  "toast_protection_off": {
+    "message": "Bảo vệ: Tắt"
+  },
+  "toast_redirect": {
+    "message": "Đang chuyển hướng..."
+  },
+  "report_title": {
+    "message": "thông tin chẩn đoán"
+  },
+  "report_version": {
+    "message": "Phiên bản"
+  },
+  "report_page": {
+    "message": "Trang"
+  },
+  "report_date": {
+    "message": "Lịch sử"
+  },
+  "report_level": {
+    "message": "Mức độ"
+  },
+  "footer_made_by": {
+    "message": "được thực hiện bởi lave"
+  },
+  "opt_stats_title": {
+    "message": "Thống kê"
+  },
+  "opt_stats_subtitle": {
+    "message": "Xem vAdBlock chạy trong nền trong bao lâu."
+  },
+  "opt_stat_ads_7d": {
+    "message": "Quảng cáo bị chặn trong 7 ngày qua"
+  },
+  "opt_stat_trackers": {
+    "message": "Trình theo dõi thu thập dữ liệu bị chặn"
+  },
+  "opt_stat_data": {
+    "message": "dữ liệu đã lưu"
+  },
+  "opt_stat_time": {
+    "message": "Tiết kiệm thời gian khi tải trang"
+  },
+  "opt_report_title": {
+    "message": "Báo cáo hàng tuần"
+  },
+  "opt_report_total": {
+    "message": "Yêu cầu bị chặn"
+  },
+  "opt_report_ads": {
+    "message": "Quảng cáo"
+  },
+  "opt_report_trackers": {
+    "message": "Khán giả"
+  },
+  "opt_report_daily": {
+    "message": "Trung bình hàng ngày"
+  },
+  "opt_top_domains": {
+    "message": "Trang web bị chặn nhiều nhất"
+  },
+  "opt_empty_data": {
+    "message": "Chưa có dữ liệu."
+  },
+  "opt_log_title": {
+    "message": "Chặn nhật ký"
+  },
+  "opt_log_desc": {
+    "message": "50 yêu cầu bị chặn gần đây nhất (chỉ trong phiên này)."
+  },
+  "opt_log_search": {
+    "message": "Tìm kiếm: tên miền hoặc URL..."
+  },
+  "opt_log_export": {
+    "message": "Xuất CSV"
+  },
+  "opt_empty_log": {
+    "message": "Chưa có yêu cầu nào bị chặn."
+  },
+  "opt_log_clear": {
+    "message": "Xóa nhật ký"
+  },
+  "opt_general_title": {
+    "message": "Cài đặt chung"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "Cho phép một số quảng cáo không xâm phạm"
+  },
+  "opt_context_menu": {
+    "message": "Thêm tùy chọn vAdBlock vào menu chuột phải"
+  },
+  "opt_badge_count": {
+    "message": "Hiển thị số lượng quảng cáo bị chặn trên nút vAdBlock"
+  },
+  "opt_dev_tools": {
+    "message": "Hiển thị bảng 'vAdBlock' trong công cụ dành cho nhà phát triển"
+  },
+  "opt_promotions": {
+    "message": "Cho phép vAdBlock thỉnh thoảng hiển thị thông báo quảng cáo"
+  },
+  "opt_fingerprint": {
+    "message": "Bảo vệ vân tay (ẩn thông tin phần cứng Canvas/WebGL)"
+  },
+  "opt_anti_adblock": {
+    "message": "Ẩn cảnh báo \"Đã phát hiện trình chặn quảng cáo\""
+  },
+  "opt_https": {
+    "message": "Buộc kết nối an toàn (HTTPS)"
+  },
+  "opt_webrtc": {
+    "message": "Ngăn chặn rò rỉ địa chỉ IP WebRTC"
+  },
+  "opt_language_title": {
+    "message": "Ngôn ngữ"
+  },
+  "opt_language_desc": {
+    "message": "Chọn ngôn ngữ giao diện. Tùy chọn tự động sử dụng ngôn ngữ trình duyệt."
+  },
+  "opt_language_auto": {
+    "message": "Tự động (dựa trên ngôn ngữ trình duyệt)"
+  },
+  "opt_language_tr": {
+    "message": "tiếng Thổ Nhĩ Kỳ"
+  },
+  "opt_language_en": {
+    "message": "Tiếng Anh"
+  },
+  "opt_lang_auto": {
+    "message": "Tự động (ngôn ngữ trình duyệt)"
+  },
+  "opt_protection_title": {
+    "message": "Cấp độ bảo vệ"
+  },
+  "opt_protection_subtitle": {
+    "message": "Chọn chế độ bảo mật phù hợp nhất với thói quen duyệt internet của bạn."
+  },
+  "opt_mode_relaxed": {
+    "message": "Chế độ thoải mái"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "Chặn quảng cáo cơ bản. Trình theo dõi nâng cao và các bộ lọc khắc nghiệt có thể phá vỡ trang web đã bị tắt. Hiệu suất và khả năng tương thích ở mức cao nhất."
+  },
+  "opt_mode_balanced": {
+    "message": "Chế độ cân bằng (Khuyến nghị)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "Chặn hầu hết các quảng cáo và người thu thập dữ liệu đã biết. Lý tưởng cho việc sử dụng internet hàng ngày, bảo vệ mượt mà không ảnh hưởng đến hiệu suất."
+  },
+  "opt_mode_strict": {
+    "message": "Chế độ nghiêm ngặt"
+  },
+  "opt_mode_strict_desc": {
+    "message": "Sự riêng tư tối đa! Nó thao túng tất cả các tín hiệu GPC/DNT, làm gián đoạn đầu đọc dấu vân tay và chặn các mạng quảng cáo hung hãn ở tận gốc. (Lý tưởng cho các trang web thử nghiệm)"
+  },
+  "opt_customize_title": {
+    "message": "tùy chỉnh"
+  },
+  "opt_customize_subtitle": {
+    "message": "Điều chỉnh plugin chính xác theo nhu cầu của bạn."
+  },
+  "opt_allowlist_title": {
+    "message": "Trang web được phép (Danh sách cho phép)"
+  },
+  "opt_allowlist_desc": {
+    "message": "Tính năng chặn quảng cáo bị vô hiệu hóa trên các trang web sau."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "mẫu.com"
+  },
+  "opt_add": {
+    "message": "Thêm vào"
+  },
+  "opt_allowlist_empty": {
+    "message": "Chưa có trang web nào được thêm vào. Thêm một tên miền ở trên."
+  },
+  "opt_css_title": {
+    "message": "Quy tắc CSS tùy chỉnh"
+  },
+  "opt_css_desc": {
+    "message": "Quy tắc ẩn CSS đặc biệt dành cho người dùng nâng cao."
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "Cứu"
+  },
+  "opt_network_title": {
+    "message": "Quy tắc mạng riêng"
+  },
+  "opt_network_desc": {
+    "message": "Một quy tắc trên mỗi dòng. Định dạng: ||example.com^ (chặn) hoặc @@||example.com^ (cho phép)."
+  },
+  "opt_backup_title": {
+    "message": "Sao lưu & Khôi phục"
+  },
+  "opt_backup_desc": {
+    "message": "Xuất cài đặt của bạn, các trang web được phép và quy tắc tùy chỉnh."
+  },
+  "opt_export": {
+    "message": "Tải xuống bản sao lưu"
+  },
+  "opt_import": {
+    "message": "Khôi phục bản sao lưu"
+  },
+  "opt_filters_title": {
+    "message": "Danh sách lọc"
+  },
+  "opt_filters_subtitle": {
+    "message": "Chọn danh sách bộ lọc sẽ sử dụng và cập nhật danh sách."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "Bộ lọc quảng cáo chính — chặn hầu hết các mạng quảng cáo."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "Chặn các miền theo dõi và phân tích."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "Danh sách máy chủ quảng cáo và máy chủ theo dõi."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "Bộ lọc vAdBlock và danh sách quyền riêng tư."
+  },
+  "opt_update_title": {
+    "message": "Cập nhật danh sách"
+  },
+  "opt_update_desc": {
+    "message": "Danh sách bộ lọc được tự động cập nhật hàng tuần. Cập nhật lần cuối:"
+  },
+  "opt_update_btn": {
+    "message": "Cập nhật bộ lọc"
+  },
+  "opt_update_unknown": {
+    "message": "không rõ"
+  },
+  "opt_update_stale": {
+    "message": "⚠ Đang chờ cập nhật tự động ($1 ngày trước)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ Hiện tại · $ Đã cập nhật 1 ngày trước"
+  },
+  "opt_update_first": {
+    "message": "Bản cập nhật đầu tiên đang chờ đợi"
+  },
+  "opt_update_off": {
+    "message": "(đóng cửa)"
+  },
+  "opt_update_running": {
+    "message": "Đang cập nhật..."
+  },
+  "opt_update_done": {
+    "message": "Danh sách được cập nhật!"
+  },
+  "opt_update_error": {
+    "message": "Cập nhật không thành công: $1"
+  },
+  "opt_support_title": {
+    "message": "Ủng hộ"
+  },
+  "opt_support_subtitle": {
+    "message": "Liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi hoặc vấn đề."
+  },
+  "opt_themes_title": {
+    "message": "Chủ đề"
+  },
+  "opt_themes_subtitle": {
+    "message": "Cá nhân hóa giao diện của vAdBlock. Phản ánh phong cách của bạn."
+  },
+  "theme_default": {
+    "message": "Mặc định (Sáng)"
+  },
+  "theme_dark": {
+    "message": "Vật chất tối"
+  },
+  "theme_hover_preview": {
+    "message": "Di chuột để xem trước"
+  },
+  "opt_premium_title": {
+    "message": "Bộ lọc cao cấp"
+  },
+  "opt_premium_subtitle": {
+    "message": "Tối đa hóa trải nghiệm vAdBlock của bạn."
+  },
+  "opt_premium_focus_title": {
+    "message": "Chế độ lấy nét"
+  },
+  "opt_premium_focus_desc": {
+    "message": "Ẩn các lần ra mắt bản tin, cuộn video và các yếu tố không quảng cáo gây khó chịu."
+  },
+  "opt_premium_cookie_title": {
+    "message": "Chấp nhận/Từ chối Cookie Tự động"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "Tự động ẩn cảnh báo cookie trên các trang web phổ biến."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "Tự động chấp nhận sự đồng ý của cookie"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "Tự động nhấp vào nút \"chấp nhận\" trên thông báo cookie."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "Nhà tài trợ YouTube Jumper"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "Nó bỏ qua các phần tài trợ, lời gọi hướng ngoại và tương tác trong video YouTube bằng cách tự động phát hiện chúng từ phụ đề."
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium đang hoạt động! Tận hưởng tất cả các tính năng."
+  },
+  "welcome_title": {
+    "message": "Chào mừng đến với vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock hiện đã ở bên bạn."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ Phiên bản cao cấp đang hoạt động"
+  },
+  "welcome_subtitle": {
+    "message": "Trải nghiệm internet của bạn giờ đây sạch sẽ hơn, nhanh hơn và hoàn toàn là của bạn."
+  },
+  "welcome_feat1_title": {
+    "message": "Bảo vệ vô hình"
+  },
+  "welcome_feat1_desc": {
+    "message": "Nó âm thầm chặn tất cả các trình theo dõi ở chế độ nền trong khi bạn duyệt."
+  },
+  "welcome_feat2_title": {
+    "message": "Tốc độ sao"
+  },
+  "welcome_feat2_desc": {
+    "message": "Các trang tải ngay lập tức vì nội dung không cần thiết bị chặn."
+  },
+  "welcome_feat3_title": {
+    "message": "Bộ lọc nâng cao"
+  },
+  "welcome_feat3_desc": {
+    "message": "Nó loại bỏ các quảng cáo tích cực mà các trình chặn quảng cáo thông thường bỏ lỡ."
+  },
+  "welcome_feat4_title": {
+    "message": "Tùy chỉnh đầy đủ"
+  },
+  "welcome_feat4_desc": {
+    "message": "Quản lý quy tắc và cấp độ bộ lọc từ trang cài đặt."
+  },
+  "welcome_btn": {
+    "message": "Bắt đầu khám phá"
+  },
+  "ctx_block_element": {
+    "message": "Chặn mục này bằng vAdBlock"
+  },
+  "picker_title": {
+    "message": "Chặn một mục"
+  },
+  "picker_subtitle": {
+    "message": "Thêm vào quy tắc lave"
+  },
+  "picker_expand": {
+    "message": "Mở rộng vùng lựa chọn:"
+  },
+  "picker_advanced": {
+    "message": "Tùy chọn nâng cao"
+  },
+  "picker_apply_all": {
+    "message": "Áp dụng quy tắc trên tất cả các trang web"
+  },
+  "picker_similar": {
+    "message": "Đồng thời chặn các mục tương tự"
+  },
+  "picker_css_label": {
+    "message": "Bộ chọn CSS (Nâng cao):"
+  },
+  "picker_block": {
+    "message": "khối"
+  },
+  "picker_preview": {
+    "message": "Xem trước"
+  },
+  "picker_reselect": {
+    "message": "Chọn một mục khác"
+  },
+  "picker_preview_title": {
+    "message": "Chế độ xem trước"
+  },
+  "picker_preview_desc": {
+    "message": "Mục bạn chọn đã bị ẩn. Nếu hình ảnh đúng như bạn muốn, bạn có thể chặn nó vĩnh viễn."
+  },
+  "picker_exit": {
+    "message": "Ra"
+  },
+  "picker_cancel": {
+    "message": "Hủy bỏ (ESC)"
+  },
+  "picker_saved": {
+    "message": "Đã lưu quy tắc"
+  },
+  "picker_undo": {
+    "message": "hoàn tác"
+  },
+  "search_placeholder": {
+    "message": "Tìm kiếm: bối cảnh hoặc tên chương..."
+  },
+  "nav_themes": {
+    "message": "Chủ đề"
+  },
+  "nav_premium": {
+    "message": "Bộ lọc cao cấp"
+  },
+  "action_manual_block": {
+    "message": "Chặn quảng cáo theo cách thủ công"
+  },
+  "action_manage_rules": {
+    "message": "Khối riêng tư của tôi"
+  },
+  "action_report": {
+    "message": "Sao chép thông tin chẩn đoán"
+  },
+  "action_clear_site": {
+    "message": "Xóa quy tắc trang web"
+  },
+  "tab_actions": {
+    "message": "hành động"
+  },
+  "tab_stats": {
+    "message": "Thống kê"
+  },
+  "popup_refresh": {
+    "message": "Làm cho khỏe lại"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "tạm dừng"
+  },
+  "pause_10": {
+    "message": "10 phút"
+  },
+  "pause_30": {
+    "message": "30 phút"
+  },
+  "pause_60": {
+    "message": "1 giờ"
+  },
+  "pause_300": {
+    "message": "5 giờ"
+  },
+  "pause_resume": {
+    "message": "bản tóm tắt"
+  },
+  "popup_settings": {
+    "message": "Cài đặt"
+  },
+  "popup_total_blocked": {
+    "message": "Tổng số bị chặn:"
+  },
+  "level_relaxed": {
+    "message": "Thoải mái"
+  },
+  "level_balanced": {
+    "message": "Cân bằng"
+  },
+  "level_strict": {
+    "message": "Chặt"
+  },
+  "premium_section": {
+    "message": "Tính năng cao cấp"
+  },
+  "pause_scope": {
+    "message": "Khu vực ứng dụng"
+  },
+  "pause_site_only": {
+    "message": "chỉ trang web này"
+  },
+  "pause_global": {
+    "message": "Tất cả các trang web (Toàn cầu)"
+  },
+  "lang_tr": {
+    "message": "tiếng Thổ Nhĩ Kỳ"
+  },
+  "lang_en": {
+    "message": "Tiếng Anh"
+  },
+  "opt_faq_title": {
+    "message": "Câu hỏi thường gặp"
+  },
+  "opt_faq_1_q": {
+    "message": "Plugin có chặn quảng cáo YouTube không?"
+  },
+  "opt_faq_1_a": {
+    "message": "Có, vAdBlock tự động chặn và bỏ qua quảng cáo trong video trên YouTube bằng các thuật toán đặc biệt."
+  },
+  "opt_faq_2_q": {
+    "message": "Một số trang web dường như bị hỏng, tôi nên làm gì?"
+  },
+  "opt_faq_2_a": {
+    "message": "Nếu một trang web hoạt động không bình thường, bạn có thể tạm dừng bảo vệ cho trang web đó từ cửa sổ plugin (Danh sách cho phép)."
+  },
+  "opt_contact_title": {
+    "message": "Liên hệ với chúng tôi"
+  },
+  "opt_contact_desc": {
+    "message": "Để biết báo cáo lỗi, phản hồi hoặc yêu cầu tính năng mới, hãy truy cập trang GitHub của chúng tôi."
+  },
+  "opt_contact_btn": {
+    "message": "Đánh giá trên GitHub"
+  },
+  "popup_paused_site": {
+    "message": "Đã tạm dừng trên trang web này"
+  },
+  "opt_update_success": {
+    "message": "GUI được cập nhật và bộ lọc được đồng bộ hóa!"
+  },
+  "global_temp_off_msg": {
+    "message": "$1 phút bị tạm dừng trên tất cả các trang web"
+  },
+  "nav_sponsor": {
+    "message": "Bước nhảy được tài trợ"
+  },
+  "popup_add_segment": {
+    "message": "Báo cáo khu vực được tài trợ"
+  },
+  "popup_sponsor_skipped": {
+    "message": "Nhà tài trợ bị bỏ lỡ"
+  },
+  "popup_waiting": {
+    "message": "hy vọng..."
+  },
+  "sb_skip_sponsor": {
+    "message": "Bỏ qua nhà tài trợ"
+  },
+  "sb_segment_add": {
+    "message": "Đánh dấu nhà tài trợ"
+  },
+  "sb_set_times": {
+    "message": "Đặt thời gian, sau đó chọn loại của bạn:"
+  },
+  "sb_start": {
+    "message": "Bắt đầu"
+  },
+  "sb_end": {
+    "message": "Hoàn thành"
+  },
+  "sb_select_type": {
+    "message": "Chọn loại:"
+  },
+  "sb_cancel": {
+    "message": "Hủy bỏ"
+  },
+  "sb_submit": {
+    "message": "Gửi"
+  },
+  "sb_submitted": {
+    "message": "Đóng góp của bạn đã được gửi"
+  },
+  "sb_submit_failed": {
+    "message": "Không gửi được - không thể kết nối với máy chủ"
+  },
+  "sb_skipped": {
+    "message": "bỏ qua"
+  },
+  "sb_manual_skipped": {
+    "message": "bỏ qua thủ công"
+  },
+  "sb_time_saved": {
+    "message": "kiếm được 1 USD"
+  },
+  "sb_total": {
+    "message": "Tổng cộng:"
+  },
+  "sb_cat_sponsor": {
+    "message": "Nhà tài trợ"
+  },
+  "sb_cat_selfpromo": {
+    "message": "Tự quảng cáo"
+  },
+  "sb_cat_interaction": {
+    "message": "Sự tương tác"
+  },
+  "sb_cat_intro": {
+    "message": "phần giới thiệu"
+  },
+  "sb_cat_outro": {
+    "message": "hướng ngoại"
+  },
+  "sb_cat_preview": {
+    "message": "Xem trước"
+  },
+  "sb_cat_music": {
+    "message": "Không phải âm nhạc"
+  },
+  "sb_hours": {
+    "message": "giờ"
+  },
+  "sb_minutes": {
+    "message": "phút"
+  },
+  "sb_seconds": {
+    "message": "giây"
+  },
+  "opt_saved": {
+    "message": "Đã lưu!"
+  },
+  "opt_restored": {
+    "message": "Đã khôi phục!"
+  },
+  "opt_remove": {
+    "message": "Di dời"
+  },
+  "opt_sb_title": {
+    "message": "Bước nhảy được tài trợ"
+  },
+  "opt_sb_subtitle": {
+    "message": "Tiết kiệm thời gian bằng cách bỏ qua phần tài trợ, phần giới thiệu và các phần không cần thiết trong video YouTube."
+  },
+  "opt_sb_general": {
+    "message": "▶ Cài đặt chung"
+  },
+  "opt_sb_general_desc": {
+    "message": "Xác định hoạt động cơ bản của hệ thống bỏ qua nhà tài trợ."
+  },
+  "opt_sb_enable": {
+    "message": "Cho phép bỏ qua nhà tài trợ"
+  },
+  "opt_sb_enable_desc": {
+    "message": "Công tắc chính cho tất cả các tính năng nhảy."
+  },
+  "opt_sb_auto": {
+    "message": "Tự động bỏ qua"
+  },
+  "opt_sb_auto_desc": {
+    "message": "Khi tập phim đến, anh ấy nhảy ngay vào đó mà không cần hỏi. (Nếu đóng, nút \"Bỏ qua\" sẽ xuất hiện)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 Cài đặt danh mục"
+  },
+  "opt_sb_categories_desc": {
+    "message": "Xác định những việc cần làm trong từng loại phân khúc."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ Đóng góp cho cộng đồng"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "Bạn có thể giúp đỡ những người dùng khác bằng cách chọn quảng cáo hoặc những khu vực không cần thiết trong video và gửi chúng đến cơ sở dữ liệu."
+  },
+  "opt_sb_show_add": {
+    "message": "Hiển thị nút báo cáo nhà tài trợ"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "Mở giao diện Báo cáo miền của nhà tài trợ (AI) trên trình phát video."
+  },
+  "opt_sb_api": {
+    "message": "Địa chỉ API riêng"
+  },
+  "opt_sb_api_desc": {
+    "message": "Kết nối máy chủ để gửi và nhận dữ liệu. (Đã phát triển)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "Tự động bỏ qua"
+  },
+  "opt_sb_btn_show": {
+    "message": "Nút hiển thị"
+  },
+  "opt_sb_disabled": {
+    "message": "Tàn tật"
+  },
+  "toast_refresh_youtube": {
+    "message": "Làm mới trang YouTube."
+  },
+  "toast_youtube_only": {
+    "message": "Tính năng này chỉ hoạt động trên video YouTube."
+  },
+  "promo_rate_title": {
+    "message": "⭐ Bạn có thích vAdBlock không?"
+  },
+  "promo_rate_desc": {
+    "message": "Bạn có thể hỗ trợ chúng tôi bằng cách cho chúng tôi 5 sao để chúng tôi có thể tiếp tục cải thiện!"
+  },
+  "promo_rate_btn": {
+    "message": "Đánh giá"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock cao cấp"
+  },
+  "promo_premium_desc": {
+    "message": "Bạn có muốn hưởng lợi từ 100% quyền riêng tư và các tính năng bổ sung bằng cách mua đăng ký trả phí không?"
+  },
+  "promo_premium_btn": {
+    "message": "Ôn tập"
+  },
+  "promo_discount_title": {
+    "message": "🎁 Ưu đãi đặc biệt dành cho bạn!"
+  },
+  "promo_discount_desc": {
+    "message": "Bạn đã ở với chúng tôi trong một thời gian dài! Để được giảm giá 50% cho thành viên cao cấp, hãy sử dụng mã: lave-..."
+  },
+  "promo_discount_btn": {
+    "message": "Đổi mã"
+  },
+  "day_sun": {
+    "message": "mặt trời"
+  },
+  "day_mon": {
+    "message": "thứ hai"
+  },
+  "day_tue": {
+    "message": "Khăn choàng"
+  },
+  "day_wed": {
+    "message": "Sa hoàng"
+  },
+  "day_thu": {
+    "message": "thu"
+  },
+  "day_fri": {
+    "message": "kiêm"
+  },
+  "day_sat": {
+    "message": "Đã ngồi"
+  },
+  "month_jan": {
+    "message": "Tháng Một"
+  },
+  "month_feb": {
+    "message": "tháng Hai"
+  },
+  "month_mar": {
+    "message": "tháng 3"
+  },
+  "month_apr": {
+    "message": "tháng tư"
+  },
+  "month_may": {
+    "message": "Có thể"
+  },
+  "month_jun": {
+    "message": "Vinh hạnh"
+  },
+  "month_jul": {
+    "message": "tháng 7"
+  },
+  "month_aug": {
+    "message": "Cây huyết dụ"
+  },
+  "month_sep": {
+    "message": "tháng 9"
+  },
+  "month_oct": {
+    "message": "Tháng 10"
+  },
+  "month_nov": {
+    "message": "Lông mày"
+  },
+  "month_dec": {
+    "message": "Tìm kiếm"
+  },
+  "time_hours": {
+    "message": "giờ"
+  },
+  "time_minutes": {
+    "message": "phút"
+  },
+  "time_seconds": {
+    "message": "giây"
+  }
+}

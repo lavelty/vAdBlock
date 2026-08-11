@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "विज्ञापनों और पॉप-अप को ब्लॉक करने के लिए बेहतरीन एक्सटेंशन। Facebook, YouTube और अन्य सभी वेबसाइटों पर विज्ञापनों को ब्लॉक करता है।"
+  },
+  "cmd_toggle": {
+    "message": "सुरक्षा टॉगल करें"
+  },
+  "cmd_picker": {
+    "message": "विज्ञापन चयनकर्ता लॉन्च करें"
+  },
+  "nav_stats": {
+    "message": "आंकड़े"
+  },
+  "nav_general": {
+    "message": "सामान्य"
+  },
+  "nav_protection": {
+    "message": "सुरक्षा स्तर"
+  },
+  "nav_customize": {
+    "message": "अनुकूलित करें"
+  },
+  "nav_filters": {
+    "message": "फिल्टर"
+  },
+  "nav_support": {
+    "message": "सहायता"
+  },
+  "popup_unknown": {
+    "message": "अज्ञात"
+  },
+  "popup_blocked": {
+    "message": "अवरुद्ध:"
+  },
+  "popup_protection_on": {
+    "message": "सुरक्षा चालू"
+  },
+  "popup_protection_off": {
+    "message": "सुरक्षा बंद"
+  },
+  "popup_menu_manual": {
+    "message": "विज्ञापनों को मैन्युअल रूप से ब्लॉक करें"
+  },
+  "popup_menu_custom": {
+    "message": "मेरे निजी ब्लॉक"
+  },
+  "popup_menu_diag": {
+    "message": "निदान संबंधी जानकारी कॉपी करें"
+  },
+  "popup_menu_clear": {
+    "message": "साइट नियम साफ़ करें"
+  },
+  "pause_paused_state": {
+    "message": "रुका हुआ"
+  },
+  "pause_title": {
+    "message": "विराम"
+  },
+  "pause_min_unit": {
+    "message": "मिन"
+  },
+  "pause_sec_unit": {
+    "message": "सेकंड"
+  },
+  "pause_site": {
+    "message": "इस साइट पर"
+  },
+  "site_temp_30": {
+    "message": "30 मिनट के लिए बंद करें"
+  },
+  "site_temp_120": {
+    "message": "2 घंटे के लिए बंद करें"
+  },
+  "site_temp_0": {
+    "message": "साइट पुनः खोलें"
+  },
+  "site_temp_off_msg": {
+    "message": "यह साइट $1 मिनट के लिए बंद कर दी गई है"
+  },
+  "site_temp_on_msg": {
+    "message": "यह साइट फिर से खुल गई है"
+  },
+  "pause_toast": {
+    "message": "$1 मिनट के लिए रोका गया"
+  },
+  "pause_toast_resume": {
+    "message": "संरक्षण जारी रहा"
+  },
+  "chart_all": {
+    "message": "सभी"
+  },
+  "chart_ads": {
+    "message": "विज्ञापनों"
+  },
+  "chart_trackers": {
+    "message": "दर्शकों"
+  },
+  "chart_cdn": {
+    "message": "सीडीएन"
+  },
+  "chart_other": {
+    "message": "अन्य"
+  },
+  "chart_7days": {
+    "message": "7 दिन"
+  },
+  "chart_24h": {
+    "message": "24 घंटे"
+  },
+  "chart_30d": {
+    "message": "30 दिन"
+  },
+  "chart_1y": {
+    "message": "1 वर्ष"
+  },
+  "rules_title": {
+    "message": "मेरे विशेष नियम"
+  },
+  "rules_empty": {
+    "message": "अभी तक कोई विशेष नियम नहीं जोड़े गए हैं."
+  },
+  "rules_global": {
+    "message": "वैश्विक"
+  },
+  "rules_preview": {
+    "message": "पूर्व दर्शन"
+  },
+  "rules_delete": {
+    "message": "मिटाना"
+  },
+  "toast_rules_cleared": {
+    "message": "$1 नियम साफ़ किया गया. पेज ताज़ा है..."
+  },
+  "toast_no_rules_site": {
+    "message": "इस साइट पर कोई नियम नहीं हैं"
+  },
+  "toast_protection_updated": {
+    "message": "सुरक्षा स्तर अद्यतन किया गया"
+  },
+  "toast_report_copied": {
+    "message": "निदान संबंधी जानकारी क्लिपबोर्ड पर कॉपी की गई"
+  },
+  "toast_copy_failed": {
+    "message": "की नकल नहीं कर सकता"
+  },
+  "toast_site_info_failed": {
+    "message": "साइट की जानकारी प्राप्त नहीं हो सकी"
+  },
+  "toast_page_not_available": {
+    "message": "इस पृष्ठ पर उपलब्ध नहीं है (क्रोम सुरक्षा)"
+  },
+  "toast_protection_on": {
+    "message": "सुरक्षा: चालू"
+  },
+  "toast_protection_off": {
+    "message": "सुरक्षा: बंद"
+  },
+  "toast_redirect": {
+    "message": "पुनर्निर्देशन..."
+  },
+  "report_title": {
+    "message": "निदान संबंधी जानकारी"
+  },
+  "report_version": {
+    "message": "संस्करण"
+  },
+  "report_page": {
+    "message": "पेज"
+  },
+  "report_date": {
+    "message": "इतिहास"
+  },
+  "report_level": {
+    "message": "स्तर"
+  },
+  "footer_made_by": {
+    "message": "Lave द्वारा बनाया गया"
+  },
+  "opt_stats_title": {
+    "message": "आंकड़े"
+  },
+  "opt_stats_subtitle": {
+    "message": "देखें कि पृष्ठभूमि में vAdBlock कितनी देर तक चल रहा है।"
+  },
+  "opt_stat_ads_7d": {
+    "message": "पिछले 7 दिनों में विज्ञापन अवरुद्ध कर दिये गये"
+  },
+  "opt_stat_trackers": {
+    "message": "अवरुद्ध डेटा संग्राहक ट्रैकर"
+  },
+  "opt_stat_data": {
+    "message": "सहेजा गया डेटा"
+  },
+  "opt_stat_time": {
+    "message": "पेज लोड होने पर समय की बचत हुई"
+  },
+  "opt_report_title": {
+    "message": "साप्ताहिक विवरण"
+  },
+  "opt_report_total": {
+    "message": "अवरोधित अनुरोध"
+  },
+  "opt_report_ads": {
+    "message": "विज्ञापन"
+  },
+  "opt_report_trackers": {
+    "message": "श्रोता"
+  },
+  "opt_report_daily": {
+    "message": "दैनिक औसत"
+  },
+  "opt_top_domains": {
+    "message": "सर्वाधिक अवरुद्ध साइटें"
+  },
+  "opt_empty_data": {
+    "message": "अभी तक कोई डेटा नहीं."
+  },
+  "opt_log_title": {
+    "message": "ब्लॉक लॉग"
+  },
+  "opt_log_desc": {
+    "message": "पिछले 50 अवरुद्ध अनुरोध (केवल इस सत्र में)।"
+  },
+  "opt_log_search": {
+    "message": "खोजें: डोमेन नाम या यूआरएल..."
+  },
+  "opt_log_export": {
+    "message": "सीएसवी निर्यात करें"
+  },
+  "opt_empty_log": {
+    "message": "अभी तक कोई अवरोधित अनुरोध नहीं."
+  },
+  "opt_log_clear": {
+    "message": "लॉग साफ करें"
+  },
+  "opt_general_title": {
+    "message": "सामान्य सेटिंग्स"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "कुछ गैर-दखल देने वाले विज्ञापनों की अनुमति दें"
+  },
+  "opt_context_menu": {
+    "message": "मेनू पर राइट-क्लिक करने के लिए vAdBlock विकल्प जोड़ें"
+  },
+  "opt_badge_count": {
+    "message": "दिखाएँ कि vAdBlock बटन पर कितने विज्ञापन अवरुद्ध हैं"
+  },
+  "opt_dev_tools": {
+    "message": "डेवलपर टूल में 'vAdBlock' पैनल दिखाएं"
+  },
+  "opt_promotions": {
+    "message": "vAdBlock को कभी-कभी प्रचारात्मक संदेश दिखाने की अनुमति दें"
+  },
+  "opt_fingerprint": {
+    "message": "फ़िंगरप्रिंट सुरक्षा (Canvas/WebGL हार्डवेयर जानकारी छुपाएं)"
+  },
+  "opt_anti_adblock": {
+    "message": "\"विज्ञापन अवरोधक का पता चला\" चेतावनियाँ छिपाएँ"
+  },
+  "opt_https": {
+    "message": "बलपूर्वक सुरक्षित (HTTPS) कनेक्शन"
+  },
+  "opt_webrtc": {
+    "message": "WebRTC आईपी एड्रेस लीक को रोकें"
+  },
+  "opt_language_title": {
+    "message": "भाषा"
+  },
+  "opt_language_desc": {
+    "message": "इंटरफ़ेस भाषा चुनें. स्वचालित विकल्प ब्राउज़र भाषा का उपयोग करता है।"
+  },
+  "opt_language_auto": {
+    "message": "स्वचालित (ब्राउज़र भाषा पर आधारित)"
+  },
+  "opt_language_tr": {
+    "message": "तुर्की"
+  },
+  "opt_language_en": {
+    "message": "अंग्रेज़ी"
+  },
+  "opt_lang_auto": {
+    "message": "स्वचालित (ब्राउज़र भाषा)"
+  },
+  "opt_protection_title": {
+    "message": "सुरक्षा स्तर"
+  },
+  "opt_protection_subtitle": {
+    "message": "वह सुरक्षा मोड चुनें जो आपकी इंटरनेट ब्राउज़िंग आदतों के लिए सबसे उपयुक्त हो।"
+  },
+  "opt_mode_relaxed": {
+    "message": "आरामदायक मोड"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "बुनियादी विज्ञापनों को ब्लॉक करता है. उन्नत ट्रैकर और कठोर फ़िल्टर जो साइट को तोड़ सकते हैं, बंद कर दिए गए हैं। प्रदर्शन और अनुकूलता उच्चतम स्तर पर है."
+  },
+  "opt_mode_balanced": {
+    "message": "संतुलित मोड (अनुशंसित)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "अधिकांश विज्ञापनों और ज्ञात डेटा संग्राहकों को अवरुद्ध करता है। दैनिक इंटरनेट उपयोग के लिए आदर्श, सुचारू सुरक्षा जो प्रदर्शन को प्रभावित नहीं करती।"
+  },
+  "opt_mode_strict": {
+    "message": "सख्त मोड"
+  },
+  "opt_mode_strict_desc": {
+    "message": "अधिकतम गोपनीयता! यह सभी GPC/DNT संकेतों में हेरफेर करता है, फ़िंगरप्रिंट रीडर को बाधित करता है, और आक्रामक विज्ञापन नेटवर्क को उनकी जड़ में ही अवरुद्ध कर देता है। (परीक्षण स्थलों के लिए आदर्श)"
+  },
+  "opt_customize_title": {
+    "message": "अनुकूलित करें"
+  },
+  "opt_customize_subtitle": {
+    "message": "प्लगइन को बिल्कुल अपनी आवश्यकताओं के अनुरूप बनाएं।"
+  },
+  "opt_allowlist_title": {
+    "message": "अनुमत साइटें (अनुमति सूची)"
+  },
+  "opt_allowlist_desc": {
+    "message": "निम्नलिखित साइटों पर विज्ञापन अवरोधन अक्षम है."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "नमूना.कॉम"
+  },
+  "opt_add": {
+    "message": "जोड़ना"
+  },
+  "opt_allowlist_empty": {
+    "message": "अभी तक कोई साइट नहीं जोड़ी गई है. ऊपर एक डोमेन नाम जोड़ें."
+  },
+  "opt_css_title": {
+    "message": "विशेष CSS नियम"
+  },
+  "opt_css_desc": {
+    "message": "उन्नत उपयोगकर्ताओं के लिए विशेष CSS अस्पष्टता नियम।"
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "बचाना"
+  },
+  "opt_network_title": {
+    "message": "निजी नेटवर्क नियम"
+  },
+  "opt_network_desc": {
+    "message": "प्रति पंक्ति एक नियम. प्रारूप: ||example.com^ (ब्लॉक) या @@||example.com^ (अनुमति दें)।"
+  },
+  "opt_backup_title": {
+    "message": "बैकअप और पुनर्स्थापना"
+  },
+  "opt_backup_desc": {
+    "message": "अपनी सेटिंग्स, अनुमत साइटें और कस्टम नियम निर्यात करें।"
+  },
+  "opt_export": {
+    "message": "बैकअप डाउनलोड करें"
+  },
+  "opt_import": {
+    "message": "बैकअप बहाल"
+  },
+  "opt_filters_title": {
+    "message": "फ़िल्टर सूचियाँ"
+  },
+  "opt_filters_subtitle": {
+    "message": "चुनें कि कौन सी फ़िल्टर सूचियों का उपयोग करना है और सूचियों को अद्यतन करना है।"
+  },
+  "opt_filter_easylist_desc": {
+    "message": "प्रमुख विज्ञापन फ़िल्टर - अधिकांश विज्ञापन नेटवर्क को ब्लॉक करता है।"
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "ट्रैकर और एनालिटिक्स डोमेन को ब्लॉक करता है।"
+  },
+  "opt_filter_adguard_desc": {
+    "message": "विज्ञापन सर्वर और ट्रैकिंग सर्वर सूचियाँ।"
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock फ़िल्टर और गोपनीयता सूचियाँ।"
+  },
+  "opt_update_title": {
+    "message": "सूचियाँ अद्यतन करें"
+  },
+  "opt_update_desc": {
+    "message": "फ़िल्टर सूचियाँ स्वचालित रूप से साप्ताहिक रूप से अपडेट की जाती हैं। आखिरी अपडेट:"
+  },
+  "opt_update_btn": {
+    "message": "फ़िल्टर अपडेट करें"
+  },
+  "opt_update_unknown": {
+    "message": "अज्ञात"
+  },
+  "opt_update_stale": {
+    "message": "⚠ लंबित स्वचालित अपडेट ($1 दिन पहले)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ वर्तमान · अपडेट किया गया $1 दिन पहले"
+  },
+  "opt_update_first": {
+    "message": "पहले अपडेट की प्रतीक्षा है"
+  },
+  "opt_update_off": {
+    "message": "(बंद किया हुआ)"
+  },
+  "opt_update_running": {
+    "message": "अद्यतन किया जा रहा है..."
+  },
+  "opt_update_done": {
+    "message": "सूचियाँ अपडेट की गईं!"
+  },
+  "opt_update_error": {
+    "message": "अपडेट विफल: $1"
+  },
+  "opt_support_title": {
+    "message": "सहायता"
+  },
+  "opt_support_subtitle": {
+    "message": "यदि आपका कोई प्रश्न या समस्या हो तो हमसे संपर्क करें।"
+  },
+  "opt_themes_title": {
+    "message": "विषय-वस्तु"
+  },
+  "opt_themes_subtitle": {
+    "message": "vAdBlock की उपस्थिति को अनुकूलित करें। अपनी शैली प्रतिबिंबित करें."
+  },
+  "theme_default": {
+    "message": "डिफ़ॉल्ट (उज्ज्वल)"
+  },
+  "theme_dark": {
+    "message": "गहरे द्रव्य"
+  },
+  "theme_hover_preview": {
+    "message": "पूर्वावलोकन करने के लिए होवर करें"
+  },
+  "opt_premium_title": {
+    "message": "प्रीमियम फ़िल्टर"
+  },
+  "opt_premium_subtitle": {
+    "message": "अपने vAdBlock अनुभव को अधिकतम करें।"
+  },
+  "opt_premium_focus_title": {
+    "message": "फोकस मोड"
+  },
+  "opt_premium_focus_desc": {
+    "message": "न्यूज़लेटर लॉन्च, स्क्रॉलिंग वीडियो और कष्टप्रद गैर-विज्ञापन तत्वों को छुपाएं।"
+  },
+  "opt_premium_cookie_title": {
+    "message": "स्वचालित कुकी स्वीकार/अस्वीकार"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "लोकप्रिय साइटों पर कुकी चेतावनियाँ स्वचालित रूप से छिपाएँ।"
+  },
+  "opt_premium_cookie2_title": {
+    "message": "कुकी सहमति स्वचालित रूप से स्वीकार करें"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "कुकी सूचनाओं पर स्वचालित रूप से \"स्वीकार करें\" बटन पर क्लिक करता है।"
+  },
+  "opt_sponsor_skip_title": {
+    "message": "YouTube प्रायोजक जम्पर"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "YouTube उपशीर्षक से स्वचालित रूप से उनका पता लगाकर वीडियो में प्रायोजक अनुभाग, आउट्रो और इंटरेक्शन कॉल को छोड़ देता है।"
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock प्रीमियम सक्रिय है! सभी सुविधाओं का आनंद लें."
+  },
+  "welcome_title": {
+    "message": "vAdBlock में आपका स्वागत है"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock अब आपके साथ है।"
+  },
+  "welcome_premium_badge": {
+    "message": "✨ प्रीमियम संस्करण सक्रिय"
+  },
+  "welcome_subtitle": {
+    "message": "आपका इंटरनेट अनुभव अब बहुत साफ़, तेज़ और पूरी तरह से आपका है।"
+  },
+  "welcome_feat1_title": {
+    "message": "अदृश्य सुरक्षा"
+  },
+  "welcome_feat1_desc": {
+    "message": "जब आप ब्राउज़ करते हैं तो यह पृष्ठभूमि में सभी ट्रैकर्स को चुपचाप ब्लॉक कर देता है।"
+  },
+  "welcome_feat2_title": {
+    "message": "स्टार स्पीड"
+  },
+  "welcome_feat2_desc": {
+    "message": "पेज तुरंत लोड होते हैं क्योंकि अनावश्यक सामग्री अवरुद्ध हो जाती है।"
+  },
+  "welcome_feat3_title": {
+    "message": "उन्नत फ़िल्टर"
+  },
+  "welcome_feat3_desc": {
+    "message": "यह उन आक्रामक विज्ञापनों को हटा देता है जो सामान्य विज्ञापन अवरोधक चूक जाते हैं।"
+  },
+  "welcome_feat4_title": {
+    "message": "पूर्ण अनुकूलन"
+  },
+  "welcome_feat4_desc": {
+    "message": "सेटिंग पृष्ठ से नियम और फ़िल्टर स्तर प्रबंधित करें।"
+  },
+  "welcome_btn": {
+    "message": "अन्वेषण प्रारंभ करें"
+  },
+  "ctx_block_element": {
+    "message": "इस आइटम को vAdBlock से ब्लॉक करें"
+  },
+  "picker_title": {
+    "message": "किसी आइटम को ब्लॉक करें"
+  },
+  "picker_subtitle": {
+    "message": "Lave नियमों में जोड़ें"
+  },
+  "picker_expand": {
+    "message": "चयन क्षेत्र का विस्तार करें:"
+  },
+  "picker_advanced": {
+    "message": "उन्नत विकल्प"
+  },
+  "picker_apply_all": {
+    "message": "सभी साइटों पर नियम लागू करें"
+  },
+  "picker_similar": {
+    "message": "इसी तरह की वस्तुओं को भी ब्लॉक करें"
+  },
+  "picker_css_label": {
+    "message": "CSS चयनकर्ता (उन्नत):"
+  },
+  "picker_block": {
+    "message": "अवरोध पैदा करना"
+  },
+  "picker_preview": {
+    "message": "पूर्व दर्शन"
+  },
+  "picker_reselect": {
+    "message": "कोई भिन्न आइटम चुनें"
+  },
+  "picker_preview_title": {
+    "message": "पूर्वावलोकन मोड"
+  },
+  "picker_preview_desc": {
+    "message": "आपके द्वारा चयनित आइटम छिपा दिया गया है. यदि छवि वही है जो आप चाहते हैं, तो आप इसे स्थायी रूप से ब्लॉक कर सकते हैं।"
+  },
+  "picker_exit": {
+    "message": "बाहर निकलना"
+  },
+  "picker_cancel": {
+    "message": "रद्द करें (ईएससी)"
+  },
+  "picker_saved": {
+    "message": "नियम सहेजा गया"
+  },
+  "picker_undo": {
+    "message": "पूर्ववत"
+  },
+  "search_placeholder": {
+    "message": "खोजें: सेटिंग या अध्याय का नाम..."
+  },
+  "nav_themes": {
+    "message": "विषय-वस्तु"
+  },
+  "nav_premium": {
+    "message": "प्रीमियम फ़िल्टर"
+  },
+  "action_manual_block": {
+    "message": "विज्ञापनों को मैन्युअल रूप से ब्लॉक करें"
+  },
+  "action_manage_rules": {
+    "message": "मेरे निजी ब्लॉक"
+  },
+  "action_report": {
+    "message": "निदान संबंधी जानकारी कॉपी करें"
+  },
+  "action_clear_site": {
+    "message": "साइट नियम साफ़ करें"
+  },
+  "tab_actions": {
+    "message": "कार्रवाई"
+  },
+  "tab_stats": {
+    "message": "आंकड़े"
+  },
+  "popup_refresh": {
+    "message": "ताज़ा करना"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "विराम"
+  },
+  "pause_10": {
+    "message": "10 मिनटों"
+  },
+  "pause_30": {
+    "message": "30 मिनट"
+  },
+  "pause_60": {
+    "message": "1 घंटा"
+  },
+  "pause_300": {
+    "message": "5 घंटे"
+  },
+  "pause_resume": {
+    "message": "फिर शुरू करना"
+  },
+  "popup_settings": {
+    "message": "सेटिंग्स"
+  },
+  "popup_total_blocked": {
+    "message": "कुल अवरुद्ध:"
+  },
+  "level_relaxed": {
+    "message": "आरामदायक"
+  },
+  "level_balanced": {
+    "message": "संतुलित"
+  },
+  "level_strict": {
+    "message": "कसा हुआ"
+  },
+  "premium_section": {
+    "message": "प्रीमियम सुविधाएँ"
+  },
+  "pause_scope": {
+    "message": "आवेदन क्षेत्र"
+  },
+  "pause_site_only": {
+    "message": "बस यह साइट"
+  },
+  "pause_global": {
+    "message": "सभी साइटें (वैश्विक)"
+  },
+  "lang_tr": {
+    "message": "तुर्की"
+  },
+  "lang_en": {
+    "message": "अंग्रेज़ी"
+  },
+  "opt_faq_title": {
+    "message": "अक्सर पूछे जाने वाले प्रश्नों"
+  },
+  "opt_faq_1_q": {
+    "message": "क्या प्लगइन YouTube विज्ञापनों को ब्लॉक करता है?"
+  },
+  "opt_faq_1_a": {
+    "message": "हां, vAdBlock विशेष एल्गोरिदम के साथ YouTube इन-वीडियो विज्ञापनों को स्वचालित रूप से ब्लॉक और छोड़ देता है।"
+  },
+  "opt_faq_2_q": {
+    "message": "कुछ साइटें टूटी हुई लगती हैं, मुझे क्या करना चाहिए?"
+  },
+  "opt_faq_2_a": {
+    "message": "यदि कोई साइट ठीक से काम नहीं कर रही है, तो आप प्लगइन विंडो (अनुमति सूची) से उस साइट की सुरक्षा रोक सकते हैं।"
+  },
+  "opt_contact_title": {
+    "message": "हमसे संपर्क करें"
+  },
+  "opt_contact_desc": {
+    "message": "बग रिपोर्ट, फीडबैक या नई सुविधा अनुरोधों के लिए, हमारे GitHub पृष्ठ पर जाएँ।"
+  },
+  "opt_contact_btn": {
+    "message": "GitHub पर समीक्षा करें"
+  },
+  "popup_paused_site": {
+    "message": "इस साइट पर रुका हुआ"
+  },
+  "opt_update_success": {
+    "message": "GUI अपडेट किया गया और फ़िल्टर सिंक किए गए!"
+  },
+  "global_temp_off_msg": {
+    "message": "सभी साइटों पर $1 मिनट रुका हुआ है"
+  },
+  "nav_sponsor": {
+    "message": "प्रायोजित छलांग"
+  },
+  "popup_add_segment": {
+    "message": "प्रायोजित क्षेत्र की रिपोर्ट करें"
+  },
+  "popup_sponsor_skipped": {
+    "message": "छूटे हुए प्रायोजक"
+  },
+  "popup_waiting": {
+    "message": "अपेक्षित..."
+  },
+  "sb_skip_sponsor": {
+    "message": "प्रायोजक छोड़ें"
+  },
+  "sb_segment_add": {
+    "message": "मार्क प्रायोजक"
+  },
+  "sb_set_times": {
+    "message": "समय निर्धारित करें, फिर अपना प्रकार चुनें:"
+  },
+  "sb_start": {
+    "message": "शुरुआत"
+  },
+  "sb_end": {
+    "message": "खत्म करना"
+  },
+  "sb_select_type": {
+    "message": "प्रकार चुनें:"
+  },
+  "sb_cancel": {
+    "message": "रद्द करना"
+  },
+  "sb_submit": {
+    "message": "भेजना"
+  },
+  "sb_submitted": {
+    "message": "आपका योगदान भेज दिया गया है"
+  },
+  "sb_submit_failed": {
+    "message": "भेजने में विफल - सर्वर तक नहीं पहुंचा जा सका"
+  },
+  "sb_skipped": {
+    "message": "को छोड़ दिया"
+  },
+  "sb_manual_skipped": {
+    "message": "मैनुअल छोड़ दिया गया"
+  },
+  "sb_time_saved": {
+    "message": "$1 सेकंड प्राप्त किये"
+  },
+  "sb_total": {
+    "message": "कुल:"
+  },
+  "sb_cat_sponsor": {
+    "message": "प्रायोजक"
+  },
+  "sb_cat_selfpromo": {
+    "message": "स्वयं का प्रचार"
+  },
+  "sb_cat_interaction": {
+    "message": "इंटरैक्शन"
+  },
+  "sb_cat_intro": {
+    "message": "परिचय"
+  },
+  "sb_cat_outro": {
+    "message": "किया"
+  },
+  "sb_cat_preview": {
+    "message": "पूर्व दर्शन"
+  },
+  "sb_cat_music": {
+    "message": "गैर-संगीत"
+  },
+  "sb_hours": {
+    "message": "मानव संसाधन"
+  },
+  "sb_minutes": {
+    "message": "मिन"
+  },
+  "sb_seconds": {
+    "message": "सेकंड"
+  },
+  "opt_saved": {
+    "message": "सहेजा गया!"
+  },
+  "opt_restored": {
+    "message": "पुनर्स्थापित!"
+  },
+  "opt_remove": {
+    "message": "निकालना"
+  },
+  "opt_sb_title": {
+    "message": "प्रायोजित छलांग"
+  },
+  "opt_sb_subtitle": {
+    "message": "YouTube वीडियो में प्रायोजन, परिचय और अनावश्यक भागों को छोड़कर समय बचाएं।"
+  },
+  "opt_sb_general": {
+    "message": "▶ सामान्य सेटिंग्स"
+  },
+  "opt_sb_general_desc": {
+    "message": "प्रायोजक बाईपास प्रणाली का मूल संचालन निर्धारित करें।"
+  },
+  "opt_sb_enable": {
+    "message": "प्रायोजक स्किप सक्षम करें"
+  },
+  "opt_sb_enable_desc": {
+    "message": "सभी जंप सुविधाओं के लिए मास्टर स्विच।"
+  },
+  "opt_sb_auto": {
+    "message": "ऑटो स्किप"
+  },
+  "opt_sb_auto_desc": {
+    "message": "जब एपिसोड आता है तो वह बिना पूछे ही उसमें कूद पड़ता है। (यदि यह बंद है, तो \"छोड़ें\" बटन प्रकट होता है)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 श्रेणी सेटिंग्स"
+  },
+  "opt_sb_categories_desc": {
+    "message": "एक-एक करके निर्धारित करें कि किस प्रकार के सेगमेंट में क्या करना है।"
+  },
+  "opt_sb_contribute": {
+    "message": "♥ समुदाय में योगदान करें"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "आप वीडियो में विज्ञापन या अनावश्यक क्षेत्रों का चयन करके और उन्हें डेटाबेस में भेजकर अन्य उपयोगकर्ताओं की मदद कर सकते हैं।"
+  },
+  "opt_sb_show_add": {
+    "message": "प्रायोजक रिपोर्ट बटन दिखाएँ"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "वीडियो प्लेयर पर प्रायोजक डोमेन रिपोर्टिंग (एआई) इंटरफ़ेस खोलता है।"
+  },
+  "opt_sb_api": {
+    "message": "विशेष API पता"
+  },
+  "opt_sb_api_desc": {
+    "message": "डेटा भेजने और प्राप्त करने के लिए सर्वर कनेक्शन। (विकसित)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "स्वतः छोड़ें"
+  },
+  "opt_sb_btn_show": {
+    "message": "बटन दिखाएँ"
+  },
+  "opt_sb_disabled": {
+    "message": "अक्षम"
+  },
+  "toast_refresh_youtube": {
+    "message": "YouTube पृष्ठ को ताज़ा करें।"
+  },
+  "toast_youtube_only": {
+    "message": "यह सुविधा केवल YouTube वीडियो पर काम करती है।"
+  },
+  "promo_rate_title": {
+    "message": "⭐ क्या आपको vAdBlock पसंद आया?"
+  },
+  "promo_rate_desc": {
+    "message": "आप हमें 5 स्टार देकर हमारा समर्थन कर सकते हैं ताकि हम सुधार करना जारी रख सकें!"
+  },
+  "promo_rate_btn": {
+    "message": "मूल्यांकन करना"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock प्रीमियम"
+  },
+  "promo_premium_desc": {
+    "message": "क्या आप प्रीमियम सदस्यता खरीदकर 100% गोपनीयता और अतिरिक्त सुविधाओं का लाभ उठाना चाहेंगे?"
+  },
+  "promo_premium_btn": {
+    "message": "समीक्षा"
+  },
+  "promo_discount_title": {
+    "message": "🎁 आपके लिए विशेष छूट!"
+  },
+  "promo_discount_desc": {
+    "message": "आप लंबे समय से हमारे साथ हैं! प्रीमियम सदस्यता पर 50% छूट पाने के लिए, कोड का उपयोग करें: Lave-..."
+  },
+  "promo_discount_btn": {
+    "message": "रीडीम कोड"
+  },
+  "day_sun": {
+    "message": "सूरज"
+  },
+  "day_mon": {
+    "message": "सोमवार"
+  },
+  "day_tue": {
+    "message": "शाल"
+  },
+  "day_wed": {
+    "message": "ज़ार"
+  },
+  "day_thu": {
+    "message": "गुरु"
+  },
+  "day_fri": {
+    "message": "वीर्य"
+  },
+  "day_sat": {
+    "message": "बैठा"
+  },
+  "month_jan": {
+    "message": "जनवरी"
+  },
+  "month_feb": {
+    "message": "फ़रवरी"
+  },
+  "month_mar": {
+    "message": "मार्च"
+  },
+  "month_apr": {
+    "message": "अप्रैल"
+  },
+  "month_may": {
+    "message": "मई"
+  },
+  "month_jun": {
+    "message": "आनंद"
+  },
+  "month_jul": {
+    "message": "जुलाई"
+  },
+  "month_aug": {
+    "message": "हेमलोक"
+  },
+  "month_sep": {
+    "message": "सितम्बर"
+  },
+  "month_oct": {
+    "message": "अक्टूबर"
+  },
+  "month_nov": {
+    "message": "भौं"
+  },
+  "month_dec": {
+    "message": "खोज"
+  },
+  "time_hours": {
+    "message": "मानव संसाधन"
+  },
+  "time_minutes": {
+    "message": "मिन"
+  },
+  "time_seconds": {
+    "message": "सेकंड"
+  },
+  "appName": {
+    "message": "vAdBlock — सबसे अच्छा विज्ञापन अवरोधक"
+  }
+}

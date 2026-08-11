@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "攔截廣告和彈窗的終極擴充功能。攔截 Facebook、YouTube 和所有其他網站上的廣告。"
+  },
+  "appName": {
+    "message": "vAdBlock — 最好的廣告攔截器"
+  },
+  "cmd_toggle": {
+    "message": "切換保護"
+  },
+  "cmd_picker": {
+    "message": "啟動廣告選擇器"
+  },
+  "nav_stats": {
+    "message": "統計數據"
+  },
+  "nav_general": {
+    "message": "一般的"
+  },
+  "nav_protection": {
+    "message": "防護等級"
+  },
+  "nav_customize": {
+    "message": "客製化"
+  },
+  "nav_filters": {
+    "message": "過濾器"
+  },
+  "nav_support": {
+    "message": "支援"
+  },
+  "popup_unknown": {
+    "message": "未知"
+  },
+  "popup_blocked": {
+    "message": "被阻止："
+  },
+  "popup_protection_on": {
+    "message": "保護開啟"
+  },
+  "popup_protection_off": {
+    "message": "保護關閉"
+  },
+  "popup_menu_manual": {
+    "message": "手動屏蔽廣告"
+  },
+  "popup_menu_custom": {
+    "message": "我的私人區塊"
+  },
+  "popup_menu_diag": {
+    "message": "複製診斷訊息"
+  },
+  "popup_menu_clear": {
+    "message": "明確網站規則"
+  },
+  "pause_paused_state": {
+    "message": "暫停"
+  },
+  "pause_title": {
+    "message": "暫停"
+  },
+  "pause_min_unit": {
+    "message": "分分鐘"
+  },
+  "pause_sec_unit": {
+    "message": "秒"
+  },
+  "pause_site": {
+    "message": "在這個網站上"
+  },
+  "site_temp_30": {
+    "message": "關閉30分鐘"
+  },
+  "site_temp_120": {
+    "message": "關閉2小時"
+  },
+  "site_temp_0": {
+    "message": "重新開啟網站"
+  },
+  "site_temp_off_msg": {
+    "message": "網站已關閉 1 分鐘"
+  },
+  "site_temp_on_msg": {
+    "message": "該網站已重新開放"
+  },
+  "pause_toast": {
+    "message": "暫停 1 分鐘"
+  },
+  "pause_toast_resume": {
+    "message": "保護持續"
+  },
+  "chart_all": {
+    "message": "全部"
+  },
+  "chart_ads": {
+    "message": "廣告"
+  },
+  "chart_trackers": {
+    "message": "觀眾"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "其他"
+  },
+  "chart_7days": {
+    "message": "7天"
+  },
+  "chart_24h": {
+    "message": "24小時"
+  },
+  "chart_30d": {
+    "message": "30天"
+  },
+  "chart_1y": {
+    "message": "1年"
+  },
+  "rules_title": {
+    "message": "我的特殊規則"
+  },
+  "rules_empty": {
+    "message": "尚未新增特殊規則。"
+  },
+  "rules_global": {
+    "message": "全球的"
+  },
+  "rules_preview": {
+    "message": "預覽"
+  },
+  "rules_delete": {
+    "message": "刪除"
+  },
+  "toast_rules_cleared": {
+    "message": "$1 規則已清除。頁面正在刷新中..."
+  },
+  "toast_no_rules_site": {
+    "message": "該網站沒有任何規則"
+  },
+  "toast_protection_updated": {
+    "message": "保護等級已更新"
+  },
+  "toast_report_copied": {
+    "message": "診斷訊息複製到剪貼簿"
+  },
+  "toast_copy_failed": {
+    "message": "無法複製"
+  },
+  "toast_site_info_failed": {
+    "message": "無法取得網站資訊"
+  },
+  "toast_page_not_available": {
+    "message": "此頁面不可用（Chrome 保護）"
+  },
+  "toast_protection_on": {
+    "message": "保護：開"
+  },
+  "toast_protection_off": {
+    "message": "保護：關閉"
+  },
+  "toast_redirect": {
+    "message": "正在重定向..."
+  },
+  "report_title": {
+    "message": "診斷訊息"
+  },
+  "report_version": {
+    "message": "版本"
+  },
+  "report_page": {
+    "message": "頁"
+  },
+  "report_date": {
+    "message": "歷史"
+  },
+  "report_level": {
+    "message": "等級"
+  },
+  "footer_made_by": {
+    "message": "由萊夫製作"
+  },
+  "opt_stats_title": {
+    "message": "統計數據"
+  },
+  "opt_stats_subtitle": {
+    "message": "查看 vAdBlock 在背景運作的時間。"
+  },
+  "opt_stat_ads_7d": {
+    "message": "過去 7 天內被屏蔽的廣告"
+  },
+  "opt_stat_trackers": {
+    "message": "被阻止的資料收集器追蹤器"
+  },
+  "opt_stat_data": {
+    "message": "保存的數據"
+  },
+  "opt_stat_time": {
+    "message": "節省頁面載入時間"
+  },
+  "opt_report_title": {
+    "message": "每週報告"
+  },
+  "opt_report_total": {
+    "message": "被阻止的請求"
+  },
+  "opt_report_ads": {
+    "message": "廣告"
+  },
+  "opt_report_trackers": {
+    "message": "觀眾"
+  },
+  "opt_report_daily": {
+    "message": "日平均"
+  },
+  "opt_top_domains": {
+    "message": "最受封鎖的網站"
+  },
+  "opt_empty_data": {
+    "message": "還沒有數據。"
+  },
+  "opt_log_title": {
+    "message": "區塊日誌"
+  },
+  "opt_log_desc": {
+    "message": "最近 50 個被封鎖的請求（僅在此會話中）。"
+  },
+  "opt_log_search": {
+    "message": "搜尋：網域名稱或URL..."
+  },
+  "opt_log_export": {
+    "message": "匯出 CSV"
+  },
+  "opt_empty_log": {
+    "message": "還沒有阻止的請求。"
+  },
+  "opt_log_clear": {
+    "message": "清除日誌"
+  },
+  "opt_general_title": {
+    "message": "常規設定"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "允許一些非侵入性廣告"
+  },
+  "opt_context_menu": {
+    "message": "將 vAdBlock 選項新增至右鍵選單"
+  },
+  "opt_badge_count": {
+    "message": "顯示 vAdBlock 按鈕上封鎖的廣告數量"
+  },
+  "opt_dev_tools": {
+    "message": "在開發者工具中顯示「vAdBlock」面板"
+  },
+  "opt_promotions": {
+    "message": "允許 vAdBlock 偶爾顯示促銷訊息"
+  },
+  "opt_fingerprint": {
+    "message": "指紋保護（隱藏Canvas/WebGL硬體資訊）"
+  },
+  "opt_anti_adblock": {
+    "message": "隱藏「偵測到廣告攔截器」警告"
+  },
+  "opt_https": {
+    "message": "強制安全 (HTTPS) 連接"
+  },
+  "opt_webrtc": {
+    "message": "防止WebRTC IP位址洩露"
+  },
+  "opt_language_title": {
+    "message": "語言"
+  },
+  "opt_language_desc": {
+    "message": "選擇介面語言。自動選項使用瀏覽器語言。"
+  },
+  "opt_language_auto": {
+    "message": "自動（基於瀏覽器語言）"
+  },
+  "opt_language_tr": {
+    "message": "土耳其"
+  },
+  "opt_language_en": {
+    "message": "英語"
+  },
+  "opt_lang_auto": {
+    "message": "自動（瀏覽器語言）"
+  },
+  "opt_protection_title": {
+    "message": "防護等級"
+  },
+  "opt_protection_subtitle": {
+    "message": "選擇最適合您的網路瀏覽習慣的安全模式。"
+  },
+  "opt_mode_relaxed": {
+    "message": "舒適模式"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "阻止基本廣告。可能破壞網站的高級追蹤器和嚴格的過濾器已關閉。性能和相容性處於最高水平。"
+  },
+  "opt_mode_balanced": {
+    "message": "平衡模式（建議）"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "阻止大多數廣告和已知的資料收集器。非常適合日常網路使用，平滑保護，不影響效能。"
+  },
+  "opt_mode_strict": {
+    "message": "嚴格模式"
+  },
+  "opt_mode_strict_desc": {
+    "message": "最大程度的隱私！它操縱所有 GPC/DNT 訊號，擾亂指紋讀取器，並從根本上阻止攻擊性廣告網路。 （非常適合測試場地）"
+  },
+  "opt_customize_title": {
+    "message": "客製化"
+  },
+  "opt_customize_subtitle": {
+    "message": "完全根據您的需求自訂插件。"
+  },
+  "opt_allowlist_title": {
+    "message": "允許的網站（白名單）"
+  },
+  "opt_allowlist_desc": {
+    "message": "以下網站已停用廣告攔截。"
+  },
+  "opt_allowlist_placeholder": {
+    "message": "樣本網"
+  },
+  "opt_add": {
+    "message": "添加"
+  },
+  "opt_allowlist_empty": {
+    "message": "尚未新增任何站點。在上面新增域名。"
+  },
+  "opt_css_title": {
+    "message": "自訂 CSS 規則"
+  },
+  "opt_css_desc": {
+    "message": "針對進階使用者的特殊 CSS 隱藏規則。"
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "節省"
+  },
+  "opt_network_title": {
+    "message": "專用網路規則"
+  },
+  "opt_network_desc": {
+    "message": "每行一條規則。格式：||example.com^（封鎖）或@@||example.com^（允許）。"
+  },
+  "opt_backup_title": {
+    "message": "備份與復原"
+  },
+  "opt_backup_desc": {
+    "message": "匯出您的設定、允許的網站和自訂規則。"
+  },
+  "opt_export": {
+    "message": "下載備份"
+  },
+  "opt_import": {
+    "message": "恢復備份"
+  },
+  "opt_filters_title": {
+    "message": "過濾列表"
+  },
+  "opt_filters_subtitle": {
+    "message": "選擇要使用的篩選器清單並更新清單。"
+  },
+  "opt_filter_easylist_desc": {
+    "message": "主要廣告濾鏡 — 封鎖大多數廣告網路。"
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "阻止追蹤器和分析域。"
+  },
+  "opt_filter_adguard_desc": {
+    "message": "廣告伺服器和追蹤伺服器列表。"
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock 過濾器和隱私清單。"
+  },
+  "opt_update_title": {
+    "message": "更新清單"
+  },
+  "opt_update_desc": {
+    "message": "過濾器清單每周自動更新。最後更新："
+  },
+  "opt_update_btn": {
+    "message": "更新過濾器"
+  },
+  "opt_update_unknown": {
+    "message": "未知"
+  },
+  "opt_update_stale": {
+    "message": "⚠ 等待自動更新（1 天前）"
+  },
+  "opt_update_fresh": {
+    "message": "✓ 目前 · $1 天前更新"
+  },
+  "opt_update_first": {
+    "message": "等待第一次更新"
+  },
+  "opt_update_off": {
+    "message": "（關閉）"
+  },
+  "opt_update_running": {
+    "message": "更新中..."
+  },
+  "opt_update_done": {
+    "message": "名單已更新！"
+  },
+  "opt_update_error": {
+    "message": "更新失敗：$1"
+  },
+  "opt_support_title": {
+    "message": "支援"
+  },
+  "opt_support_subtitle": {
+    "message": "如果您有任何疑問或問題，請與我們聯絡。"
+  },
+  "opt_themes_title": {
+    "message": "主題"
+  },
+  "opt_themes_subtitle": {
+    "message": "個性化 vAdBlock 的外觀。體現您的風格。"
+  },
+  "theme_default": {
+    "message": "預設（明亮）"
+  },
+  "theme_dark": {
+    "message": "暗物質"
+  },
+  "theme_hover_preview": {
+    "message": "懸停預覽"
+  },
+  "opt_premium_title": {
+    "message": "進階過濾器"
+  },
+  "opt_premium_subtitle": {
+    "message": "最大化您的 vAdBlock 體驗。"
+  },
+  "opt_premium_focus_title": {
+    "message": "對焦模式"
+  },
+  "opt_premium_focus_desc": {
+    "message": "隱藏時事通訊發布、捲動影片和煩人的非廣告元素。"
+  },
+  "opt_premium_cookie_title": {
+    "message": "自動 Cookie 接受/拒絕"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "自動隱藏熱門網站上的 cookie 警告。"
+  },
+  "opt_premium_cookie2_title": {
+    "message": "自動接受 Cookie 同意"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "自動點選 cookie 通知上的「接受」按鈕。"
+  },
+  "opt_sponsor_skip_title": {
+    "message": "YouTube 贊助毛衣"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "它透過自動從字幕中偵測來跳過 YouTube 影片中的贊助商部分、片尾和互動呼叫。"
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium 已啟用！享受所有功能。"
+  },
+  "welcome_title": {
+    "message": "歡迎來到 vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock 現在就在您身邊。"
+  },
+  "welcome_premium_badge": {
+    "message": "✨ 高級版已激活"
+  },
+  "welcome_subtitle": {
+    "message": "您的網路體驗現在更加乾淨、更快、完全屬於您。"
+  },
+  "welcome_feat1_title": {
+    "message": "隱形防護"
+  },
+  "welcome_feat1_desc": {
+    "message": "當您瀏覽時，它會默默地阻止後台的所有追蹤器。"
+  },
+  "welcome_feat2_title": {
+    "message": "星速"
+  },
+  "welcome_feat2_desc": {
+    "message": "頁面會立即加載，因為不必要的內容會被封鎖。"
+  },
+  "welcome_feat3_title": {
+    "message": "進階過濾器"
+  },
+  "welcome_feat3_desc": {
+    "message": "它消除了普通廣告攔截器錯過的攻擊性廣告。"
+  },
+  "welcome_feat4_title": {
+    "message": "完全客製化"
+  },
+  "welcome_feat4_desc": {
+    "message": "從設定頁面管理規則和過濾等級。"
+  },
+  "welcome_btn": {
+    "message": "開始探索"
+  },
+  "ctx_block_element": {
+    "message": "使用 vAdBlock 封鎖此項目"
+  },
+  "picker_title": {
+    "message": "阻止一個項目"
+  },
+  "picker_subtitle": {
+    "message": "新增到lave規則"
+  },
+  "picker_expand": {
+    "message": "擴大選擇區域："
+  },
+  "picker_advanced": {
+    "message": "進階選項"
+  },
+  "picker_apply_all": {
+    "message": "在所有網站上套用該規則"
+  },
+  "picker_similar": {
+    "message": "也阻止類似的項目"
+  },
+  "picker_css_label": {
+    "message": "CSS 選擇器（進階）："
+  },
+  "picker_block": {
+    "message": "堵塞"
+  },
+  "picker_preview": {
+    "message": "預覽"
+  },
+  "picker_reselect": {
+    "message": "選擇不同的項目"
+  },
+  "picker_preview_title": {
+    "message": "預覽模式"
+  },
+  "picker_preview_desc": {
+    "message": "您選擇的項目已被隱藏。如果該圖像是您想要的，您可以永久阻止它。"
+  },
+  "picker_exit": {
+    "message": "出口"
+  },
+  "picker_cancel": {
+    "message": "取消 (ESC)"
+  },
+  "picker_saved": {
+    "message": "規則已儲存"
+  },
+  "picker_undo": {
+    "message": "撤銷"
+  },
+  "search_placeholder": {
+    "message": "搜尋：設定或章節名稱..."
+  },
+  "nav_themes": {
+    "message": "主題"
+  },
+  "nav_premium": {
+    "message": "進階過濾器"
+  },
+  "action_manual_block": {
+    "message": "手動屏蔽廣告"
+  },
+  "action_manage_rules": {
+    "message": "我的私人區塊"
+  },
+  "action_report": {
+    "message": "複製診斷訊息"
+  },
+  "action_clear_site": {
+    "message": "明確網站規則"
+  },
+  "tab_actions": {
+    "message": "行動"
+  },
+  "tab_stats": {
+    "message": "統計數據"
+  },
+  "popup_refresh": {
+    "message": "重新整理"
+  },
+  "popup_brand": {
+    "message": "廣告攔截器"
+  },
+  "popup_pause": {
+    "message": "暫停"
+  },
+  "pause_10": {
+    "message": "10分鐘"
+  },
+  "pause_30": {
+    "message": "30分鐘"
+  },
+  "pause_60": {
+    "message": "1小時"
+  },
+  "pause_300": {
+    "message": "5小時"
+  },
+  "pause_resume": {
+    "message": "恢復"
+  },
+  "popup_settings": {
+    "message": "設定"
+  },
+  "popup_total_blocked": {
+    "message": "封鎖總數："
+  },
+  "level_relaxed": {
+    "message": "舒服的"
+  },
+  "level_balanced": {
+    "message": "均衡"
+  },
+  "level_strict": {
+    "message": "緊的"
+  },
+  "premium_section": {
+    "message": "進階功能"
+  },
+  "pause_scope": {
+    "message": "應用領域"
+  },
+  "pause_site_only": {
+    "message": "就這個網站"
+  },
+  "pause_global": {
+    "message": "所有站點（全球）"
+  },
+  "lang_tr": {
+    "message": "土耳其"
+  },
+  "lang_en": {
+    "message": "英語"
+  },
+  "opt_faq_title": {
+    "message": "常見問題解答"
+  },
+  "opt_faq_1_q": {
+    "message": "該插件會阻止 YouTube 廣告嗎？"
+  },
+  "opt_faq_1_a": {
+    "message": "是的，vAdBlock 透過特殊演算法自動封鎖並跳過 YouTube 影片內廣告。"
+  },
+  "opt_faq_2_q": {
+    "message": "有些網站似乎損壞了，我該怎麼辦？"
+  },
+  "opt_faq_2_a": {
+    "message": "如果某個網站無法正常運作，您可以從外掛程式視窗（白名單）暫停對該網站的保護。"
+  },
+  "opt_contact_title": {
+    "message": "聯絡我們"
+  },
+  "opt_contact_desc": {
+    "message": "如需錯誤回報、回饋或新功能請求，請造訪我們的 GitHub 頁面。"
+  },
+  "opt_contact_btn": {
+    "message": "GitHub 上的評論"
+  },
+  "popup_paused_site": {
+    "message": "本網站已暫停"
+  },
+  "opt_update_success": {
+    "message": "GUI 已更新且篩選器已同步！"
+  },
+  "global_temp_off_msg": {
+    "message": "所有網站暫停 1 分鐘"
+  },
+  "nav_sponsor": {
+    "message": "贊助跳躍"
+  },
+  "popup_add_segment": {
+    "message": "報告贊助區"
+  },
+  "popup_sponsor_skipped": {
+    "message": "錯過的贊助商"
+  },
+  "popup_waiting": {
+    "message": "預期的..."
+  },
+  "sb_skip_sponsor": {
+    "message": "跳過贊助商"
+  },
+  "sb_segment_add": {
+    "message": "馬克贊助商"
+  },
+  "sb_set_times": {
+    "message": "設定時間，然後選擇您的類型："
+  },
+  "sb_start": {
+    "message": "開始"
+  },
+  "sb_end": {
+    "message": "結束"
+  },
+  "sb_select_type": {
+    "message": "選擇類型："
+  },
+  "sb_cancel": {
+    "message": "取消"
+  },
+  "sb_submit": {
+    "message": "傳送"
+  },
+  "sb_submitted": {
+    "message": "您的貢獻已發送"
+  },
+  "sb_submit_failed": {
+    "message": "發送失敗－無法存取伺服器"
+  },
+  "sb_skipped": {
+    "message": "跳過"
+  },
+  "sb_manual_skipped": {
+    "message": "手動跳過"
+  },
+  "sb_time_saved": {
+    "message": "賺取 1 秒"
+  },
+  "sb_total": {
+    "message": "全部的："
+  },
+  "sb_cat_sponsor": {
+    "message": "贊助"
+  },
+  "sb_cat_selfpromo": {
+    "message": "自我推銷"
+  },
+  "sb_cat_interaction": {
+    "message": "交互作用"
+  },
+  "sb_cat_intro": {
+    "message": "簡介"
+  },
+  "sb_cat_outro": {
+    "message": "尾聲"
+  },
+  "sb_cat_preview": {
+    "message": "預覽"
+  },
+  "sb_cat_music": {
+    "message": "非音樂"
+  },
+  "sb_hours": {
+    "message": "小時"
+  },
+  "sb_minutes": {
+    "message": "分分鐘"
+  },
+  "sb_seconds": {
+    "message": "秒"
+  },
+  "opt_saved": {
+    "message": "得救了！"
+  },
+  "opt_restored": {
+    "message": "恢復了！"
+  },
+  "opt_remove": {
+    "message": "消除"
+  },
+  "opt_sb_title": {
+    "message": "贊助跳躍"
+  },
+  "opt_sb_subtitle": {
+    "message": "透過跳過 YouTube 影片中的贊助、介紹和不必要的部分來節省時間。"
+  },
+  "opt_sb_general": {
+    "message": "▶ 常規設定"
+  },
+  "opt_sb_general_desc": {
+    "message": "確定申辦者旁路系統的基本操作。"
+  },
+  "opt_sb_enable": {
+    "message": "啟用贊助商跳過"
+  },
+  "opt_sb_enable_desc": {
+    "message": "所有跳躍功能的主開關。"
+  },
+  "opt_sb_auto": {
+    "message": "自動跳過"
+  },
+  "opt_sb_auto_desc": {
+    "message": "當這一集到來時，他沒有問就直接跳進去。 （如果關閉，則會出現「跳過」按鈕）"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 類別設置"
+  },
+  "opt_sb_categories_desc": {
+    "message": "一一確定在哪些類型的段落中要做什麼。"
+  },
+  "opt_sb_contribute": {
+    "message": "♥ 為社區做出貢獻"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "您可以透過選擇廣告或影片中不需要的區域並將其發送到資料庫來幫助其他用戶。"
+  },
+  "opt_sb_show_add": {
+    "message": "顯示贊助商報告按鈕"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "在影片播放器上開啟贊助商域報告 (AI) 介面。"
+  },
+  "opt_sb_api": {
+    "message": "私有API位址"
+  },
+  "opt_sb_api_desc": {
+    "message": "伺服器連接發送和接收資料。 （發達）"
+  },
+  "opt_sb_auto_skip": {
+    "message": "自動跳過"
+  },
+  "opt_sb_btn_show": {
+    "message": "顯示按鈕"
+  },
+  "opt_sb_disabled": {
+    "message": "殘障人士"
+  },
+  "toast_refresh_youtube": {
+    "message": "刷新 YouTube 頁面。"
+  },
+  "toast_youtube_only": {
+    "message": "此功能僅適用於 YouTube 影片。"
+  },
+  "promo_rate_title": {
+    "message": "⭐ 你喜歡 vAdBlock 嗎？"
+  },
+  "promo_rate_desc": {
+    "message": "您可以給我們 5 顆星來支持我們，以便我們不斷進步！"
+  },
+  "promo_rate_btn": {
+    "message": "評價"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock 進階版"
+  },
+  "promo_premium_desc": {
+    "message": "您想透過購買高級訂閱來享受 100% 的隱私和額外功能嗎？"
+  },
+  "promo_premium_btn": {
+    "message": "審查"
+  },
+  "promo_discount_title": {
+    "message": "🎁特別折扣給你！"
+  },
+  "promo_discount_desc": {
+    "message": "你已經和我們在一起很久了！要獲得高級會員 50% 的折扣，請使用代碼：lave-..."
+  },
+  "promo_discount_btn": {
+    "message": "兌換代碼"
+  },
+  "day_sun": {
+    "message": "太陽"
+  },
+  "day_mon": {
+    "message": "週一"
+  },
+  "day_tue": {
+    "message": "披肩"
+  },
+  "day_wed": {
+    "message": "沙皇"
+  },
+  "day_thu": {
+    "message": "星期四"
+  },
+  "day_fri": {
+    "message": "暨"
+  },
+  "day_sat": {
+    "message": "星期六"
+  },
+  "month_jan": {
+    "message": "一月"
+  },
+  "month_feb": {
+    "message": "二月"
+  },
+  "month_mar": {
+    "message": "三月"
+  },
+  "month_apr": {
+    "message": "四月"
+  },
+  "month_may": {
+    "message": "可能"
+  },
+  "month_jun": {
+    "message": "樂趣"
+  },
+  "month_jul": {
+    "message": "七月"
+  },
+  "month_aug": {
+    "message": "鐵杉"
+  },
+  "month_sep": {
+    "message": "九月"
+  },
+  "month_oct": {
+    "message": "十月"
+  },
+  "month_nov": {
+    "message": "眉"
+  },
+  "month_dec": {
+    "message": "搜尋"
+  },
+  "time_hours": {
+    "message": "小時"
+  },
+  "time_minutes": {
+    "message": "分分鐘"
+  },
+  "time_seconds": {
+    "message": "秒"
+  }
+}

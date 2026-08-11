@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "অ্যাড এবং পপ-আপ ব্লক করার জন্য সেরা এক্সটেনশন। Facebook, YouTube এবং অন্যান্য সব ওয়েবসাইটে অ্যাড ব্লক করে।"
+  },
+  "appName": {
+    "message": "vAdBlock — সেরা অ্যাড ব্লকার"
+  },
+  "cmd_toggle": {
+    "message": "টগল সুরক্ষা"
+  },
+  "cmd_picker": {
+    "message": "বিজ্ঞাপন নির্বাচক চালু করুন"
+  },
+  "nav_stats": {
+    "message": "পরিসংখ্যান"
+  },
+  "nav_general": {
+    "message": "সাধারণ"
+  },
+  "nav_protection": {
+    "message": "সুরক্ষা স্তর"
+  },
+  "nav_customize": {
+    "message": "কাস্টমাইজ"
+  },
+  "nav_filters": {
+    "message": "ফিল্টার"
+  },
+  "nav_support": {
+    "message": "সমর্থন"
+  },
+  "popup_unknown": {
+    "message": "অজানা"
+  },
+  "popup_blocked": {
+    "message": "অবরুদ্ধ:"
+  },
+  "popup_protection_on": {
+    "message": "সুরক্ষা চালু"
+  },
+  "popup_protection_off": {
+    "message": "সুরক্ষা বন্ধ"
+  },
+  "popup_menu_manual": {
+    "message": "ম্যানুয়ালি বিজ্ঞাপন ব্লক করুন"
+  },
+  "popup_menu_custom": {
+    "message": "আমার ব্যক্তিগত ব্লক"
+  },
+  "popup_menu_diag": {
+    "message": "ডায়াগনস্টিক তথ্য অনুলিপি করুন"
+  },
+  "popup_menu_clear": {
+    "message": "সাইটের নিয়ম পরিষ্কার করুন"
+  },
+  "pause_paused_state": {
+    "message": "বিরতি দেওয়া"
+  },
+  "pause_title": {
+    "message": "বিরতি"
+  },
+  "pause_min_unit": {
+    "message": "মিনিট"
+  },
+  "pause_sec_unit": {
+    "message": "সেকেন্ড"
+  },
+  "pause_site": {
+    "message": "এই সাইটে"
+  },
+  "site_temp_30": {
+    "message": "30 মিনিটের জন্য বন্ধ করুন"
+  },
+  "site_temp_120": {
+    "message": "2 ঘন্টা বন্ধ"
+  },
+  "site_temp_0": {
+    "message": "সাইটটি আবার খুলুন"
+  },
+  "site_temp_off_msg": {
+    "message": "এই সাইটটি $1 মিনিটের জন্য বন্ধ ছিল"
+  },
+  "site_temp_on_msg": {
+    "message": "এই সাইট আবার খোলা হয়"
+  },
+  "pause_toast": {
+    "message": "$1 মিনিট বিরতি দেওয়া হয়েছে৷"
+  },
+  "pause_toast_resume": {
+    "message": "সুরক্ষা অব্যাহত"
+  },
+  "chart_all": {
+    "message": "সব"
+  },
+  "chart_ads": {
+    "message": "বিজ্ঞাপন"
+  },
+  "chart_trackers": {
+    "message": "দর্শক"
+  },
+  "chart_cdn": {
+    "message": "সিডিএন"
+  },
+  "chart_other": {
+    "message": "অন্যান্য"
+  },
+  "chart_7days": {
+    "message": "7 দিন"
+  },
+  "chart_24h": {
+    "message": "24 ঘন্টা"
+  },
+  "chart_30d": {
+    "message": "30 দিন"
+  },
+  "chart_1y": {
+    "message": "1 বছর"
+  },
+  "rules_title": {
+    "message": "আমার বিশেষ নিয়ম"
+  },
+  "rules_empty": {
+    "message": "কোন বিশেষ নিয়ম এখনো যোগ করা হয়নি."
+  },
+  "rules_global": {
+    "message": "গ্লোবাল"
+  },
+  "rules_preview": {
+    "message": "পূর্বরূপ"
+  },
+  "rules_delete": {
+    "message": "মুছে দিন"
+  },
+  "toast_rules_cleared": {
+    "message": "$1 নিয়ম সাফ করা হয়েছে। পৃষ্ঠাটি রিফ্রেশ হচ্ছে..."
+  },
+  "toast_no_rules_site": {
+    "message": "এই সাইটে কোন নিয়ম নেই"
+  },
+  "toast_protection_updated": {
+    "message": "সুরক্ষা স্তর আপডেট করা হয়েছে"
+  },
+  "toast_report_copied": {
+    "message": "ডায়াগনস্টিক তথ্য ক্লিপবোর্ডে অনুলিপি করা হয়েছে"
+  },
+  "toast_copy_failed": {
+    "message": "কপি করা যায়নি"
+  },
+  "toast_site_info_failed": {
+    "message": "সাইটের তথ্য পাওয়া যায়নি"
+  },
+  "toast_page_not_available": {
+    "message": "এই পৃষ্ঠায় উপলব্ধ নয় (Chrome সুরক্ষা)"
+  },
+  "toast_protection_on": {
+    "message": "সুরক্ষা: চালু"
+  },
+  "toast_protection_off": {
+    "message": "সুরক্ষা: বন্ধ"
+  },
+  "toast_redirect": {
+    "message": "পুনঃনির্দেশ করা হচ্ছে..."
+  },
+  "report_title": {
+    "message": "ডায়াগনস্টিক তথ্য"
+  },
+  "report_version": {
+    "message": "সংস্করণ"
+  },
+  "report_page": {
+    "message": "পাতা"
+  },
+  "report_date": {
+    "message": "ইতিহাস"
+  },
+  "report_level": {
+    "message": "স্তর"
+  },
+  "footer_made_by": {
+    "message": "লাভ দ্বারা তৈরি"
+  },
+  "opt_stats_title": {
+    "message": "পরিসংখ্যান"
+  },
+  "opt_stats_subtitle": {
+    "message": "পটভূমিতে vAdBlock কতক্ষণ চলছে তা দেখুন।"
+  },
+  "opt_stat_ads_7d": {
+    "message": "বিজ্ঞাপন গত 7 দিনে ব্লক করা হয়েছে"
+  },
+  "opt_stat_trackers": {
+    "message": "ব্লক করা তথ্য সংগ্রহকারী ট্র্যাকার"
+  },
+  "opt_stat_data": {
+    "message": "সংরক্ষিত ডেটা"
+  },
+  "opt_stat_time": {
+    "message": "পৃষ্ঠা লোডের সময় সংরক্ষণ করা হয়"
+  },
+  "opt_report_title": {
+    "message": "সাপ্তাহিক প্রতিবেদন"
+  },
+  "opt_report_total": {
+    "message": "অবরুদ্ধ অনুরোধ"
+  },
+  "opt_report_ads": {
+    "message": "বিজ্ঞাপন"
+  },
+  "opt_report_trackers": {
+    "message": "শ্রোতা"
+  },
+  "opt_report_daily": {
+    "message": "দৈনিক গড়"
+  },
+  "opt_top_domains": {
+    "message": "সর্বাধিক অবরুদ্ধ সাইট"
+  },
+  "opt_empty_data": {
+    "message": "এখনো কোনো তথ্য নেই।"
+  },
+  "opt_log_title": {
+    "message": "ব্লক লগ"
+  },
+  "opt_log_desc": {
+    "message": "শেষ 50টি ব্লক করা অনুরোধ (শুধুমাত্র এই সেশনে)।"
+  },
+  "opt_log_search": {
+    "message": "অনুসন্ধান করুন: ডোমেন নাম বা URL..."
+  },
+  "opt_log_export": {
+    "message": "CSV রপ্তানি করুন"
+  },
+  "opt_empty_log": {
+    "message": "এখনও অবরুদ্ধ কোনো অনুরোধ নেই."
+  },
+  "opt_log_clear": {
+    "message": "সাফ লগ"
+  },
+  "opt_general_title": {
+    "message": "সাধারণ সেটিংস"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "কিছু অ-অনুপ্রবেশকারী বিজ্ঞাপনের অনুমতি দিন"
+  },
+  "opt_context_menu": {
+    "message": "ডান-ক্লিক মেনুতে vAdBlock বিকল্প যোগ করুন"
+  },
+  "opt_badge_count": {
+    "message": "vAdBlock বোতামে কতগুলি বিজ্ঞাপন ব্লক করা হয়েছে তা দেখান"
+  },
+  "opt_dev_tools": {
+    "message": "ডেভেলপার টুলে 'vAdBlock' প্যানেল দেখান"
+  },
+  "opt_promotions": {
+    "message": "vAdBlock কে মাঝে মাঝে প্রচারমূলক বার্তা দেখানোর অনুমতি দিন"
+  },
+  "opt_fingerprint": {
+    "message": "আঙুলের ছাপ সুরক্ষা (ক্যানভাস/ওয়েবজিএল হার্ডওয়্যার তথ্য লুকান)"
+  },
+  "opt_anti_adblock": {
+    "message": "\"বিজ্ঞাপন ব্লকার সনাক্ত করা হয়েছে\" সতর্কতা লুকান"
+  },
+  "opt_https": {
+    "message": "ফোর্স সিকিউর (HTTPS) সংযোগ"
+  },
+  "opt_webrtc": {
+    "message": "WebRTC IP ঠিকানা ফাঁস প্রতিরোধ করুন"
+  },
+  "opt_language_title": {
+    "message": "ভাষা"
+  },
+  "opt_language_desc": {
+    "message": "ইন্টারফেসের ভাষা নির্বাচন করুন। স্বয়ংক্রিয় বিকল্পটি ব্রাউজারের ভাষা ব্যবহার করে।"
+  },
+  "opt_language_auto": {
+    "message": "স্বয়ংক্রিয় (ব্রাউজারের ভাষার উপর ভিত্তি করে)"
+  },
+  "opt_language_tr": {
+    "message": "তুর্কি"
+  },
+  "opt_language_en": {
+    "message": "ইংরেজি"
+  },
+  "opt_lang_auto": {
+    "message": "স্বয়ংক্রিয় (ব্রাউজারের ভাষা)"
+  },
+  "opt_protection_title": {
+    "message": "সুরক্ষা স্তর"
+  },
+  "opt_protection_subtitle": {
+    "message": "আপনার ইন্টারনেট ব্রাউজিং অভ্যাস সবচেয়ে উপযুক্ত নিরাপত্তা মোড চয়ন করুন."
+  },
+  "opt_mode_relaxed": {
+    "message": "আরাম মোড"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "মৌলিক বিজ্ঞাপন ব্লক করে। উন্নত ট্র্যাকার এবং কঠোর ফিল্টার যা সাইটটি ভেঙে দিতে পারে সেগুলি বন্ধ করা হয়েছে৷ কর্মক্ষমতা এবং সামঞ্জস্য সর্বোচ্চ স্তরে আছে."
+  },
+  "opt_mode_balanced": {
+    "message": "ব্যালেন্সড মোড (প্রস্তাবিত)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "বেশিরভাগ বিজ্ঞাপন এবং পরিচিত ডেটা সংগ্রহকারীদের ব্লক করে। দৈনন্দিন ইন্টারনেট ব্যবহারের জন্য আদর্শ, মসৃণ সুরক্ষা যা কর্মক্ষমতা প্রভাবিত করে না।"
+  },
+  "opt_mode_strict": {
+    "message": "কঠোর মোড"
+  },
+  "opt_mode_strict_desc": {
+    "message": "সর্বোচ্চ গোপনীয়তা! এটি সমস্ত জিপিসি/ডিএনটি সংকেত পরিচালনা করে, ফিঙ্গারপ্রিন্ট পাঠকদের ব্যাহত করে এবং তাদের মূলে আক্রমণাত্মক বিজ্ঞাপন নেটওয়ার্কগুলিকে ব্লক করে। (পরীক্ষা সাইটের জন্য আদর্শ)"
+  },
+  "opt_customize_title": {
+    "message": "কাস্টমাইজ"
+  },
+  "opt_customize_subtitle": {
+    "message": "প্লাগইনটি আপনার প্রয়োজন অনুসারে ঠিক করুন।"
+  },
+  "opt_allowlist_title": {
+    "message": "অনুমোদিত সাইট (অনুমোদিত তালিকা)"
+  },
+  "opt_allowlist_desc": {
+    "message": "নিম্নলিখিত সাইটে বিজ্ঞাপন ব্লকিং অক্ষম করা হয়েছে।"
+  },
+  "opt_allowlist_placeholder": {
+    "message": "sample.com"
+  },
+  "opt_add": {
+    "message": "যোগ করুন"
+  },
+  "opt_allowlist_empty": {
+    "message": "কোন সাইট এখনো যোগ করা হয়নি. উপরে একটি ডোমেইন নাম যোগ করুন."
+  },
+  "opt_css_title": {
+    "message": "কাস্টম সিএসএস নিয়ম"
+  },
+  "opt_css_desc": {
+    "message": "উন্নত ব্যবহারকারীদের জন্য বিশেষ CSS লুকানোর নিয়ম।"
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "সংরক্ষণ করুন"
+  },
+  "opt_network_title": {
+    "message": "প্রাইভেট নেটওয়ার্কের নিয়ম"
+  },
+  "opt_network_desc": {
+    "message": "প্রতি লাইনে একটি নিয়ম। ফর্ম্যাট: ||example.com^ (ব্লক) বা @@||example.com^ (অনুমতি দিন)।"
+  },
+  "opt_backup_title": {
+    "message": "ব্যাকআপ এবং পুনরুদ্ধার করুন"
+  },
+  "opt_backup_desc": {
+    "message": "আপনার সেটিংস, অনুমোদিত সাইট এবং কাস্টম নিয়ম রপ্তানি করুন।"
+  },
+  "opt_export": {
+    "message": "ব্যাকআপ ডাউনলোড করুন"
+  },
+  "opt_import": {
+    "message": "ব্যাকআপ পুনরুদ্ধার করুন"
+  },
+  "opt_filters_title": {
+    "message": "ফিল্টার তালিকা"
+  },
+  "opt_filters_subtitle": {
+    "message": "কোন ফিল্টার তালিকাগুলি ব্যবহার করতে হবে তা চয়ন করুন এবং তালিকাগুলি আপডেট করুন৷"
+  },
+  "opt_filter_easylist_desc": {
+    "message": "প্রধান বিজ্ঞাপন ফিল্টার - বেশিরভাগ বিজ্ঞাপন নেটওয়ার্ক ব্লক করে।"
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "ট্র্যাকার এবং বিশ্লেষণ ডোমেন ব্লক করে।"
+  },
+  "opt_filter_adguard_desc": {
+    "message": "বিজ্ঞাপন সার্ভার এবং ট্র্যাকিং সার্ভার তালিকা."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock ফিল্টার এবং গোপনীয়তা তালিকা।"
+  },
+  "opt_update_title": {
+    "message": "তালিকা আপডেট করুন"
+  },
+  "opt_update_desc": {
+    "message": "ফিল্টার তালিকা স্বয়ংক্রিয়ভাবে সাপ্তাহিক আপডেট হয়. শেষ আপডেট:"
+  },
+  "opt_update_btn": {
+    "message": "ফিল্টার আপডেট করুন"
+  },
+  "opt_update_unknown": {
+    "message": "অজানা"
+  },
+  "opt_update_stale": {
+    "message": "⚠ স্বয়ংক্রিয় আপডেট মুলতুবি ($1 দিন আগে)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ বর্তমান · $1 দিন আগে আপডেট করা হয়েছে"
+  },
+  "opt_update_first": {
+    "message": "প্রথম আপডেট প্রতীক্ষিত"
+  },
+  "opt_update_off": {
+    "message": "(বন্ধ)"
+  },
+  "opt_update_running": {
+    "message": "আপডেট হচ্ছে..."
+  },
+  "opt_update_done": {
+    "message": "তালিকা আপডেট করা হয়েছে!"
+  },
+  "opt_update_error": {
+    "message": "আপডেট ব্যর্থ হয়েছে: $1"
+  },
+  "opt_support_title": {
+    "message": "সমর্থন"
+  },
+  "opt_support_subtitle": {
+    "message": "আপনার কোন প্রশ্ন বা সমস্যা থাকলে আমাদের সাথে যোগাযোগ করুন।"
+  },
+  "opt_themes_title": {
+    "message": "থিম"
+  },
+  "opt_themes_subtitle": {
+    "message": "vAdBlock এর চেহারা ব্যক্তিগতকৃত করুন। আপনার শৈলী প্রতিফলিত."
+  },
+  "theme_default": {
+    "message": "ডিফল্ট (উজ্জ্বল)"
+  },
+  "theme_dark": {
+    "message": "ডার্ক ম্যাটার"
+  },
+  "theme_hover_preview": {
+    "message": "পূর্বরূপ দেখতে হোভার করুন"
+  },
+  "opt_premium_title": {
+    "message": "প্রিমিয়াম ফিল্টার"
+  },
+  "opt_premium_subtitle": {
+    "message": "আপনার vAdBlock অভিজ্ঞতা সর্বাধিক করুন।"
+  },
+  "opt_premium_focus_title": {
+    "message": "ফোকাস মোড"
+  },
+  "opt_premium_focus_desc": {
+    "message": "নিউজলেটার লঞ্চ, স্ক্রলিং ভিডিও এবং বিরক্তিকর অ-বিজ্ঞাপন উপাদান লুকান।"
+  },
+  "opt_premium_cookie_title": {
+    "message": "স্বয়ংক্রিয় কুকি গ্রহণ/প্রত্যাখ্যান"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "জনপ্রিয় সাইটগুলিতে স্বয়ংক্রিয়ভাবে কুকি সতর্কতা লুকান৷"
+  },
+  "opt_premium_cookie2_title": {
+    "message": "স্বয়ংক্রিয়ভাবে কুকি সম্মতি গ্রহণ করুন"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "কুকি বিজ্ঞপ্তিতে স্বয়ংক্রিয়ভাবে \"স্বীকার করুন\" বোতামে ক্লিক করে।"
+  },
+  "opt_sponsor_skip_title": {
+    "message": "ইউটিউব স্পনসর জাম্পার"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "এটি সাবটাইটেল থেকে স্বয়ংক্রিয়ভাবে সনাক্ত করে YouTube ভিডিওতে স্পনসর বিভাগ, আউটরো এবং ইন্টারঅ্যাকশন কলগুলি এড়িয়ে যায়।"
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock প্রিমিয়াম সক্রিয়! সমস্ত বৈশিষ্ট্য উপভোগ করুন."
+  },
+  "welcome_title": {
+    "message": "vAdBlock এ স্বাগতম"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock এখন আপনার সাথে আছে।"
+  },
+  "welcome_premium_badge": {
+    "message": "✨ প্রিমিয়াম সংস্করণ সক্রিয়"
+  },
+  "welcome_subtitle": {
+    "message": "আপনার ইন্টারনেট অভিজ্ঞতা এখন অনেক পরিষ্কার, দ্রুত এবং সম্পূর্ণ আপনার।"
+  },
+  "welcome_feat1_title": {
+    "message": "অদৃশ্য সুরক্ষা"
+  },
+  "welcome_feat1_desc": {
+    "message": "আপনি ব্রাউজ করার সময় এটি নিঃশব্দে পটভূমিতে সমস্ত ট্র্যাকারকে ব্লক করে।"
+  },
+  "welcome_feat2_title": {
+    "message": "স্টার স্পিড"
+  },
+  "welcome_feat2_desc": {
+    "message": "পৃষ্ঠাগুলি অবিলম্বে লোড হয় কারণ অপ্রয়োজনীয় সামগ্রী ব্লক করা হয়৷"
+  },
+  "welcome_feat3_title": {
+    "message": "উন্নত ফিল্টার"
+  },
+  "welcome_feat3_desc": {
+    "message": "এটি আক্রমণাত্মক বিজ্ঞাপনগুলিকে সরিয়ে দেয় যা সাধারণ বিজ্ঞাপন ব্লকাররা মিস করে।"
+  },
+  "welcome_feat4_title": {
+    "message": "সম্পূর্ণ কাস্টমাইজেশন"
+  },
+  "welcome_feat4_desc": {
+    "message": "সেটিংস পৃষ্ঠা থেকে নিয়ম এবং ফিল্টার স্তর পরিচালনা করুন।"
+  },
+  "welcome_btn": {
+    "message": "অন্বেষণ শুরু করুন"
+  },
+  "ctx_block_element": {
+    "message": "vAdBlock দিয়ে এই আইটেমটিকে ব্লক করুন"
+  },
+  "picker_title": {
+    "message": "একটি আইটেম ব্লক করুন"
+  },
+  "picker_subtitle": {
+    "message": "lave নিয়ম যোগ করুন"
+  },
+  "picker_expand": {
+    "message": "নির্বাচন এলাকা প্রসারিত করুন:"
+  },
+  "picker_advanced": {
+    "message": "উন্নত বিকল্প"
+  },
+  "picker_apply_all": {
+    "message": "সমস্ত সাইটে নিয়ম প্রয়োগ করুন"
+  },
+  "picker_similar": {
+    "message": "এছাড়াও অনুরূপ আইটেম ব্লক"
+  },
+  "picker_css_label": {
+    "message": "CSS নির্বাচক (উন্নত):"
+  },
+  "picker_block": {
+    "message": "ব্লক"
+  },
+  "picker_preview": {
+    "message": "পূর্বরূপ"
+  },
+  "picker_reselect": {
+    "message": "একটি ভিন্ন আইটেম চয়ন করুন"
+  },
+  "picker_preview_title": {
+    "message": "প্রিভিউ মোড"
+  },
+  "picker_preview_desc": {
+    "message": "আপনার নির্বাচিত আইটেম লুকানো হয়েছে. ছবিটি যদি আপনি চান তবে আপনি এটিকে স্থায়ীভাবে ব্লক করতে পারেন।"
+  },
+  "picker_exit": {
+    "message": "প্রস্থান করুন"
+  },
+  "picker_cancel": {
+    "message": "বাতিল (ESC)"
+  },
+  "picker_saved": {
+    "message": "নিয়ম সংরক্ষিত"
+  },
+  "picker_undo": {
+    "message": "পূর্বাবস্থা"
+  },
+  "search_placeholder": {
+    "message": "অনুসন্ধান করুন: সেটিং বা অধ্যায়ের নাম..."
+  },
+  "nav_themes": {
+    "message": "থিম"
+  },
+  "nav_premium": {
+    "message": "প্রিমিয়াম ফিল্টার"
+  },
+  "action_manual_block": {
+    "message": "ম্যানুয়ালি বিজ্ঞাপন ব্লক করুন"
+  },
+  "action_manage_rules": {
+    "message": "আমার ব্যক্তিগত ব্লক"
+  },
+  "action_report": {
+    "message": "ডায়াগনস্টিক তথ্য অনুলিপি করুন"
+  },
+  "action_clear_site": {
+    "message": "সাইটের নিয়ম পরিষ্কার করুন"
+  },
+  "tab_actions": {
+    "message": "কর্ম"
+  },
+  "tab_stats": {
+    "message": "পরিসংখ্যান"
+  },
+  "popup_refresh": {
+    "message": "রিফ্রেশ"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "বিরতি"
+  },
+  "pause_10": {
+    "message": "10 মিনিট"
+  },
+  "pause_30": {
+    "message": "30 মিনিট"
+  },
+  "pause_60": {
+    "message": "1 ঘন্টা"
+  },
+  "pause_300": {
+    "message": "5 ঘন্টা"
+  },
+  "pause_resume": {
+    "message": "পুনরায় শুরু"
+  },
+  "popup_settings": {
+    "message": "সেটিংস"
+  },
+  "popup_total_blocked": {
+    "message": "মোট অবরুদ্ধ:"
+  },
+  "level_relaxed": {
+    "message": "আরামদায়ক"
+  },
+  "level_balanced": {
+    "message": "সুষম"
+  },
+  "level_strict": {
+    "message": "টাইট"
+  },
+  "premium_section": {
+    "message": "প্রিমিয়াম বৈশিষ্ট্য"
+  },
+  "pause_scope": {
+    "message": "আবেদন এলাকা"
+  },
+  "pause_site_only": {
+    "message": "শুধু এই সাইট"
+  },
+  "pause_global": {
+    "message": "সমস্ত সাইট (গ্লোবাল)"
+  },
+  "lang_tr": {
+    "message": "তুর্কি"
+  },
+  "lang_en": {
+    "message": "ইংরেজি"
+  },
+  "opt_faq_title": {
+    "message": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী"
+  },
+  "opt_faq_1_q": {
+    "message": "প্লাগইন কি YouTube বিজ্ঞাপন ব্লক করে?"
+  },
+  "opt_faq_1_a": {
+    "message": "হ্যাঁ, vAdBlock স্বয়ংক্রিয়ভাবে বিশেষ অ্যালগরিদম সহ YouTube ইন-ভিডিও বিজ্ঞাপনগুলিকে ব্লক করে এবং এড়িয়ে যায়৷"
+  },
+  "opt_faq_2_q": {
+    "message": "কিছু সাইট ভাঙ্গা মনে হচ্ছে, আমি কি করব?"
+  },
+  "opt_faq_2_a": {
+    "message": "যদি একটি সাইট সঠিকভাবে কাজ না করে, তাহলে আপনি প্লাগইন উইন্ডো (অনুমোদিত তালিকা) থেকে সেই সাইটের সুরক্ষা বিরাম দিতে পারেন।"
+  },
+  "opt_contact_title": {
+    "message": "আমাদের সাথে যোগাযোগ করুন"
+  },
+  "opt_contact_desc": {
+    "message": "বাগ রিপোর্ট, প্রতিক্রিয়া, বা নতুন বৈশিষ্ট্য অনুরোধের জন্য, আমাদের GitHub পৃষ্ঠা দেখুন।"
+  },
+  "opt_contact_btn": {
+    "message": "GitHub এ পর্যালোচনা করুন"
+  },
+  "popup_paused_site": {
+    "message": "এই সাইটে বিরাম দেওয়া হয়েছে"
+  },
+  "opt_update_success": {
+    "message": "GUI আপডেট করা হয়েছে এবং ফিল্টার সিঙ্ক করা হয়েছে!"
+  },
+  "global_temp_off_msg": {
+    "message": "সমস্ত সাইটে $1 মিনিট বিরতি দেওয়া হয়েছে৷"
+  },
+  "nav_sponsor": {
+    "message": "স্পন্সর জাম্প"
+  },
+  "popup_add_segment": {
+    "message": "রিপোর্ট স্পন্সর এলাকা"
+  },
+  "popup_sponsor_skipped": {
+    "message": "মিস স্পনসর"
+  },
+  "popup_waiting": {
+    "message": "প্রত্যাশিত..."
+  },
+  "sb_skip_sponsor": {
+    "message": "স্পনসর এড়িয়ে যান"
+  },
+  "sb_segment_add": {
+    "message": "মার্ক স্পনসর"
+  },
+  "sb_set_times": {
+    "message": "সময় সেট করুন, তারপর আপনার প্রকার চয়ন করুন:"
+  },
+  "sb_start": {
+    "message": "শুরু"
+  },
+  "sb_end": {
+    "message": "শেষ করুন"
+  },
+  "sb_select_type": {
+    "message": "প্রকার নির্বাচন করুন:"
+  },
+  "sb_cancel": {
+    "message": "বাতিল করুন"
+  },
+  "sb_submit": {
+    "message": "পাঠান"
+  },
+  "sb_submitted": {
+    "message": "আপনার অবদান পাঠানো হয়েছে"
+  },
+  "sb_submit_failed": {
+    "message": "পাঠাতে ব্যর্থ হয়েছে — সার্ভারে পৌঁছানো যায়নি"
+  },
+  "sb_skipped": {
+    "message": "এড়িয়ে গেছে"
+  },
+  "sb_manual_skipped": {
+    "message": "ম্যানুয়াল এড়িয়ে গেছে"
+  },
+  "sb_time_saved": {
+    "message": "$1 সেকেন্ড আয় করেছে"
+  },
+  "sb_total": {
+    "message": "মোট:"
+  },
+  "sb_cat_sponsor": {
+    "message": "স্পন্সর"
+  },
+  "sb_cat_selfpromo": {
+    "message": "স্ব প্রচার"
+  },
+  "sb_cat_interaction": {
+    "message": "মিথস্ক্রিয়া"
+  },
+  "sb_cat_intro": {
+    "message": "ভূমিকা"
+  },
+  "sb_cat_outro": {
+    "message": "outro"
+  },
+  "sb_cat_preview": {
+    "message": "পূর্বরূপ"
+  },
+  "sb_cat_music": {
+    "message": "নন-মিউজিক"
+  },
+  "sb_hours": {
+    "message": "ঘন্টা"
+  },
+  "sb_minutes": {
+    "message": "মিনিট"
+  },
+  "sb_seconds": {
+    "message": "সেকেন্ড"
+  },
+  "opt_saved": {
+    "message": "সংরক্ষিত !"
+  },
+  "opt_restored": {
+    "message": "পুনরুদ্ধার করা হয়েছে!"
+  },
+  "opt_remove": {
+    "message": "সরান"
+  },
+  "opt_sb_title": {
+    "message": "স্পন্সর জাম্প"
+  },
+  "opt_sb_subtitle": {
+    "message": "YouTube ভিডিওগুলিতে স্পনসরশিপ, ইন্ট্রো এবং অপ্রয়োজনীয় বিভাগগুলি এড়িয়ে সময় বাঁচান৷"
+  },
+  "opt_sb_general": {
+    "message": "▶ সাধারণ সেটিংস"
+  },
+  "opt_sb_general_desc": {
+    "message": "স্পন্সর বাইপাস সিস্টেমের মৌলিক অপারেশন নির্ধারণ করুন।"
+  },
+  "opt_sb_enable": {
+    "message": "স্পনসর স্কিপ সক্ষম করুন"
+  },
+  "opt_sb_enable_desc": {
+    "message": "সমস্ত জাম্প বৈশিষ্ট্যের জন্য মাস্টার সুইচ।"
+  },
+  "opt_sb_auto": {
+    "message": "অটো স্কিপ"
+  },
+  "opt_sb_auto_desc": {
+    "message": "এপিসোড এলে সে না চাইতেই ঝাঁপিয়ে পড়ে। (যদি এটি বন্ধ থাকে, \"এড়িয়ে যান\" বোতামটি প্রদর্শিত হবে)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 বিভাগ সেটিংস"
+  },
+  "opt_sb_categories_desc": {
+    "message": "এক এক করে কোন ধরনের সেগমেন্টে কী করতে হবে তা নির্ধারণ করুন।"
+  },
+  "opt_sb_contribute": {
+    "message": "♥ কমিউনিটিতে অবদান রাখুন"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "আপনি ভিডিওতে বিজ্ঞাপন বা অপ্রয়োজনীয় এলাকা নির্বাচন করে এবং ডাটাবেসে পাঠিয়ে অন্য ব্যবহারকারীদের সাহায্য করতে পারেন।"
+  },
+  "opt_sb_show_add": {
+    "message": "স্পনসর রিপোর্ট বোতাম দেখান"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "ভিডিও প্লেয়ারে স্পনসর ডোমেন রিপোর্টিং (AI) ইন্টারফেস খোলে৷"
+  },
+  "opt_sb_api": {
+    "message": "ব্যক্তিগত API ঠিকানা"
+  },
+  "opt_sb_api_desc": {
+    "message": "ডেটা পাঠাতে এবং গ্রহণ করতে সার্ভার সংযোগ। (উন্নত)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "অটো স্কিপ"
+  },
+  "opt_sb_btn_show": {
+    "message": "বোতাম দেখান"
+  },
+  "opt_sb_disabled": {
+    "message": "অক্ষম"
+  },
+  "toast_refresh_youtube": {
+    "message": "YouTube পৃষ্ঠাটি রিফ্রেশ করুন।"
+  },
+  "toast_youtube_only": {
+    "message": "এই বৈশিষ্ট্যটি শুধুমাত্র YouTube ভিডিওতে কাজ করে।"
+  },
+  "promo_rate_title": {
+    "message": "⭐ আপনি কি vAdBlock পছন্দ করেছেন?"
+  },
+  "promo_rate_desc": {
+    "message": "আপনি আমাদের 5 তারা দিয়ে আমাদের সমর্থন করতে পারেন যাতে আমরা উন্নতি করতে পারি!"
+  },
+  "promo_rate_btn": {
+    "message": "মূল্যায়ন করুন"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock প্রিমিয়াম"
+  },
+  "promo_premium_desc": {
+    "message": "আপনি কি একটি প্রিমিয়াম সদস্যতা কিনে 100% গোপনীয়তা এবং অতিরিক্ত বৈশিষ্ট্যগুলি থেকে উপকৃত হতে চান?"
+  },
+  "promo_premium_btn": {
+    "message": "পর্যালোচনা"
+  },
+  "promo_discount_title": {
+    "message": "🎁 আপনার জন্য বিশেষ ছাড়!"
+  },
+  "promo_discount_desc": {
+    "message": "আপনি একটি দীর্ঘ সময়ের জন্য আমাদের সাথে হয়েছে! প্রিমিয়াম সদস্যপদে 50% ছাড় পেতে, কোডটি ব্যবহার করুন: lave-..."
+  },
+  "promo_discount_btn": {
+    "message": "কোড রিডিম করুন"
+  },
+  "day_sun": {
+    "message": "সূর্য"
+  },
+  "day_mon": {
+    "message": "সোম"
+  },
+  "day_tue": {
+    "message": "শাল"
+  },
+  "day_wed": {
+    "message": "জার"
+  },
+  "day_thu": {
+    "message": "বৃহস্পতি"
+  },
+  "day_fri": {
+    "message": "কাম"
+  },
+  "day_sat": {
+    "message": "শনি"
+  },
+  "month_jan": {
+    "message": "জানুয়ারি"
+  },
+  "month_feb": {
+    "message": "ফেব্রুয়ারী"
+  },
+  "month_mar": {
+    "message": "মার"
+  },
+  "month_apr": {
+    "message": "এপ্রিল"
+  },
+  "month_may": {
+    "message": "মে"
+  },
+  "month_jun": {
+    "message": "আনন্দ"
+  },
+  "month_jul": {
+    "message": "জুল"
+  },
+  "month_aug": {
+    "message": "হেমলক"
+  },
+  "month_sep": {
+    "message": "সেপ্টেম্বর"
+  },
+  "month_oct": {
+    "message": "অক্টো"
+  },
+  "month_nov": {
+    "message": "ভ্রু"
+  },
+  "month_dec": {
+    "message": "অনুসন্ধান করুন"
+  },
+  "time_hours": {
+    "message": "ঘন্টা"
+  },
+  "time_minutes": {
+    "message": "মিনিট"
+  },
+  "time_seconds": {
+    "message": "সেকেন্ড"
+  }
+}

@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "The ultimate extension to block ads and pop-ups. Blocks ads on Facebook, YouTube, and all other websites."
+  },
+  "cmd_toggle": {
+    "message": "Toggle Protection"
+  },
+  "cmd_picker": {
+    "message": "Start ad picker"
+  },
+  "nav_stats": {
+    "message": "Statistics"
+  },
+  "nav_general": {
+    "message": "General"
+  },
+  "nav_protection": {
+    "message": "Protection Level"
+  },
+  "nav_customize": {
+    "message": "Customize"
+  },
+  "nav_filters": {
+    "message": "Filters"
+  },
+  "nav_support": {
+    "message": "Support"
+  },
+  "nav_themes": {
+    "message": "Themes"
+  },
+  "nav_premium": {
+    "message": "Premium Filters"
+  },
+  "popup_unknown": {
+    "message": "Unknown"
+  },
+  "popup_blocked": {
+    "message": "Blocked:"
+  },
+  "popup_protection_on": {
+    "message": "Protection On"
+  },
+  "popup_protection_off": {
+    "message": "Protection Off"
+  },
+  "popup_menu_manual": {
+    "message": "Block ads manually"
+  },
+  "popup_menu_custom": {
+    "message": "My custom blocks"
+  },
+  "popup_menu_diag": {
+    "message": "Copy diagnostics"
+  },
+  "popup_menu_clear": {
+    "message": "Clear site rules"
+  },
+  "pause_paused_state": {
+    "message": "Paused"
+  },
+  "pause_title": {
+    "message": "Pause"
+  },
+  "pause_min_unit": {
+    "message": "min"
+  },
+  "pause_sec_unit": {
+    "message": "sec"
+  },
+  "pause_site": {
+    "message": "On this site"
+  },
+  "site_temp_30": {
+    "message": "Pause for 30 minutes"
+  },
+  "site_temp_120": {
+    "message": "Pause for 2 hours"
+  },
+  "site_temp_0": {
+    "message": "Resume protection"
+  },
+  "site_temp_off_msg": {
+    "message": "Paused on this site for $1 mins"
+  },
+  "site_temp_on_msg": {
+    "message": "Protection resumed on this site"
+  },
+  "pause_toast": {
+    "message": "Paused for $1 minutes"
+  },
+  "pause_toast_resume": {
+    "message": "Protection resumed"
+  },
+  "chart_all": {
+    "message": "All"
+  },
+  "chart_ads": {
+    "message": "Ads"
+  },
+  "chart_trackers": {
+    "message": "Trackers"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "Other"
+  },
+  "chart_7days": {
+    "message": "7 days"
+  },
+  "chart_24h": {
+    "message": "24 hours"
+  },
+  "chart_30d": {
+    "message": "30 days"
+  },
+  "chart_1y": {
+    "message": "1 year"
+  },
+  "rules_title": {
+    "message": "My Custom Rules"
+  },
+  "rules_empty": {
+    "message": "No custom rules added yet."
+  },
+  "rules_global": {
+    "message": "Global"
+  },
+  "rules_preview": {
+    "message": "Preview"
+  },
+  "rules_delete": {
+    "message": "Delete"
+  },
+  "toast_rules_cleared": {
+    "message": "$1 rules cleared. Refreshing page..."
+  },
+  "toast_no_rules_site": {
+    "message": "No rules for this site"
+  },
+  "toast_protection_updated": {
+    "message": "Protection level updated"
+  },
+  "toast_report_copied": {
+    "message": "Diagnostic info copied to clipboard"
+  },
+  "toast_copy_failed": {
+    "message": "Failed to copy"
+  },
+  "toast_site_info_failed": {
+    "message": "Failed to get site info"
+  },
+  "toast_page_not_available": {
+    "message": "Not available on this page (Chrome protection)"
+  },
+  "toast_protection_on": {
+    "message": "Protection: On"
+  },
+  "toast_protection_off": {
+    "message": "Protection: Off"
+  },
+  "toast_redirect": {
+    "message": "Redirecting..."
+  },
+  "report_title": {
+    "message": "Diagnostics"
+  },
+  "report_version": {
+    "message": "Version"
+  },
+  "report_page": {
+    "message": "Page"
+  },
+  "report_date": {
+    "message": "Date"
+  },
+  "report_level": {
+    "message": "Level"
+  },
+  "footer_made_by": {
+    "message": "made by lave"
+  },
+  "opt_stats_title": {
+    "message": "Statistics"
+  },
+  "opt_stats_subtitle": {
+    "message": "See how much vAdBlock has blocked in the background."
+  },
+  "opt_stat_ads_7d": {
+    "message": "Ads blocked in last 7 days"
+  },
+  "opt_stat_trackers": {
+    "message": "Trackers blocked"
+  },
+  "opt_stat_data": {
+    "message": "Data saved"
+  },
+  "opt_stat_time": {
+    "message": "Time saved on page loads"
+  },
+  "opt_report_title": {
+    "message": "Weekly Report"
+  },
+  "opt_report_total": {
+    "message": "Total blocked"
+  },
+  "opt_report_ads": {
+    "message": "Ads"
+  },
+  "opt_report_trackers": {
+    "message": "Trackers"
+  },
+  "opt_report_daily": {
+    "message": "Daily average"
+  },
+  "opt_top_domains": {
+    "message": "Top Blocked Domains"
+  },
+  "opt_empty_data": {
+    "message": "No data yet."
+  },
+  "opt_log_title": {
+    "message": "Block Log"
+  },
+  "opt_log_desc": {
+    "message": "Last 50 blocked requests (this session only)."
+  },
+  "opt_log_search": {
+    "message": "Search: domain or URL..."
+  },
+  "opt_log_export": {
+    "message": "Export CSV"
+  },
+  "opt_empty_log": {
+    "message": "No blocked requests yet."
+  },
+  "opt_log_clear": {
+    "message": "Clear Log"
+  },
+  "opt_general_title": {
+    "message": "General Settings"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "Allow some non-intrusive advertising"
+  },
+  "opt_context_menu": {
+    "message": "Add vAdBlock to context menu"
+  },
+  "opt_badge_count": {
+    "message": "Show number of blocked ads on icon"
+  },
+  "opt_dev_tools": {
+    "message": "Show 'vAdBlock' panel in developer tools"
+  },
+  "opt_promotions": {
+    "message": "Allow vAdBlock to occasionally show promotional messages"
+  },
+  "opt_fingerprint": {
+    "message": "Fingerprint protection (hide Canvas/WebGL info)"
+  },
+  "opt_anti_adblock": {
+    "message": "Hide 'Ad blocker detected' warnings"
+  },
+  "opt_https": {
+    "message": "Force secure connection (HTTPS)"
+  },
+  "opt_webrtc": {
+    "message": "Prevent WebRTC IP leak"
+  },
+  "opt_language_title": {
+    "message": "Language / Dil"
+  },
+  "opt_language_desc": {
+    "message": "Select the interface language. Auto uses your browser language."
+  },
+  "opt_language_auto": {
+    "message": "Auto (based on browser)"
+  },
+  "opt_language_tr": {
+    "message": "Türkçe"
+  },
+  "opt_language_en": {
+    "message": "English"
+  },
+  "opt_lang_auto": {
+    "message": "Auto (browser language)"
+  },
+  "opt_protection_title": {
+    "message": "Protection Level"
+  },
+  "opt_protection_subtitle": {
+    "message": "Choose the protection mode that best fits your browsing habits."
+  },
+  "opt_mode_relaxed": {
+    "message": "Relaxed Mode"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "Blocks basic ads. Advanced trackers and strict filters are disabled for maximum performance and compatibility."
+  },
+  "opt_mode_balanced": {
+    "message": "Balanced Mode (Recommended)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "Blocks most ads and known trackers. Ideal for daily use, smooth protection without affecting performance."
+  },
+  "opt_mode_strict": {
+    "message": "Strict Mode"
+  },
+  "opt_mode_strict_desc": {
+    "message": "Maximum privacy! Manipulates GPC/DNT signals, breaks fingerprinters, and blocks aggressive ad networks. (Ideal for testing)"
+  },
+  "opt_customize_title": {
+    "message": "Customize"
+  },
+  "opt_customize_subtitle": {
+    "message": "Shape the extension entirely to your needs."
+  },
+  "opt_allowlist_title": {
+    "message": "Allowlist"
+  },
+  "opt_allowlist_desc": {
+    "message": "Ad blocking is disabled on the following sites."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "example.com"
+  },
+  "opt_add": {
+    "message": "Add"
+  },
+  "opt_allowlist_empty": {
+    "message": "No sites added yet. Add a domain above."
+  },
+  "opt_css_title": {
+    "message": "Custom CSS Rules"
+  },
+  "opt_css_desc": {
+    "message": "Custom CSS hiding rules for advanced users."
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "Save"
+  },
+  "opt_network_title": {
+    "message": "Custom Network Rules"
+  },
+  "opt_network_desc": {
+    "message": "One rule per line. Format: ||example.com^ (block) or @@||example.com^ (allow)."
+  },
+  "opt_backup_title": {
+    "message": "Backup & Restore"
+  },
+  "opt_backup_desc": {
+    "message": "Export your settings, allowlist, and custom rules."
+  },
+  "opt_export": {
+    "message": "Export Backup"
+  },
+  "opt_import": {
+    "message": "Restore Backup"
+  },
+  "opt_filters_title": {
+    "message": "Filter Lists"
+  },
+  "opt_filters_subtitle": {
+    "message": "Select which filter lists to use and update them."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "Main ad filters — blocks most ad networks."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "Blocks tracker and analytics domains."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "Ad server and tracking server lists."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock filters and privacy lists."
+  },
+  "opt_update_title": {
+    "message": "Update Lists"
+  },
+  "opt_update_desc": {
+    "message": "Filter lists update automatically once a week. Last update:"
+  },
+  "opt_update_btn": {
+    "message": "Update Filters"
+  },
+  "opt_update_unknown": {
+    "message": "unknown"
+  },
+  "opt_update_stale": {
+    "message": "⚠ Auto-update pending ($1 days ago)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ Up to date · updated $1 days ago"
+  },
+  "opt_update_first": {
+    "message": "Waiting for first update"
+  },
+  "opt_update_off": {
+    "message": " (off)"
+  },
+  "opt_update_running": {
+    "message": "Updating..."
+  },
+  "opt_update_done": {
+    "message": "Lists updated!"
+  },
+  "opt_update_error": {
+    "message": "Update failed: $1"
+  },
+  "opt_support_title": {
+    "message": "Support"
+  },
+  "opt_support_subtitle": {
+    "message": "Contact us if you have any questions or issues."
+  },
+  "opt_themes_title": {
+    "message": "Themes"
+  },
+  "opt_themes_subtitle": {
+    "message": "Customize the look of vAdBlock. Reflect your style."
+  },
+  "theme_default": {
+    "message": "Default (Light)"
+  },
+  "theme_dark": {
+    "message": "Dark Matter"
+  },
+  "theme_hover_preview": {
+    "message": "Hover to preview"
+  },
+  "opt_premium_title": {
+    "message": "Premium Filters"
+  },
+  "opt_premium_subtitle": {
+    "message": "Maximize your vAdBlock experience."
+  },
+  "opt_premium_focus_title": {
+    "message": "Focus Mode"
+  },
+  "opt_premium_focus_desc": {
+    "message": "Hide newsletter popups, floating videos, and non-ad annoyances."
+  },
+  "opt_premium_cookie_title": {
+    "message": "Auto Accept/Reject Cookies"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "Automatically hide cookie warnings on popular sites."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "Auto-Accept Cookie Consent"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "Automatically clicks the 'accept' button on cookie notices."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "YouTube Sponsor Skipper"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "Automatically detects and skips sponsor segments, outros, and interaction reminders in YouTube videos using caption analysis."
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium is active! Enjoy all features."
+  },
+  "welcome_title": {
+    "message": "Welcome to vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock is now with you."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ Premium Edition Active"
+  },
+  "welcome_subtitle": {
+    "message": "Your internet experience is now much cleaner, faster, and completely yours."
+  },
+  "welcome_feat1_title": {
+    "message": "Invisible Protection"
+  },
+  "welcome_feat1_desc": {
+    "message": "Silently blocks all trackers in the background as you browse."
+  },
+  "welcome_feat2_title": {
+    "message": "Stellar Speed"
+  },
+  "welcome_feat2_desc": {
+    "message": "Pages load instantly because unnecessary content is blocked."
+  },
+  "welcome_feat3_title": {
+    "message": "Advanced Filters"
+  },
+  "welcome_feat3_desc": {
+    "message": "Destroys aggressive ads that ordinary ad blockers miss."
+  },
+  "welcome_feat4_title": {
+    "message": "Full Customization"
+  },
+  "welcome_feat4_desc": {
+    "message": "Manage rules and protection levels from the settings page."
+  },
+  "welcome_btn": {
+    "message": "Start Exploring"
+  },
+  "ctx_block_element": {
+    "message": "Block this element with vAdBlock"
+  },
+  "picker_title": {
+    "message": "Block an element"
+  },
+  "picker_subtitle": {
+    "message": "Add to Lave rules"
+  },
+  "picker_expand": {
+    "message": "Expand selection:"
+  },
+  "picker_advanced": {
+    "message": "Advanced options"
+  },
+  "picker_apply_all": {
+    "message": "Apply rule on all sites"
+  },
+  "picker_similar": {
+    "message": "Block similar elements too"
+  },
+  "picker_css_label": {
+    "message": "CSS Selector (Advanced):"
+  },
+  "picker_block": {
+    "message": "Block"
+  },
+  "picker_preview": {
+    "message": "Preview"
+  },
+  "picker_reselect": {
+    "message": "Select a different element"
+  },
+  "picker_preview_title": {
+    "message": "Preview mode"
+  },
+  "picker_preview_desc": {
+    "message": "The selected element is hidden. If it looks good, you can block it permanently."
+  },
+  "picker_exit": {
+    "message": "Exit"
+  },
+  "picker_cancel": {
+    "message": "Cancel (ESC)"
+  },
+  "picker_saved": {
+    "message": "Rule saved"
+  },
+  "picker_undo": {
+    "message": "Undo"
+  },
+  "search_placeholder": {
+    "message": "Search: setting or section..."
+  },
+  "action_manual_block": {
+    "message": "Block ads manually"
+  },
+  "action_manage_rules": {
+    "message": "My custom blocks"
+  },
+  "action_report": {
+    "message": "Copy diagnostics"
+  },
+  "action_clear_site": {
+    "message": "Clear site rules"
+  },
+  "tab_actions": {
+    "message": "Actions"
+  },
+  "tab_stats": {
+    "message": "Statistics"
+  },
+  "popup_refresh": {
+    "message": "Refresh"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "Pause"
+  },
+  "pause_10": {
+    "message": "10 minutes"
+  },
+  "pause_30": {
+    "message": "30 minutes"
+  },
+  "pause_60": {
+    "message": "1 hour"
+  },
+  "pause_300": {
+    "message": "5 hours"
+  },
+  "pause_resume": {
+    "message": "Resume"
+  },
+  "popup_settings": {
+    "message": "Settings"
+  },
+  "popup_total_blocked": {
+    "message": "Total blocked:"
+  },
+  "level_relaxed": {
+    "message": "Relaxed"
+  },
+  "level_balanced": {
+    "message": "Balanced"
+  },
+  "level_strict": {
+    "message": "Strict"
+  },
+  "premium_section": {
+    "message": "Premium Features"
+  },
+  "pause_scope": {
+    "message": "Apply Scope"
+  },
+  "pause_site_only": {
+    "message": "This site only"
+  },
+  "pause_global": {
+    "message": "All sites (Global)"
+  },
+  "lang_tr": {
+    "message": "Turkish"
+  },
+  "lang_en": {
+    "message": "English"
+  },
+  "opt_faq_title": {
+    "message": "Frequently Asked Questions"
+  },
+  "opt_faq_1_q": {
+    "message": "Does the extension block YouTube ads?"
+  },
+  "opt_faq_1_a": {
+    "message": "Yes, vAdBlock automatically blocks and skips in-video ads with custom algorithms."
+  },
+  "opt_faq_2_q": {
+    "message": "Some sites look broken, what should I do?"
+  },
+  "opt_faq_2_a": {
+    "message": "If a site is not working properly, you can pause protection for that site (Allowlist) from the extension menu."
+  },
+  "opt_contact_title": {
+    "message": "Contact Us"
+  },
+  "opt_contact_desc": {
+    "message": "Visit our GitHub page for bug reports, feedback or feature requests."
+  },
+  "opt_contact_btn": {
+    "message": "View on GitHub"
+  },
+  "popup_paused_site": {
+    "message": "Paused on This Site"
+  },
+  "opt_update_success": {
+    "message": "GUI updated and filters synced!"
+  },
+  "global_temp_off_msg": {
+    "message": "Paused on all sites for $1 mins"
+  },
+  "nav_sponsor": {
+    "message": "Sponsor Skip"
+  },
+  "popup_add_segment": {
+    "message": "Report Sponsorship Area"
+  },
+  "popup_sponsor_skipped": {
+    "message": "Skipped Sponsors"
+  },
+  "popup_waiting": {
+    "message": "waiting..."
+  },
+  "sb_skip_sponsor": {
+    "message": "Skip Sponsor"
+  },
+  "sb_segment_add": {
+    "message": "Report Sponsorship"
+  },
+  "sb_set_times": {
+    "message": "Set times, then choose type:"
+  },
+  "sb_start": {
+    "message": "Start"
+  },
+  "sb_end": {
+    "message": "End"
+  },
+  "sb_select_type": {
+    "message": "Select type:"
+  },
+  "sb_cancel": {
+    "message": "Cancel"
+  },
+  "sb_submit": {
+    "message": "Submit"
+  },
+  "sb_submitted": {
+    "message": "Contribution submitted"
+  },
+  "sb_submit_failed": {
+    "message": "Failed — could not reach server"
+  },
+  "sb_skipped": {
+    "message": "skipped"
+  },
+  "sb_manual_skipped": {
+    "message": "manually skipped"
+  },
+  "sb_time_saved": {
+    "message": "saved $1 sec"
+  },
+  "sb_total": {
+    "message": "Total:"
+  },
+  "sb_cat_sponsor": {
+    "message": "Sponsor"
+  },
+  "sb_cat_selfpromo": {
+    "message": "Self-Promo"
+  },
+  "sb_cat_interaction": {
+    "message": "Interaction"
+  },
+  "sb_cat_intro": {
+    "message": "Intro"
+  },
+  "sb_cat_outro": {
+    "message": "Outro"
+  },
+  "sb_cat_preview": {
+    "message": "Preview"
+  },
+  "sb_cat_music": {
+    "message": "Non-Music"
+  },
+  "sb_hours": {
+    "message": "h"
+  },
+  "sb_minutes": {
+    "message": "min"
+  },
+  "sb_seconds": {
+    "message": "sec"
+  },
+  "opt_saved": {
+    "message": "Saved!"
+  },
+  "opt_restored": {
+    "message": "Restored!"
+  },
+  "opt_remove": {
+    "message": "Remove"
+  },
+  "opt_sb_title": {
+    "message": "Sponsor Skip"
+  },
+  "opt_sb_subtitle": {
+    "message": "Save time by skipping sponsorships, intros, and unnecessary segments in YouTube videos."
+  },
+  "opt_sb_general": {
+    "message": "▶ General Settings"
+  },
+  "opt_sb_general_desc": {
+    "message": "Configure the basic behavior of the sponsor skip system."
+  },
+  "opt_sb_enable": {
+    "message": "Enable sponsor skipping"
+  },
+  "opt_sb_enable_desc": {
+    "message": "Master switch for all skip features."
+  },
+  "opt_sb_auto": {
+    "message": "Auto-skip"
+  },
+  "opt_sb_auto_desc": {
+    "message": "Skips automatically when a segment is reached. (If disabled, shows a Skip button)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 Category Settings"
+  },
+  "opt_sb_categories_desc": {
+    "message": "Configure what action to take for each segment type."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ Contribute to Community"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "Help other users by marking sponsored or unnecessary segments in videos and submitting them to the database."
+  },
+  "opt_sb_show_add": {
+    "message": "Show Sponsorship Report Button"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "Opens the Sponsorship Reporting (AI) interface on the video player."
+  },
+  "opt_sb_api": {
+    "message": "Custom API Address"
+  },
+  "opt_sb_api_desc": {
+    "message": "Server URL for sending and receiving data. (Advanced)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "Auto Skip"
+  },
+  "opt_sb_btn_show": {
+    "message": "Show Button"
+  },
+  "opt_sb_disabled": {
+    "message": "Disabled"
+  },
+  "toast_refresh_youtube": {
+    "message": "Please refresh the YouTube page."
+  },
+  "toast_youtube_only": {
+    "message": "This feature only works on YouTube videos."
+  },
+  "promo_rate_title": {
+    "message": "⭐ Enjoying vAdBlock?"
+  },
+  "promo_rate_desc": {
+    "message": "Support us by leaving a 5-star rating so we can keep improving!"
+  },
+  "promo_rate_btn": {
+    "message": "Rate"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock Premium"
+  },
+  "promo_premium_desc": {
+    "message": "Get Premium for 100% privacy and extra features?"
+  },
+  "promo_premium_btn": {
+    "message": "Learn More"
+  },
+  "promo_discount_title": {
+    "message": "🎁 Special Discount for You!"
+  },
+  "promo_discount_desc": {
+    "message": "You've been with us for a while! Get 50% off Premium..."
+  },
+  "promo_discount_btn": {
+    "message": "Use Code"
+  },
+  "day_sun": {
+    "message": "Sun"
+  },
+  "day_mon": {
+    "message": "Mon"
+  },
+  "day_tue": {
+    "message": "Tue"
+  },
+  "day_wed": {
+    "message": "Wed"
+  },
+  "day_thu": {
+    "message": "Thu"
+  },
+  "day_fri": {
+    "message": "Fri"
+  },
+  "day_sat": {
+    "message": "Sat"
+  },
+  "month_jan": {
+    "message": "Jan"
+  },
+  "month_feb": {
+    "message": "Feb"
+  },
+  "month_mar": {
+    "message": "Mar"
+  },
+  "month_apr": {
+    "message": "Apr"
+  },
+  "month_may": {
+    "message": "May"
+  },
+  "month_jun": {
+    "message": "Jun"
+  },
+  "month_jul": {
+    "message": "Jul"
+  },
+  "month_aug": {
+    "message": "Aug"
+  },
+  "month_sep": {
+    "message": "Sep"
+  },
+  "month_oct": {
+    "message": "Oct"
+  },
+  "month_nov": {
+    "message": "Nov"
+  },
+  "month_dec": {
+    "message": "Dec"
+  },
+  "time_hours": {
+    "message": "h"
+  },
+  "time_minutes": {
+    "message": "min"
+  },
+  "time_seconds": {
+    "message": "sec"
+  },
+  "appName": {
+    "message": "vAdBlock — Best Ad Blocker"
+  }
+}

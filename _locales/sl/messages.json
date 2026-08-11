@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "Najboljša razširitev za blokiranje oglasov in pojavnih oken. Blokira oglase na Facebooku, YouTubu in vseh drugih spletnih mestih."
+  },
+  "appName": {
+    "message": "vAdBlock — Najboljši zaviralec oglasov"
+  },
+  "cmd_toggle": {
+    "message": "Preklop zaščite"
+  },
+  "cmd_picker": {
+    "message": "Zaženi izbirnik oglasov"
+  },
+  "nav_stats": {
+    "message": "Statistika"
+  },
+  "nav_general": {
+    "message": "Splošno"
+  },
+  "nav_protection": {
+    "message": "Stopnja zaščite"
+  },
+  "nav_customize": {
+    "message": "prilagoditi"
+  },
+  "nav_filters": {
+    "message": "Filtri"
+  },
+  "nav_support": {
+    "message": "Podpora"
+  },
+  "popup_unknown": {
+    "message": "Neznano"
+  },
+  "popup_blocked": {
+    "message": "Blokirano:"
+  },
+  "popup_protection_on": {
+    "message": "Zaščita vklopljena"
+  },
+  "popup_protection_off": {
+    "message": "Zaščita izklopljena"
+  },
+  "popup_menu_manual": {
+    "message": "Ročno blokirajte oglase"
+  },
+  "popup_menu_custom": {
+    "message": "Moji zasebni bloki"
+  },
+  "popup_menu_diag": {
+    "message": "Kopirajte diagnostične informacije"
+  },
+  "popup_menu_clear": {
+    "message": "Jasna pravila spletnega mesta"
+  },
+  "pause_paused_state": {
+    "message": "zaustavljeno"
+  },
+  "pause_title": {
+    "message": "premor"
+  },
+  "pause_min_unit": {
+    "message": "min"
+  },
+  "pause_sec_unit": {
+    "message": "sek"
+  },
+  "pause_site": {
+    "message": "na tej strani"
+  },
+  "site_temp_30": {
+    "message": "izklopite za 30 minut"
+  },
+  "site_temp_120": {
+    "message": "zaprite za 2 uri"
+  },
+  "site_temp_0": {
+    "message": "Ponovno odprite spletno mesto"
+  },
+  "site_temp_off_msg": {
+    "message": "To spletno mesto je bilo zaprto 1 min"
+  },
+  "site_temp_on_msg": {
+    "message": "To spletno mesto je ponovno odprto"
+  },
+  "pause_toast": {
+    "message": "$1 minuta zaustavljena"
+  },
+  "pause_toast_resume": {
+    "message": "Varovanje se je nadaljevalo"
+  },
+  "chart_all": {
+    "message": "Vse"
+  },
+  "chart_ads": {
+    "message": "Oglasi"
+  },
+  "chart_trackers": {
+    "message": "gledalci"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "drugo"
+  },
+  "chart_7days": {
+    "message": "7 dni"
+  },
+  "chart_24h": {
+    "message": "24 ur"
+  },
+  "chart_30d": {
+    "message": "30 dni"
+  },
+  "chart_1y": {
+    "message": "1 leto"
+  },
+  "rules_title": {
+    "message": "Moja posebna pravila"
+  },
+  "rules_empty": {
+    "message": "Dodana še niso bila nobena posebna pravila."
+  },
+  "rules_global": {
+    "message": "Globalno"
+  },
+  "rules_preview": {
+    "message": "Predogled"
+  },
+  "rules_delete": {
+    "message": "Izbriši"
+  },
+  "toast_rules_cleared": {
+    "message": "Pravilo $1 izbrisano. Stran se osvežuje..."
+  },
+  "toast_no_rules_site": {
+    "message": "Na tej strani ni pravil"
+  },
+  "toast_protection_updated": {
+    "message": "Stopnja zaščite posodobljena"
+  },
+  "toast_report_copied": {
+    "message": "Diagnostične informacije kopirane v odložišče"
+  },
+  "toast_copy_failed": {
+    "message": "Ni bilo mogoče kopirati"
+  },
+  "toast_site_info_failed": {
+    "message": "Podatkov o mestu ni bilo mogoče pridobiti"
+  },
+  "toast_page_not_available": {
+    "message": "Ni na voljo na tej strani (zaščita Chroma)"
+  },
+  "toast_protection_on": {
+    "message": "Zaščita: vklopljena"
+  },
+  "toast_protection_off": {
+    "message": "Zaščita: izklopljena"
+  },
+  "toast_redirect": {
+    "message": "Preusmerjanje ..."
+  },
+  "report_title": {
+    "message": "diagnostične informacije"
+  },
+  "report_version": {
+    "message": "Različica"
+  },
+  "report_page": {
+    "message": "Stran"
+  },
+  "report_date": {
+    "message": "Zgodovina"
+  },
+  "report_level": {
+    "message": "Raven"
+  },
+  "footer_made_by": {
+    "message": "naredil lave"
+  },
+  "opt_stats_title": {
+    "message": "Statistika"
+  },
+  "opt_stats_subtitle": {
+    "message": "Oglejte si, kako dolgo vAdBlock deluje v ozadju."
+  },
+  "opt_stat_ads_7d": {
+    "message": "Oglasi blokirani v zadnjih 7 dneh"
+  },
+  "opt_stat_trackers": {
+    "message": "Blokiran sledilnik zbiralnika podatkov"
+  },
+  "opt_stat_data": {
+    "message": "shranjenih podatkov"
+  },
+  "opt_stat_time": {
+    "message": "Prihranek časa pri nalaganju strani"
+  },
+  "opt_report_title": {
+    "message": "Tedensko poročilo"
+  },
+  "opt_report_total": {
+    "message": "Blokirana zahteva"
+  },
+  "opt_report_ads": {
+    "message": "oglas"
+  },
+  "opt_report_trackers": {
+    "message": "Občinstvo"
+  },
+  "opt_report_daily": {
+    "message": "Dnevno povprečje"
+  },
+  "opt_top_domains": {
+    "message": "Večina blokiranih spletnih mest"
+  },
+  "opt_empty_data": {
+    "message": "Podatkov še ni."
+  },
+  "opt_log_title": {
+    "message": "Dnevnik blokov"
+  },
+  "opt_log_desc": {
+    "message": "Zadnjih 50 blokiranih zahtev (samo v tej seji)."
+  },
+  "opt_log_search": {
+    "message": "Iskanje: ime domene ali URL ..."
+  },
+  "opt_log_export": {
+    "message": "Izvoz CSV"
+  },
+  "opt_empty_log": {
+    "message": "Ni še blokiranih zahtev."
+  },
+  "opt_log_clear": {
+    "message": "Počisti dnevnik"
+  },
+  "opt_general_title": {
+    "message": "Splošne nastavitve"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "Dovoli nekaj nevsiljivih oglasov"
+  },
+  "opt_context_menu": {
+    "message": "Dodajte možnosti vAdBlock v meni z desnim klikom"
+  },
+  "opt_badge_count": {
+    "message": "Pokažite, koliko oglasov je blokiranih na gumbu vAdBlock"
+  },
+  "opt_dev_tools": {
+    "message": "Pokaži ploščo »vAdBlock« v orodjih za razvijalce"
+  },
+  "opt_promotions": {
+    "message": "Dovolite, da vAdBlock občasno prikaže promocijska sporočila"
+  },
+  "opt_fingerprint": {
+    "message": "Zaščita prstnih odtisov (skrij podatke o strojni opremi Canvas/WebGL)"
+  },
+  "opt_anti_adblock": {
+    "message": "Skrij opozorila »Zaznan je blokator oglasov«."
+  },
+  "opt_https": {
+    "message": "Vsili varno (HTTPS) povezavo"
+  },
+  "opt_webrtc": {
+    "message": "Preprečite uhajanje naslovov IP WebRTC"
+  },
+  "opt_language_title": {
+    "message": "Jezik"
+  },
+  "opt_language_desc": {
+    "message": "Izberite jezik vmesnika. Samodejna možnost uporablja jezik brskalnika."
+  },
+  "opt_language_auto": {
+    "message": "Samodejno (glede na jezik brskalnika)"
+  },
+  "opt_language_tr": {
+    "message": "turško"
+  },
+  "opt_language_en": {
+    "message": "angleščina"
+  },
+  "opt_lang_auto": {
+    "message": "Samodejno (jezik brskalnika)"
+  },
+  "opt_protection_title": {
+    "message": "Stopnja zaščite"
+  },
+  "opt_protection_subtitle": {
+    "message": "Izberite varnostni način, ki najbolje ustreza vašim navadam brskanja po internetu."
+  },
+  "opt_mode_relaxed": {
+    "message": "Udobni način"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "Blokira osnovne oglase. Napredni sledilci in strogi filtri, ki lahko poškodujejo spletno mesto, so izklopljeni. Zmogljivost in združljivost sta na najvišji ravni."
+  },
+  "opt_mode_balanced": {
+    "message": "Uravnotežen način (priporočeno)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "Blokira večino oglasov in znanih zbiralcev podatkov. Idealno za vsakodnevno uporabo interneta, gladka zaščita, ki ne vpliva na delovanje."
+  },
+  "opt_mode_strict": {
+    "message": "Strogi način"
+  },
+  "opt_mode_strict_desc": {
+    "message": "Maksimalna zasebnost! Manipulira z vsemi signali GPC/DNT, moti čitalnike prstnih odtisov in blokira agresivna oglaševalska omrežja v njihovem korenu. (Idealno za testna mesta)"
+  },
+  "opt_customize_title": {
+    "message": "prilagoditi"
+  },
+  "opt_customize_subtitle": {
+    "message": "Prilagodite vtičnik točno svojim potrebam."
+  },
+  "opt_allowlist_title": {
+    "message": "Dovoljena spletna mesta (seznam dovoljenih)"
+  },
+  "opt_allowlist_desc": {
+    "message": "Blokiranje oglasov je onemogočeno na naslednjih spletnih mestih."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "vzorec.com"
+  },
+  "opt_add": {
+    "message": "Dodaj"
+  },
+  "opt_allowlist_empty": {
+    "message": "Nobeno spletno mesto še ni bilo dodano. Zgoraj dodajte ime domene."
+  },
+  "opt_css_title": {
+    "message": "Pravila CSS po meri"
+  },
+  "opt_css_desc": {
+    "message": "Posebna pravila skrivanja CSS za napredne uporabnike."
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "Shrani"
+  },
+  "opt_network_title": {
+    "message": "Pravila zasebnega omrežja"
+  },
+  "opt_network_desc": {
+    "message": "Eno pravilo na vrstico. Oblika: ||example.com^ (blokiraj) ali @@||example.com^ (dovoljeno)."
+  },
+  "opt_backup_title": {
+    "message": "Varnostno kopiranje in obnovitev"
+  },
+  "opt_backup_desc": {
+    "message": "Izvozite svoje nastavitve, dovoljena spletna mesta in pravila po meri."
+  },
+  "opt_export": {
+    "message": "Prenesite varnostno kopijo"
+  },
+  "opt_import": {
+    "message": "Obnovi varnostno kopijo"
+  },
+  "opt_filters_title": {
+    "message": "Seznami filtrov"
+  },
+  "opt_filters_subtitle": {
+    "message": "Izberite sezname filtrov, ki jih želite uporabiti, in posodobite sezname."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "Glavni filtri oglasov — blokira večino oglasnih omrežij."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "Blokira domene sledilca in analitike."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "Oglasni strežniki in seznami sledilnih strežnikov."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "filtri vAdBlock in seznami zasebnosti."
+  },
+  "opt_update_title": {
+    "message": "Posodobite oglase"
+  },
+  "opt_update_desc": {
+    "message": "Seznami filtrov se tedensko samodejno posodabljajo. Zadnja posodobitev:"
+  },
+  "opt_update_btn": {
+    "message": "Posodobite filtre"
+  },
+  "opt_update_unknown": {
+    "message": "neznano"
+  },
+  "opt_update_stale": {
+    "message": "⚠ Čaka na samodejno posodobitev (pred 1 dnevi $)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ Trenutno · $ Posodobljeno pred 1 dnevom"
+  },
+  "opt_update_first": {
+    "message": "Prva posodobitev čaka"
+  },
+  "opt_update_off": {
+    "message": "(zaprto)"
+  },
+  "opt_update_running": {
+    "message": "Posodabljanje ..."
+  },
+  "opt_update_done": {
+    "message": "Seznami posodobljeni!"
+  },
+  "opt_update_error": {
+    "message": "Posodobitev ni uspela: $1"
+  },
+  "opt_support_title": {
+    "message": "Podpora"
+  },
+  "opt_support_subtitle": {
+    "message": "Kontaktirajte nas, če imate kakršna koli vprašanja ali težave."
+  },
+  "opt_themes_title": {
+    "message": "Teme"
+  },
+  "opt_themes_subtitle": {
+    "message": "Prilagodite videz vAdBlock. Odraža vaš stil."
+  },
+  "theme_default": {
+    "message": "Privzeto (svetlo)"
+  },
+  "theme_dark": {
+    "message": "Temna snov"
+  },
+  "theme_hover_preview": {
+    "message": "Premaknite miškin kazalec za predogled"
+  },
+  "opt_premium_title": {
+    "message": "Premium filtri"
+  },
+  "opt_premium_subtitle": {
+    "message": "Povečajte svojo izkušnjo vAdBlock."
+  },
+  "opt_premium_focus_title": {
+    "message": "Način ostrenja"
+  },
+  "opt_premium_focus_desc": {
+    "message": "Skrij izdaje glasila, drseče videe in nadležne neoglaševalske elemente."
+  },
+  "opt_premium_cookie_title": {
+    "message": "Samodejno sprejemanje/zavrnitev piškotkov"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "Samodejno skrij opozorila o piškotkih na priljubljenih spletnih mestih."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "Samodejno sprejmi soglasje za piškotke"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "Samodejno klikne gumb \"sprejmi\" na obvestilih o piškotkih."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "Sponzorski skakalec YouTube"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "Preskoči razdelke sponzorjev, predstavitev in interakcijske klice v YouTube videoposnetkih, tako da jih samodejno zazna iz podnAPIsov."
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium je aktiven! Uživajte v vseh funkcijah."
+  },
+  "welcome_title": {
+    "message": "Dobrodošli v vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock je zdaj z vami."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ Premium različica je aktivna"
+  },
+  "welcome_subtitle": {
+    "message": "Vaša internetna izkušnja je zdaj veliko čistejša, hitrejša in popolnoma vaša."
+  },
+  "welcome_feat1_title": {
+    "message": "Nevidna zaščita"
+  },
+  "welcome_feat1_desc": {
+    "message": "Med brskanjem v ozadju tiho blokira vse sledilnike."
+  },
+  "welcome_feat2_title": {
+    "message": "Zvezdna hitrost"
+  },
+  "welcome_feat2_desc": {
+    "message": "Strani se naložijo takoj, ker je nepotrebna vsebina blokirana."
+  },
+  "welcome_feat3_title": {
+    "message": "Napredni filtri"
+  },
+  "welcome_feat3_desc": {
+    "message": "Odpravlja agresivne oglase, ki jih navadni blokatorji oglasov zamudijo."
+  },
+  "welcome_feat4_title": {
+    "message": "Popolna prilagoditev"
+  },
+  "welcome_feat4_desc": {
+    "message": "Upravljajte pravila in raven filtra na strani z nastavitvami."
+  },
+  "welcome_btn": {
+    "message": "Začnite raziskovati"
+  },
+  "ctx_block_element": {
+    "message": "Blokirajte ta element z vAdBlock"
+  },
+  "picker_title": {
+    "message": "Blokirajte predmet"
+  },
+  "picker_subtitle": {
+    "message": "Dodaj k pravilom lave"
+  },
+  "picker_expand": {
+    "message": "Razširite območje izbire:"
+  },
+  "picker_advanced": {
+    "message": "Napredne možnosti"
+  },
+  "picker_apply_all": {
+    "message": "Uporabite pravilo na vseh spletnih mestih"
+  },
+  "picker_similar": {
+    "message": "Blokirajte tudi podobne elemente"
+  },
+  "picker_css_label": {
+    "message": "Izbirnik CSS (napredno):"
+  },
+  "picker_block": {
+    "message": "blok"
+  },
+  "picker_preview": {
+    "message": "Predogled"
+  },
+  "picker_reselect": {
+    "message": "Izberite drug predmet"
+  },
+  "picker_preview_title": {
+    "message": "Način predogleda"
+  },
+  "picker_preview_desc": {
+    "message": "Element, ki ste ga izbrali, je bil skrit. Če je slika to, kar želite, jo lahko trajno blokirate."
+  },
+  "picker_exit": {
+    "message": "Izhod"
+  },
+  "picker_cancel": {
+    "message": "Prekliči (ESC)"
+  },
+  "picker_saved": {
+    "message": "Pravilo shranjeno"
+  },
+  "picker_undo": {
+    "message": "razveljaviti"
+  },
+  "search_placeholder": {
+    "message": "Poiščite: nastavitev ali ime poglavja ..."
+  },
+  "nav_themes": {
+    "message": "Teme"
+  },
+  "nav_premium": {
+    "message": "Premium filtri"
+  },
+  "action_manual_block": {
+    "message": "Ročno blokirajte oglase"
+  },
+  "action_manage_rules": {
+    "message": "Moji zasebni bloki"
+  },
+  "action_report": {
+    "message": "Kopirajte diagnostične informacije"
+  },
+  "action_clear_site": {
+    "message": "Jasna pravila spletnega mesta"
+  },
+  "tab_actions": {
+    "message": "Dejanja"
+  },
+  "tab_stats": {
+    "message": "Statistika"
+  },
+  "popup_refresh": {
+    "message": "Osveži"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "premor"
+  },
+  "pause_10": {
+    "message": "10 minut"
+  },
+  "pause_30": {
+    "message": "30 minut"
+  },
+  "pause_60": {
+    "message": "1 uro"
+  },
+  "pause_300": {
+    "message": "5 ur"
+  },
+  "pause_resume": {
+    "message": "življenjepis"
+  },
+  "popup_settings": {
+    "message": "nastavitve"
+  },
+  "popup_total_blocked": {
+    "message": "Skupno blokirano:"
+  },
+  "level_relaxed": {
+    "message": "Udobno"
+  },
+  "level_balanced": {
+    "message": "Uravnotežen"
+  },
+  "level_strict": {
+    "message": "tesno"
+  },
+  "premium_section": {
+    "message": "Premium funkcije"
+  },
+  "pause_scope": {
+    "message": "Področje uporabe"
+  },
+  "pause_site_only": {
+    "message": "samo to spletno mesto"
+  },
+  "pause_global": {
+    "message": "Vsa spletna mesta (globalno)"
+  },
+  "lang_tr": {
+    "message": "turško"
+  },
+  "lang_en": {
+    "message": "angleščina"
+  },
+  "opt_faq_title": {
+    "message": "Pogosto zastavljena vprašanja"
+  },
+  "opt_faq_1_q": {
+    "message": "Ali vtičnik blokira oglase v YouTubu?"
+  },
+  "opt_faq_1_a": {
+    "message": "Da, vAdBlock samodejno blokira in preskoči YouTubove oglase v videu s posebnimi algoritmi."
+  },
+  "opt_faq_2_q": {
+    "message": "Nekatera spletna mesta so videti pokvarjena, kaj naj storim?"
+  },
+  "opt_faq_2_a": {
+    "message": "Če spletno mesto ne deluje pravilno, lahko prek okna vtičnika (Seznam dovoljenih) zaustavite zaščito tega mesta."
+  },
+  "opt_contact_title": {
+    "message": "Kontaktirajte nas"
+  },
+  "opt_contact_desc": {
+    "message": "Za poročila o napakah, povratne informacije ali zahteve za nove funkcije obiščite našo stran GitHub."
+  },
+  "opt_contact_btn": {
+    "message": "Pregled na GitHub"
+  },
+  "popup_paused_site": {
+    "message": "Zaustavljeno na tem spletnem mestu"
+  },
+  "opt_update_success": {
+    "message": "GUI posodobljen in filtri sinhronizirani!"
+  },
+  "global_temp_off_msg": {
+    "message": "Minuta $1 zaustavljena na vseh spletnih mestih"
+  },
+  "nav_sponsor": {
+    "message": "Sponzoriran skok"
+  },
+  "popup_add_segment": {
+    "message": "Prijavite sponzorirano območje"
+  },
+  "popup_sponsor_skipped": {
+    "message": "Pogrešani sponzorji"
+  },
+  "popup_waiting": {
+    "message": "pričakovano..."
+  },
+  "sb_skip_sponsor": {
+    "message": "Preskoči sponzorja"
+  },
+  "sb_segment_add": {
+    "message": "Označite sponzorja"
+  },
+  "sb_set_times": {
+    "message": "Nastavite čas in nato izberite svojo vrsto:"
+  },
+  "sb_start": {
+    "message": "Začetek"
+  },
+  "sb_end": {
+    "message": "Končaj"
+  },
+  "sb_select_type": {
+    "message": "Izberite vrsto:"
+  },
+  "sb_cancel": {
+    "message": "Prekliči"
+  },
+  "sb_submit": {
+    "message": "Pošlji"
+  },
+  "sb_submitted": {
+    "message": "Vaš prispevek je bil poslan"
+  },
+  "sb_submit_failed": {
+    "message": "Pošiljanje ni uspelo — strežnik ni dosegljiv"
+  },
+  "sb_skipped": {
+    "message": "preskočeno"
+  },
+  "sb_manual_skipped": {
+    "message": "priročnik preskočen"
+  },
+  "sb_time_saved": {
+    "message": "zaslužil 1 $ s"
+  },
+  "sb_total": {
+    "message": "Skupaj:"
+  },
+  "sb_cat_sponsor": {
+    "message": "Sponzor"
+  },
+  "sb_cat_selfpromo": {
+    "message": "Samopromocija"
+  },
+  "sb_cat_interaction": {
+    "message": "Interakcija"
+  },
+  "sb_cat_intro": {
+    "message": "uvod"
+  },
+  "sb_cat_outro": {
+    "message": "outro"
+  },
+  "sb_cat_preview": {
+    "message": "Predogled"
+  },
+  "sb_cat_music": {
+    "message": "Ne-glasba"
+  },
+  "sb_hours": {
+    "message": "ur"
+  },
+  "sb_minutes": {
+    "message": "min"
+  },
+  "sb_seconds": {
+    "message": "sek"
+  },
+  "opt_saved": {
+    "message": "Shranjeno!"
+  },
+  "opt_restored": {
+    "message": "Obnovljeno!"
+  },
+  "opt_remove": {
+    "message": "Odstrani"
+  },
+  "opt_sb_title": {
+    "message": "Sponzoriran skok"
+  },
+  "opt_sb_subtitle": {
+    "message": "Prihranite čas tako, da preskočite sponzorstva, uvode in nepotrebne razdelke v videoposnetkih YouTube."
+  },
+  "opt_sb_general": {
+    "message": "▶ Splošne nastavitve"
+  },
+  "opt_sb_general_desc": {
+    "message": "Določite osnovno delovanje sponzorskega obvodnega sistema."
+  },
+  "opt_sb_enable": {
+    "message": "Omogoči preskok sponzorja"
+  },
+  "opt_sb_enable_desc": {
+    "message": "Glavno stikalo za vse funkcije skoka."
+  },
+  "opt_sb_auto": {
+    "message": "Samodejni preskok"
+  },
+  "opt_sb_auto_desc": {
+    "message": "Ko pride epizoda, takoj skoči vanjo, ne da bi vprašal. (Če je zaprt, se prikaže gumb \"Preskoči\")"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 Nastavitve kategorije"
+  },
+  "opt_sb_categories_desc": {
+    "message": "Določite, kaj storiti v katerih vrstah segmentov enega za drugim."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ Prispevajte k skupnosti"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "Drugim uporabnikom lahko pomagate tako, da izberete oglase ali nepotrebna področja v videoposnetkih in jih pošljete v bazo podatkov."
+  },
+  "opt_sb_show_add": {
+    "message": "Pokaži gumb za poročilo sponzorja"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "Odpre vmesnik za poročanje o sponzorski domeni (AI) v video predvajalniku."
+  },
+  "opt_sb_api": {
+    "message": "Zasebni naslov API-ja"
+  },
+  "opt_sb_api_desc": {
+    "message": "Povezava s strežnikom za pošiljanje in prejemanje podatkov. (razvito)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "Samodejni preskok"
+  },
+  "opt_sb_btn_show": {
+    "message": "Prikaži gumb"
+  },
+  "opt_sb_disabled": {
+    "message": "Onemogočen"
+  },
+  "toast_refresh_youtube": {
+    "message": "Osvežite stran YouTube."
+  },
+  "toast_youtube_only": {
+    "message": "Ta funkcija deluje samo na videoposnetkih YouTube."
+  },
+  "promo_rate_title": {
+    "message": "⭐ Vam je bil vAdBlock všeč?"
+  },
+  "promo_rate_desc": {
+    "message": "Podprete nas lahko tako, da nam podelite 5 zvezdic, da se lahko še naprej izboljšujemo!"
+  },
+  "promo_rate_btn": {
+    "message": "Oceni"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock Premium"
+  },
+  "promo_premium_desc": {
+    "message": "Bi radi izkoristili 100-odstotno zasebnost in dodatne funkcije z nakupom premium naročnine?"
+  },
+  "promo_premium_btn": {
+    "message": "Pregled"
+  },
+  "promo_discount_title": {
+    "message": "🎁 Poseben popust za vas!"
+  },
+  "promo_discount_desc": {
+    "message": "Že dolgo ste z nami! Za 50% popust na premium članstvo uporabite kodo: lave-..."
+  },
+  "promo_discount_btn": {
+    "message": "Unovči kodo"
+  },
+  "day_sun": {
+    "message": "sonce"
+  },
+  "day_mon": {
+    "message": "pon"
+  },
+  "day_tue": {
+    "message": "Šal"
+  },
+  "day_wed": {
+    "message": "Car"
+  },
+  "day_thu": {
+    "message": "čet"
+  },
+  "day_fri": {
+    "message": "cum"
+  },
+  "day_sat": {
+    "message": "sob"
+  },
+  "month_jan": {
+    "message": "januarja"
+  },
+  "month_feb": {
+    "message": "feb"
+  },
+  "month_mar": {
+    "message": "marec"
+  },
+  "month_apr": {
+    "message": "apr"
+  },
+  "month_may": {
+    "message": "maja"
+  },
+  "month_jun": {
+    "message": "užitek"
+  },
+  "month_jul": {
+    "message": "jul"
+  },
+  "month_aug": {
+    "message": "Hemlock"
+  },
+  "month_sep": {
+    "message": "sept"
+  },
+  "month_oct": {
+    "message": "okt"
+  },
+  "month_nov": {
+    "message": "obrv"
+  },
+  "month_dec": {
+    "message": "Iskanje"
+  },
+  "time_hours": {
+    "message": "ur"
+  },
+  "time_minutes": {
+    "message": "min"
+  },
+  "time_seconds": {
+    "message": "sek"
+  }
+}

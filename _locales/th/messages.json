@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "ส่วนขยายที่ดีที่สุดในการบล็อกโฆษณาและป๊อปอัป บล็อกโฆษณาบน Facebook, YouTube และเว็บไซต์อื่นๆ ทั้งหมด"
+  },
+  "appName": {
+    "message": "vAdBlock — ตัวบล็อกโฆษณาที่ดีที่สุด"
+  },
+  "cmd_toggle": {
+    "message": "สลับการป้องกัน"
+  },
+  "cmd_picker": {
+    "message": "เปิดตัวตัวเลือกโฆษณา"
+  },
+  "nav_stats": {
+    "message": "สถิติ"
+  },
+  "nav_general": {
+    "message": "ทั่วไป"
+  },
+  "nav_protection": {
+    "message": "ระดับการป้องกัน"
+  },
+  "nav_customize": {
+    "message": "ปรับแต่ง"
+  },
+  "nav_filters": {
+    "message": "ตัวกรอง"
+  },
+  "nav_support": {
+    "message": "สนับสนุน"
+  },
+  "popup_unknown": {
+    "message": "ไม่ทราบ"
+  },
+  "popup_blocked": {
+    "message": "ถูกบล็อก:"
+  },
+  "popup_protection_on": {
+    "message": "เปิดการป้องกัน"
+  },
+  "popup_protection_off": {
+    "message": "ปิดการป้องกัน"
+  },
+  "popup_menu_manual": {
+    "message": "บล็อกโฆษณาด้วยตนเอง"
+  },
+  "popup_menu_custom": {
+    "message": "บล็อกส่วนตัวของฉัน"
+  },
+  "popup_menu_diag": {
+    "message": "คัดลอกข้อมูลการวินิจฉัย"
+  },
+  "popup_menu_clear": {
+    "message": "กฎของเว็บไซต์ที่ชัดเจน"
+  },
+  "pause_paused_state": {
+    "message": "หยุดชั่วคราว"
+  },
+  "pause_title": {
+    "message": "หยุดชั่วคราว"
+  },
+  "pause_min_unit": {
+    "message": "นาที"
+  },
+  "pause_sec_unit": {
+    "message": "วินาที"
+  },
+  "pause_site": {
+    "message": "บนเว็บไซต์นี้"
+  },
+  "site_temp_30": {
+    "message": "ปิดเครื่องเป็นเวลา 30 นาที"
+  },
+  "site_temp_120": {
+    "message": "ปิดเป็นเวลา 2 ชั่วโมง"
+  },
+  "site_temp_0": {
+    "message": "เปิดไซต์อีกครั้ง"
+  },
+  "site_temp_off_msg": {
+    "message": "ไซต์นี้ถูกปิดเป็นเวลา $1 นาที"
+  },
+  "site_temp_on_msg": {
+    "message": "ไซต์นี้เปิดใหม่แล้ว"
+  },
+  "pause_toast": {
+    "message": "$1 นาทีหยุดชั่วคราว"
+  },
+  "pause_toast_resume": {
+    "message": "การป้องกันดำเนินต่อไป"
+  },
+  "chart_all": {
+    "message": "ทั้งหมด"
+  },
+  "chart_ads": {
+    "message": "โฆษณา"
+  },
+  "chart_trackers": {
+    "message": "ผู้ชม"
+  },
+  "chart_cdn": {
+    "message": "ซีดีเอ็น"
+  },
+  "chart_other": {
+    "message": "อื่น"
+  },
+  "chart_7days": {
+    "message": "7 วัน"
+  },
+  "chart_24h": {
+    "message": "24 ชม"
+  },
+  "chart_30d": {
+    "message": "30 วัน"
+  },
+  "chart_1y": {
+    "message": "1 ปี"
+  },
+  "rules_title": {
+    "message": "กฎพิเศษของฉัน"
+  },
+  "rules_empty": {
+    "message": "ยังไม่มีการเพิ่มกฎพิเศษ"
+  },
+  "rules_global": {
+    "message": "ทั่วโลก"
+  },
+  "rules_preview": {
+    "message": "ดูตัวอย่าง"
+  },
+  "rules_delete": {
+    "message": "ลบ"
+  },
+  "toast_rules_cleared": {
+    "message": "ล้างกฎ $1 แล้ว เพจกำลังรีเฟรช..."
+  },
+  "toast_no_rules_site": {
+    "message": "ไม่มีกฎเกณฑ์บนเว็บไซต์นี้"
+  },
+  "toast_protection_updated": {
+    "message": "อัปเดตระดับการป้องกันแล้ว"
+  },
+  "toast_report_copied": {
+    "message": "คัดลอกข้อมูลการวินิจฉัยไปยังคลิปบอร์ดแล้ว"
+  },
+  "toast_copy_failed": {
+    "message": "ไม่สามารถคัดลอกได้"
+  },
+  "toast_site_info_failed": {
+    "message": "ไม่สามารถรับข้อมูลไซต์ได้"
+  },
+  "toast_page_not_available": {
+    "message": "ไม่มีให้บริการในหน้านี้ (การป้องกันของ Chrome)"
+  },
+  "toast_protection_on": {
+    "message": "การป้องกัน: เปิด"
+  },
+  "toast_protection_off": {
+    "message": "การป้องกัน: ปิด"
+  },
+  "toast_redirect": {
+    "message": "กำลังเปลี่ยนเส้นทาง..."
+  },
+  "report_title": {
+    "message": "ข้อมูลการวินิจฉัย"
+  },
+  "report_version": {
+    "message": "เวอร์ชัน"
+  },
+  "report_page": {
+    "message": "หน้าหนังสือ"
+  },
+  "report_date": {
+    "message": "ประวัติศาสตร์"
+  },
+  "report_level": {
+    "message": "ระดับ"
+  },
+  "footer_made_by": {
+    "message": "ทำโดยลาเวนเดอร์"
+  },
+  "opt_stats_title": {
+    "message": "สถิติ"
+  },
+  "opt_stats_subtitle": {
+    "message": "ดูว่า vAdBlock ทำงานในพื้นหลังนานเท่าใด"
+  },
+  "opt_stat_ads_7d": {
+    "message": "โฆษณาถูกบล็อกใน 7 วันที่ผ่านมา"
+  },
+  "opt_stat_trackers": {
+    "message": "ตัวติดตามตัวรวบรวมข้อมูลที่ถูกบล็อก"
+  },
+  "opt_stat_data": {
+    "message": "ข้อมูลที่บันทึกไว้"
+  },
+  "opt_stat_time": {
+    "message": "เวลาที่บันทึกไว้ในการโหลดหน้า"
+  },
+  "opt_report_title": {
+    "message": "รายงานประจำสัปดาห์"
+  },
+  "opt_report_total": {
+    "message": "คำขอที่ถูกบล็อก"
+  },
+  "opt_report_ads": {
+    "message": "โฆษณา"
+  },
+  "opt_report_trackers": {
+    "message": "ผู้ชม"
+  },
+  "opt_report_daily": {
+    "message": "ค่าเฉลี่ยรายวัน"
+  },
+  "opt_top_domains": {
+    "message": "ไซต์ที่ถูกบล็อกมากที่สุด"
+  },
+  "opt_empty_data": {
+    "message": "ยังไม่มีข้อมูล"
+  },
+  "opt_log_title": {
+    "message": "บันทึกบล็อก"
+  },
+  "opt_log_desc": {
+    "message": "คำขอที่ถูกบล็อก 50 รายการล่าสุด (ในเซสชันนี้เท่านั้น)"
+  },
+  "opt_log_search": {
+    "message": "ค้นหา: ชื่อโดเมนหรือ URL..."
+  },
+  "opt_log_export": {
+    "message": "ส่งออก CSV"
+  },
+  "opt_empty_log": {
+    "message": "ยังไม่มีคำขอที่ถูกบล็อก"
+  },
+  "opt_log_clear": {
+    "message": "ล้างบันทึก"
+  },
+  "opt_general_title": {
+    "message": "การตั้งค่าทั่วไป"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "อนุญาตโฆษณาที่ไม่ล่วงล้ำบางรายการ"
+  },
+  "opt_context_menu": {
+    "message": "เพิ่มตัวเลือก vAdBlock ให้กับเมนูคลิกขวา"
+  },
+  "opt_badge_count": {
+    "message": "แสดงจำนวนโฆษณาที่ถูกบล็อกบนปุ่ม vAdBlock"
+  },
+  "opt_dev_tools": {
+    "message": "แสดงแผง 'vAdBlock' ในเครื่องมือสำหรับนักพัฒนาซอฟต์แวร์"
+  },
+  "opt_promotions": {
+    "message": "อนุญาตให้ vAdBlock แสดงข้อความส่งเสริมการขายเป็นครั้งคราว"
+  },
+  "opt_fingerprint": {
+    "message": "การป้องกันลายนิ้วมือ (ซ่อนข้อมูลฮาร์ดแวร์ Canvas/WebGL)"
+  },
+  "opt_anti_adblock": {
+    "message": "ซ่อนคำเตือน \"ตรวจพบตัวบล็อกโฆษณา\""
+  },
+  "opt_https": {
+    "message": "บังคับการเชื่อมต่อที่ปลอดภัย (HTTPS)"
+  },
+  "opt_webrtc": {
+    "message": "ป้องกันการรั่วไหลของที่อยู่ IP ของ WebRTC"
+  },
+  "opt_language_title": {
+    "message": "ภาษา"
+  },
+  "opt_language_desc": {
+    "message": "เลือกภาษาอินเทอร์เฟซ ตัวเลือกอัตโนมัติใช้ภาษาของเบราว์เซอร์"
+  },
+  "opt_language_auto": {
+    "message": "อัตโนมัติ (ขึ้นอยู่กับภาษาของเบราว์เซอร์)"
+  },
+  "opt_language_tr": {
+    "message": "ภาษาตุรกี"
+  },
+  "opt_language_en": {
+    "message": "ภาษาอังกฤษ"
+  },
+  "opt_lang_auto": {
+    "message": "อัตโนมัติ (ภาษาเบราว์เซอร์)"
+  },
+  "opt_protection_title": {
+    "message": "ระดับการป้องกัน"
+  },
+  "opt_protection_subtitle": {
+    "message": "เลือกโหมดความปลอดภัยที่เหมาะกับพฤติกรรมการท่องอินเทอร์เน็ตของคุณมากที่สุด"
+  },
+  "opt_mode_relaxed": {
+    "message": "โหมดความสะดวกสบาย"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "บล็อกโฆษณาพื้นฐาน ตัวติดตามขั้นสูงและตัวกรองที่รุนแรงที่อาจทำลายไซต์จะถูกปิด ประสิทธิภาพและความเข้ากันได้อยู่ในระดับสูงสุด"
+  },
+  "opt_mode_balanced": {
+    "message": "โหมดสมดุล (แนะนำ)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "บล็อกโฆษณาส่วนใหญ่และผู้รวบรวมข้อมูลที่รู้จัก เหมาะสำหรับใช้งานอินเทอร์เน็ตทุกวัน การป้องกันที่ราบรื่นไม่ส่งผลต่อประสิทธิภาพ"
+  },
+  "opt_mode_strict": {
+    "message": "โหมดเข้มงวด"
+  },
+  "opt_mode_strict_desc": {
+    "message": "ความเป็นส่วนตัวสูงสุด! มันจัดการสัญญาณ GPC/DNT ทั้งหมด รบกวนเครื่องอ่านลายนิ้วมือ และบล็อกเครือข่ายโฆษณาเชิงรุกที่รากของมัน (เหมาะสำหรับไซต์ทดสอบ)"
+  },
+  "opt_customize_title": {
+    "message": "ปรับแต่ง"
+  },
+  "opt_customize_subtitle": {
+    "message": "ปรับแต่งปลั๊กอินให้ตรงตามความต้องการของคุณ"
+  },
+  "opt_allowlist_title": {
+    "message": "ไซต์ที่อนุญาต (รายการที่อนุญาต)"
+  },
+  "opt_allowlist_desc": {
+    "message": "การบล็อกโฆษณาถูกปิดใช้งานบนเว็บไซต์ต่อไปนี้"
+  },
+  "opt_allowlist_placeholder": {
+    "message": "ตัวอย่าง.ดอทคอม"
+  },
+  "opt_add": {
+    "message": "เพิ่ม"
+  },
+  "opt_allowlist_empty": {
+    "message": "ยังไม่มีการเพิ่มเว็บไซต์ เพิ่มชื่อโดเมนด้านบน"
+  },
+  "opt_css_title": {
+    "message": "กฎ CSS ที่กำหนดเอง"
+  },
+  "opt_css_desc": {
+    "message": "กฎการซ่อน CSS พิเศษสำหรับผู้ใช้ขั้นสูง"
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "บันทึก"
+  },
+  "opt_network_title": {
+    "message": "กฎเครือข่ายส่วนตัว"
+  },
+  "opt_network_desc": {
+    "message": "หนึ่งกฎต่อบรรทัด รูปแบบ: ||example.com^ (บล็อก) หรือ @@||example.com^ (อนุญาต)"
+  },
+  "opt_backup_title": {
+    "message": "สำรองและกู้คืน"
+  },
+  "opt_backup_desc": {
+    "message": "ส่งออกการตั้งค่า ไซต์ที่อนุญาต และกฎที่กำหนดเอง"
+  },
+  "opt_export": {
+    "message": "ดาวน์โหลดการสำรองข้อมูล"
+  },
+  "opt_import": {
+    "message": "คืนค่าการสำรองข้อมูล"
+  },
+  "opt_filters_title": {
+    "message": "รายการกรอง"
+  },
+  "opt_filters_subtitle": {
+    "message": "เลือกรายการตัวกรองที่จะใช้และอัปเดตรายการ"
+  },
+  "opt_filter_easylist_desc": {
+    "message": "ตัวกรองโฆษณาหลัก — บล็อกเครือข่ายโฆษณาส่วนใหญ่"
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "บล็อกโดเมนตัวติดตามและการวิเคราะห์"
+  },
+  "opt_filter_adguard_desc": {
+    "message": "เซิร์ฟเวอร์โฆษณาและรายการเซิร์ฟเวอร์การติดตาม"
+  },
+  "opt_filter_ubo_desc": {
+    "message": "ตัวกรอง vAdBlock และรายการความเป็นส่วนตัว"
+  },
+  "opt_update_title": {
+    "message": "อัปเดตรายการ"
+  },
+  "opt_update_desc": {
+    "message": "รายการตัวกรองจะอัปเดตอัตโนมัติทุกสัปดาห์ อัปเดตล่าสุด:"
+  },
+  "opt_update_btn": {
+    "message": "อัปเดตตัวกรอง"
+  },
+  "opt_update_unknown": {
+    "message": "ไม่ทราบ"
+  },
+  "opt_update_stale": {
+    "message": "⚠ รอการอัปเดตอัตโนมัติ ($1 วันที่ผ่านมา)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ ปัจจุบัน · $อัปเดตเมื่อ 1 วันที่แล้ว"
+  },
+  "opt_update_first": {
+    "message": "การอัปเดตครั้งแรกที่รอคอย"
+  },
+  "opt_update_off": {
+    "message": "(ปิด)"
+  },
+  "opt_update_running": {
+    "message": "กำลังอัปเดต..."
+  },
+  "opt_update_done": {
+    "message": "อัพเดทรายการแล้ว!"
+  },
+  "opt_update_error": {
+    "message": "การอัปเดตล้มเหลว: $1"
+  },
+  "opt_support_title": {
+    "message": "สนับสนุน"
+  },
+  "opt_support_subtitle": {
+    "message": "ติดต่อเราหากคุณมีคำถามหรือปัญหา"
+  },
+  "opt_themes_title": {
+    "message": "ธีมส์"
+  },
+  "opt_themes_subtitle": {
+    "message": "ปรับแต่งรูปลักษณ์ของ vAdBlock สะท้อนสไตล์ของคุณ"
+  },
+  "theme_default": {
+    "message": "ค่าเริ่มต้น (สว่าง)"
+  },
+  "theme_dark": {
+    "message": "สสารมืด"
+  },
+  "theme_hover_preview": {
+    "message": "วางเมาส์เหนือเพื่อดูตัวอย่าง"
+  },
+  "opt_premium_title": {
+    "message": "ตัวกรองระดับพรีเมียม"
+  },
+  "opt_premium_subtitle": {
+    "message": "เพิ่มประสบการณ์ vAdBlock ของคุณให้สูงสุด"
+  },
+  "opt_premium_focus_title": {
+    "message": "โหมดโฟกัส"
+  },
+  "opt_premium_focus_desc": {
+    "message": "ซ่อนการเปิดตัวจดหมายข่าว การเลื่อนวิดีโอ และองค์ประกอบที่ไม่ใช่โฆษณาที่น่ารำคาญ"
+  },
+  "opt_premium_cookie_title": {
+    "message": "ยอมรับ/ปฏิเสธคุกกี้อัตโนมัติ"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "ซ่อนคำเตือนคุกกี้บนเว็บไซต์ยอดนิยมโดยอัตโนมัติ"
+  },
+  "opt_premium_cookie2_title": {
+    "message": "ยอมรับความยินยอมของคุกกี้โดยอัตโนมัติ"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "คลิกปุ่ม \"ยอมรับ\" โดยอัตโนมัติในการแจ้งเตือนคุกกี้"
+  },
+  "opt_sponsor_skip_title": {
+    "message": "จัมเปอร์ผู้สนับสนุน YouTube"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "โดยจะข้ามส่วนสปอนเซอร์ การโทรออกและโต้ตอบในวิดีโอ YouTube โดยการตรวจจับจากคำบรรยายโดยอัตโนมัติ"
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium เปิดใช้งานแล้ว! เพลิดเพลินไปกับคุณสมบัติทั้งหมด"
+  },
+  "welcome_title": {
+    "message": "ยินดีต้อนรับสู่ vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock อยู่กับคุณแล้ว"
+  },
+  "welcome_premium_badge": {
+    "message": "✨ เวอร์ชันพรีเมี่ยมใช้งานได้"
+  },
+  "welcome_subtitle": {
+    "message": "ประสบการณ์อินเทอร์เน็ตของคุณสะอาดขึ้น เร็วขึ้น และเป็นของคุณโดยสมบูรณ์แล้ว"
+  },
+  "welcome_feat1_title": {
+    "message": "การป้องกันที่มองไม่เห็น"
+  },
+  "welcome_feat1_desc": {
+    "message": "มันจะบล็อกตัวติดตามทั้งหมดในพื้นหลังอย่างเงียบ ๆ ในขณะที่คุณเรียกดู"
+  },
+  "welcome_feat2_title": {
+    "message": "ความเร็วระดับดาว"
+  },
+  "welcome_feat2_desc": {
+    "message": "โหลดหน้าเว็บได้ทันทีเนื่องจากเนื้อหาที่ไม่จำเป็นถูกบล็อก"
+  },
+  "welcome_feat3_title": {
+    "message": "ตัวกรองขั้นสูง"
+  },
+  "welcome_feat3_desc": {
+    "message": "มันกำจัดโฆษณาเชิงรุกที่ตัวบล็อกโฆษณาทั่วไปพลาด"
+  },
+  "welcome_feat4_title": {
+    "message": "การปรับแต่งแบบเต็ม"
+  },
+  "welcome_feat4_desc": {
+    "message": "จัดการกฎและระดับตัวกรองจากหน้าการตั้งค่า"
+  },
+  "welcome_btn": {
+    "message": "เริ่มการสำรวจ"
+  },
+  "ctx_block_element": {
+    "message": "บล็อกรายการนี้ด้วย vAdBlock"
+  },
+  "picker_title": {
+    "message": "บล็อกรายการ"
+  },
+  "picker_subtitle": {
+    "message": "เพิ่มลงในกฎเกณฑ์"
+  },
+  "picker_expand": {
+    "message": "ขยายพื้นที่การเลือก:"
+  },
+  "picker_advanced": {
+    "message": "ตัวเลือกขั้นสูง"
+  },
+  "picker_apply_all": {
+    "message": "ใช้กฎกับทุกไซต์"
+  },
+  "picker_similar": {
+    "message": "บล็อกรายการที่คล้ายกันด้วย"
+  },
+  "picker_css_label": {
+    "message": "ตัวเลือก CSS (ขั้นสูง):"
+  },
+  "picker_block": {
+    "message": "ปิดกั้น"
+  },
+  "picker_preview": {
+    "message": "ดูตัวอย่าง"
+  },
+  "picker_reselect": {
+    "message": "เลือกรายการอื่น"
+  },
+  "picker_preview_title": {
+    "message": "โหมดแสดงตัวอย่าง"
+  },
+  "picker_preview_desc": {
+    "message": "รายการที่คุณเลือกถูกซ่อนไว้ หากรูปภาพเป็นสิ่งที่คุณต้องการ คุณสามารถบล็อกได้อย่างถาวร"
+  },
+  "picker_exit": {
+    "message": "ออก"
+  },
+  "picker_cancel": {
+    "message": "ยกเลิก (ESC)"
+  },
+  "picker_saved": {
+    "message": "บันทึกกฎแล้ว"
+  },
+  "picker_undo": {
+    "message": "เลิกทำ"
+  },
+  "search_placeholder": {
+    "message": "ค้นหา: การตั้งค่าหรือชื่อบท..."
+  },
+  "nav_themes": {
+    "message": "ธีมส์"
+  },
+  "nav_premium": {
+    "message": "ตัวกรองระดับพรีเมียม"
+  },
+  "action_manual_block": {
+    "message": "บล็อกโฆษณาด้วยตนเอง"
+  },
+  "action_manage_rules": {
+    "message": "บล็อกส่วนตัวของฉัน"
+  },
+  "action_report": {
+    "message": "คัดลอกข้อมูลการวินิจฉัย"
+  },
+  "action_clear_site": {
+    "message": "กฎของเว็บไซต์ที่ชัดเจน"
+  },
+  "tab_actions": {
+    "message": "การดำเนินการ"
+  },
+  "tab_stats": {
+    "message": "สถิติ"
+  },
+  "popup_refresh": {
+    "message": "รีเฟรช"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "หยุดชั่วคราว"
+  },
+  "pause_10": {
+    "message": "10 นาที"
+  },
+  "pause_30": {
+    "message": "30 นาที"
+  },
+  "pause_60": {
+    "message": "1 ชั่วโมง"
+  },
+  "pause_300": {
+    "message": "5 ชั่วโมง"
+  },
+  "pause_resume": {
+    "message": "ประวัติย่อ"
+  },
+  "popup_settings": {
+    "message": "การตั้งค่า"
+  },
+  "popup_total_blocked": {
+    "message": "จำนวนที่ถูกบล็อก:"
+  },
+  "level_relaxed": {
+    "message": "สะดวกสบาย"
+  },
+  "level_balanced": {
+    "message": "สมดุล"
+  },
+  "level_strict": {
+    "message": "แน่น"
+  },
+  "premium_section": {
+    "message": "คุณสมบัติพิเศษ"
+  },
+  "pause_scope": {
+    "message": "พื้นที่ใช้งาน"
+  },
+  "pause_site_only": {
+    "message": "เพียงแค่ไซต์นี้"
+  },
+  "pause_global": {
+    "message": "เว็บไซต์ทั้งหมด (ทั่วโลก)"
+  },
+  "lang_tr": {
+    "message": "ภาษาตุรกี"
+  },
+  "lang_en": {
+    "message": "ภาษาอังกฤษ"
+  },
+  "opt_faq_title": {
+    "message": "คำถามที่พบบ่อย"
+  },
+  "opt_faq_1_q": {
+    "message": "ปลั๊กอินบล็อกโฆษณา YouTube หรือไม่"
+  },
+  "opt_faq_1_a": {
+    "message": "ใช่ vAdBlock จะบล็อกและข้ามโฆษณาในวิดีโอ YouTube โดยอัตโนมัติด้วยอัลกอริธึมพิเศษ"
+  },
+  "opt_faq_2_q": {
+    "message": "บางเว็บไซต์ดูเหมือนใช้งานไม่ได้ ฉันควรทำอย่างไร?"
+  },
+  "opt_faq_2_a": {
+    "message": "หากไซต์ทำงานไม่ถูกต้อง คุณสามารถหยุดการป้องกันสำหรับไซต์นั้นชั่วคราวได้จากหน้าต่างปลั๊กอิน (รายการที่อนุญาต)"
+  },
+  "opt_contact_title": {
+    "message": "ติดต่อเรา"
+  },
+  "opt_contact_desc": {
+    "message": "สำหรับรายงานข้อผิดพลาด ข้อเสนอแนะ หรือคำขอคุณสมบัติใหม่ โปรดไปที่หน้า GitHub ของเรา"
+  },
+  "opt_contact_btn": {
+    "message": "รีวิวบน GitHub"
+  },
+  "popup_paused_site": {
+    "message": "หยุดชั่วคราวบนเว็บไซต์นี้"
+  },
+  "opt_update_success": {
+    "message": "อัปเดต GUI และซิงค์ตัวกรองแล้ว!"
+  },
+  "global_temp_off_msg": {
+    "message": "$1 นาทีหยุดชั่วคราวในทุกไซต์"
+  },
+  "nav_sponsor": {
+    "message": "กระโดดสนับสนุน"
+  },
+  "popup_add_segment": {
+    "message": "รายงานพื้นที่ที่ได้รับการสนับสนุน"
+  },
+  "popup_sponsor_skipped": {
+    "message": "พลาดสปอนเซอร์"
+  },
+  "popup_waiting": {
+    "message": "ที่คาดหวัง..."
+  },
+  "sb_skip_sponsor": {
+    "message": "ข้ามผู้สนับสนุน"
+  },
+  "sb_segment_add": {
+    "message": "มาร์คสปอนเซอร์"
+  },
+  "sb_set_times": {
+    "message": "ตั้งเวลา จากนั้นเลือกประเภทของคุณ:"
+  },
+  "sb_start": {
+    "message": "จุดเริ่มต้น"
+  },
+  "sb_end": {
+    "message": "เสร็จ"
+  },
+  "sb_select_type": {
+    "message": "เลือกประเภท:"
+  },
+  "sb_cancel": {
+    "message": "ยกเลิก"
+  },
+  "sb_submit": {
+    "message": "ส่ง"
+  },
+  "sb_submitted": {
+    "message": "การบริจาคของคุณถูกส่งไปแล้ว"
+  },
+  "sb_submit_failed": {
+    "message": "ไม่สามารถส่งได้ - ไม่สามารถเข้าถึงเซิร์ฟเวอร์ได้"
+  },
+  "sb_skipped": {
+    "message": "ข้ามไป"
+  },
+  "sb_manual_skipped": {
+    "message": "คู่มือถูกข้ามไป"
+  },
+  "sb_time_saved": {
+    "message": "ได้รับ $1 วินาที"
+  },
+  "sb_total": {
+    "message": "ทั้งหมด:"
+  },
+  "sb_cat_sponsor": {
+    "message": "สปอนเซอร์"
+  },
+  "sb_cat_selfpromo": {
+    "message": "การส่งเสริมตนเอง"
+  },
+  "sb_cat_interaction": {
+    "message": "ปฏิสัมพันธ์"
+  },
+  "sb_cat_intro": {
+    "message": "บทนำ"
+  },
+  "sb_cat_outro": {
+    "message": "เอาท์โทร"
+  },
+  "sb_cat_preview": {
+    "message": "ดูตัวอย่าง"
+  },
+  "sb_cat_music": {
+    "message": "ไม่ใช่ดนตรี"
+  },
+  "sb_hours": {
+    "message": "ชม"
+  },
+  "sb_minutes": {
+    "message": "นาที"
+  },
+  "sb_seconds": {
+    "message": "วินาที"
+  },
+  "opt_saved": {
+    "message": "บันทึกแล้ว!"
+  },
+  "opt_restored": {
+    "message": "ฟื้นแล้ว!"
+  },
+  "opt_remove": {
+    "message": "ลบ"
+  },
+  "opt_sb_title": {
+    "message": "กระโดดสนับสนุน"
+  },
+  "opt_sb_subtitle": {
+    "message": "ประหยัดเวลาด้วยการข้ามการสนับสนุน ช่วงแนะนำ และส่วนที่ไม่จำเป็นในวิดีโอ YouTube"
+  },
+  "opt_sb_general": {
+    "message": "▶ การตั้งค่าทั่วไป"
+  },
+  "opt_sb_general_desc": {
+    "message": "กำหนดการทำงานพื้นฐานของระบบบายพาสของผู้สนับสนุน"
+  },
+  "opt_sb_enable": {
+    "message": "เปิดใช้งานการข้ามผู้สนับสนุน"
+  },
+  "opt_sb_enable_desc": {
+    "message": "สวิตช์หลักสำหรับคุณสมบัติการกระโดดทั้งหมด"
+  },
+  "opt_sb_auto": {
+    "message": "ข้ามอัตโนมัติ"
+  },
+  "opt_sb_auto_desc": {
+    "message": "เมื่อถึงตอนเขาจะกระโดดเข้าไปโดยไม่ถาม (หากปิดอยู่ปุ่ม \"ข้าม\" จะปรากฏขึ้น)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 การตั้งค่าหมวดหมู่"
+  },
+  "opt_sb_categories_desc": {
+    "message": "กำหนดว่าต้องทำอะไรในส่วนประเภทใดทีละรายการ"
+  },
+  "opt_sb_contribute": {
+    "message": "♥ มีส่วนร่วมในชุมชน"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "คุณสามารถช่วยเหลือผู้ใช้รายอื่นได้โดยเลือกโฆษณาหรือส่วนที่ไม่จำเป็นในวิดีโอแล้วส่งไปยังฐานข้อมูล"
+  },
+  "opt_sb_show_add": {
+    "message": "แสดงปุ่มรายงานผู้สนับสนุน"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "เปิดอินเทอร์เฟซการรายงานโดเมนของผู้สนับสนุน (AI) บนโปรแกรมเล่นวิดีโอ"
+  },
+  "opt_sb_api": {
+    "message": "ที่อยู่ API ส่วนตัว"
+  },
+  "opt_sb_api_desc": {
+    "message": "การเชื่อมต่อเซิร์ฟเวอร์เพื่อส่งและรับข้อมูล (ที่พัฒนา)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "ข้ามอัตโนมัติ"
+  },
+  "opt_sb_btn_show": {
+    "message": "แสดงปุ่ม"
+  },
+  "opt_sb_disabled": {
+    "message": "พิการ"
+  },
+  "toast_refresh_youtube": {
+    "message": "รีเฟรชหน้า YouTube"
+  },
+  "toast_youtube_only": {
+    "message": "คุณลักษณะนี้ใช้ได้กับวิดีโอ YouTube เท่านั้น"
+  },
+  "promo_rate_title": {
+    "message": "⭐ คุณชอบ vAdBlock หรือไม่?"
+  },
+  "promo_rate_desc": {
+    "message": "คุณสามารถสนับสนุนเราได้ด้วยการให้ 5 ดาวแก่เรา เพื่อให้เราสามารถปรับปรุงต่อไปได้!"
+  },
+  "promo_rate_btn": {
+    "message": "ประเมิน"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock พรีเมี่ยม"
+  },
+  "promo_premium_desc": {
+    "message": "คุณต้องการได้รับประโยชน์จากความเป็นส่วนตัว 100% และคุณสมบัติพิเศษโดยการซื้อการสมัครสมาชิกแบบพรีเมียมหรือไม่?"
+  },
+  "promo_premium_btn": {
+    "message": "ทบทวน"
+  },
+  "promo_discount_title": {
+    "message": "🎁 ส่วนลดพิเศษสำหรับคุณ!"
+  },
+  "promo_discount_desc": {
+    "message": "คุณอยู่กับเรามานานแล้ว! เพื่อรับส่วนลด 50% สำหรับสมาชิกพรีเมี่ยม ใช้โค้ด: lave-..."
+  },
+  "promo_discount_btn": {
+    "message": "แลกรหัส"
+  },
+  "day_sun": {
+    "message": "ดวงอาทิตย์"
+  },
+  "day_mon": {
+    "message": "จันทร์"
+  },
+  "day_tue": {
+    "message": "ผ้าคลุมไหล่"
+  },
+  "day_wed": {
+    "message": "ซาร์"
+  },
+  "day_thu": {
+    "message": "พฤ"
+  },
+  "day_fri": {
+    "message": "ลบ.ม"
+  },
+  "day_sat": {
+    "message": "นั่ง"
+  },
+  "month_jan": {
+    "message": "มกราคม"
+  },
+  "month_feb": {
+    "message": "ก.พ"
+  },
+  "month_mar": {
+    "message": "มี.ค"
+  },
+  "month_apr": {
+    "message": "เม.ย"
+  },
+  "month_may": {
+    "message": "อาจ"
+  },
+  "month_jun": {
+    "message": "ความพึงพอใจ"
+  },
+  "month_jul": {
+    "message": "ก.ค"
+  },
+  "month_aug": {
+    "message": "เฮมล็อค"
+  },
+  "month_sep": {
+    "message": "ก.ย"
+  },
+  "month_oct": {
+    "message": "ต.ค"
+  },
+  "month_nov": {
+    "message": "คิ้ว"
+  },
+  "month_dec": {
+    "message": "ค้นหา"
+  },
+  "time_hours": {
+    "message": "ชม"
+  },
+  "time_minutes": {
+    "message": "นาที"
+  },
+  "time_seconds": {
+    "message": "วินาที"
+  }
+}

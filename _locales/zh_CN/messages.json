@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "拦截广告和弹窗的终极扩展。拦截 Facebook、YouTube 和所有其他网站上的广告。"
+  },
+  "cmd_toggle": {
+    "message": "切换保护"
+  },
+  "cmd_picker": {
+    "message": "启动广告选择器"
+  },
+  "nav_stats": {
+    "message": "统计"
+  },
+  "nav_general": {
+    "message": "常规"
+  },
+  "nav_protection": {
+    "message": "保护级别"
+  },
+  "nav_customize": {
+    "message": "自定义"
+  },
+  "nav_filters": {
+    "message": "过滤器"
+  },
+  "nav_support": {
+    "message": "支持"
+  },
+  "nav_themes": {
+    "message": "主题"
+  },
+  "nav_premium": {
+    "message": "高级过滤器"
+  },
+  "popup_unknown": {
+    "message": "未知"
+  },
+  "popup_blocked": {
+    "message": "已拦截:"
+  },
+  "popup_protection_on": {
+    "message": "保护开启"
+  },
+  "popup_protection_off": {
+    "message": "保护关闭"
+  },
+  "popup_menu_manual": {
+    "message": "手动拦截广告"
+  },
+  "popup_menu_custom": {
+    "message": "我的自定义拦截"
+  },
+  "popup_menu_diag": {
+    "message": "复制诊断信息"
+  },
+  "popup_menu_clear": {
+    "message": "清除站点规则"
+  },
+  "pause_paused_state": {
+    "message": "已暂停"
+  },
+  "pause_title": {
+    "message": "暂停"
+  },
+  "pause_min_unit": {
+    "message": "分钟"
+  },
+  "pause_sec_unit": {
+    "message": "秒"
+  },
+  "pause_site": {
+    "message": "在此网站上"
+  },
+  "site_temp_30": {
+    "message": "暂停30分钟"
+  },
+  "site_temp_120": {
+    "message": "暂停2小时"
+  },
+  "site_temp_0": {
+    "message": "恢复保护"
+  },
+  "site_temp_off_msg": {
+    "message": "在此网站上暂停 $1 分钟"
+  },
+  "site_temp_on_msg": {
+    "message": "已在此网站上恢复保护"
+  },
+  "pause_toast": {
+    "message": "已暂停 $1 分钟"
+  },
+  "pause_toast_resume": {
+    "message": "保护已恢复"
+  },
+  "chart_all": {
+    "message": "全部"
+  },
+  "chart_ads": {
+    "message": "广告"
+  },
+  "chart_trackers": {
+    "message": "追踪器"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "其他"
+  },
+  "chart_7days": {
+    "message": "7天"
+  },
+  "chart_24h": {
+    "message": "24小时"
+  },
+  "chart_30d": {
+    "message": "30天"
+  },
+  "chart_1y": {
+    "message": "1年"
+  },
+  "rules_title": {
+    "message": "我的自定义规则"
+  },
+  "rules_empty": {
+    "message": "尚未添加自定义规则。"
+  },
+  "rules_global": {
+    "message": "全局"
+  },
+  "rules_preview": {
+    "message": "预览"
+  },
+  "rules_delete": {
+    "message": "删除"
+  },
+  "toast_rules_cleared": {
+    "message": "已清除 $1 条规则。正在刷新页面..."
+  },
+  "toast_no_rules_site": {
+    "message": "此网站没有规则"
+  },
+  "toast_protection_updated": {
+    "message": "保护级别已更新"
+  },
+  "toast_report_copied": {
+    "message": "诊断信息已复制到剪贴板"
+  },
+  "toast_copy_failed": {
+    "message": "复制失败"
+  },
+  "toast_site_info_failed": {
+    "message": "无法获取站点信息"
+  },
+  "toast_page_not_available": {
+    "message": "此页面不可用（Chrome 保护）"
+  },
+  "toast_protection_on": {
+    "message": "保护：开启"
+  },
+  "toast_protection_off": {
+    "message": "保护：关闭"
+  },
+  "toast_redirect": {
+    "message": "正在重定向..."
+  },
+  "report_title": {
+    "message": "诊断"
+  },
+  "report_version": {
+    "message": "版本"
+  },
+  "report_page": {
+    "message": "页面"
+  },
+  "report_date": {
+    "message": "日期"
+  },
+  "report_level": {
+    "message": "级别"
+  },
+  "footer_made_by": {
+    "message": "由 lave 制作"
+  },
+  "opt_stats_title": {
+    "message": "统计"
+  },
+  "opt_stats_subtitle": {
+    "message": "查看 vAdBlock 在后台拦截了多少内容。"
+  },
+  "opt_stat_ads_7d": {
+    "message": "过去7天拦截的广告"
+  },
+  "opt_stat_trackers": {
+    "message": "拦截的追踪器"
+  },
+  "opt_stat_data": {
+    "message": "节省的数据"
+  },
+  "opt_stat_time": {
+    "message": "网页加载节省的时间"
+  },
+  "opt_report_title": {
+    "message": "每周报告"
+  },
+  "opt_report_total": {
+    "message": "总计拦截"
+  },
+  "opt_report_ads": {
+    "message": "广告"
+  },
+  "opt_report_trackers": {
+    "message": "追踪器"
+  },
+  "opt_report_daily": {
+    "message": "每日平均"
+  },
+  "opt_top_domains": {
+    "message": "拦截最多的域名"
+  },
+  "opt_empty_data": {
+    "message": "暂无数据。"
+  },
+  "opt_log_title": {
+    "message": "拦截日志"
+  },
+  "opt_log_desc": {
+    "message": "最近50次拦截的请求（仅限当前会话）。"
+  },
+  "opt_log_search": {
+    "message": "搜索：域名或 URL..."
+  },
+  "opt_log_export": {
+    "message": "导出 CSV"
+  },
+  "opt_empty_log": {
+    "message": "暂无被拦截的请求。"
+  },
+  "opt_log_clear": {
+    "message": "清除日志"
+  },
+  "opt_general_title": {
+    "message": "常规设置"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "允许一些非侵入式广告"
+  },
+  "opt_context_menu": {
+    "message": "将 vAdBlock 添加到右键菜单"
+  },
+  "opt_badge_count": {
+    "message": "在图标上显示已拦截广告的数量"
+  },
+  "opt_dev_tools": {
+    "message": "在开发者工具中显示 'vAdBlock' 面板"
+  },
+  "opt_promotions": {
+    "message": "允许 vAdBlock 偶尔显示促销信息"
+  },
+  "opt_fingerprint": {
+    "message": "指纹保护（隐藏 Canvas/WebGL 信息）"
+  },
+  "opt_anti_adblock": {
+    "message": "隐藏“检测到广告拦截器”警告"
+  },
+  "opt_https": {
+    "message": "强制安全连接 (HTTPS)"
+  },
+  "opt_webrtc": {
+    "message": "防止 WebRTC IP 泄漏"
+  },
+  "opt_language_title": {
+    "message": "语言 / Language"
+  },
+  "opt_language_desc": {
+    "message": "选择界面语言。自动选项使用您的浏览器语言。"
+  },
+  "opt_language_auto": {
+    "message": "自动（基于浏览器）"
+  },
+  "opt_language_tr": {
+    "message": "Türkçe"
+  },
+  "opt_language_en": {
+    "message": "English"
+  },
+  "opt_lang_auto": {
+    "message": "自动（浏览器语言）"
+  },
+  "opt_protection_title": {
+    "message": "保护级别"
+  },
+  "opt_protection_subtitle": {
+    "message": "选择最适合您浏览习惯的保护模式。"
+  },
+  "opt_mode_relaxed": {
+    "message": "宽松模式"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "拦截基本广告。为实现最高性能和兼容性，高级追踪器和严格过滤器已被禁用。"
+  },
+  "opt_mode_balanced": {
+    "message": "平衡模式（推荐）"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "拦截大部分广告和已知追踪器。日常使用的理想选择，流畅保护且不影响性能。"
+  },
+  "opt_mode_strict": {
+    "message": "严格模式"
+  },
+  "opt_mode_strict_desc": {
+    "message": "极致隐私！操控 GPC/DNT 信号，破坏指纹识别并彻底拦截攻击性广告网络。（适合测试）"
+  },
+  "opt_customize_title": {
+    "message": "自定义"
+  },
+  "opt_customize_subtitle": {
+    "message": "完全根据您的需求定制扩展。"
+  },
+  "opt_allowlist_title": {
+    "message": "白名单"
+  },
+  "opt_allowlist_desc": {
+    "message": "以下网站的广告拦截已被禁用。"
+  },
+  "opt_allowlist_placeholder": {
+    "message": "example.com"
+  },
+  "opt_add": {
+    "message": "添加"
+  },
+  "opt_allowlist_empty": {
+    "message": "尚未添加网站。请在上方添加域名。"
+  },
+  "opt_css_title": {
+    "message": "自定义 CSS 规则"
+  },
+  "opt_css_desc": {
+    "message": "供高级用户使用的自定义 CSS 隐藏规则。"
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "保存"
+  },
+  "opt_network_title": {
+    "message": "自定义网络规则"
+  },
+  "opt_network_desc": {
+    "message": "每行一条规则。格式：||example.com^ (拦截) 或 @@||example.com^ (允许)。"
+  },
+  "opt_backup_title": {
+    "message": "备份与恢复"
+  },
+  "opt_backup_desc": {
+    "message": "导出您的设置、白名单和自定义规则。"
+  },
+  "opt_export": {
+    "message": "导出备份"
+  },
+  "opt_import": {
+    "message": "恢复备份"
+  },
+  "opt_filters_title": {
+    "message": "过滤器列表"
+  },
+  "opt_filters_subtitle": {
+    "message": "选择要使用的过滤器列表并更新它们。"
+  },
+  "opt_filter_easylist_desc": {
+    "message": "主要广告过滤器 — 拦截大多数广告网络。"
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "拦截追踪器和分析域名。"
+  },
+  "opt_filter_adguard_desc": {
+    "message": "广告服务器和跟踪服务器列表。"
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock 过滤器和隐私列表。"
+  },
+  "opt_update_title": {
+    "message": "更新列表"
+  },
+  "opt_update_desc": {
+    "message": "过滤器列表每周自动更新一次。上次更新："
+  },
+  "opt_update_btn": {
+    "message": "更新过滤器"
+  },
+  "opt_update_unknown": {
+    "message": "未知"
+  },
+  "opt_update_stale": {
+    "message": "⚠ 等待自动更新（$1 天前）"
+  },
+  "opt_update_fresh": {
+    "message": "✓ 已更新 · $1 天前更新"
+  },
+  "opt_update_first": {
+    "message": "等待首次更新"
+  },
+  "opt_update_off": {
+    "message": " (已关闭)"
+  },
+  "opt_update_running": {
+    "message": "正在更新..."
+  },
+  "opt_update_done": {
+    "message": "列表已更新！"
+  },
+  "opt_update_error": {
+    "message": "更新失败: $1"
+  },
+  "opt_support_title": {
+    "message": "支持"
+  },
+  "opt_support_subtitle": {
+    "message": "如果您有任何疑问或问题，请联系我们。"
+  },
+  "opt_themes_title": {
+    "message": "主题"
+  },
+  "opt_themes_subtitle": {
+    "message": "个性化 vAdBlock 的外观。彰显您的风格。"
+  },
+  "theme_default": {
+    "message": "默认 (明亮)"
+  },
+  "theme_dark": {
+    "message": "暗物质"
+  },
+  "theme_hover_preview": {
+    "message": "悬停以预览"
+  },
+  "opt_premium_title": {
+    "message": "高级过滤器"
+  },
+  "opt_premium_subtitle": {
+    "message": "最大化您的 vAdBlock 体验。"
+  },
+  "opt_premium_focus_title": {
+    "message": "专注模式"
+  },
+  "opt_premium_focus_desc": {
+    "message": "隐藏时事通讯弹窗、浮动视频以及非广告的烦人元素。"
+  },
+  "opt_premium_cookie_title": {
+    "message": "自动接受/拒绝 Cookie"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "自动隐藏热门网站上的 Cookie 警告。"
+  },
+  "opt_premium_cookie2_title": {
+    "message": "自动接受 Cookie 同意"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "自动点击 Cookie 通知上的“接受”按钮。"
+  },
+  "opt_sponsor_skip_title": {
+    "message": "YouTube 赞助跳过器"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "通过字幕分析，自动检测并跳过 YouTube 视频中的赞助片段、片尾和互动提醒。"
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium 已激活！尽情享受所有功能。"
+  },
+  "welcome_title": {
+    "message": "欢迎使用 vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock 现在与您同在。"
+  },
+  "welcome_premium_badge": {
+    "message": "✨ 高级版已激活"
+  },
+  "welcome_subtitle": {
+    "message": "您的互联网体验现在更加清爽、快速，且完全属于您。"
+  },
+  "welcome_feat1_title": {
+    "message": "隐形保护"
+  },
+  "welcome_feat1_desc": {
+    "message": "浏览时在后台默默拦截所有追踪器。"
+  },
+  "welcome_feat2_title": {
+    "message": "极速体验"
+  },
+  "welcome_feat2_desc": {
+    "message": "拦截不必要的内容，使网页瞬间加载。"
+  },
+  "welcome_feat3_title": {
+    "message": "高级过滤器"
+  },
+  "welcome_feat3_desc": {
+    "message": "消灭普通广告拦截器漏掉的恶意广告。"
+  },
+  "welcome_feat4_title": {
+    "message": "完全自定义"
+  },
+  "welcome_feat4_desc": {
+    "message": "在设置页面管理规则和过滤器级别。"
+  },
+  "welcome_btn": {
+    "message": "开始探索"
+  },
+  "ctx_block_element": {
+    "message": "使用 vAdBlock 拦截此元素"
+  },
+  "picker_title": {
+    "message": "拦截元素"
+  },
+  "picker_subtitle": {
+    "message": "添加到 Lave 规则"
+  },
+  "picker_expand": {
+    "message": "扩大选择："
+  },
+  "picker_advanced": {
+    "message": "高级选项"
+  },
+  "picker_apply_all": {
+    "message": "在所有网站应用该规则"
+  },
+  "picker_similar": {
+    "message": "拦截相似元素"
+  },
+  "picker_css_label": {
+    "message": "CSS 选择器（高级）："
+  },
+  "picker_block": {
+    "message": "拦截"
+  },
+  "picker_preview": {
+    "message": "预览"
+  },
+  "picker_reselect": {
+    "message": "选择不同的元素"
+  },
+  "picker_preview_title": {
+    "message": "预览模式"
+  },
+  "picker_preview_desc": {
+    "message": "所选元素已被隐藏。如果效果满意，您可以永久拦截它。"
+  },
+  "picker_exit": {
+    "message": "退出"
+  },
+  "picker_cancel": {
+    "message": "取消 (ESC)"
+  },
+  "picker_saved": {
+    "message": "规则已保存"
+  },
+  "picker_undo": {
+    "message": "撤销"
+  },
+  "search_placeholder": {
+    "message": "搜索：设置或部分名称..."
+  },
+  "action_manual_block": {
+    "message": "手动拦截广告"
+  },
+  "action_manage_rules": {
+    "message": "我的自定义拦截"
+  },
+  "action_report": {
+    "message": "复制诊断信息"
+  },
+  "action_clear_site": {
+    "message": "清除站点规则"
+  },
+  "tab_actions": {
+    "message": "操作"
+  },
+  "tab_stats": {
+    "message": "统计"
+  },
+  "popup_refresh": {
+    "message": "刷新"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "暂停"
+  },
+  "pause_10": {
+    "message": "10分钟"
+  },
+  "pause_30": {
+    "message": "30分钟"
+  },
+  "pause_60": {
+    "message": "1小时"
+  },
+  "pause_300": {
+    "message": "5小时"
+  },
+  "pause_resume": {
+    "message": "恢复"
+  },
+  "popup_settings": {
+    "message": "设置"
+  },
+  "popup_total_blocked": {
+    "message": "总计拦截："
+  },
+  "level_relaxed": {
+    "message": "宽松"
+  },
+  "level_balanced": {
+    "message": "平衡"
+  },
+  "level_strict": {
+    "message": "严格"
+  },
+  "premium_section": {
+    "message": "高级功能"
+  },
+  "pause_scope": {
+    "message": "应用范围"
+  },
+  "pause_site_only": {
+    "message": "仅限此网站"
+  },
+  "pause_global": {
+    "message": "所有网站 (全局)"
+  },
+  "lang_tr": {
+    "message": "土耳其语"
+  },
+  "lang_en": {
+    "message": "英语"
+  },
+  "opt_faq_title": {
+    "message": "常见问题"
+  },
+  "opt_faq_1_q": {
+    "message": "该扩展是否会拦截 YouTube 广告？"
+  },
+  "opt_faq_1_a": {
+    "message": "是的，vAdBlock 采用自定义算法自动拦截并跳过 YouTube 视频内广告。"
+  },
+  "opt_faq_2_q": {
+    "message": "有些网站看起来崩溃了，我该怎么办？"
+  },
+  "opt_faq_2_a": {
+    "message": "如果网站无法正常工作，您可以通过扩展菜单暂停该网站的保护（加入白名单）。"
+  },
+  "opt_contact_title": {
+    "message": "联系我们"
+  },
+  "opt_contact_desc": {
+    "message": "请访问我们的 GitHub 页面以进行错误报告、反馈或功能请求。"
+  },
+  "opt_contact_btn": {
+    "message": "在 GitHub 上查看"
+  },
+  "popup_paused_site": {
+    "message": "已在此网站暂停"
+  },
+  "opt_update_success": {
+    "message": "GUI 已更新且过滤器已同步！"
+  },
+  "global_temp_off_msg": {
+    "message": "在所有网站上暂停 $1 分钟"
+  },
+  "nav_sponsor": {
+    "message": "跳过赞助"
+  },
+  "popup_add_segment": {
+    "message": "报告赞助区域"
+  },
+  "popup_sponsor_skipped": {
+    "message": "跳过的赞助"
+  },
+  "popup_waiting": {
+    "message": "等待中..."
+  },
+  "sb_skip_sponsor": {
+    "message": "跳过赞助"
+  },
+  "sb_segment_add": {
+    "message": "标记赞助"
+  },
+  "sb_set_times": {
+    "message": "设置时间，然后选择类型："
+  },
+  "sb_start": {
+    "message": "开始"
+  },
+  "sb_end": {
+    "message": "结束"
+  },
+  "sb_select_type": {
+    "message": "选择类型："
+  },
+  "sb_cancel": {
+    "message": "取消"
+  },
+  "sb_submit": {
+    "message": "提交"
+  },
+  "sb_submitted": {
+    "message": "贡献已提交"
+  },
+  "sb_submit_failed": {
+    "message": "提交失败 — 无法连接服务器"
+  },
+  "sb_skipped": {
+    "message": "已跳过"
+  },
+  "sb_manual_skipped": {
+    "message": "手动跳过"
+  },
+  "sb_time_saved": {
+    "message": "节省了 $1 秒"
+  },
+  "sb_total": {
+    "message": "总计："
+  },
+  "sb_cat_sponsor": {
+    "message": "赞助"
+  },
+  "sb_cat_selfpromo": {
+    "message": "自我宣传"
+  },
+  "sb_cat_interaction": {
+    "message": "互动"
+  },
+  "sb_cat_intro": {
+    "message": "片头"
+  },
+  "sb_cat_outro": {
+    "message": "片尾"
+  },
+  "sb_cat_preview": {
+    "message": "预览"
+  },
+  "sb_cat_music": {
+    "message": "非音乐"
+  },
+  "sb_hours": {
+    "message": "小时"
+  },
+  "sb_minutes": {
+    "message": "分钟"
+  },
+  "sb_seconds": {
+    "message": "秒"
+  },
+  "opt_saved": {
+    "message": "已保存！"
+  },
+  "opt_restored": {
+    "message": "已恢复！"
+  },
+  "opt_remove": {
+    "message": "移除"
+  },
+  "opt_sb_title": {
+    "message": "赞助跳过"
+  },
+  "opt_sb_subtitle": {
+    "message": "跳过 YouTube 视频中的赞助、片头和不必要的片段以节省时间。"
+  },
+  "opt_sb_general": {
+    "message": "▶ 常规设置"
+  },
+  "opt_sb_general_desc": {
+    "message": "配置赞助跳过系统的基本行为。"
+  },
+  "opt_sb_enable": {
+    "message": "启用赞助跳过"
+  },
+  "opt_sb_enable_desc": {
+    "message": "所有跳过功能的主开关。"
+  },
+  "opt_sb_auto": {
+    "message": "自动跳过"
+  },
+  "opt_sb_auto_desc": {
+    "message": "遇到片段时自动跳过。（如果禁用，则显示“跳过”按钮）"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 类别设置"
+  },
+  "opt_sb_categories_desc": {
+    "message": "配置针对每种片段类型要执行的操作。"
+  },
+  "opt_sb_contribute": {
+    "message": "♥ 为社区做贡献"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "标记视频中的赞助或不必要片段并将其提交到数据库，以帮助其他用户。"
+  },
+  "opt_sb_show_add": {
+    "message": "显示赞助报告按钮"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "在视频播放器上打开赞助报告界面。"
+  },
+  "opt_sb_api": {
+    "message": "自定义 API 地址"
+  },
+  "opt_sb_api_desc": {
+    "message": "用于发送和接收数据的服务器 URL。（高级）"
+  },
+  "opt_sb_auto_skip": {
+    "message": "自动跳过"
+  },
+  "opt_sb_btn_show": {
+    "message": "显示按钮"
+  },
+  "opt_sb_disabled": {
+    "message": "禁用"
+  },
+  "toast_refresh_youtube": {
+    "message": "请刷新 YouTube 页面。"
+  },
+  "toast_youtube_only": {
+    "message": "此功能仅适用于 YouTube 视频。"
+  },
+  "promo_rate_title": {
+    "message": "⭐ 喜欢 vAdBlock 吗？"
+  },
+  "promo_rate_desc": {
+    "message": "请留下 5 星评价以支持我们，以便我们不断改进！"
+  },
+  "promo_rate_btn": {
+    "message": "评价"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock Premium"
+  },
+  "promo_premium_desc": {
+    "message": "您想获得 Premium 订阅以享受 100% 隐私和额外功能吗？"
+  },
+  "promo_premium_btn": {
+    "message": "了解更多"
+  },
+  "promo_discount_title": {
+    "message": "🎁 为您提供的专属折扣！"
+  },
+  "promo_discount_desc": {
+    "message": "您使用我们的产品很久了！使用代码 LAVE-... 获取 Premium 的 50% 折扣"
+  },
+  "promo_discount_btn": {
+    "message": "使用代码"
+  },
+  "day_sun": {
+    "message": "星期日"
+  },
+  "day_mon": {
+    "message": "星期一"
+  },
+  "day_tue": {
+    "message": "星期二"
+  },
+  "day_wed": {
+    "message": "星期三"
+  },
+  "day_thu": {
+    "message": "星期四"
+  },
+  "day_fri": {
+    "message": "星期五"
+  },
+  "day_sat": {
+    "message": "星期六"
+  },
+  "month_jan": {
+    "message": "1月"
+  },
+  "month_feb": {
+    "message": "2月"
+  },
+  "month_mar": {
+    "message": "3月"
+  },
+  "month_apr": {
+    "message": "4月"
+  },
+  "month_may": {
+    "message": "5月"
+  },
+  "month_jun": {
+    "message": "6月"
+  },
+  "month_jul": {
+    "message": "7月"
+  },
+  "month_aug": {
+    "message": "8月"
+  },
+  "month_sep": {
+    "message": "9月"
+  },
+  "month_oct": {
+    "message": "10月"
+  },
+  "month_nov": {
+    "message": "11月"
+  },
+  "month_dec": {
+    "message": "12月"
+  },
+  "time_hours": {
+    "message": "小时"
+  },
+  "time_minutes": {
+    "message": "分钟"
+  },
+  "time_seconds": {
+    "message": "秒"
+  },
+  "appName": {
+    "message": "vAdBlock — 最好的广告拦截器"
+  }
+}

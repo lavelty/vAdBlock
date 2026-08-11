@@ -1,0 +1,116 @@
+{
+    "manifest_version": 3,
+    "name": "__MSG_appName__",
+    "version": "1.0",
+    "description": "__MSG_appDesc__",
+    "default_locale": "tr",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback",
+        "storage",
+        "unlimitedStorage",
+        "tabs",
+        "privacy",
+        "scripting",
+        "contextMenus",
+        "alarms"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    },
+    "commands": {
+        "toggle-protection": {
+            "suggested_key": {
+                "default": "Alt+V"
+            },
+            "description": "__MSG_cmd_toggle__"
+        },
+        "open-picker": {
+            "suggested_key": {
+                "default": "Alt+E"
+            },
+            "description": "__MSG_cmd_picker__"
+        }
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "vAdBlock",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "options_page": "options.html",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "picker.js",
+                "cosmetic_injector.js",
+                "space_remover.js"
+            ],
+            "run_at": "document_start",
+            "all_frames": true,
+            "match_about_blank": true,
+            "world": "ISOLATED"
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "i18n.js"
+            ],
+            "run_at": "document_idle",
+            "all_frames": true,
+            "match_about_blank": true,
+            "world": "ISOLATED"
+        },
+        {
+            "matches": [
+                "https://*.youtube.com/*"
+            ],
+            "js": [
+                "sponsorblock.js"
+            ],
+            "run_at": "document_idle",
+            "all_frames": false,
+            "world": "ISOLATED"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "cosmetic.css",
+                "cosmetic_rules.txt",
+                "_locales/tr/messages.json",
+                "_locales/en/messages.json"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

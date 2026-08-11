@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "광고 및 팝업을 차단하는 궁극의 확장 프로그램입니다. Facebook, YouTube 및 기타 모든 웹사이트의 광고를 차단합니다."
+  },
+  "cmd_toggle": {
+    "message": "보호 전환"
+  },
+  "cmd_picker": {
+    "message": "광고 선택기 시작"
+  },
+  "nav_stats": {
+    "message": "통계"
+  },
+  "nav_general": {
+    "message": "일반"
+  },
+  "nav_protection": {
+    "message": "보호 수준"
+  },
+  "nav_customize": {
+    "message": "사용자 지정"
+  },
+  "nav_filters": {
+    "message": "필터"
+  },
+  "nav_support": {
+    "message": "지원"
+  },
+  "nav_themes": {
+    "message": "테마"
+  },
+  "nav_premium": {
+    "message": "프리미엄 필터"
+  },
+  "popup_unknown": {
+    "message": "알 수 없음"
+  },
+  "popup_blocked": {
+    "message": "차단됨:"
+  },
+  "popup_protection_on": {
+    "message": "보호 켜짐"
+  },
+  "popup_protection_off": {
+    "message": "보호 꺼짐"
+  },
+  "popup_menu_manual": {
+    "message": "수동으로 광고 차단"
+  },
+  "popup_menu_custom": {
+    "message": "내 맞춤 차단"
+  },
+  "popup_menu_diag": {
+    "message": "진단 정보 복사"
+  },
+  "popup_menu_clear": {
+    "message": "사이트 규칙 지우기"
+  },
+  "pause_paused_state": {
+    "message": "일시 중지됨"
+  },
+  "pause_title": {
+    "message": "일시 중지"
+  },
+  "pause_min_unit": {
+    "message": "분"
+  },
+  "pause_sec_unit": {
+    "message": "초"
+  },
+  "pause_site": {
+    "message": "이 사이트에서"
+  },
+  "site_temp_30": {
+    "message": "30분 동안 중지"
+  },
+  "site_temp_120": {
+    "message": "2시간 동안 중지"
+  },
+  "site_temp_0": {
+    "message": "보호 재개"
+  },
+  "site_temp_off_msg": {
+    "message": "이 사이트에서 $1분 동안 중지됨"
+  },
+  "site_temp_on_msg": {
+    "message": "이 사이트에서 보호가 재개됨"
+  },
+  "pause_toast": {
+    "message": "$1분 동안 일시 중지됨"
+  },
+  "pause_toast_resume": {
+    "message": "보호 재개됨"
+  },
+  "chart_all": {
+    "message": "모두"
+  },
+  "chart_ads": {
+    "message": "광고"
+  },
+  "chart_trackers": {
+    "message": "트래커"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "기타"
+  },
+  "chart_7days": {
+    "message": "7일"
+  },
+  "chart_24h": {
+    "message": "24시간"
+  },
+  "chart_30d": {
+    "message": "30일"
+  },
+  "chart_1y": {
+    "message": "1년"
+  },
+  "rules_title": {
+    "message": "내 맞춤 규칙"
+  },
+  "rules_empty": {
+    "message": "아직 맞춤 규칙이 추가되지 않았습니다."
+  },
+  "rules_global": {
+    "message": "글로벌"
+  },
+  "rules_preview": {
+    "message": "미리보기"
+  },
+  "rules_delete": {
+    "message": "삭제"
+  },
+  "toast_rules_cleared": {
+    "message": "$1개의 규칙이 지워졌습니다. 페이지 새로고침 중..."
+  },
+  "toast_no_rules_site": {
+    "message": "이 사이트의 규칙 없음"
+  },
+  "toast_protection_updated": {
+    "message": "보호 수준 업데이트됨"
+  },
+  "toast_report_copied": {
+    "message": "진단 정보가 클립보드에 복사됨"
+  },
+  "toast_copy_failed": {
+    "message": "복사 실패"
+  },
+  "toast_site_info_failed": {
+    "message": "사이트 정보를 가져오지 못함"
+  },
+  "toast_page_not_available": {
+    "message": "이 페이지에서는 사용할 수 없음 (Chrome 보호)"
+  },
+  "toast_protection_on": {
+    "message": "보호: 켜짐"
+  },
+  "toast_protection_off": {
+    "message": "보호: 꺼짐"
+  },
+  "toast_redirect": {
+    "message": "리디렉션 중..."
+  },
+  "report_title": {
+    "message": "진단"
+  },
+  "report_version": {
+    "message": "버전"
+  },
+  "report_page": {
+    "message": "페이지"
+  },
+  "report_date": {
+    "message": "날짜"
+  },
+  "report_level": {
+    "message": "수준"
+  },
+  "footer_made_by": {
+    "message": "lave 제작"
+  },
+  "opt_stats_title": {
+    "message": "통계"
+  },
+  "opt_stats_subtitle": {
+    "message": "vAdBlock이 백그라운드에서 얼마나 많이 차단했는지 확인하세요."
+  },
+  "opt_stat_ads_7d": {
+    "message": "최근 7일 동안 차단된 광고"
+  },
+  "opt_stat_trackers": {
+    "message": "차단된 트래커"
+  },
+  "opt_stat_data": {
+    "message": "절약된 데이터"
+  },
+  "opt_stat_time": {
+    "message": "페이지 로딩에서 절약된 시간"
+  },
+  "opt_report_title": {
+    "message": "주간 보고서"
+  },
+  "opt_report_total": {
+    "message": "총 차단 수"
+  },
+  "opt_report_ads": {
+    "message": "광고"
+  },
+  "opt_report_trackers": {
+    "message": "트래커"
+  },
+  "opt_report_daily": {
+    "message": "일일 평균"
+  },
+  "opt_top_domains": {
+    "message": "가장 많이 차단된 도메인"
+  },
+  "opt_empty_data": {
+    "message": "아직 데이터가 없습니다."
+  },
+  "opt_log_title": {
+    "message": "차단 로그"
+  },
+  "opt_log_desc": {
+    "message": "최근 50개의 차단된 요청 (현재 세션에 한함)."
+  },
+  "opt_log_search": {
+    "message": "검색: 도메인 또는 URL..."
+  },
+  "opt_log_export": {
+    "message": "CSV 내보내기"
+  },
+  "opt_empty_log": {
+    "message": "아직 차단된 요청이 없습니다."
+  },
+  "opt_log_clear": {
+    "message": "로그 지우기"
+  },
+  "opt_general_title": {
+    "message": "일반 설정"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "일부 비침입형 광고 허용"
+  },
+  "opt_context_menu": {
+    "message": "컨텍스트 메뉴에 vAdBlock 추가"
+  },
+  "opt_badge_count": {
+    "message": "아이콘에 차단된 광고 수 표시"
+  },
+  "opt_dev_tools": {
+    "message": "개발자 도구에 'vAdBlock' 패널 표시"
+  },
+  "opt_promotions": {
+    "message": "vAdBlock이 때때로 프로모션 메시지를 표시하도록 허용"
+  },
+  "opt_fingerprint": {
+    "message": "지문 보호 (Canvas/WebGL 정보 숨기기)"
+  },
+  "opt_anti_adblock": {
+    "message": "\"광고 차단기 감지됨\" 경고 숨기기"
+  },
+  "opt_https": {
+    "message": "안전한 연결 강제 (HTTPS)"
+  },
+  "opt_webrtc": {
+    "message": "WebRTC IP 유출 방지"
+  },
+  "opt_language_title": {
+    "message": "언어 / Language"
+  },
+  "opt_language_desc": {
+    "message": "인터페이스 언어를 선택하세요. 자동은 브라우저 언어를 사용합니다."
+  },
+  "opt_language_auto": {
+    "message": "자동 (브라우저 기준)"
+  },
+  "opt_language_tr": {
+    "message": "Türkçe"
+  },
+  "opt_language_en": {
+    "message": "English"
+  },
+  "opt_lang_auto": {
+    "message": "자동 (브라우저 언어)"
+  },
+  "opt_protection_title": {
+    "message": "보호 수준"
+  },
+  "opt_protection_subtitle": {
+    "message": "인터넷 탐색 습관에 가장 적합한 보호 모드를 선택하세요."
+  },
+  "opt_mode_relaxed": {
+    "message": "완화된 모드"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "기본 광고를 차단합니다. 최대의 성능과 호환성을 위해 고급 트래커 및 엄격한 필터가 비활성화됩니다."
+  },
+  "opt_mode_balanced": {
+    "message": "균형 모드 (권장)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "대부분의 광고 및 알려진 트래커를 차단합니다. 일상적인 사용에 이상적이며 성능에 영향을 미치지 않는 원활한 보호 기능을 제공합니다."
+  },
+  "opt_mode_strict": {
+    "message": "엄격한 모드"
+  },
+  "opt_mode_strict_desc": {
+    "message": "최고의 개인 정보 보호! GPC/DNT 신호를 조작하고 지문 인식을 차단하며 공격적인 광고 네트워크를 근본적으로 차단합니다. (테스트에 이상적)"
+  },
+  "opt_customize_title": {
+    "message": "사용자 지정"
+  },
+  "opt_customize_subtitle": {
+    "message": "필요에 맞게 확장 프로그램을 완벽하게 맞춤 설정하세요."
+  },
+  "opt_allowlist_title": {
+    "message": "허용 목록 (Allowlist)"
+  },
+  "opt_allowlist_desc": {
+    "message": "다음 사이트에서는 광고 차단이 비활성화됩니다."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "example.com"
+  },
+  "opt_add": {
+    "message": "추가"
+  },
+  "opt_allowlist_empty": {
+    "message": "아직 추가된 사이트가 없습니다. 위에서 도메인을 추가하세요."
+  },
+  "opt_css_title": {
+    "message": "맞춤 CSS 규칙"
+  },
+  "opt_css_desc": {
+    "message": "고급 사용자를 위한 맞춤 CSS 숨기기 규칙."
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "저장"
+  },
+  "opt_network_title": {
+    "message": "맞춤 네트워크 규칙"
+  },
+  "opt_network_desc": {
+    "message": "한 줄에 하나의 규칙. 형식: ||example.com^ (차단) 또는 @@||example.com^ (허용)."
+  },
+  "opt_backup_title": {
+    "message": "백업 및 복원"
+  },
+  "opt_backup_desc": {
+    "message": "설정, 허용 목록 및 맞춤 규칙을 내보냅니다."
+  },
+  "opt_export": {
+    "message": "백업 내보내기"
+  },
+  "opt_import": {
+    "message": "백업 복원"
+  },
+  "opt_filters_title": {
+    "message": "필터 목록"
+  },
+  "opt_filters_subtitle": {
+    "message": "사용할 필터 목록을 선택하고 업데이트하세요."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "주요 광고 필터 — 대부분의 광고 네트워크를 차단합니다."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "트래커 및 분석 도메인을 차단합니다."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "광고 서버 및 추적 서버 목록."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock 필터 및 개인 정보 보호 목록."
+  },
+  "opt_update_title": {
+    "message": "목록 업데이트"
+  },
+  "opt_update_desc": {
+    "message": "필터 목록은 일주일에 한 번 자동으로 업데이트됩니다. 마지막 업데이트:"
+  },
+  "opt_update_btn": {
+    "message": "필터 업데이트"
+  },
+  "opt_update_unknown": {
+    "message": "알 수 없음"
+  },
+  "opt_update_stale": {
+    "message": "⚠ 자동 업데이트 대기 중 ($1일 전)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ 최신 상태 · $1일 전 업데이트됨"
+  },
+  "opt_update_first": {
+    "message": "첫 업데이트 대기 중"
+  },
+  "opt_update_off": {
+    "message": " (꺼짐)"
+  },
+  "opt_update_running": {
+    "message": "업데이트 중..."
+  },
+  "opt_update_done": {
+    "message": "목록 업데이트됨!"
+  },
+  "opt_update_error": {
+    "message": "업데이트 실패: $1"
+  },
+  "opt_support_title": {
+    "message": "지원"
+  },
+  "opt_support_subtitle": {
+    "message": "질문이나 문제가 있으면 문의해 주세요."
+  },
+  "opt_themes_title": {
+    "message": "테마"
+  },
+  "opt_themes_subtitle": {
+    "message": "vAdBlock의 모양을 개인 설정하세요. 당신의 스타일을 반영하세요."
+  },
+  "theme_default": {
+    "message": "기본 (밝음)"
+  },
+  "theme_dark": {
+    "message": "다크 매터"
+  },
+  "theme_hover_preview": {
+    "message": "마우스를 올려 미리보기"
+  },
+  "opt_premium_title": {
+    "message": "프리미엄 필터"
+  },
+  "opt_premium_subtitle": {
+    "message": "vAdBlock 경험을 극대화하세요."
+  },
+  "opt_premium_focus_title": {
+    "message": "집중 모드"
+  },
+  "opt_premium_focus_desc": {
+    "message": "뉴스레터 팝업, 떠다니는 비디오 및 광고가 아닌 성가신 요소를 숨깁니다."
+  },
+  "opt_premium_cookie_title": {
+    "message": "자동 쿠키 수락/거부"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "인기 사이트에서 쿠키 경고를 자동으로 숨깁니다."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "쿠키 동의 자동 수락"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "쿠키 알림에서 '수락' 버튼을 자동으로 클릭합니다."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "YouTube 스폰서 건너뛰기"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "자막 분석을 사용하여 YouTube 동영상의 스폰서 세그먼트, 아웃트로 및 상호작용 알림을 자동으로 감지하고 건너뜁니다."
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium이 활성화되었습니다! 모든 기능을 즐기세요."
+  },
+  "welcome_title": {
+    "message": "vAdBlock에 오신 것을 환영합니다"
+  },
+  "welcome_h1": {
+    "message": "이제 vAdBlock이 함께합니다."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ 프리미엄 에디션 활성화됨"
+  },
+  "welcome_subtitle": {
+    "message": "당신의 인터넷 경험은 이제 훨씬 더 깨끗하고 빠르며 완전히 당신의 것입니다."
+  },
+  "welcome_feat1_title": {
+    "message": "보이지 않는 보호"
+  },
+  "welcome_feat1_desc": {
+    "message": "브라우징하는 동안 백그라운드에서 모든 트래커를 조용히 차단합니다."
+  },
+  "welcome_feat2_title": {
+    "message": "놀라운 속도"
+  },
+  "welcome_feat2_desc": {
+    "message": "불필요한 콘텐츠가 차단되어 페이지가 즉시 로드됩니다."
+  },
+  "welcome_feat3_title": {
+    "message": "고급 필터"
+  },
+  "welcome_feat3_desc": {
+    "message": "일반 광고 차단기가 놓치는 공격적인 광고를 제거합니다."
+  },
+  "welcome_feat4_title": {
+    "message": "완벽한 맞춤 설정"
+  },
+  "welcome_feat4_desc": {
+    "message": "설정 페이지에서 규칙 및 필터 수준을 관리하세요."
+  },
+  "welcome_btn": {
+    "message": "탐색 시작"
+  },
+  "ctx_block_element": {
+    "message": "vAdBlock으로 이 요소 차단"
+  },
+  "picker_title": {
+    "message": "요소 차단"
+  },
+  "picker_subtitle": {
+    "message": "Lave 규칙에 추가"
+  },
+  "picker_expand": {
+    "message": "선택 영역 확장:"
+  },
+  "picker_advanced": {
+    "message": "고급 옵션"
+  },
+  "picker_apply_all": {
+    "message": "모든 사이트에 규칙 적용"
+  },
+  "picker_similar": {
+    "message": "유사한 요소도 차단"
+  },
+  "picker_css_label": {
+    "message": "CSS 선택자 (고급):"
+  },
+  "picker_block": {
+    "message": "차단"
+  },
+  "picker_preview": {
+    "message": "미리보기"
+  },
+  "picker_reselect": {
+    "message": "다른 요소 선택"
+  },
+  "picker_preview_title": {
+    "message": "미리보기 모드"
+  },
+  "picker_preview_desc": {
+    "message": "선택한 요소가 숨겨집니다. 보기 좋다면 영구적으로 차단할 수 있습니다."
+  },
+  "picker_exit": {
+    "message": "종료"
+  },
+  "picker_cancel": {
+    "message": "취소 (ESC)"
+  },
+  "picker_saved": {
+    "message": "규칙 저장됨"
+  },
+  "picker_undo": {
+    "message": "실행 취소"
+  },
+  "search_placeholder": {
+    "message": "검색: 설정 또는 섹션 이름..."
+  },
+  "action_manual_block": {
+    "message": "수동으로 광고 차단"
+  },
+  "action_manage_rules": {
+    "message": "내 맞춤 차단"
+  },
+  "action_report": {
+    "message": "진단 정보 복사"
+  },
+  "action_clear_site": {
+    "message": "사이트 규칙 지우기"
+  },
+  "tab_actions": {
+    "message": "작업"
+  },
+  "tab_stats": {
+    "message": "통계"
+  },
+  "popup_refresh": {
+    "message": "새로고침"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "일시 중지"
+  },
+  "pause_10": {
+    "message": "10분"
+  },
+  "pause_30": {
+    "message": "30분"
+  },
+  "pause_60": {
+    "message": "1시간"
+  },
+  "pause_300": {
+    "message": "5시간"
+  },
+  "pause_resume": {
+    "message": "재개"
+  },
+  "popup_settings": {
+    "message": "설정"
+  },
+  "popup_total_blocked": {
+    "message": "총 차단됨:"
+  },
+  "level_relaxed": {
+    "message": "완화됨"
+  },
+  "level_balanced": {
+    "message": "균형"
+  },
+  "level_strict": {
+    "message": "엄격"
+  },
+  "premium_section": {
+    "message": "프리미엄 기능"
+  },
+  "pause_scope": {
+    "message": "적용 범위"
+  },
+  "pause_site_only": {
+    "message": "이 사이트만"
+  },
+  "pause_global": {
+    "message": "모든 사이트 (글로벌)"
+  },
+  "lang_tr": {
+    "message": "튀르키예어"
+  },
+  "lang_en": {
+    "message": "영어"
+  },
+  "opt_faq_title": {
+    "message": "자주 묻는 질문"
+  },
+  "opt_faq_1_q": {
+    "message": "이 확장 프로그램은 YouTube 광고를 차단하나요?"
+  },
+  "opt_faq_1_a": {
+    "message": "네, vAdBlock은 맞춤 알고리즘으로 YouTube 동영상 내 광고를 자동으로 차단하고 건너뜁니다."
+  },
+  "opt_faq_2_q": {
+    "message": "일부 사이트가 깨져 보입니다. 어떻게 해야 하나요?"
+  },
+  "opt_faq_2_a": {
+    "message": "사이트가 제대로 작동하지 않으면 확장 프로그램 메뉴에서 해당 사이트의 보호를 일시 중지할 수 있습니다 (허용 목록)."
+  },
+  "opt_contact_title": {
+    "message": "문의하기"
+  },
+  "opt_contact_desc": {
+    "message": "버그 보고, 피드백 또는 기능 요청을 위해 GitHub 페이지를 방문해 주세요."
+  },
+  "opt_contact_btn": {
+    "message": "GitHub에서 보기"
+  },
+  "popup_paused_site": {
+    "message": "이 사이트에서 일시 중지됨"
+  },
+  "opt_update_success": {
+    "message": "GUI 업데이트 및 필터 동기화 완료!"
+  },
+  "global_temp_off_msg": {
+    "message": "모든 사이트에서 $1분 동안 중지됨"
+  },
+  "nav_sponsor": {
+    "message": "스폰서 건너뛰기"
+  },
+  "popup_add_segment": {
+    "message": "스폰서 영역 보고"
+  },
+  "popup_sponsor_skipped": {
+    "message": "건너뛴 스폰서"
+  },
+  "popup_waiting": {
+    "message": "대기 중..."
+  },
+  "sb_skip_sponsor": {
+    "message": "스폰서 건너뛰기"
+  },
+  "sb_segment_add": {
+    "message": "스폰서 표시"
+  },
+  "sb_set_times": {
+    "message": "시간을 설정한 다음 유형을 선택하세요:"
+  },
+  "sb_start": {
+    "message": "시작"
+  },
+  "sb_end": {
+    "message": "종료"
+  },
+  "sb_select_type": {
+    "message": "유형 선택:"
+  },
+  "sb_cancel": {
+    "message": "취소"
+  },
+  "sb_submit": {
+    "message": "제출"
+  },
+  "sb_submitted": {
+    "message": "기여가 제출되었습니다"
+  },
+  "sb_submit_failed": {
+    "message": "제출 실패 — 서버에 연결할 수 없음"
+  },
+  "sb_skipped": {
+    "message": "건너뜀"
+  },
+  "sb_manual_skipped": {
+    "message": "수동으로 건너뜀"
+  },
+  "sb_time_saved": {
+    "message": "$1초 절약됨"
+  },
+  "sb_total": {
+    "message": "총계:"
+  },
+  "sb_cat_sponsor": {
+    "message": "스폰서"
+  },
+  "sb_cat_selfpromo": {
+    "message": "자체 홍보"
+  },
+  "sb_cat_interaction": {
+    "message": "상호작용"
+  },
+  "sb_cat_intro": {
+    "message": "인트로"
+  },
+  "sb_cat_outro": {
+    "message": "아웃트로"
+  },
+  "sb_cat_preview": {
+    "message": "미리보기"
+  },
+  "sb_cat_music": {
+    "message": "음악 외"
+  },
+  "sb_hours": {
+    "message": "시간"
+  },
+  "sb_minutes": {
+    "message": "분"
+  },
+  "sb_seconds": {
+    "message": "초"
+  },
+  "opt_saved": {
+    "message": "저장됨!"
+  },
+  "opt_restored": {
+    "message": "복원됨!"
+  },
+  "opt_remove": {
+    "message": "제거"
+  },
+  "opt_sb_title": {
+    "message": "스폰서 건너뛰기"
+  },
+  "opt_sb_subtitle": {
+    "message": "YouTube 동영상에서 스폰서, 인트로 및 불필요한 부분을 건너뛰어 시간을 절약하세요."
+  },
+  "opt_sb_general": {
+    "message": "▶ 일반 설정"
+  },
+  "opt_sb_general_desc": {
+    "message": "스폰서 건너뛰기 시스템의 기본 동작을 설정하세요."
+  },
+  "opt_sb_enable": {
+    "message": "스폰서 건너뛰기 활성화"
+  },
+  "opt_sb_enable_desc": {
+    "message": "모든 건너뛰기 기능을 위한 마스터 스위치."
+  },
+  "opt_sb_auto": {
+    "message": "자동 건너뛰기"
+  },
+  "opt_sb_auto_desc": {
+    "message": "해당 세그먼트에 도달하면 자동으로 건너뜁니다. (비활성화 시 '건너뛰기' 버튼 표시)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 카테고리 설정"
+  },
+  "opt_sb_categories_desc": {
+    "message": "각 세그먼트 유형에 수행할 작업을 구성하세요."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ 커뮤니티에 기여하기"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "동영상에서 스폰서 또는 불필요한 세그먼트를 표시하고 데이터베이스에 제출하여 다른 사용자를 도와주세요."
+  },
+  "opt_sb_show_add": {
+    "message": "스폰서십 보고 버튼 표시"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "비디오 플레이어에 스폰서십 보고 인터페이스를 엽니다."
+  },
+  "opt_sb_api": {
+    "message": "맞춤 API 주소"
+  },
+  "opt_sb_api_desc": {
+    "message": "데이터를 보내고 받기 위한 서버 URL. (고급)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "자동 건너뛰기"
+  },
+  "opt_sb_btn_show": {
+    "message": "버튼 표시"
+  },
+  "opt_sb_disabled": {
+    "message": "비활성화됨"
+  },
+  "toast_refresh_youtube": {
+    "message": "YouTube 페이지를 새로고침하세요."
+  },
+  "toast_youtube_only": {
+    "message": "이 기능은 YouTube 동영상에서만 작동합니다."
+  },
+  "promo_rate_title": {
+    "message": "⭐ vAdBlock이 마음에 드시나요?"
+  },
+  "promo_rate_desc": {
+    "message": "계속 개선할 수 있도록 별 5개 평가를 남겨 지원해 주세요!"
+  },
+  "promo_rate_btn": {
+    "message": "평가하기"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock Premium"
+  },
+  "promo_premium_desc": {
+    "message": "100% 개인 정보 보호 및 추가 기능을 위해 프리미엄을 구독하시겠습니까?"
+  },
+  "promo_premium_btn": {
+    "message": "자세히 알아보기"
+  },
+  "promo_discount_title": {
+    "message": "🎁 특별 할인!"
+  },
+  "promo_discount_desc": {
+    "message": "오랫동안 저희와 함께 해주셨네요! 코드 LAVE-... 를 사용하여 프리미엄 50% 할인을 받으세요"
+  },
+  "promo_discount_btn": {
+    "message": "코드 사용"
+  },
+  "day_sun": {
+    "message": "일"
+  },
+  "day_mon": {
+    "message": "월"
+  },
+  "day_tue": {
+    "message": "화"
+  },
+  "day_wed": {
+    "message": "수"
+  },
+  "day_thu": {
+    "message": "목"
+  },
+  "day_fri": {
+    "message": "금"
+  },
+  "day_sat": {
+    "message": "토"
+  },
+  "month_jan": {
+    "message": "1월"
+  },
+  "month_feb": {
+    "message": "2월"
+  },
+  "month_mar": {
+    "message": "3월"
+  },
+  "month_apr": {
+    "message": "4월"
+  },
+  "month_may": {
+    "message": "5월"
+  },
+  "month_jun": {
+    "message": "6월"
+  },
+  "month_jul": {
+    "message": "7월"
+  },
+  "month_aug": {
+    "message": "8월"
+  },
+  "month_sep": {
+    "message": "9월"
+  },
+  "month_oct": {
+    "message": "10월"
+  },
+  "month_nov": {
+    "message": "11월"
+  },
+  "month_dec": {
+    "message": "12월"
+  },
+  "time_hours": {
+    "message": "시간"
+  },
+  "time_minutes": {
+    "message": "분"
+  },
+  "time_seconds": {
+    "message": "초"
+  },
+  "appName": {
+    "message": "vAdBlock — 최고의 광고 차단기"
+  }
+}

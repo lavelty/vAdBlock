@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "Врхунска екстензија за блокирање реклама и искачућих прозора. Блокира рекламе на Facebook-у, YouTube-у и свим другим веб локацијама."
+  },
+  "appName": {
+    "message": "vAdBlock — Најбољи блокатор реклама"
+  },
+  "cmd_toggle": {
+    "message": "Укључи заштиту"
+  },
+  "cmd_picker": {
+    "message": "Покрените бирач огласа"
+  },
+  "nav_stats": {
+    "message": "Статистика"
+  },
+  "nav_general": {
+    "message": "генерал"
+  },
+  "nav_protection": {
+    "message": "Ниво заштите"
+  },
+  "nav_customize": {
+    "message": "прилагодите"
+  },
+  "nav_filters": {
+    "message": "Филтери"
+  },
+  "nav_support": {
+    "message": "Подршка"
+  },
+  "popup_unknown": {
+    "message": "Непознато"
+  },
+  "popup_blocked": {
+    "message": "Блокирано:"
+  },
+  "popup_protection_on": {
+    "message": "Протецтион Он"
+  },
+  "popup_protection_off": {
+    "message": "Заштита искључена"
+  },
+  "popup_menu_manual": {
+    "message": "Ручно блокирајте огласе"
+  },
+  "popup_menu_custom": {
+    "message": "Моји приватни блокови"
+  },
+  "popup_menu_diag": {
+    "message": "Копирајте дијагностичке информације"
+  },
+  "popup_menu_clear": {
+    "message": "Јасна правила сајта"
+  },
+  "pause_paused_state": {
+    "message": "паузирао"
+  },
+  "pause_title": {
+    "message": "пауза"
+  },
+  "pause_min_unit": {
+    "message": "мин"
+  },
+  "pause_sec_unit": {
+    "message": "сец"
+  },
+  "pause_site": {
+    "message": "на овом сајту"
+  },
+  "site_temp_30": {
+    "message": "искључите на 30 минута"
+  },
+  "site_temp_120": {
+    "message": "затворите 2 сата"
+  },
+  "site_temp_0": {
+    "message": "Поново отворите сајт"
+  },
+  "site_temp_off_msg": {
+    "message": "Ова локација је затворена за $1 мин"
+  },
+  "site_temp_on_msg": {
+    "message": "Овај сајт је поново отворен"
+  },
+  "pause_toast": {
+    "message": "$1 минут паузиран"
+  },
+  "pause_toast_resume": {
+    "message": "Заштита је настављена"
+  },
+  "chart_all": {
+    "message": "Све"
+  },
+  "chart_ads": {
+    "message": "Огласи"
+  },
+  "chart_trackers": {
+    "message": "гледалаца"
+  },
+  "chart_cdn": {
+    "message": "ЦДН"
+  },
+  "chart_other": {
+    "message": "Остало"
+  },
+  "chart_7days": {
+    "message": "7 дана"
+  },
+  "chart_24h": {
+    "message": "24 сата"
+  },
+  "chart_30d": {
+    "message": "30 дана"
+  },
+  "chart_1y": {
+    "message": "1 година"
+  },
+  "rules_title": {
+    "message": "Моја посебна правила"
+  },
+  "rules_empty": {
+    "message": "Још увек нису додата никаква посебна правила."
+  },
+  "rules_global": {
+    "message": "Глобал"
+  },
+  "rules_preview": {
+    "message": "Преглед"
+  },
+  "rules_delete": {
+    "message": "Избриши"
+  },
+  "toast_rules_cleared": {
+    "message": "Правило $1 је обрисано. Страница се освежава..."
+  },
+  "toast_no_rules_site": {
+    "message": "На овом сајту нема правила"
+  },
+  "toast_protection_updated": {
+    "message": "Ниво заштите је ажуриран"
+  },
+  "toast_report_copied": {
+    "message": "Дијагностичке информације су копиране у међуспремник"
+  },
+  "toast_copy_failed": {
+    "message": "Није могуће копирати"
+  },
+  "toast_site_info_failed": {
+    "message": "Није могуће добити информације о сајту"
+  },
+  "toast_page_not_available": {
+    "message": "Није доступно на овој страници (Цхроме заштита)"
+  },
+  "toast_protection_on": {
+    "message": "Заштита: укључена"
+  },
+  "toast_protection_off": {
+    "message": "Заштита: искључена"
+  },
+  "toast_redirect": {
+    "message": "Преусмеравање..."
+  },
+  "report_title": {
+    "message": "дијагностичке информације"
+  },
+  "report_version": {
+    "message": "Верзија"
+  },
+  "report_page": {
+    "message": "Страница"
+  },
+  "report_date": {
+    "message": "Историја"
+  },
+  "report_level": {
+    "message": "Ниво"
+  },
+  "footer_made_by": {
+    "message": "направљен од лаве"
+  },
+  "opt_stats_title": {
+    "message": "Статистика"
+  },
+  "opt_stats_subtitle": {
+    "message": "Погледајте колико дуго вАдБлоцк ради у позадини."
+  },
+  "opt_stat_ads_7d": {
+    "message": "Огласи блокирани у последњих 7 дана"
+  },
+  "opt_stat_trackers": {
+    "message": "Блокирани трагач за прикупљање података"
+  },
+  "opt_stat_data": {
+    "message": "сачувани подаци"
+  },
+  "opt_stat_time": {
+    "message": "Уштеђено време приликом учитавања странице"
+  },
+  "opt_report_title": {
+    "message": "Веекли Репорт"
+  },
+  "opt_report_total": {
+    "message": "Блокиран захтев"
+  },
+  "opt_report_ads": {
+    "message": "Оглас"
+  },
+  "opt_report_trackers": {
+    "message": "Публика"
+  },
+  "opt_report_daily": {
+    "message": "Дневни просек"
+  },
+  "opt_top_domains": {
+    "message": "Већина блокираних сајтова"
+  },
+  "opt_empty_data": {
+    "message": "Још нема података."
+  },
+  "opt_log_title": {
+    "message": "Блоцк Лог"
+  },
+  "opt_log_desc": {
+    "message": "Последњих 50 блокираних захтева (само у овој сесији)."
+  },
+  "opt_log_search": {
+    "message": "Претрага: име домена или УРЛ..."
+  },
+  "opt_log_export": {
+    "message": "Извези ЦСВ"
+  },
+  "opt_empty_log": {
+    "message": "Још увек нема блокираних захтева."
+  },
+  "opt_log_clear": {
+    "message": "Цлеар Лог"
+  },
+  "opt_general_title": {
+    "message": "Општа подешавања"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "Дозволите неке ненаметљиве огласе"
+  },
+  "opt_context_menu": {
+    "message": "Додајте вАдБлоцк опције у мени са десним кликом"
+  },
+  "opt_badge_count": {
+    "message": "Прикажите колико је огласа блокирано на дугмету вАдБлоцк"
+  },
+  "opt_dev_tools": {
+    "message": "Прикажи таблу „вАдБлоцк“ у алаткама за програмере"
+  },
+  "opt_promotions": {
+    "message": "Дозволите вАдБлоцк-у да повремено приказује промотивне поруке"
+  },
+  "opt_fingerprint": {
+    "message": "Заштита отиска прста (сакриј Цанвас/ВебГЛ хардверске информације)"
+  },
+  "opt_anti_adblock": {
+    "message": "Сакријте упозорења „Откривен је блокатор огласа“."
+  },
+  "opt_https": {
+    "message": "Форсирајте сигурну (ХТТПС) везу"
+  },
+  "opt_webrtc": {
+    "message": "Спречите цурење ВебРТЦ ИП адресе"
+  },
+  "opt_language_title": {
+    "message": "Језик"
+  },
+  "opt_language_desc": {
+    "message": "Изаберите језик интерфејса. Аутоматска опција користи језик претраживача."
+  },
+  "opt_language_auto": {
+    "message": "Аутоматски (засновано на језику прегледача)"
+  },
+  "opt_language_tr": {
+    "message": "турски"
+  },
+  "opt_language_en": {
+    "message": "енглески"
+  },
+  "opt_lang_auto": {
+    "message": "Аутоматски (језик прегледача)"
+  },
+  "opt_protection_title": {
+    "message": "Ниво заштите"
+  },
+  "opt_protection_subtitle": {
+    "message": "Одаберите безбедносни режим који најбоље одговара вашим навикама претраживања интернета."
+  },
+  "opt_mode_relaxed": {
+    "message": "Цомфорт Моде"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "Блокира основне огласе. Напредни уређаји за праћење и груби филтери који могу да покваре сајт су искључени. Перформансе и компатибилност су на највишем нивоу."
+  },
+  "opt_mode_balanced": {
+    "message": "Балансирани режим (препоручено)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "Блокира већину огласа и познатих сакупљача података. Идеалан за свакодневну употребу интернета, глатка заштита која не утиче на перформансе."
+  },
+  "opt_mode_strict": {
+    "message": "Стрицт Моде"
+  },
+  "opt_mode_strict_desc": {
+    "message": "Максимална приватност! Он манипулише свим ГПЦ/ДНТ сигналима, омета читаче отиска прста и блокира агресивне огласне мреже у њиховом корену. (Идеално за тестне локације)"
+  },
+  "opt_customize_title": {
+    "message": "прилагодите"
+  },
+  "opt_customize_subtitle": {
+    "message": "Прилагодите додатак тачно својим потребама."
+  },
+  "opt_allowlist_title": {
+    "message": "Дозвољени сајтови (дозвољена листа)"
+  },
+  "opt_allowlist_desc": {
+    "message": "Блокирање огласа је онемогућено на следећим сајтовима."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "сампле.цом"
+  },
+  "opt_add": {
+    "message": "Додај"
+  },
+  "opt_allowlist_empty": {
+    "message": "Још увек није додат ниједан сајт. Додајте име домена изнад."
+  },
+  "opt_css_title": {
+    "message": "Прилагођена ЦСС правила"
+  },
+  "opt_css_desc": {
+    "message": "Посебна правила скривања ЦСС-а за напредне кориснике."
+  },
+  "opt_css_placeholder": {
+    "message": "екампле.цом##.ад-бок"
+  },
+  "opt_save": {
+    "message": "Сачувај"
+  },
+  "opt_network_title": {
+    "message": "Правила приватне мреже"
+  },
+  "opt_network_desc": {
+    "message": "Једно правило по реду. Формат: ||екампле.цом^ (блокирај) или @@||екампле.цом^ (дозволи)."
+  },
+  "opt_backup_title": {
+    "message": "Бацкуп & Ресторе"
+  },
+  "opt_backup_desc": {
+    "message": "Извезите своја подешавања, дозвољене сајтове и прилагођена правила."
+  },
+  "opt_export": {
+    "message": "Преузмите резервну копију"
+  },
+  "opt_import": {
+    "message": "Врати резервну копију"
+  },
+  "opt_filters_title": {
+    "message": "Листе филтера"
+  },
+  "opt_filters_subtitle": {
+    "message": "Изаберите које листе филтера ћете користити и ажурирајте листе."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "Главни филтери огласа — блокира већину огласних мрежа."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "Блокира домене за праћење и аналитику."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "Огласни сервери и листе сервера за праћење."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "вАдБлоцк филтери и листе приватности."
+  },
+  "opt_update_title": {
+    "message": "Ажурирајте листе"
+  },
+  "opt_update_desc": {
+    "message": "Листе филтера се аутоматски ажурирају сваке недеље. Последње ажурирање:"
+  },
+  "opt_update_btn": {
+    "message": "Ажурирајте филтере"
+  },
+  "opt_update_unknown": {
+    "message": "непознато"
+  },
+  "opt_update_stale": {
+    "message": "⚠ На чекању на аутоматско ажурирање (пре 1 УСД)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ Тренутно · $Ажурирано пре 1 дан"
+  },
+  "opt_update_first": {
+    "message": "Чекало се прво ажурирање"
+  },
+  "opt_update_off": {
+    "message": "(затворено)"
+  },
+  "opt_update_running": {
+    "message": "Ажурирање..."
+  },
+  "opt_update_done": {
+    "message": "Листе ажуриране!"
+  },
+  "opt_update_error": {
+    "message": "Ажурирање није успело: $1"
+  },
+  "opt_support_title": {
+    "message": "Подршка"
+  },
+  "opt_support_subtitle": {
+    "message": "Контактирајте нас ако имате било каквих питања или проблема."
+  },
+  "opt_themes_title": {
+    "message": "Теме"
+  },
+  "opt_themes_subtitle": {
+    "message": "Персонализујте изглед вАдБлоцк-а. Одразите свој стил."
+  },
+  "theme_default": {
+    "message": "Подразумевано (светло)"
+  },
+  "theme_dark": {
+    "message": "Тамна материја"
+  },
+  "theme_hover_preview": {
+    "message": "Пређите курсором за преглед"
+  },
+  "opt_premium_title": {
+    "message": "Премиум филтери"
+  },
+  "opt_premium_subtitle": {
+    "message": "Максимизирајте своје вАдБлоцк искуство."
+  },
+  "opt_premium_focus_title": {
+    "message": "Фоцус Моде"
+  },
+  "opt_premium_focus_desc": {
+    "message": "Сакријте лансирање билтена, померање видео записа и досадне елементе који се не оглашавају."
+  },
+  "opt_premium_cookie_title": {
+    "message": "Аутоматско прихватање/одбијање колачића"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "Аутоматски сакријте упозорења о колачићима на популарним сајтовима."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "Аутоматски прихватите сагласност за колачиће"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "Аутоматски кликне на дугме „прихвати“ на обавештењима о колачићима."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "Јумпер спонзор ИоуТубе"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "Прескаче одељке за спонзоре, ванредне и интеракцијске позиве у ИоуТубе видео записима тако што их аутоматски открива из титлова."
+  },
+  "opt_premium_active": {
+    "message": "✨ вАдБлоцк Премиум је активан! Уживајте у свим функцијама."
+  },
+  "welcome_title": {
+    "message": "Добродошли у вАдБлоцк"
+  },
+  "welcome_h1": {
+    "message": "вАдБлоцк је сада са вама."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ Активна Премиум верзија"
+  },
+  "welcome_subtitle": {
+    "message": "Ваше интернет искуство је сада много чистије, брже и потпуно ваше."
+  },
+  "welcome_feat1_title": {
+    "message": "Невидљива заштита"
+  },
+  "welcome_feat1_desc": {
+    "message": "Нечујно блокира све трагаче у позадини док претражујете."
+  },
+  "welcome_feat2_title": {
+    "message": "Звездана брзина"
+  },
+  "welcome_feat2_desc": {
+    "message": "Странице се учитавају тренутно јер је непотребан садржај блокиран."
+  },
+  "welcome_feat3_title": {
+    "message": "Напредни филтери"
+  },
+  "welcome_feat3_desc": {
+    "message": "Елиминише агресивне рекламе које обичним блокаторима огласа недостају."
+  },
+  "welcome_feat4_title": {
+    "message": "Потпуно прилагођавање"
+  },
+  "welcome_feat4_desc": {
+    "message": "Управљајте правилима и нивоом филтера са странице са подешавањима."
+  },
+  "welcome_btn": {
+    "message": "Почните да истражујете"
+  },
+  "ctx_block_element": {
+    "message": "Блокирајте ову ставку помоћу вАдБлоцк-а"
+  },
+  "picker_title": {
+    "message": "Блокирајте ставку"
+  },
+  "picker_subtitle": {
+    "message": "Додајте у правила лаве"
+  },
+  "picker_expand": {
+    "message": "Проширите област избора:"
+  },
+  "picker_advanced": {
+    "message": "Напредне опције"
+  },
+  "picker_apply_all": {
+    "message": "Примените правило на свим сајтовима"
+  },
+  "picker_similar": {
+    "message": "Такође блокирајте сличне ставке"
+  },
+  "picker_css_label": {
+    "message": "ЦСС бирач (напредни):"
+  },
+  "picker_block": {
+    "message": "блок"
+  },
+  "picker_preview": {
+    "message": "Преглед"
+  },
+  "picker_reselect": {
+    "message": "Изаберите другу ставку"
+  },
+  "picker_preview_title": {
+    "message": "Режим прегледа"
+  },
+  "picker_preview_desc": {
+    "message": "Ставка коју сте изабрали је сакривена. Ако је слика оно што желите, можете је трајно блокирати."
+  },
+  "picker_exit": {
+    "message": "Изађи"
+  },
+  "picker_cancel": {
+    "message": "Откажи (ЕСЦ)"
+  },
+  "picker_saved": {
+    "message": "Правило је сачувано"
+  },
+  "picker_undo": {
+    "message": "поништити"
+  },
+  "search_placeholder": {
+    "message": "Потражите: назив подешавања или поглавља..."
+  },
+  "nav_themes": {
+    "message": "Теме"
+  },
+  "nav_premium": {
+    "message": "Премиум филтери"
+  },
+  "action_manual_block": {
+    "message": "Ручно блокирајте огласе"
+  },
+  "action_manage_rules": {
+    "message": "Моји приватни блокови"
+  },
+  "action_report": {
+    "message": "Копирајте дијагностичке информације"
+  },
+  "action_clear_site": {
+    "message": "Јасна правила сајта"
+  },
+  "tab_actions": {
+    "message": "Акције"
+  },
+  "tab_stats": {
+    "message": "Статистика"
+  },
+  "popup_refresh": {
+    "message": "Освежи"
+  },
+  "popup_brand": {
+    "message": "вАдБлоцк"
+  },
+  "popup_pause": {
+    "message": "пауза"
+  },
+  "pause_10": {
+    "message": "10 минута"
+  },
+  "pause_30": {
+    "message": "30 минута"
+  },
+  "pause_60": {
+    "message": "1 сат"
+  },
+  "pause_300": {
+    "message": "5 сати"
+  },
+  "pause_resume": {
+    "message": "резиме"
+  },
+  "popup_settings": {
+    "message": "Подешавања"
+  },
+  "popup_total_blocked": {
+    "message": "Укупно блокираних:"
+  },
+  "level_relaxed": {
+    "message": "Удобан"
+  },
+  "level_balanced": {
+    "message": "Баланцед"
+  },
+  "level_strict": {
+    "message": "Чврсто"
+  },
+  "premium_section": {
+    "message": "Премиум карактеристике"
+  },
+  "pause_scope": {
+    "message": "Подручје примене"
+  },
+  "pause_site_only": {
+    "message": "само овај сајт"
+  },
+  "pause_global": {
+    "message": "Сви сајтови (глобално)"
+  },
+  "lang_tr": {
+    "message": "турски"
+  },
+  "lang_en": {
+    "message": "енглески"
+  },
+  "opt_faq_title": {
+    "message": "Често постављана питања"
+  },
+  "opt_faq_1_q": {
+    "message": "Да ли додатак блокира ИоуТубе огласе?"
+  },
+  "opt_faq_1_a": {
+    "message": "Да, вАдБлоцк аутоматски блокира и прескаче ИоуТубе ин-видео огласе помоћу посебних алгоритама."
+  },
+  "opt_faq_2_q": {
+    "message": "Неки сајтови изгледају покварени, шта да радим?"
+  },
+  "opt_faq_2_a": {
+    "message": "Ако сајт не ради како треба, можете паузирати заштиту за ту локацију у прозору додатака (Алловлист)."
+  },
+  "opt_contact_title": {
+    "message": "Контактирајте нас"
+  },
+  "opt_contact_desc": {
+    "message": "За извештаје о грешкама, повратне информације или захтеве за новим функцијама посетите нашу ГитХуб страницу."
+  },
+  "opt_contact_btn": {
+    "message": "Преглед на ГитХуб-у"
+  },
+  "popup_paused_site": {
+    "message": "Паузирано на овом сајту"
+  },
+  "opt_update_success": {
+    "message": "ГУИ је ажуриран и филтери синхронизовани!"
+  },
+  "global_temp_off_msg": {
+    "message": "$1 мин је паузирано на свим сајтовима"
+  },
+  "nav_sponsor": {
+    "message": "Спонсоред Јумп"
+  },
+  "popup_add_segment": {
+    "message": "Пријави спонзорисану област"
+  },
+  "popup_sponsor_skipped": {
+    "message": "Пропуштени спонзори"
+  },
+  "popup_waiting": {
+    "message": "очекивано..."
+  },
+  "sb_skip_sponsor": {
+    "message": "Прескочи спонзора"
+  },
+  "sb_segment_add": {
+    "message": "Марк Спонсор"
+  },
+  "sb_set_times": {
+    "message": "Подесите времена, а затим изаберите свој тип:"
+  },
+  "sb_start": {
+    "message": "Почетак"
+  },
+  "sb_end": {
+    "message": "Заврши"
+  },
+  "sb_select_type": {
+    "message": "Изаберите тип:"
+  },
+  "sb_cancel": {
+    "message": "Откажи"
+  },
+  "sb_submit": {
+    "message": "Пошаљи"
+  },
+  "sb_submitted": {
+    "message": "Ваш допринос је послат"
+  },
+  "sb_submit_failed": {
+    "message": "Слање није успело — није могуће приступити серверу"
+  },
+  "sb_skipped": {
+    "message": "прескочио"
+  },
+  "sb_manual_skipped": {
+    "message": "приручник прескочен"
+  },
+  "sb_time_saved": {
+    "message": "зарадио $1 сек"
+  },
+  "sb_total": {
+    "message": "Укупно:"
+  },
+  "sb_cat_sponsor": {
+    "message": "Спонзор"
+  },
+  "sb_cat_selfpromo": {
+    "message": "Селф Промотион"
+  },
+  "sb_cat_interaction": {
+    "message": "Интеракција"
+  },
+  "sb_cat_intro": {
+    "message": "интро"
+  },
+  "sb_cat_outro": {
+    "message": "оутро"
+  },
+  "sb_cat_preview": {
+    "message": "Преглед"
+  },
+  "sb_cat_music": {
+    "message": "Не-Музика"
+  },
+  "sb_hours": {
+    "message": "хр"
+  },
+  "sb_minutes": {
+    "message": "мин"
+  },
+  "sb_seconds": {
+    "message": "сец"
+  },
+  "opt_saved": {
+    "message": "Сачувано!"
+  },
+  "opt_restored": {
+    "message": "Ресторед!"
+  },
+  "opt_remove": {
+    "message": "Уклони"
+  },
+  "opt_sb_title": {
+    "message": "Спонсоред Јумп"
+  },
+  "opt_sb_subtitle": {
+    "message": "Уштедите време тако што ћете прескочити спонзорства, уводе и непотребне одељке у ИоуТубе видео снимцима."
+  },
+  "opt_sb_general": {
+    "message": "▶ Општа подешавања"
+  },
+  "opt_sb_general_desc": {
+    "message": "Одредите основну функцију система заобилазнице спонзора."
+  },
+  "opt_sb_enable": {
+    "message": "Омогући прескакање спонзора"
+  },
+  "opt_sb_enable_desc": {
+    "message": "Главни прекидач за све функције скока."
+  },
+  "opt_sb_auto": {
+    "message": "Ауто скип"
+  },
+  "opt_sb_auto_desc": {
+    "message": "Када дође епизода, он одмах ускочи у њу без питања. (Ако је затворен, појављује се дугме „Прескочи“)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 Подешавања категорије"
+  },
+  "opt_sb_categories_desc": {
+    "message": "Одредите шта да радите у којим типовима сегмената један по један."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ Допринесите заједници"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "Можете помоћи другим корисницима тако што ћете изабрати огласе или непотребне области у видео записима и послати их у базу података."
+  },
+  "opt_sb_show_add": {
+    "message": "Прикажи дугме за извештај спонзора"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "Отвара интерфејс за извештавање о домену спонзора (АИ) на видео плејеру."
+  },
+  "opt_sb_api": {
+    "message": "Приватна АПИ адреса"
+  },
+  "opt_sb_api_desc": {
+    "message": "Веза са сервером за слање и примање података. (развијено)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "Ауто Скип"
+  },
+  "opt_sb_btn_show": {
+    "message": "Схов Буттон"
+  },
+  "opt_sb_disabled": {
+    "message": "Онемогућено"
+  },
+  "toast_refresh_youtube": {
+    "message": "Освежите ИоуТубе страницу."
+  },
+  "toast_youtube_only": {
+    "message": "Ова функција ради само на ИоуТубе видео записима."
+  },
+  "promo_rate_title": {
+    "message": "⭐ Да ли вам се допао вАдБлоцк?"
+  },
+  "promo_rate_desc": {
+    "message": "Можете нас подржати тако што ћете нам дати 5 звездица како бисмо могли да наставимо да се побољшавамо!"
+  },
+  "promo_rate_btn": {
+    "message": "Евалуате"
+  },
+  "promo_premium_title": {
+    "message": "🚀 вАдБлоцк Премиум"
+  },
+  "promo_premium_desc": {
+    "message": "Да ли бисте желели да искористите 100% приватност и додатне функције куповином премиум претплате?"
+  },
+  "promo_premium_btn": {
+    "message": "Преглед"
+  },
+  "promo_discount_title": {
+    "message": "🎁 Специјални попуст за вас!"
+  },
+  "promo_discount_desc": {
+    "message": "Дуго сте са нама! Да бисте добили 50% попуста на премиум чланство, користите код: ЛАВЕ-..."
+  },
+  "promo_discount_btn": {
+    "message": "Искористи код"
+  },
+  "day_sun": {
+    "message": "сунце"
+  },
+  "day_mon": {
+    "message": "пон"
+  },
+  "day_tue": {
+    "message": "Шал"
+  },
+  "day_wed": {
+    "message": "Цар"
+  },
+  "day_thu": {
+    "message": "чет"
+  },
+  "day_fri": {
+    "message": "цум"
+  },
+  "day_sat": {
+    "message": "Сат"
+  },
+  "month_jan": {
+    "message": "јануара"
+  },
+  "month_feb": {
+    "message": "феб"
+  },
+  "month_mar": {
+    "message": "мар"
+  },
+  "month_apr": {
+    "message": "апр"
+  },
+  "month_may": {
+    "message": "маја"
+  },
+  "month_jun": {
+    "message": "Задовољство"
+  },
+  "month_jul": {
+    "message": "јул"
+  },
+  "month_aug": {
+    "message": "Хемлоцк"
+  },
+  "month_sep": {
+    "message": "Сеп"
+  },
+  "month_oct": {
+    "message": "окт"
+  },
+  "month_nov": {
+    "message": "Обрва"
+  },
+  "month_dec": {
+    "message": "Тражи"
+  },
+  "time_hours": {
+    "message": "хр"
+  },
+  "time_minutes": {
+    "message": "мин"
+  },
+  "time_seconds": {
+    "message": "сец"
+  }
+}

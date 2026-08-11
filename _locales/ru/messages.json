@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "The ultimate extension to block ads and pop-ups. Blocks ads on Facebook, YouTube, and all other websites."
+  },
+  "cmd_toggle": {
+    "message": "Переключить защиту"
+  },
+  "cmd_picker": {
+    "message": "Запустить выбор рекламы"
+  },
+  "nav_stats": {
+    "message": "Статистика"
+  },
+  "nav_general": {
+    "message": "Общие"
+  },
+  "nav_protection": {
+    "message": "Уровень защиты"
+  },
+  "nav_customize": {
+    "message": "Настроить"
+  },
+  "nav_filters": {
+    "message": "Фильтры"
+  },
+  "nav_support": {
+    "message": "Поддержка"
+  },
+  "nav_themes": {
+    "message": "Темы"
+  },
+  "nav_premium": {
+    "message": "Премиум фильтры"
+  },
+  "popup_unknown": {
+    "message": "Неизвестно"
+  },
+  "popup_blocked": {
+    "message": "Заблокировано:"
+  },
+  "popup_protection_on": {
+    "message": "Защита включена"
+  },
+  "popup_protection_off": {
+    "message": "Защита выключена"
+  },
+  "popup_menu_manual": {
+    "message": "Блокировать рекламу вручную"
+  },
+  "popup_menu_custom": {
+    "message": "Мои блокировки"
+  },
+  "popup_menu_diag": {
+    "message": "Копировать диагностику"
+  },
+  "popup_menu_clear": {
+    "message": "Очистить правила сайта"
+  },
+  "pause_paused_state": {
+    "message": "Приостановлено"
+  },
+  "pause_title": {
+    "message": "Пауза"
+  },
+  "pause_min_unit": {
+    "message": "мин"
+  },
+  "pause_sec_unit": {
+    "message": "сек"
+  },
+  "pause_site": {
+    "message": "На этом сайте"
+  },
+  "site_temp_30": {
+    "message": "Приостановить на 30 минут"
+  },
+  "site_temp_120": {
+    "message": "Приостановить на 2 часа"
+  },
+  "site_temp_0": {
+    "message": "Возобновить защиту"
+  },
+  "site_temp_off_msg": {
+    "message": "Приостановлено на этом сайте на $1 мин"
+  },
+  "site_temp_on_msg": {
+    "message": "Защита возобновлена на этом сайте"
+  },
+  "pause_toast": {
+    "message": "Приостановлено на $1 минут"
+  },
+  "pause_toast_resume": {
+    "message": "Защита возобновлена"
+  },
+  "chart_all": {
+    "message": "Все"
+  },
+  "chart_ads": {
+    "message": "Реклама"
+  },
+  "chart_trackers": {
+    "message": "Трекеры"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "Другое"
+  },
+  "chart_7days": {
+    "message": "7 дней"
+  },
+  "chart_24h": {
+    "message": "24 часа"
+  },
+  "chart_30d": {
+    "message": "30 дней"
+  },
+  "chart_1y": {
+    "message": "1 год"
+  },
+  "rules_title": {
+    "message": "Мои правила"
+  },
+  "rules_empty": {
+    "message": "Пользовательские правила еще не добавлены."
+  },
+  "rules_global": {
+    "message": "Глобальные"
+  },
+  "rules_preview": {
+    "message": "Предпросмотр"
+  },
+  "rules_delete": {
+    "message": "Удалить"
+  },
+  "toast_rules_cleared": {
+    "message": "$1 правил очищено. Обновление страницы..."
+  },
+  "toast_no_rules_site": {
+    "message": "Нет правил для этого сайта"
+  },
+  "toast_protection_updated": {
+    "message": "Уровень защиты обновлен"
+  },
+  "toast_report_copied": {
+    "message": "Диагностика скопирована в буфер обмена"
+  },
+  "toast_copy_failed": {
+    "message": "Не удалось скопировать"
+  },
+  "toast_site_info_failed": {
+    "message": "Не удалось получить информацию о сайте"
+  },
+  "toast_page_not_available": {
+    "message": "Недоступно на этой странице (защита Chrome)"
+  },
+  "toast_protection_on": {
+    "message": "Защита: Вкл"
+  },
+  "toast_protection_off": {
+    "message": "Защита: Выкл"
+  },
+  "toast_redirect": {
+    "message": "Перенаправление..."
+  },
+  "report_title": {
+    "message": "Диагностика"
+  },
+  "report_version": {
+    "message": "Версия"
+  },
+  "report_page": {
+    "message": "Страница"
+  },
+  "report_date": {
+    "message": "Дата"
+  },
+  "report_level": {
+    "message": "Уровень"
+  },
+  "footer_made_by": {
+    "message": "сделано lave"
+  },
+  "opt_stats_title": {
+    "message": "Статистика"
+  },
+  "opt_stats_subtitle": {
+    "message": "Посмотрите, сколько vAdBlock заблокировал в фоновом режиме."
+  },
+  "opt_stat_ads_7d": {
+    "message": "Рекламы заблокировано за 7 дней"
+  },
+  "opt_stat_trackers": {
+    "message": "Трекеров заблокировано"
+  },
+  "opt_stat_data": {
+    "message": "Сэкономлено данных"
+  },
+  "opt_stat_time": {
+    "message": "Сэкономлено времени при загрузке"
+  },
+  "opt_report_title": {
+    "message": "Еженедельный отчет"
+  },
+  "opt_report_total": {
+    "message": "Всего заблокировано"
+  },
+  "opt_report_ads": {
+    "message": "Реклама"
+  },
+  "opt_report_trackers": {
+    "message": "Трекеры"
+  },
+  "opt_report_daily": {
+    "message": "В среднем за день"
+  },
+  "opt_top_domains": {
+    "message": "Топ заблокированных доменов"
+  },
+  "opt_empty_data": {
+    "message": "Пока нет данных."
+  },
+  "opt_log_title": {
+    "message": "Журнал блокировок"
+  },
+  "opt_log_desc": {
+    "message": "Последние 50 заблокированных запросов (только текущая сессия)."
+  },
+  "opt_log_search": {
+    "message": "Поиск: домен или URL..."
+  },
+  "opt_log_export": {
+    "message": "Экспорт CSV"
+  },
+  "opt_empty_log": {
+    "message": "Пока нет заблокированных запросов."
+  },
+  "opt_log_clear": {
+    "message": "Очистить журнал"
+  },
+  "opt_general_title": {
+    "message": "Общие настройки"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "Разрешить некоторую ненавязчивую рекламу"
+  },
+  "opt_context_menu": {
+    "message": "Добавить vAdBlock в контекстное меню"
+  },
+  "opt_badge_count": {
+    "message": "Показывать количество заблокированной рекламы на значке"
+  },
+  "opt_dev_tools": {
+    "message": "Показывать панель vAdBlock в инструментах разработчика"
+  },
+  "opt_promotions": {
+    "message": "Разрешить vAdBlock иногда показывать рекламные сообщения"
+  },
+  "opt_fingerprint": {
+    "message": "Защита от фингерпринтинга (скрыть информацию Canvas/WebGL)"
+  },
+  "opt_anti_adblock": {
+    "message": "Скрыть предупреждения Обнаружен блокировщик рекламы"
+  },
+  "opt_https": {
+    "message": "Принудительное безопасное соединение (HTTPS)"
+  },
+  "opt_webrtc": {
+    "message": "Предотвратить утечку IP-адреса WebRTC"
+  },
+  "opt_language_title": {
+    "message": "Язык / Language"
+  },
+  "opt_language_desc": {
+    "message": "Выберите язык интерфейса. Авто использует язык браузера."
+  },
+  "opt_language_auto": {
+    "message": "Авто (по браузеру)"
+  },
+  "opt_language_tr": {
+    "message": "Türkçe"
+  },
+  "opt_language_en": {
+    "message": "English"
+  },
+  "opt_lang_auto": {
+    "message": "Авто (язык браузера)"
+  },
+  "opt_protection_title": {
+    "message": "Уровень защиты"
+  },
+  "opt_protection_subtitle": {
+    "message": "Выберите режим защиты, который лучше всего подходит для ваших привычек."
+  },
+  "opt_mode_relaxed": {
+    "message": "Слабый режим"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "Блокирует базовую рекламу. Продвинутые трекеры отключены для максимальной производительности."
+  },
+  "opt_mode_balanced": {
+    "message": "Сбалансированный (Рекомендуется)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "Блокирует большинство рекламы и трекеров. Идеально для ежедневного использования."
+  },
+  "opt_mode_strict": {
+    "message": "Строгий режим"
+  },
+  "opt_mode_strict_desc": {
+    "message": "Максимальная конфиденциальность! Управляет GPC/DNT, ломает фингерпринтеры и блокирует агрессивную рекламу."
+  },
+  "opt_customize_title": {
+    "message": "Настроить"
+  },
+  "opt_customize_subtitle": {
+    "message": "Настройте расширение полностью под свои нужды."
+  },
+  "opt_allowlist_title": {
+    "message": "Белый список"
+  },
+  "opt_allowlist_desc": {
+    "message": "Блокировка рекламы отключена на следующих сайтах."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "example.com"
+  },
+  "opt_add": {
+    "message": "Добавить"
+  },
+  "opt_allowlist_empty": {
+    "message": "Сайты еще не добавлены. Добавьте домен выше."
+  },
+  "opt_css_title": {
+    "message": "Пользовательские правила CSS"
+  },
+  "opt_css_desc": {
+    "message": "Пользовательские правила скрытия CSS для продвинутых пользователей."
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "Сохранить"
+  },
+  "opt_network_title": {
+    "message": "Пользовательские сетевые правила"
+  },
+  "opt_network_desc": {
+    "message": "Одно правило на строку. Формат: ||example.com^ (блок) или @@||example.com^ (разрешить)."
+  },
+  "opt_backup_title": {
+    "message": "Резервное копирование и восстановление"
+  },
+  "opt_backup_desc": {
+    "message": "Экспорт настроек, белого списка и пользовательских правил."
+  },
+  "opt_export": {
+    "message": "Экспорт резервной копии"
+  },
+  "opt_import": {
+    "message": "Восстановить резервную копию"
+  },
+  "opt_filters_title": {
+    "message": "Списки фильтров"
+  },
+  "opt_filters_subtitle": {
+    "message": "Выберите, какие списки фильтров использовать и обновите их."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "Основные рекламные фильтры — блокируют большинство сетей."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "Блокирует домены трекеров и аналитики."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "Списки рекламных серверов и серверов отслеживания."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "Фильтры vAdBlock и списки конфиденциальности."
+  },
+  "opt_update_title": {
+    "message": "Обновить списки"
+  },
+  "opt_update_desc": {
+    "message": "Списки фильтров обновляются автоматически раз в неделю. Последнее обновление:"
+  },
+  "opt_update_btn": {
+    "message": "Обновить фильтры"
+  },
+  "opt_update_unknown": {
+    "message": "неизвестно"
+  },
+  "opt_update_stale": {
+    "message": "⚠ Ожидается автообновление ($1 дней назад)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ Актуально · обновлено $1 дней назад"
+  },
+  "opt_update_first": {
+    "message": "Ожидание первого обновления"
+  },
+  "opt_update_off": {
+    "message": " (выкл)"
+  },
+  "opt_update_running": {
+    "message": "Обновление..."
+  },
+  "opt_update_done": {
+    "message": "Списки обновлены!"
+  },
+  "opt_update_error": {
+    "message": "Ошибка обновления: $1"
+  },
+  "opt_support_title": {
+    "message": "Поддержка"
+  },
+  "opt_support_subtitle": {
+    "message": "Свяжитесь с нами, если у вас есть вопросы или проблемы."
+  },
+  "opt_themes_title": {
+    "message": "Темы"
+  },
+  "opt_themes_subtitle": {
+    "message": "Настройте внешний вид vAdBlock. Отразите свой стиль."
+  },
+  "theme_default": {
+    "message": "По умолчанию (Светлая)"
+  },
+  "theme_dark": {
+    "message": "Темная материя"
+  },
+  "theme_hover_preview": {
+    "message": "Наведите для предпросмотра"
+  },
+  "opt_premium_title": {
+    "message": "Премиум фильтры"
+  },
+  "opt_premium_subtitle": {
+    "message": "Максимизируйте свой опыт с vAdBlock."
+  },
+  "opt_premium_focus_title": {
+    "message": "Режим фокуса"
+  },
+  "opt_premium_focus_desc": {
+    "message": "Скрыть всплывающие окна, плавающие видео и нерекламные раздражители."
+  },
+  "opt_premium_cookie_title": {
+    "message": "Авто-принятие/отклонение файлов cookie"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "Автоматически скрывать предупреждения о файлах cookie на популярных сайтах."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "Авто-принятие согласия на файлы cookie"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "Автоматически нажимает кнопку принять в уведомлениях о файлах cookie."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "Пропуск спонсоров YouTube"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "Автоматически обнаруживает и пропускает спонсорские сегменты в видео YouTube с помощью анализа субтитров."
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium активен! Наслаждайтесь всеми функциями."
+  },
+  "welcome_title": {
+    "message": "Добро пожаловать в vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock теперь с вами."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ Премиум версия активна"
+  },
+  "welcome_subtitle": {
+    "message": "Ваш интернет-опыт теперь намного чище, быстрее и полностью ваш."
+  },
+  "welcome_feat1_title": {
+    "message": "Невидимая защита"
+  },
+  "welcome_feat1_desc": {
+    "message": "Тихо блокирует все трекеры в фоновом режиме, пока вы просматриваете сайты."
+  },
+  "welcome_feat2_title": {
+    "message": "Звездная скорость"
+  },
+  "welcome_feat2_desc": {
+    "message": "Страницы загружаются мгновенно, потому что ненужный контент заблокирован."
+  },
+  "welcome_feat3_title": {
+    "message": "Продвинутые фильтры"
+  },
+  "welcome_feat3_desc": {
+    "message": "Уничтожает агрессивную рекламу, которую пропускают обычные блокировщики."
+  },
+  "welcome_feat4_title": {
+    "message": "Полная настройка"
+  },
+  "welcome_feat4_desc": {
+    "message": "Управляйте правилами и уровнями защиты со страницы настроек."
+  },
+  "welcome_btn": {
+    "message": "Начать"
+  },
+  "ctx_block_element": {
+    "message": "Блокировать этот элемент с помощью vAdBlock"
+  },
+  "picker_title": {
+    "message": "Блокировать элемент"
+  },
+  "picker_subtitle": {
+    "message": "Добавить в правила Lave"
+  },
+  "picker_expand": {
+    "message": "Расширить выбор:"
+  },
+  "picker_advanced": {
+    "message": "Расширенные настройки"
+  },
+  "picker_apply_all": {
+    "message": "Применить правило на всех сайтах"
+  },
+  "picker_similar": {
+    "message": "Блокировать похожие элементы"
+  },
+  "picker_css_label": {
+    "message": "Селектор CSS (Дополнительно):"
+  },
+  "picker_block": {
+    "message": "Блокировать"
+  },
+  "picker_preview": {
+    "message": "Предпросмотр"
+  },
+  "picker_reselect": {
+    "message": "Выбрать другой элемент"
+  },
+  "picker_preview_title": {
+    "message": "Режим предпросмотра"
+  },
+  "picker_preview_desc": {
+    "message": "Выбранный элемент скрыт. Если все выглядит хорошо, вы можете заблокировать его."
+  },
+  "picker_exit": {
+    "message": "Выход"
+  },
+  "picker_cancel": {
+    "message": "Отмена (ESC)"
+  },
+  "picker_saved": {
+    "message": "Правило сохранено"
+  },
+  "picker_undo": {
+    "message": "Отменить"
+  },
+  "search_placeholder": {
+    "message": "Поиск: настройка или раздел..."
+  },
+  "action_manual_block": {
+    "message": "Блокировать рекламу вручную"
+  },
+  "action_manage_rules": {
+    "message": "Мои блокировки"
+  },
+  "action_report": {
+    "message": "Копировать диагностику"
+  },
+  "action_clear_site": {
+    "message": "Очистить правила сайта"
+  },
+  "tab_actions": {
+    "message": "Действия"
+  },
+  "tab_stats": {
+    "message": "Статистика"
+  },
+  "popup_refresh": {
+    "message": "Обновить"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "Пауза"
+  },
+  "pause_10": {
+    "message": "10 минут"
+  },
+  "pause_30": {
+    "message": "30 минут"
+  },
+  "pause_60": {
+    "message": "1 час"
+  },
+  "pause_300": {
+    "message": "5 часов"
+  },
+  "pause_resume": {
+    "message": "Возобновить"
+  },
+  "popup_settings": {
+    "message": "Настройки"
+  },
+  "popup_total_blocked": {
+    "message": "Всего заблокировано:"
+  },
+  "level_relaxed": {
+    "message": "Слабый"
+  },
+  "level_balanced": {
+    "message": "Сбалансированный"
+  },
+  "level_strict": {
+    "message": "Строгий"
+  },
+  "premium_section": {
+    "message": "Премиум функции"
+  },
+  "pause_scope": {
+    "message": "Область применения"
+  },
+  "pause_site_only": {
+    "message": "Только этот сайт"
+  },
+  "pause_global": {
+    "message": "Все сайты (Глобально)"
+  },
+  "lang_tr": {
+    "message": "Турецкий"
+  },
+  "lang_en": {
+    "message": "Английский"
+  },
+  "opt_faq_title": {
+    "message": "Часто задаваемые вопросы"
+  },
+  "opt_faq_1_q": {
+    "message": "Блокирует ли расширение рекламу на YouTube?"
+  },
+  "opt_faq_1_a": {
+    "message": "Да, vAdBlock автоматически блокирует и пропускает видеорекламу с помощью алгоритмов."
+  },
+  "opt_faq_2_q": {
+    "message": "Некоторые сайты выглядят сломанными, что делать?"
+  },
+  "opt_faq_2_a": {
+    "message": "Если сайт не работает должным образом, вы можете приостановить защиту для этого сайта (Белый список) в меню расширения."
+  },
+  "opt_contact_title": {
+    "message": "Связаться с нами"
+  },
+  "opt_contact_desc": {
+    "message": "Посетите нашу страницу GitHub для отчетов об ошибках, отзывов или запросов функций."
+  },
+  "opt_contact_btn": {
+    "message": "Смотреть на GitHub"
+  },
+  "popup_paused_site": {
+    "message": "Приостановлено на этом сайте"
+  },
+  "opt_update_success": {
+    "message": "GUI обновлен и фильтры синхронизированы!"
+  },
+  "global_temp_off_msg": {
+    "message": "Приостановлено на всех сайтах на $1 мин"
+  },
+  "nav_sponsor": {
+    "message": "Пропуск спонсоров"
+  },
+  "popup_add_segment": {
+    "message": "Сообщить о спонсорстве"
+  },
+  "popup_sponsor_skipped": {
+    "message": "Пропущенные спонсоры"
+  },
+  "popup_waiting": {
+    "message": "ожидание..."
+  },
+  "sb_skip_sponsor": {
+    "message": "Пропустить спонсора"
+  },
+  "sb_segment_add": {
+    "message": "Отметить спонсора"
+  },
+  "sb_set_times": {
+    "message": "Установите время, затем выберите тип:"
+  },
+  "sb_start": {
+    "message": "Начало"
+  },
+  "sb_end": {
+    "message": "Конец"
+  },
+  "sb_select_type": {
+    "message": "Выберите тип:"
+  },
+  "sb_cancel": {
+    "message": "Отмена"
+  },
+  "sb_submit": {
+    "message": "Отправить"
+  },
+  "sb_submitted": {
+    "message": "Вклад отправлен"
+  },
+  "sb_submit_failed": {
+    "message": "Не удалось — сервер недоступен"
+  },
+  "sb_skipped": {
+    "message": "пропущено"
+  },
+  "sb_manual_skipped": {
+    "message": "пропущено вручную"
+  },
+  "sb_time_saved": {
+    "message": "сэкономлено $1 сек"
+  },
+  "sb_total": {
+    "message": "Всего:"
+  },
+  "sb_cat_sponsor": {
+    "message": "Спонсор"
+  },
+  "sb_cat_selfpromo": {
+    "message": "Самореклама"
+  },
+  "sb_cat_interaction": {
+    "message": "Взаимодействие"
+  },
+  "sb_cat_intro": {
+    "message": "Интро"
+  },
+  "sb_cat_outro": {
+    "message": "Аутро"
+  },
+  "sb_cat_preview": {
+    "message": "Анонс"
+  },
+  "sb_cat_music": {
+    "message": "Не музыка"
+  },
+  "sb_hours": {
+    "message": "ч"
+  },
+  "sb_minutes": {
+    "message": "мин"
+  },
+  "sb_seconds": {
+    "message": "сек"
+  },
+  "opt_saved": {
+    "message": "Сохранено!"
+  },
+  "opt_restored": {
+    "message": "Восстановлено!"
+  },
+  "opt_remove": {
+    "message": "Удалить"
+  },
+  "opt_sb_title": {
+    "message": "Пропуск спонсоров"
+  },
+  "opt_sb_subtitle": {
+    "message": "Экономьте время, пропуская спонсорство, интро и ненужные сегменты в видео YouTube."
+  },
+  "opt_sb_general": {
+    "message": "▶ Общие настройки"
+  },
+  "opt_sb_general_desc": {
+    "message": "Настройте базовое поведение системы пропуска спонсоров."
+  },
+  "opt_sb_enable": {
+    "message": "Включить пропуск спонсоров"
+  },
+  "opt_sb_enable_desc": {
+    "message": "Главный переключатель для всех функций пропуска."
+  },
+  "opt_sb_auto": {
+    "message": "Автопропуск"
+  },
+  "opt_sb_auto_desc": {
+    "message": "Автоматически пропускает сегмент. (Если отключено, показывает кнопку Пропустить)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 Настройки категорий"
+  },
+  "opt_sb_categories_desc": {
+    "message": "Настройте действие для каждого типа сегмента."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ Внести вклад в сообщество"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "Помогите другим пользователям, отмечая спонсируемые или ненужные сегменты и отправляя их в базу данных."
+  },
+  "opt_sb_show_add": {
+    "message": "Показывать кнопку сообщения о спонсорстве"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "Открывает интерфейс отчета о спонсорстве (ИИ) в видеоплеере."
+  },
+  "opt_sb_api": {
+    "message": "Пользовательский адрес API"
+  },
+  "opt_sb_api_desc": {
+    "message": "URL сервера для отправки и получения данных. (Дополнительно)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "Автопропуск"
+  },
+  "opt_sb_btn_show": {
+    "message": "Показать кнопку"
+  },
+  "opt_sb_disabled": {
+    "message": "Отключено"
+  },
+  "toast_refresh_youtube": {
+    "message": "Пожалуйста, обновите страницу YouTube."
+  },
+  "toast_youtube_only": {
+    "message": "Эта функция работает только в видео YouTube."
+  },
+  "promo_rate_title": {
+    "message": "⭐ Нравится vAdBlock?"
+  },
+  "promo_rate_desc": {
+    "message": "Поддержите нас оценкой 5 звезд, чтобы мы могли становиться лучше!"
+  },
+  "promo_rate_btn": {
+    "message": "Оценить"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock Premium"
+  },
+  "promo_premium_desc": {
+    "message": "Получить Premium для 100% конфиденциальности и дополнительных функций?"
+  },
+  "promo_premium_btn": {
+    "message": "Узнать больше"
+  },
+  "promo_discount_title": {
+    "message": "🎁 Специальная скидка для вас!"
+  },
+  "promo_discount_desc": {
+    "message": "Вы с нами уже давно! Получите скидку 50% на Premium..."
+  },
+  "promo_discount_btn": {
+    "message": "Использовать код"
+  },
+  "day_sun": {
+    "message": "Вс"
+  },
+  "day_mon": {
+    "message": "Пн"
+  },
+  "day_tue": {
+    "message": "Вт"
+  },
+  "day_wed": {
+    "message": "Ср"
+  },
+  "day_thu": {
+    "message": "Чт"
+  },
+  "day_fri": {
+    "message": "Пт"
+  },
+  "day_sat": {
+    "message": "Сб"
+  },
+  "month_jan": {
+    "message": "Янв"
+  },
+  "month_feb": {
+    "message": "Фев"
+  },
+  "month_mar": {
+    "message": "Мар"
+  },
+  "month_apr": {
+    "message": "Апр"
+  },
+  "month_may": {
+    "message": "Май"
+  },
+  "month_jun": {
+    "message": "Июн"
+  },
+  "month_jul": {
+    "message": "Июл"
+  },
+  "month_aug": {
+    "message": "Авг"
+  },
+  "month_sep": {
+    "message": "Сен"
+  },
+  "month_oct": {
+    "message": "Окт"
+  },
+  "month_nov": {
+    "message": "Ноя"
+  },
+  "month_dec": {
+    "message": "Дек"
+  },
+  "time_hours": {
+    "message": "ч"
+  },
+  "time_minutes": {
+    "message": "мин"
+  },
+  "time_seconds": {
+    "message": "сек"
+  },
+  "appName": {
+    "message": "vAdBlock — Best Ad Blocker"
+  }
+}

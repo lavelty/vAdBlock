@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "الإضافة النهائية لمنع الإعلانات والنوافذ المنبثقة. يمنع الإعلانات على فيسبوك ويوتيوب وجميع المواقع الأخرى."
+  },
+  "cmd_toggle": {
+    "message": "تبديل الحماية"
+  },
+  "cmd_picker": {
+    "message": "إطلاق محدد الإعلان"
+  },
+  "nav_stats": {
+    "message": "إحصائيات"
+  },
+  "nav_general": {
+    "message": "عام"
+  },
+  "nav_protection": {
+    "message": "مستوى الحماية"
+  },
+  "nav_customize": {
+    "message": "تخصيص"
+  },
+  "nav_filters": {
+    "message": "المرشحات"
+  },
+  "nav_support": {
+    "message": "يدعم"
+  },
+  "popup_unknown": {
+    "message": "مجهول"
+  },
+  "popup_blocked": {
+    "message": "محظور:"
+  },
+  "popup_protection_on": {
+    "message": "الحماية قيد التشغيل"
+  },
+  "popup_protection_off": {
+    "message": "الحماية معطلة"
+  },
+  "popup_menu_manual": {
+    "message": "منع الإعلانات يدويًا"
+  },
+  "popup_menu_custom": {
+    "message": "كتلتي الخاصة"
+  },
+  "popup_menu_diag": {
+    "message": "نسخ المعلومات التشخيصية"
+  },
+  "popup_menu_clear": {
+    "message": "مسح قواعد الموقع"
+  },
+  "pause_paused_state": {
+    "message": "متوقف مؤقتا"
+  },
+  "pause_title": {
+    "message": "يوقف"
+  },
+  "pause_min_unit": {
+    "message": "دقيقة"
+  },
+  "pause_sec_unit": {
+    "message": "ثانية"
+  },
+  "pause_site": {
+    "message": "على هذا الموقع"
+  },
+  "site_temp_30": {
+    "message": "اغلاق لمدة 30 دقيقة"
+  },
+  "site_temp_120": {
+    "message": "إغلاق لمدة ساعتين"
+  },
+  "site_temp_0": {
+    "message": "أعد فتح الموقع"
+  },
+  "site_temp_off_msg": {
+    "message": "تم إغلاق هذا الموقع لمدة $1 دقيقة"
+  },
+  "site_temp_on_msg": {
+    "message": "تم إعادة فتح هذا الموقع"
+  },
+  "pause_toast": {
+    "message": "تم الإيقاف مؤقتًا لمدة $1 دقيقة"
+  },
+  "pause_toast_resume": {
+    "message": "استمرت الحماية"
+  },
+  "chart_all": {
+    "message": "الجميع"
+  },
+  "chart_ads": {
+    "message": "إعلانات"
+  },
+  "chart_trackers": {
+    "message": "المشاهدين"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "آخر"
+  },
+  "chart_7days": {
+    "message": "7 أيام"
+  },
+  "chart_24h": {
+    "message": "24 ساعة"
+  },
+  "chart_30d": {
+    "message": "30 يوما"
+  },
+  "chart_1y": {
+    "message": "1 سنة"
+  },
+  "rules_title": {
+    "message": "قواعدي الخاصة"
+  },
+  "rules_empty": {
+    "message": "لم تتم إضافة أي قواعد خاصة حتى الآن."
+  },
+  "rules_global": {
+    "message": "عالمي"
+  },
+  "rules_preview": {
+    "message": "معاينة"
+  },
+  "rules_delete": {
+    "message": "يمسح"
+  },
+  "toast_rules_cleared": {
+    "message": "تم مسح قاعدة $1. الصفحة متجددة ..."
+  },
+  "toast_no_rules_site": {
+    "message": "لا توجد قواعد على هذا الموقع"
+  },
+  "toast_protection_updated": {
+    "message": "تم تحديث مستوى الحماية"
+  },
+  "toast_report_copied": {
+    "message": "تم نسخ المعلومات التشخيصية إلى الحافظة"
+  },
+  "toast_copy_failed": {
+    "message": "لا يمكن النسخ"
+  },
+  "toast_site_info_failed": {
+    "message": "لا يمكن الحصول على معلومات الموقع"
+  },
+  "toast_page_not_available": {
+    "message": "غير متوفر في هذه الصفحة (حماية Chrome)"
+  },
+  "toast_protection_on": {
+    "message": "الحماية: تشغيل"
+  },
+  "toast_protection_off": {
+    "message": "الحماية: معطلة"
+  },
+  "toast_redirect": {
+    "message": "إعادة التوجيه..."
+  },
+  "report_title": {
+    "message": "معلومات تشخيصية"
+  },
+  "report_version": {
+    "message": "إصدار"
+  },
+  "report_page": {
+    "message": "صفحة"
+  },
+  "report_date": {
+    "message": "تاريخ"
+  },
+  "report_level": {
+    "message": "مستوى"
+  },
+  "footer_made_by": {
+    "message": "بواسطة Lave"
+  },
+  "opt_stats_title": {
+    "message": "إحصائيات"
+  },
+  "opt_stats_subtitle": {
+    "message": "تعرف على مدة تشغيل vAdBlock في الخلفية."
+  },
+  "opt_stat_ads_7d": {
+    "message": "الإعلانات المحظورة في آخر 7 أيام"
+  },
+  "opt_stat_trackers": {
+    "message": "تعقب جامع البيانات المحظورة"
+  },
+  "opt_stat_data": {
+    "message": "البيانات المحفوظة"
+  },
+  "opt_stat_time": {
+    "message": "الوقت الموفر عند تحميل الصفحة"
+  },
+  "opt_report_title": {
+    "message": "التقرير الأسبوعي"
+  },
+  "opt_report_total": {
+    "message": "طلب محظور"
+  },
+  "opt_report_ads": {
+    "message": "أعلن"
+  },
+  "opt_report_trackers": {
+    "message": "جمهور"
+  },
+  "opt_report_daily": {
+    "message": "المتوسط ​​اليومي"
+  },
+  "opt_top_domains": {
+    "message": "أكثر المواقع المحجوبة"
+  },
+  "opt_empty_data": {
+    "message": "لا توجد بيانات حتى الآن."
+  },
+  "opt_log_title": {
+    "message": "سجل الحظر"
+  },
+  "opt_log_desc": {
+    "message": "آخر 50 طلبًا محظورًا (في هذه الجلسة فقط)."
+  },
+  "opt_log_search": {
+    "message": "البحث: اسم المجال أو عنوان URL..."
+  },
+  "opt_log_export": {
+    "message": "تصدير CSV"
+  },
+  "opt_empty_log": {
+    "message": "لا توجد طلبات محظورة حتى الآن."
+  },
+  "opt_log_clear": {
+    "message": "مسح السجل"
+  },
+  "opt_general_title": {
+    "message": "الإعدادات العامة"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "السماح ببعض الإعلانات غير المتطفلة"
+  },
+  "opt_context_menu": {
+    "message": "أضف خيارات vAdBlock إلى قائمة النقر بزر الماوس الأيمن"
+  },
+  "opt_badge_count": {
+    "message": "أظهر عدد الإعلانات المحظورة على الزر vAdBlock"
+  },
+  "opt_dev_tools": {
+    "message": "إظهار لوحة \"vAdBlock\" في أدوات المطورين"
+  },
+  "opt_promotions": {
+    "message": "السماح لـ vAdBlock بعرض الرسائل الترويجية من حين لآخر"
+  },
+  "opt_fingerprint": {
+    "message": "حماية بصمات الأصابع (إخفاء معلومات أجهزة Canvas/WebGL)"
+  },
+  "opt_anti_adblock": {
+    "message": "إخفاء تحذيرات \"تم اكتشاف أداة حظر الإعلانات\"."
+  },
+  "opt_https": {
+    "message": "فرض اتصال آمن (HTTPS)."
+  },
+  "opt_webrtc": {
+    "message": "WebRTC منع تسرب عنوان IP"
+  },
+  "opt_language_title": {
+    "message": "لغة"
+  },
+  "opt_language_desc": {
+    "message": "حدد لغة الواجهة. يستخدم الخيار التلقائي لغة المتصفح."
+  },
+  "opt_language_auto": {
+    "message": "تلقائي (حسب لغة المتصفح)"
+  },
+  "opt_language_tr": {
+    "message": "تركي"
+  },
+  "opt_language_en": {
+    "message": "إنجليزي"
+  },
+  "opt_lang_auto": {
+    "message": "تلقائي (لغة المتصفح)"
+  },
+  "opt_protection_title": {
+    "message": "مستوى الحماية"
+  },
+  "opt_protection_subtitle": {
+    "message": "اختر وضع الأمان الذي يناسب عادات تصفح الإنترنت لديك."
+  },
+  "opt_mode_relaxed": {
+    "message": "وضع الراحة"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "يحظر الإعلانات الأساسية. يتم إيقاف تشغيل أدوات التتبع المتقدمة والمرشحات القاسية التي قد تؤدي إلى تعطيل الموقع. الأداء والتوافق على أعلى مستوى."
+  },
+  "opt_mode_balanced": {
+    "message": "الوضع المتوازن (مستحسن)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "يحظر معظم الإعلانات وجامعي البيانات المعروفين. مثالي للاستخدام اليومي للإنترنت، وحماية سلسة لا تؤثر على الأداء."
+  },
+  "opt_mode_strict": {
+    "message": "الوضع الصارم"
+  },
+  "opt_mode_strict_desc": {
+    "message": "أقصى قدر من الخصوصية! فهو يتعامل مع جميع إشارات GPC/DNT، ويعطل أجهزة قراءة بصمات الأصابع، ويمنع شبكات الإعلانات العدوانية من جذورها. (مثالي لمواقع الاختبار)"
+  },
+  "opt_customize_title": {
+    "message": "تخصيص"
+  },
+  "opt_customize_subtitle": {
+    "message": "قم بتخصيص البرنامج المساعد وفقًا لاحتياجاتك تمامًا."
+  },
+  "opt_allowlist_title": {
+    "message": "المواقع المسموح بها (القائمة المسموح بها)"
+  },
+  "opt_allowlist_desc": {
+    "message": "تم تعطيل حظر الإعلانات على المواقع التالية."
+  },
+  "opt_allowlist_placeholder": {
+    "message": "عينة.كوم"
+  },
+  "opt_add": {
+    "message": "يضيف"
+  },
+  "opt_allowlist_empty": {
+    "message": "لم تتم إضافة أي موقع حتى الآن. أضف اسم المجال أعلاه."
+  },
+  "opt_css_title": {
+    "message": "قواعد CSS الخاصة"
+  },
+  "opt_css_desc": {
+    "message": "قواعد تشويش خاصة CSS للمستخدمين المتقدمين."
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "يحفظ"
+  },
+  "opt_network_title": {
+    "message": "قواعد الشبكة الخاصة"
+  },
+  "opt_network_desc": {
+    "message": "قاعدة واحدة في كل سطر. التنسيق: ||example.com^ (كتلة) أو @@||example.com^ (سماح)."
+  },
+  "opt_backup_title": {
+    "message": "النسخ الاحتياطي والاستعادة"
+  },
+  "opt_backup_desc": {
+    "message": "قم بتصدير إعداداتك والمواقع المسموح بها والقواعد المخصصة."
+  },
+  "opt_export": {
+    "message": "تحميل النسخ الاحتياطي"
+  },
+  "opt_import": {
+    "message": "استعادة النسخة الاحتياطية"
+  },
+  "opt_filters_title": {
+    "message": "قوائم التصفية"
+  },
+  "opt_filters_subtitle": {
+    "message": "اختر قوائم التصفية التي تريد استخدامها وقم بتحديث القوائم."
+  },
+  "opt_filter_easylist_desc": {
+    "message": "مرشحات الإعلانات الرئيسية - تحظر معظم شبكات الإعلانات."
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "كتل تعقب ومجالات التحليلات."
+  },
+  "opt_filter_adguard_desc": {
+    "message": "خوادم الإعلانات وقوائم خوادم التتبع."
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock المرشحات وقوائم الخصوصية."
+  },
+  "opt_update_title": {
+    "message": "تحديث القوائم"
+  },
+  "opt_update_desc": {
+    "message": "يتم تحديث قوائم التصفية تلقائيًا أسبوعيًا. التحديث الأخير:"
+  },
+  "opt_update_btn": {
+    "message": "تحديث المرشحات"
+  },
+  "opt_update_unknown": {
+    "message": "مجهول"
+  },
+  "opt_update_stale": {
+    "message": "⚠ في انتظار التحديث التلقائي (منذ $1 أيام)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ الحالي · تم التحديث منذ $1 يومًا"
+  },
+  "opt_update_first": {
+    "message": "التحديث الأول منتظر"
+  },
+  "opt_update_off": {
+    "message": "(مغلق)"
+  },
+  "opt_update_running": {
+    "message": "جارٍ التحديث..."
+  },
+  "opt_update_done": {
+    "message": "تم تحديث القوائم!"
+  },
+  "opt_update_error": {
+    "message": "فشل التحديث: $1"
+  },
+  "opt_support_title": {
+    "message": "يدعم"
+  },
+  "opt_support_subtitle": {
+    "message": "اتصل بنا إذا كان لديك أي أسئلة أو مشاكل."
+  },
+  "opt_themes_title": {
+    "message": "المواضيع"
+  },
+  "opt_themes_subtitle": {
+    "message": "تخصيص مظهر vAdBlock. تعكس أسلوبك."
+  },
+  "theme_default": {
+    "message": "الافتراضي (ساطع)"
+  },
+  "theme_dark": {
+    "message": "المادة المظلمة"
+  },
+  "theme_hover_preview": {
+    "message": "قم بالتمرير للمعاينة"
+  },
+  "opt_premium_title": {
+    "message": "مرشحات متميزة"
+  },
+  "opt_premium_subtitle": {
+    "message": "تعظيم تجربتك في vAdBlock."
+  },
+  "opt_premium_focus_title": {
+    "message": "وضع التركيز"
+  },
+  "opt_premium_focus_desc": {
+    "message": "إخفاء عمليات إطلاق النشرة الإخبارية وتمرير مقاطع الفيديو والعناصر غير الإعلانية المزعجة."
+  },
+  "opt_premium_cookie_title": {
+    "message": "قبول/رفض ملف تعريف الارتباط التلقائي"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "إخفاء تحذيرات ملفات تعريف الارتباط تلقائيًا على المواقع الشهيرة."
+  },
+  "opt_premium_cookie2_title": {
+    "message": "قبول موافقة ملفات تعريف الارتباط تلقائيًا"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "ينقر تلقائيًا على زر \"قبول\" في إشعارات ملفات تعريف الارتباط."
+  },
+  "opt_sponsor_skip_title": {
+    "message": "YouTube الراعي الطائر"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "YouTube يتخطى أقسام الجهة الراعية والخاتمة ومكالمات التفاعل في مقاطع الفيديو عن طريق اكتشافها تلقائيًا من الترجمة."
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock Premium نشط! استمتع بجميع الميزات."
+  },
+  "welcome_title": {
+    "message": "مرحبًا بك في vAdBlock"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock معك الآن."
+  },
+  "welcome_premium_badge": {
+    "message": "✨ الإصدار المميز نشط"
+  },
+  "welcome_subtitle": {
+    "message": "أصبحت تجربتك على الإنترنت الآن أكثر نظافة وأسرع وتملكك تمامًا."
+  },
+  "welcome_feat1_title": {
+    "message": "حماية غير مرئية"
+  },
+  "welcome_feat1_desc": {
+    "message": "فهو يحظر بصمت جميع أجهزة التتبع في الخلفية أثناء التصفح."
+  },
+  "welcome_feat2_title": {
+    "message": "سرعة النجم"
+  },
+  "welcome_feat2_desc": {
+    "message": "يتم تحميل الصفحات على الفور بسبب حظر المحتوى غير الضروري."
+  },
+  "welcome_feat3_title": {
+    "message": "مرشحات متقدمة"
+  },
+  "welcome_feat3_desc": {
+    "message": "إنه يزيل الإعلانات العدوانية التي تفوتها أدوات حظر الإعلانات العادية."
+  },
+  "welcome_feat4_title": {
+    "message": "التخصيص الكامل"
+  },
+  "welcome_feat4_desc": {
+    "message": "إدارة القواعد ومستوى التصفية من صفحة الإعدادات."
+  },
+  "welcome_btn": {
+    "message": "ابدأ الاستكشاف"
+  },
+  "ctx_block_element": {
+    "message": "حظر هذا العنصر باستخدام vAdBlock"
+  },
+  "picker_title": {
+    "message": "حظر عنصر"
+  },
+  "picker_subtitle": {
+    "message": "أضف إلى قواعد Lave"
+  },
+  "picker_expand": {
+    "message": "قم بتوسيع منطقة التحديد:"
+  },
+  "picker_advanced": {
+    "message": "خيارات متقدمة"
+  },
+  "picker_apply_all": {
+    "message": "تطبيق القاعدة على كافة المواقع"
+  },
+  "picker_similar": {
+    "message": "قم أيضًا بحظر العناصر المماثلة"
+  },
+  "picker_css_label": {
+    "message": "CSS المحدد (متقدم):"
+  },
+  "picker_block": {
+    "message": "حاجز"
+  },
+  "picker_preview": {
+    "message": "معاينة"
+  },
+  "picker_reselect": {
+    "message": "اختر عنصرًا مختلفًا"
+  },
+  "picker_preview_title": {
+    "message": "وضع المعاينة"
+  },
+  "picker_preview_desc": {
+    "message": "تم إخفاء العنصر الذي حددته. إذا كانت الصورة هي ما تريد، يمكنك حظره بشكل دائم."
+  },
+  "picker_exit": {
+    "message": "مخرج"
+  },
+  "picker_cancel": {
+    "message": "إلغاء (ESC)"
+  },
+  "picker_saved": {
+    "message": "تم حفظ القاعدة"
+  },
+  "picker_undo": {
+    "message": "تراجع"
+  },
+  "search_placeholder": {
+    "message": "البحث عن: الإعداد أو اسم الفصل..."
+  },
+  "nav_themes": {
+    "message": "المواضيع"
+  },
+  "nav_premium": {
+    "message": "مرشحات متميزة"
+  },
+  "action_manual_block": {
+    "message": "منع الإعلانات يدويًا"
+  },
+  "action_manage_rules": {
+    "message": "كتلتي الخاصة"
+  },
+  "action_report": {
+    "message": "نسخ المعلومات التشخيصية"
+  },
+  "action_clear_site": {
+    "message": "مسح قواعد الموقع"
+  },
+  "tab_actions": {
+    "message": "الإجراءات"
+  },
+  "tab_stats": {
+    "message": "إحصائيات"
+  },
+  "popup_refresh": {
+    "message": "ينعش"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "يوقف"
+  },
+  "pause_10": {
+    "message": "10 دقائق"
+  },
+  "pause_30": {
+    "message": "30 دقيقة"
+  },
+  "pause_60": {
+    "message": "1 ساعة"
+  },
+  "pause_300": {
+    "message": "5 ساعات"
+  },
+  "pause_resume": {
+    "message": "سيرة ذاتية"
+  },
+  "popup_settings": {
+    "message": "إعدادات"
+  },
+  "popup_total_blocked": {
+    "message": "إجمالي المحظور:"
+  },
+  "level_relaxed": {
+    "message": "مريح"
+  },
+  "level_balanced": {
+    "message": "متوازن"
+  },
+  "level_strict": {
+    "message": "ضيق"
+  },
+  "premium_section": {
+    "message": "ميزات متميزة"
+  },
+  "pause_scope": {
+    "message": "منطقة التطبيق"
+  },
+  "pause_site_only": {
+    "message": "فقط هذا الموقع"
+  },
+  "pause_global": {
+    "message": "جميع المواقع (عالمية)"
+  },
+  "lang_tr": {
+    "message": "تركي"
+  },
+  "lang_en": {
+    "message": "إنجليزي"
+  },
+  "opt_faq_title": {
+    "message": "الأسئلة المتداولة"
+  },
+  "opt_faq_1_q": {
+    "message": "هل يحظر المكون الإضافي إعلانات YouTube؟"
+  },
+  "opt_faq_1_a": {
+    "message": "نعم، يقوم vAdBlock بحظر وتخطي إعلانات YouTube داخل الفيديو تلقائيًا باستخدام خوارزميات خاصة."
+  },
+  "opt_faq_2_q": {
+    "message": "تبدو بعض المواقع معطلة، ماذا علي أن أفعل؟"
+  },
+  "opt_faq_2_a": {
+    "message": "إذا كان الموقع لا يعمل بشكل صحيح، فيمكنك إيقاف الحماية لهذا الموقع مؤقتًا من نافذة البرنامج الإضافي (القائمة المسموح بها)."
+  },
+  "opt_contact_title": {
+    "message": "اتصل بنا"
+  },
+  "opt_contact_desc": {
+    "message": "للحصول على تقارير الأخطاء أو التعليقات أو طلبات الميزات الجديدة، قم بزيارة صفحة GitHub الخاصة بنا."
+  },
+  "opt_contact_btn": {
+    "message": "المراجعة في GitHub"
+  },
+  "popup_paused_site": {
+    "message": "متوقف مؤقتًا على هذا الموقع"
+  },
+  "opt_update_success": {
+    "message": "تم تحديث واجهة المستخدم الرسومية ومزامنة المرشحات!"
+  },
+  "global_temp_off_msg": {
+    "message": "$1 دقيقة متوقفة مؤقتًا على جميع المواقع"
+  },
+  "nav_sponsor": {
+    "message": "القفز برعاية"
+  },
+  "popup_add_segment": {
+    "message": "الإبلاغ عن المنطقة التي ترعاها"
+  },
+  "popup_sponsor_skipped": {
+    "message": "الرعاة المفقودين"
+  },
+  "popup_waiting": {
+    "message": "مُتوقع..."
+  },
+  "sb_skip_sponsor": {
+    "message": "تخطي الراعي"
+  },
+  "sb_segment_add": {
+    "message": "مارك الراعي"
+  },
+  "sb_set_times": {
+    "message": "اضبط الأوقات، ثم اختر النوع الخاص بك:"
+  },
+  "sb_start": {
+    "message": "بداية"
+  },
+  "sb_end": {
+    "message": "ينهي"
+  },
+  "sb_select_type": {
+    "message": "اختر النوع:"
+  },
+  "sb_cancel": {
+    "message": "يلغي"
+  },
+  "sb_submit": {
+    "message": "يرسل"
+  },
+  "sb_submitted": {
+    "message": "لقد تم إرسال مساهمتك"
+  },
+  "sb_submit_failed": {
+    "message": "فشل الإرسال — تعذر الوصول إلى الخادم"
+  },
+  "sb_skipped": {
+    "message": "تم تخطيه"
+  },
+  "sb_manual_skipped": {
+    "message": "تم تخطي الدليل"
+  },
+  "sb_time_saved": {
+    "message": "تم الحصول على $1 ثانية"
+  },
+  "sb_total": {
+    "message": "المجموع:"
+  },
+  "sb_cat_sponsor": {
+    "message": "راعي"
+  },
+  "sb_cat_selfpromo": {
+    "message": "الترويج الذاتي"
+  },
+  "sb_cat_interaction": {
+    "message": "تفاعل"
+  },
+  "sb_cat_intro": {
+    "message": "مقدمة"
+  },
+  "sb_cat_outro": {
+    "message": "خاتمة"
+  },
+  "sb_cat_preview": {
+    "message": "معاينة"
+  },
+  "sb_cat_music": {
+    "message": "غير الموسيقى"
+  },
+  "sb_hours": {
+    "message": "ساعة"
+  },
+  "sb_minutes": {
+    "message": "دقيقة"
+  },
+  "sb_seconds": {
+    "message": "ثانية"
+  },
+  "opt_saved": {
+    "message": "أنقذ!"
+  },
+  "opt_restored": {
+    "message": "المستعادة!"
+  },
+  "opt_remove": {
+    "message": "يزيل"
+  },
+  "opt_sb_title": {
+    "message": "القفز برعاية"
+  },
+  "opt_sb_subtitle": {
+    "message": "يمكنك توفير الوقت عن طريق تخطي عروض الرعاية والمقدمات والأجزاء غير الضرورية في مقاطع الفيديو YouTube."
+  },
+  "opt_sb_general": {
+    "message": "◀ الإعدادات العامة"
+  },
+  "opt_sb_general_desc": {
+    "message": "تحديد التشغيل الأساسي لنظام تجاوز الراعي."
+  },
+  "opt_sb_enable": {
+    "message": "تمكين تخطي الراعي"
+  },
+  "opt_sb_enable_desc": {
+    "message": "مفتاح رئيسي لجميع ميزات القفز."
+  },
+  "opt_sb_auto": {
+    "message": "تخطي تلقائي"
+  },
+  "opt_sb_auto_desc": {
+    "message": "عندما تأتي الحلقة، يقفز إليها مباشرة دون أن يسأل. (إذا كان مغلقا، يظهر زر \"تخطي\")"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 إعدادات الفئة"
+  },
+  "opt_sb_categories_desc": {
+    "message": "حدد ما يجب فعله في أي نوع من الشرائح واحدًا تلو الآخر."
+  },
+  "opt_sb_contribute": {
+    "message": "♥ المساهمة في المجتمع"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "يمكنك مساعدة المستخدمين الآخرين عن طريق تحديد الإعلانات أو المناطق غير الضرورية في مقاطع الفيديو وإرسالها إلى قاعدة البيانات."
+  },
+  "opt_sb_show_add": {
+    "message": "إظهار زر تقرير الراعي"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "يفتح واجهة تقارير نطاق الراعي (AI) في مشغل الفيديو."
+  },
+  "opt_sb_api": {
+    "message": "عنوان API خاص"
+  },
+  "opt_sb_api_desc": {
+    "message": "اتصال الخادم لإرسال واستقبال البيانات. (متطور)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "التخطي التلقائي"
+  },
+  "opt_sb_btn_show": {
+    "message": "زر العرض"
+  },
+  "opt_sb_disabled": {
+    "message": "عاجز"
+  },
+  "toast_refresh_youtube": {
+    "message": "قم بتحديث صفحة YouTube."
+  },
+  "toast_youtube_only": {
+    "message": "تعمل هذه الميزة فقط على مقاطع الفيديو YouTube."
+  },
+  "promo_rate_title": {
+    "message": "⭐ هل أعجبك vAdBlock؟"
+  },
+  "promo_rate_desc": {
+    "message": "يمكنك دعمنا بإعطائنا 5 نجوم حتى نتمكن من مواصلة التحسين!"
+  },
+  "promo_rate_btn": {
+    "message": "يقيم"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock بريميوم"
+  },
+  "promo_premium_desc": {
+    "message": "هل ترغب في الاستفادة من الخصوصية بنسبة 100% والميزات الإضافية من خلال شراء اشتراك مميز؟"
+  },
+  "promo_premium_btn": {
+    "message": "مراجعة"
+  },
+  "promo_discount_title": {
+    "message": "🎁 خصم خاص لك!"
+  },
+  "promo_discount_desc": {
+    "message": "لقد كنت معنا لفترة طويلة! للحصول على خصم 50% على العضوية المميزة استخدم الكود: Lave-..."
+  },
+  "promo_discount_btn": {
+    "message": "استرداد الرمز"
+  },
+  "day_sun": {
+    "message": "شمس"
+  },
+  "day_mon": {
+    "message": "الاثنين"
+  },
+  "day_tue": {
+    "message": "شال"
+  },
+  "day_wed": {
+    "message": "القيصر"
+  },
+  "day_thu": {
+    "message": "الخميس"
+  },
+  "day_fri": {
+    "message": "النُطَف المَنَويّة"
+  },
+  "day_sat": {
+    "message": "قعد"
+  },
+  "month_jan": {
+    "message": "يناير"
+  },
+  "month_feb": {
+    "message": "فبراير"
+  },
+  "month_mar": {
+    "message": "مارس"
+  },
+  "month_apr": {
+    "message": "أبريل"
+  },
+  "month_may": {
+    "message": "يمكن"
+  },
+  "month_jun": {
+    "message": "سرور"
+  },
+  "month_jul": {
+    "message": "يوليو"
+  },
+  "month_aug": {
+    "message": "الشوكران"
+  },
+  "month_sep": {
+    "message": "سبتمبر"
+  },
+  "month_oct": {
+    "message": "أكتوبر"
+  },
+  "month_nov": {
+    "message": "الحاجب"
+  },
+  "month_dec": {
+    "message": "يبحث"
+  },
+  "time_hours": {
+    "message": "ساعة"
+  },
+  "time_minutes": {
+    "message": "دقيقة"
+  },
+  "time_seconds": {
+    "message": "ثانية"
+  },
+  "appName": {
+    "message": "vAdBlock — أفضل مانع إعلانات"
+  }
+}

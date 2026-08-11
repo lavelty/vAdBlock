@@ -1,0 +1,27 @@
+/* anti_adblock.css — reklam engelleyici tespit duvarlarini gizler */
+[class*="adblock-detected"],
+[id*="adblock-detected"],
+[class*="adblock-wall"],
+[id*="adblock-wall"],
+[id*="adblock_message"],
+[class*="adblock_message"],
+[class*="adblock-overlay"],
+[id*="adblock-overlay"],
+[id*="adblock_modal"],
+[class*="adblock_modal"],
+[class*="anti-adblock"],
+[id*="anti-adblock"],
+[class*="adBlockerDetected"],
+[id*="adBlockerDetected"],
+[class*="no-adblock"],
+[id*="no-adblock"],
+.adblock-notice,
+.adblock-popup,
+.adblock-modal,
+.blockadbox,
+#adblock-alert,
+#adblock-message,
+#abmgr-banner,
+.ads-blocker-detected {
+    display: none !important;
+}

@@ -1,0 +1,11 @@
+{
+    "aternos.org": [
+        "set-constant(adblock, false)",
+        "set-constant(adblocker, false)",
+        "abort-on-property-read(adblock)"
+    ],
+    "unblockit.foo": [
+        "rmnt(script, isAdb)",
+        "hide(.adbwarmContainer)"
+    ]
+}

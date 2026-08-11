@@ -1,0 +1,68 @@
+/* vAdBlock Cosmetic Rules — genel reklam alanlarını gizler */
+
+/* Genel reklam container'ları (sadece spesifik class'lar, çok genel olanlar çıkarıldı) */
+.banner_ads, .adsbox, .textads, .advertisement { display: none !important; }
+
+.BannerAd, .banner-ad, #banner-ad, .flash-banner, [id^='div-gpt-ad'], [class*='adsbygoogle'], .ads-container, .ad-box, .ad-slot { display: none !important; }
+
+/* Anti-Adblock duvarları */
+.fc-ab-root, .adblock-msg, #detect, #adblock-message, .antiblock, .anti-adblock, .adblock-modal, [class*='adblock-modal'], .adblock-detector, .cb-modal { display: none !important; }
+
+/* Aternos & Adblock Tester Specific Cosmetic Fixes */
+.ad-banner, .header-ad, .sidebar-ad, .exaroton-ad, #ad-container, #banner-flash, 
+iframe[src*="exaroton"],
+.ad_container, [alt="flash banner"], #flash-banner {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* Aggressively hide ad labels */
+.ad-label, .ads-label, .advertisement-label, .text-ad, .ad-title, .donanimhaber-container,
+img[src*="/rek/"],
+img[src*="/bnnnr/"],
+img[data-src*="/rek/"],
+img[src*="/sosyalmarket/"] {
+    display: none !important;
+}
+
+/* CanYouBlockIt Web Banners wrapper */
+.ad-container, .ad-wrapper, .banner-ads-container,
+.custom-ad, #custom-ad, .alternate-ad, #alternate-ad, .fallback-ad, .alternate-content,
+#AlternateMessage, img[alt="Advertisement"], img[src*="amazon-ad"], a[href*="amazon-ad"], a[href*="amazon.com/gp/product"] {
+    display: none !important;
+}
+
+/* Content Blocker Overlays */
+.fc-ab-root, .swal-overlay, .modal-backdrop, #myModal, .content-blocker, 
+.content-blocker-overlay, div[class*="adblock-overlay"], div[id*="adblock-overlay"] {
+    display: none !important;
+}
+
+/* Flash & Object elements for test sites */
+object[type="application/x-shockwave-flash"], embed[type="application/x-shockwave-flash"],
+.flash-banner, .flash_banner, #flash_banner,
+.ad-widget, .ad_widget, #ad-widget, #ad_widget, .banner_ad {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    width: 0px !important;
+    height: 0px !important;
+    min-width: 0px !important;
+    min-height: 0px !important;
+    max-width: 0px !important;
+    max-height: 0px !important;
+    position: absolute !important;
+}
+
+/* Turtlecute Specific */
+.adbox.banner_ads.adsbox, .textads { display: none !important; visibility: hidden !important; width: 0 !important; height: 0 !important; }
+
+/* Catch-all for test sites — sadece spesifik bileşik class'lar */
+.adbox.banner_ads.adsbox, .textads, .advert, .sponsored-content, .doubleclick-ad, .textAd, .adbox, .banner_ads, .adsbox { display: none !important; visibility: hidden !important; width: 0 !important; height: 0 !important; opacity: 0 !important; position: absolute !important; pointer-events: none !important; }

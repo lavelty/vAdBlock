@@ -1,0 +1,17 @@
+/* Premium Cookie Blocker */
+[id*="cookie-banner"],
+[class*="cookie-banner"],
+[id*="cookie-notice"],
+[class*="cookie-notice"],
+[id*="cookie-popup"],
+[class*="cookie-popup"],
+[id*="cookie-consent"],
+[class*="cookie-consent"],
+[id*="gdpr-banner"],
+[class*="gdpr-banner"],
+.cc-window,
+.cc-banner,
+#usercentrics-root,
+#onetrust-consent-sdk {
+    display: none !important;
+}

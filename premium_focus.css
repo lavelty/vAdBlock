@@ -1,0 +1,12 @@
+/* Premium Focus Mode */
+[class*="newsletter"],
+[id*="newsletter"],
+[class*="floating-video"],
+[id*="floating-video"],
+[class*="sticky-video"],
+[class*="popup-subscribe"],
+[id*="popup-subscribe"],
+[class*="overlay-subscribe"],
+[class*="email-subscribe"] {
+    display: none !important;
+}

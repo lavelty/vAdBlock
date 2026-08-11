@@ -1,0 +1,926 @@
+{
+  "extName": {
+    "message": "vAdBlock"
+  },
+  "appDesc": {
+    "message": "The ultimate extension to block ads and pop-ups. Blocks ads on Facebook, YouTube, and all other websites."
+  },
+  "cmd_toggle": {
+    "message": "保護を切り替える"
+  },
+  "cmd_picker": {
+    "message": "広告ピッカーを開始"
+  },
+  "nav_stats": {
+    "message": "統計"
+  },
+  "nav_general": {
+    "message": "一般"
+  },
+  "nav_protection": {
+    "message": "保護レベル"
+  },
+  "nav_customize": {
+    "message": "カスタマイズ"
+  },
+  "nav_filters": {
+    "message": "フィルター"
+  },
+  "nav_support": {
+    "message": "サポート"
+  },
+  "nav_themes": {
+    "message": "テーマ"
+  },
+  "nav_premium": {
+    "message": "プレミアムフィルター"
+  },
+  "popup_unknown": {
+    "message": "不明"
+  },
+  "popup_blocked": {
+    "message": "ブロック済:"
+  },
+  "popup_protection_on": {
+    "message": "保護オン"
+  },
+  "popup_protection_off": {
+    "message": "保護オフ"
+  },
+  "popup_menu_manual": {
+    "message": "広告を手動でブロック"
+  },
+  "popup_menu_custom": {
+    "message": "カスタムブロック"
+  },
+  "popup_menu_diag": {
+    "message": "診断をコピー"
+  },
+  "popup_menu_clear": {
+    "message": "サイトのルールをクリア"
+  },
+  "pause_paused_state": {
+    "message": "一時停止中"
+  },
+  "pause_title": {
+    "message": "一時停止"
+  },
+  "pause_min_unit": {
+    "message": "分"
+  },
+  "pause_sec_unit": {
+    "message": "秒"
+  },
+  "pause_site": {
+    "message": "このサイトで"
+  },
+  "site_temp_30": {
+    "message": "30分間一時停止"
+  },
+  "site_temp_120": {
+    "message": "2時間一時停止"
+  },
+  "site_temp_0": {
+    "message": "保護を再開"
+  },
+  "site_temp_off_msg": {
+    "message": "このサイトで $1 分間一時停止しました"
+  },
+  "site_temp_on_msg": {
+    "message": "このサイトで保護を再開しました"
+  },
+  "pause_toast": {
+    "message": "$1 分間一時停止しました"
+  },
+  "pause_toast_resume": {
+    "message": "保護が再開されました"
+  },
+  "chart_all": {
+    "message": "すべて"
+  },
+  "chart_ads": {
+    "message": "広告"
+  },
+  "chart_trackers": {
+    "message": "トラッカー"
+  },
+  "chart_cdn": {
+    "message": "CDN"
+  },
+  "chart_other": {
+    "message": "その他"
+  },
+  "chart_7days": {
+    "message": "7日間"
+  },
+  "chart_24h": {
+    "message": "24時間"
+  },
+  "chart_30d": {
+    "message": "30日間"
+  },
+  "chart_1y": {
+    "message": "1年"
+  },
+  "rules_title": {
+    "message": "カスタムルール"
+  },
+  "rules_empty": {
+    "message": "カスタムルールはまだありません。"
+  },
+  "rules_global": {
+    "message": "グローバル"
+  },
+  "rules_preview": {
+    "message": "プレビュー"
+  },
+  "rules_delete": {
+    "message": "削除"
+  },
+  "toast_rules_cleared": {
+    "message": "$1 個のルールをクリアしました。ページを更新中..."
+  },
+  "toast_no_rules_site": {
+    "message": "このサイトのルールはありません"
+  },
+  "toast_protection_updated": {
+    "message": "保護レベルが更新されました"
+  },
+  "toast_report_copied": {
+    "message": "診断情報がクリップボードにコピーされました"
+  },
+  "toast_copy_failed": {
+    "message": "コピーに失敗しました"
+  },
+  "toast_site_info_failed": {
+    "message": "サイト情報の取得に失敗しました"
+  },
+  "toast_page_not_available": {
+    "message": "このページでは利用できません (Chromeの保護)"
+  },
+  "toast_protection_on": {
+    "message": "保護: オン"
+  },
+  "toast_protection_off": {
+    "message": "保護: オフ"
+  },
+  "toast_redirect": {
+    "message": "リダイレクト中..."
+  },
+  "report_title": {
+    "message": "診断"
+  },
+  "report_version": {
+    "message": "バージョン"
+  },
+  "report_page": {
+    "message": "ページ"
+  },
+  "report_date": {
+    "message": "日付"
+  },
+  "report_level": {
+    "message": "レベル"
+  },
+  "footer_made_by": {
+    "message": "made by lave"
+  },
+  "opt_stats_title": {
+    "message": "統計"
+  },
+  "opt_stats_subtitle": {
+    "message": "バックグラウンドで vAdBlock がブロックした数を確認します。"
+  },
+  "opt_stat_ads_7d": {
+    "message": "過去7日間にブロックした広告"
+  },
+  "opt_stat_trackers": {
+    "message": "ブロックされたトラッカー"
+  },
+  "opt_stat_data": {
+    "message": "節約されたデータ"
+  },
+  "opt_stat_time": {
+    "message": "ページの読み込みで節約された時間"
+  },
+  "opt_report_title": {
+    "message": "週間レポート"
+  },
+  "opt_report_total": {
+    "message": "合計ブロック数"
+  },
+  "opt_report_ads": {
+    "message": "広告"
+  },
+  "opt_report_trackers": {
+    "message": "トラッカー"
+  },
+  "opt_report_daily": {
+    "message": "1日の平均"
+  },
+  "opt_top_domains": {
+    "message": "最もブロックされたドメイン"
+  },
+  "opt_empty_data": {
+    "message": "データはまだありません。"
+  },
+  "opt_log_title": {
+    "message": "ブロックログ"
+  },
+  "opt_log_desc": {
+    "message": "直近の50件のブロックされたリクエスト (このセッションのみ)。"
+  },
+  "opt_log_search": {
+    "message": "検索: ドメインまたはURL..."
+  },
+  "opt_log_export": {
+    "message": "CSVをエクスポート"
+  },
+  "opt_empty_log": {
+    "message": "ブロックされたリクエストはまだありません。"
+  },
+  "opt_log_clear": {
+    "message": "ログをクリア"
+  },
+  "opt_general_title": {
+    "message": "一般設定"
+  },
+  "opt_allow_non_intrusive": {
+    "message": "控えめな広告を許可する"
+  },
+  "opt_context_menu": {
+    "message": "コンテキストメニューに vAdBlock を追加する"
+  },
+  "opt_badge_count": {
+    "message": "アイコンにブロックされた広告の数を表示する"
+  },
+  "opt_dev_tools": {
+    "message": "開発者ツールに vAdBlock パネルを表示する"
+  },
+  "opt_promotions": {
+    "message": "vAdBlock が時折プロモーションメッセージを表示するのを許可する"
+  },
+  "opt_fingerprint": {
+    "message": "フィンガープリント保護 (Canvas/WebGL情報を隠す)"
+  },
+  "opt_anti_adblock": {
+    "message": "広告ブロッカーが検出されました の警告を非表示にする"
+  },
+  "opt_https": {
+    "message": "安全な接続を強制する (HTTPS)"
+  },
+  "opt_webrtc": {
+    "message": "WebRTC IPリークを防止する"
+  },
+  "opt_language_title": {
+    "message": "言語 / Language"
+  },
+  "opt_language_desc": {
+    "message": "インターフェース言語を選択します。自動はブラウザの言語を使用します。"
+  },
+  "opt_language_auto": {
+    "message": "自動 (ブラウザに基づく)"
+  },
+  "opt_language_tr": {
+    "message": "Türkçe"
+  },
+  "opt_language_en": {
+    "message": "English"
+  },
+  "opt_lang_auto": {
+    "message": "自動 (ブラウザ言語)"
+  },
+  "opt_protection_title": {
+    "message": "保護レベル"
+  },
+  "opt_protection_subtitle": {
+    "message": "閲覧の習慣に最適な保護モードを選択してください。"
+  },
+  "opt_mode_relaxed": {
+    "message": "リラックスモード"
+  },
+  "opt_mode_relaxed_desc": {
+    "message": "基本的な広告をブロックします。高度なトラッカーと厳格なフィルターは、最大のパフォーマンスと互換性のために無効になっています。"
+  },
+  "opt_mode_balanced": {
+    "message": "バランスモード (推奨)"
+  },
+  "opt_mode_balanced_desc": {
+    "message": "ほとんどの広告と既知のトラッカーをブロックします。日常使用に最適で、パフォーマンスに影響を与えないスムーズな保護。"
+  },
+  "opt_mode_strict": {
+    "message": "厳格モード"
+  },
+  "opt_mode_strict_desc": {
+    "message": "最大のプライバシー！GPC/DNT信号を操作し、フィンガープリントを破壊し、積極的な広告ネットワークをブロックします。(テストに最適)"
+  },
+  "opt_customize_title": {
+    "message": "カスタマイズ"
+  },
+  "opt_customize_subtitle": {
+    "message": "拡張機能を完全にあなたのニーズに合わせて形作ります。"
+  },
+  "opt_allowlist_title": {
+    "message": "許可リスト"
+  },
+  "opt_allowlist_desc": {
+    "message": "次のサイトでは広告ブロックが無効になっています。"
+  },
+  "opt_allowlist_placeholder": {
+    "message": "example.com"
+  },
+  "opt_add": {
+    "message": "追加"
+  },
+  "opt_allowlist_empty": {
+    "message": "サイトはまだ追加されていません。ドメインを追加してください。"
+  },
+  "opt_css_title": {
+    "message": "カスタム CSS ルール"
+  },
+  "opt_css_desc": {
+    "message": "上級ユーザー向けのカスタム CSS 非表示ルール。"
+  },
+  "opt_css_placeholder": {
+    "message": "example.com##.ad-box"
+  },
+  "opt_save": {
+    "message": "保存"
+  },
+  "opt_network_title": {
+    "message": "カスタムネットワークルール"
+  },
+  "opt_network_desc": {
+    "message": "1行に1つのルール。フォーマット: ||example.com^ (ブロック) または @@||example.com^ (許可)。"
+  },
+  "opt_backup_title": {
+    "message": "バックアップと復元"
+  },
+  "opt_backup_desc": {
+    "message": "設定、許可リスト、カスタムルールをエクスポートします。"
+  },
+  "opt_export": {
+    "message": "バックアップをエクスポート"
+  },
+  "opt_import": {
+    "message": "バックアップを復元"
+  },
+  "opt_filters_title": {
+    "message": "フィルターリスト"
+  },
+  "opt_filters_subtitle": {
+    "message": "使用するフィルターリストを選択して更新します。"
+  },
+  "opt_filter_easylist_desc": {
+    "message": "メイン広告フィルター — ほとんどの広告ネットワークをブロックします。"
+  },
+  "opt_filter_easyprivacy_desc": {
+    "message": "トラッカーと分析ドメインをブロックします。"
+  },
+  "opt_filter_adguard_desc": {
+    "message": "広告サーバーとトラッキングサーバーのリスト。"
+  },
+  "opt_filter_ubo_desc": {
+    "message": "vAdBlock フィルターとプライバシーリスト。"
+  },
+  "opt_update_title": {
+    "message": "リストを更新"
+  },
+  "opt_update_desc": {
+    "message": "フィルターリストは週に1回自動的に更新されます。最終更新:"
+  },
+  "opt_update_btn": {
+    "message": "フィルターを更新"
+  },
+  "opt_update_unknown": {
+    "message": "不明"
+  },
+  "opt_update_stale": {
+    "message": "⚠ 自動更新が保留中 ($1 日前)"
+  },
+  "opt_update_fresh": {
+    "message": "✓ 最新 · $1 日前に更新"
+  },
+  "opt_update_first": {
+    "message": "最初の更新を待機中"
+  },
+  "opt_update_off": {
+    "message": " (オフ)"
+  },
+  "opt_update_running": {
+    "message": "更新中..."
+  },
+  "opt_update_done": {
+    "message": "リストが更新されました！"
+  },
+  "opt_update_error": {
+    "message": "更新に失敗しました: $1"
+  },
+  "opt_support_title": {
+    "message": "サポート"
+  },
+  "opt_support_subtitle": {
+    "message": "質問や問題がある場合はお問い合わせください。"
+  },
+  "opt_themes_title": {
+    "message": "テーマ"
+  },
+  "opt_themes_subtitle": {
+    "message": "vAdBlock の見た目をカスタマイズします。あなたのスタイルを反映させてください。"
+  },
+  "theme_default": {
+    "message": "デフォルト (ライト)"
+  },
+  "theme_dark": {
+    "message": "ダークマター"
+  },
+  "theme_hover_preview": {
+    "message": "ホバーしてプレビュー"
+  },
+  "opt_premium_title": {
+    "message": "プレミアムフィルター"
+  },
+  "opt_premium_subtitle": {
+    "message": "vAdBlock のエクスペリエンスを最大化します。"
+  },
+  "opt_premium_focus_title": {
+    "message": "フォーカスモード"
+  },
+  "opt_premium_focus_desc": {
+    "message": "ニュースレターのポップアップ、フローティングビデオ、広告以外の煩わしさを非表示にします。"
+  },
+  "opt_premium_cookie_title": {
+    "message": "Cookie の自動承認/拒否"
+  },
+  "opt_premium_cookie_desc": {
+    "message": "人気のあるサイトでの Cookie の警告を自動的に非表示にします。"
+  },
+  "opt_premium_cookie2_title": {
+    "message": "Cookie 同意の自動承認"
+  },
+  "opt_premium_cookie2_desc": {
+    "message": "Cookie 通知の 同意 ボタンを自動的にクリックします。"
+  },
+  "opt_sponsor_skip_title": {
+    "message": "YouTube スポンサースキップ"
+  },
+  "opt_sponsor_skip_desc": {
+    "message": "字幕分析を使用して、YouTube ビデオ内のスポンサーセグメント、アウトロ、および操作の呼びかけを自動的に検出し、スキップします。"
+  },
+  "opt_premium_active": {
+    "message": "✨ vAdBlock プレミアムがアクティブです！すべての機能をお楽しみください。"
+  },
+  "welcome_title": {
+    "message": "vAdBlock へようこそ"
+  },
+  "welcome_h1": {
+    "message": "vAdBlock があなたと共になります。"
+  },
+  "welcome_premium_badge": {
+    "message": "✨ プレミアムエディションアクティブ"
+  },
+  "welcome_subtitle": {
+    "message": "インターネット体験は今やはるかにクリーンで、高速で、完全にあなたのものになります。"
+  },
+  "welcome_feat1_title": {
+    "message": "見えない保護"
+  },
+  "welcome_feat1_desc": {
+    "message": "ブラウジング中にバックグラウンドですべてのトラッカーを静かにブロックします。"
+  },
+  "welcome_feat2_title": {
+    "message": "驚異的なスピード"
+  },
+  "welcome_feat2_desc": {
+    "message": "不要なコンテンツがブロックされるため、ページが瞬時に読み込まれます。"
+  },
+  "welcome_feat3_title": {
+    "message": "高度なフィルター"
+  },
+  "welcome_feat3_desc": {
+    "message": "通常の広告ブロッカーが見逃すような積極的な広告を破壊します。"
+  },
+  "welcome_feat4_title": {
+    "message": "完全なカスタマイズ"
+  },
+  "welcome_feat4_desc": {
+    "message": "設定ページからルールと保護レベルを管理します。"
+  },
+  "welcome_btn": {
+    "message": "探索を開始"
+  },
+  "ctx_block_element": {
+    "message": "vAdBlock でこの要素をブロックする"
+  },
+  "picker_title": {
+    "message": "要素をブロックする"
+  },
+  "picker_subtitle": {
+    "message": "Lave ルールに追加"
+  },
+  "picker_expand": {
+    "message": "選択範囲を拡大:"
+  },
+  "picker_advanced": {
+    "message": "詳細設定"
+  },
+  "picker_apply_all": {
+    "message": "すべてのサイトにルールを適用する"
+  },
+  "picker_similar": {
+    "message": "類似の要素もブロックする"
+  },
+  "picker_css_label": {
+    "message": "CSS セレクター (詳細):"
+  },
+  "picker_block": {
+    "message": "ブロック"
+  },
+  "picker_preview": {
+    "message": "プレビュー"
+  },
+  "picker_reselect": {
+    "message": "別の要素を選択する"
+  },
+  "picker_preview_title": {
+    "message": "プレビューモード"
+  },
+  "picker_preview_desc": {
+    "message": "選択した要素が非表示になりました。問題なければ、完全にブロックできます。"
+  },
+  "picker_exit": {
+    "message": "終了"
+  },
+  "picker_cancel": {
+    "message": "キャンセル (ESC)"
+  },
+  "picker_saved": {
+    "message": "ルールが保存されました"
+  },
+  "picker_undo": {
+    "message": "元に戻す"
+  },
+  "search_placeholder": {
+    "message": "検索: 設定またはセクション..."
+  },
+  "action_manual_block": {
+    "message": "広告を手動でブロック"
+  },
+  "action_manage_rules": {
+    "message": "カスタムブロック"
+  },
+  "action_report": {
+    "message": "診断をコピー"
+  },
+  "action_clear_site": {
+    "message": "サイトのルールをクリア"
+  },
+  "tab_actions": {
+    "message": "アクション"
+  },
+  "tab_stats": {
+    "message": "統計"
+  },
+  "popup_refresh": {
+    "message": "更新"
+  },
+  "popup_brand": {
+    "message": "vAdBlock"
+  },
+  "popup_pause": {
+    "message": "一時停止"
+  },
+  "pause_10": {
+    "message": "10分間"
+  },
+  "pause_30": {
+    "message": "30分間"
+  },
+  "pause_60": {
+    "message": "1時間"
+  },
+  "pause_300": {
+    "message": "5時間"
+  },
+  "pause_resume": {
+    "message": "再開"
+  },
+  "popup_settings": {
+    "message": "設定"
+  },
+  "popup_total_blocked": {
+    "message": "合計ブロック数:"
+  },
+  "level_relaxed": {
+    "message": "リラックス"
+  },
+  "level_balanced": {
+    "message": "バランス"
+  },
+  "level_strict": {
+    "message": "厳格"
+  },
+  "premium_section": {
+    "message": "プレミアム機能"
+  },
+  "pause_scope": {
+    "message": "適用範囲"
+  },
+  "pause_site_only": {
+    "message": "このサイトのみ"
+  },
+  "pause_global": {
+    "message": "すべてのサイト (グローバル)"
+  },
+  "lang_tr": {
+    "message": "トルコ語"
+  },
+  "lang_en": {
+    "message": "英語"
+  },
+  "opt_faq_title": {
+    "message": "よくある質問"
+  },
+  "opt_faq_1_q": {
+    "message": "この拡張機能は YouTube 広告をブロックしますか？"
+  },
+  "opt_faq_1_a": {
+    "message": "はい、vAdBlock はカスタムアルゴリズムを使用して、ビデオ内の広告を自動的にブロックおよびスキップします。"
+  },
+  "opt_faq_2_q": {
+    "message": "一部のサイトが壊れて見えます。どうすればいいですか？"
+  },
+  "opt_faq_2_a": {
+    "message": "サイトが正常に機能しない場合は、拡張機能メニューからそのサイトの保護を一時停止 (許可リスト) できます。"
+  },
+  "opt_contact_title": {
+    "message": "お問い合わせ"
+  },
+  "opt_contact_desc": {
+    "message": "バグレポート、フィードバック、機能のリクエストについては、GitHub ページをご覧ください。"
+  },
+  "opt_contact_btn": {
+    "message": "GitHub で見る"
+  },
+  "popup_paused_site": {
+    "message": "このサイトで一時停止中"
+  },
+  "opt_update_success": {
+    "message": "GUI が更新され、フィルターが同期されました！"
+  },
+  "global_temp_off_msg": {
+    "message": "すべてのサイトで $1 分間一時停止しました"
+  },
+  "nav_sponsor": {
+    "message": "スポンサースキップ"
+  },
+  "popup_add_segment": {
+    "message": "スポンサーエリアを報告"
+  },
+  "popup_sponsor_skipped": {
+    "message": "スキップされたスポンサー"
+  },
+  "popup_waiting": {
+    "message": "待機中..."
+  },
+  "sb_skip_sponsor": {
+    "message": "スポンサーをスキップ"
+  },
+  "sb_segment_add": {
+    "message": "スポンサーを報告"
+  },
+  "sb_set_times": {
+    "message": "時間を設定し、タイプを選択してください:"
+  },
+  "sb_start": {
+    "message": "開始"
+  },
+  "sb_end": {
+    "message": "終了"
+  },
+  "sb_select_type": {
+    "message": "タイプを選択:"
+  },
+  "sb_cancel": {
+    "message": "キャンセル"
+  },
+  "sb_submit": {
+    "message": "送信"
+  },
+  "sb_submitted": {
+    "message": "貢献が送信されました"
+  },
+  "sb_submit_failed": {
+    "message": "失敗しました — サーバーに到達できませんでした"
+  },
+  "sb_skipped": {
+    "message": "スキップ"
+  },
+  "sb_manual_skipped": {
+    "message": "手動でスキップ"
+  },
+  "sb_time_saved": {
+    "message": "$1 秒節約"
+  },
+  "sb_total": {
+    "message": "合計:"
+  },
+  "sb_cat_sponsor": {
+    "message": "スポンサー"
+  },
+  "sb_cat_selfpromo": {
+    "message": "自己宣伝"
+  },
+  "sb_cat_interaction": {
+    "message": "インタラクション"
+  },
+  "sb_cat_intro": {
+    "message": "イントロ"
+  },
+  "sb_cat_outro": {
+    "message": "アウトロ"
+  },
+  "sb_cat_preview": {
+    "message": "プレビュー"
+  },
+  "sb_cat_music": {
+    "message": "音楽以外"
+  },
+  "sb_hours": {
+    "message": "時間"
+  },
+  "sb_minutes": {
+    "message": "分"
+  },
+  "sb_seconds": {
+    "message": "秒"
+  },
+  "opt_saved": {
+    "message": "保存しました！"
+  },
+  "opt_restored": {
+    "message": "復元しました！"
+  },
+  "opt_remove": {
+    "message": "削除"
+  },
+  "opt_sb_title": {
+    "message": "スポンサースキップ"
+  },
+  "opt_sb_subtitle": {
+    "message": "YouTube ビデオでのスポンサーシップ、イントロ、不要なセグメントをスキップして時間を節約します。"
+  },
+  "opt_sb_general": {
+    "message": "▶ 一般設定"
+  },
+  "opt_sb_general_desc": {
+    "message": "スポンサースキップシステムの基本的な動作を設定します。"
+  },
+  "opt_sb_enable": {
+    "message": "スポンサースキップを有効にする"
+  },
+  "opt_sb_enable_desc": {
+    "message": "すべてのスキップ機能のマスター スイッチ。"
+  },
+  "opt_sb_auto": {
+    "message": "自動スキップ"
+  },
+  "opt_sb_auto_desc": {
+    "message": "セグメントに到達したときに自動的にスキップします。(無効にすると、スキップボタンが表示されます)"
+  },
+  "opt_sb_categories": {
+    "message": "🗂 カテゴリ設定"
+  },
+  "opt_sb_categories_desc": {
+    "message": "各セグメントタイプに対して実行するアクションを設定します。"
+  },
+  "opt_sb_contribute": {
+    "message": "♥ コミュニティに貢献する"
+  },
+  "opt_sb_contribute_desc": {
+    "message": "ビデオ内のスポンサー付きまたは不要なセグメントをマークし、データベースに送信することで、他のユーザーを支援します。"
+  },
+  "opt_sb_show_add": {
+    "message": "スポンサー報告ボタンを表示する"
+  },
+  "opt_sb_show_add_desc": {
+    "message": "ビデオプレーヤーにスポンサー報告 (AI) インターフェースを開きます。"
+  },
+  "opt_sb_api": {
+    "message": "カスタム API アドレス"
+  },
+  "opt_sb_api_desc": {
+    "message": "データを送受信するためのサーバー URL。(詳細)"
+  },
+  "opt_sb_auto_skip": {
+    "message": "自動スキップ"
+  },
+  "opt_sb_btn_show": {
+    "message": "ボタンを表示"
+  },
+  "opt_sb_disabled": {
+    "message": "無効"
+  },
+  "toast_refresh_youtube": {
+    "message": "YouTube ページを更新してください。"
+  },
+  "toast_youtube_only": {
+    "message": "この機能は YouTube ビデオでのみ機能します。"
+  },
+  "promo_rate_title": {
+    "message": "⭐ vAdBlock を楽しんでいますか？"
+  },
+  "promo_rate_desc": {
+    "message": "改善を続けることができるように、5 つ星の評価を残して私たちをサポートしてください！"
+  },
+  "promo_rate_btn": {
+    "message": "評価する"
+  },
+  "promo_premium_title": {
+    "message": "🚀 vAdBlock プレミアム"
+  },
+  "promo_premium_desc": {
+    "message": "100% のプライバシーと追加機能のためにプレミアムを入手しますか？"
+  },
+  "promo_premium_btn": {
+    "message": "詳細を見る"
+  },
+  "promo_discount_title": {
+    "message": "🎁 あなたへの特別割引！"
+  },
+  "promo_discount_desc": {
+    "message": "長い間ご利用いただきありがとうございます！プレミアムが 50% オフになります..."
+  },
+  "promo_discount_btn": {
+    "message": "コードを使用"
+  },
+  "day_sun": {
+    "message": "日"
+  },
+  "day_mon": {
+    "message": "月"
+  },
+  "day_tue": {
+    "message": "火"
+  },
+  "day_wed": {
+    "message": "水"
+  },
+  "day_thu": {
+    "message": "木"
+  },
+  "day_fri": {
+    "message": "金"
+  },
+  "day_sat": {
+    "message": "土"
+  },
+  "month_jan": {
+    "message": "1月"
+  },
+  "month_feb": {
+    "message": "2月"
+  },
+  "month_mar": {
+    "message": "3月"
+  },
+  "month_apr": {
+    "message": "4月"
+  },
+  "month_may": {
+    "message": "5月"
+  },
+  "month_jun": {
+    "message": "6月"
+  },
+  "month_jul": {
+    "message": "7月"
+  },
+  "month_aug": {
+    "message": "8月"
+  },
+  "month_sep": {
+    "message": "9月"
+  },
+  "month_oct": {
+    "message": "10月"
+  },
+  "month_nov": {
+    "message": "11月"
+  },
+  "month_dec": {
+    "message": "12月"
+  },
+  "time_hours": {
+    "message": "時"
+  },
+  "time_minutes": {
+    "message": "分"
+  },
+  "time_seconds": {
+    "message": "秒"
+  },
+  "appName": {
+    "message": "vAdBlock — Best Ad Blocker"
+  }
+}

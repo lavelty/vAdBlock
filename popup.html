@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>vAdBlock</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="popup">
+    <div class="header">
+      <div class="header-actions header-left">
+        <button class="icon-btn" id="btnRefresh" data-i18n-title="popup_refresh">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+        </button>
+      </div>
+      <div class="brand-title" data-i18n="popup_brand">vAdBlock</div>
+      <div class="header-actions">
+        <div class="pause-wrap" id="pauseWrap">
+          <button class="icon-btn" id="btnPause" data-i18n-title="popup_pause">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </button>
+          <div class="pause-menu" id="pauseMenu">
+            <div id="pauseMenuMain">
+              <div class="pause-menu-title" data-i18n="pause_title">Duraklat</div>
+              <div class="pause-menu-item time-opt" data-minutes="10" data-i18n="pause_10">10 dakika</div>
+              <div class="pause-menu-item time-opt" data-minutes="30" data-i18n="pause_30">30 dakika</div>
+              <div class="pause-menu-item time-opt" data-minutes="60" data-i18n="pause_60">1 saat</div>
+              <div class="pause-menu-item time-opt" data-minutes="300" data-i18n="pause_300">5 saat</div>
+              <div class="pause-menu-sep" id="resumeSep" style="display:none;"></div>
+              <div class="pause-menu-item resume" id="resumeBtn" data-action="resume" data-i18n="pause_resume" style="display:none;">Devam ettir</div>
+            </div>
+            <div id="pauseMenuScope" style="display:none;">
+              <div class="pause-menu-title" data-i18n="pause_scope">Uygulama Alanı</div>
+              <div class="pause-menu-item scope-opt" data-scope="site" data-i18n="pause_site_only">Sadece bu site</div>
+              <div class="pause-menu-item scope-opt" data-scope="global" data-i18n="pause_global">Tüm siteler (Global)</div>
+              <div class="pause-menu-sep"></div>
+              <div class="pause-menu-item scope-cancel" data-i18n="picker_cancel">İptal</div>
+            </div>
+          </div>
+        </div>
+        <button class="icon-btn" id="btnSettings" data-i18n-title="popup_settings">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="main">
+      <!-- Header Views -->
+      <div class="header-view active" id="headerActions">
+        <div class="shield-card" id="shieldCard">
+          <div class="domain-text" id="domainText">bekleniyor...</div>
+          <div class="status-main"><span data-i18n="popup_blocked">Engellenen:</span> <span id="pageBlockedCount">0</span></div>
+          
+          <div class="toggle-container" id="powerBtn">
+            <div class="toggle-track">
+              <div class="toggle-thumb">
+                <svg class="icon-on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="status-sub"><span id="protectionState" data-i18n="popup_protection_on">Koruma Açık</span> · <span data-i18n="popup_total_blocked">Toplam engellenen:</span> <span id="totalBlockedCount">0</span></div>
+
+          <div class="level-selector" id="levelSelector">
+            <div class="sliding-pill" id="levelPill"></div>
+            <button class="level-btn" data-level="relaxed" data-i18n="level_relaxed">Rahat</button>
+            <button class="level-btn active" data-level="balanced" data-i18n="level_balanced">Dengeli</button>
+            <button class="level-btn" data-level="strict" data-i18n="level_strict">Sıkı</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-view" id="headerStats">
+        <div class="chart-section">
+          <div class="chart-header">
+            <div class="custom-select" id="typeSelect">
+              <div class="select-trigger"><span class="trigger-text" data-i18n="chart_all">Tümü</span> <span class="arrow"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></div>
+              <div class="select-menu">
+                <div class="select-item active" data-value="total" data-i18n="chart_all">Tümü <span class="check">✓</span></div>
+                <div class="select-item" data-value="ads" data-i18n="chart_ads">Reklamlar <span class="check">✓</span></div>
+                <div class="select-item" data-value="trackers" data-i18n="chart_trackers">İzleyiciler <span class="check">✓</span></div>
+                <div class="select-item" data-value="cdn" data-i18n="chart_cdn">CDN <span class="check">✓</span></div>
+                <div class="select-item" data-value="other" data-i18n="chart_other">Diğer <span class="check">✓</span></div>
+              </div>
+            </div>
+            
+            <div class="custom-select" id="timeSelect">
+              <div class="select-trigger"><span class="trigger-text" data-i18n="chart_7days">7 gün</span> <span class="arrow"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></div>
+              <div class="select-menu right">
+                <div class="select-item" data-value="24h" data-i18n="chart_24h">24 saat <span class="check">✓</span></div>
+                <div class="select-item active" data-value="7d" data-i18n="chart_7days">7 gün <span class="check">✓</span></div>
+                <div class="select-item" data-value="30d" data-i18n="chart_30d">30 gün <span class="check">✓</span></div>
+                <div class="select-item" data-value="1y" data-i18n="chart_1y">1 yıl <span class="check">✓</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="chart-body" id="chartBody">
+            <svg viewBox="0 0 270 120" preserveAspectRatio="none" id="statsChart">
+              <defs>
+                <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" style="stop-color: var(--chart-color); stop-opacity: 0.4" />
+                  <stop offset="100%" style="stop-color: var(--chart-color); stop-opacity: 0" />
+                </linearGradient>
+              </defs>
+              <path id="chartArea" fill="url(#chartFill)" d=""></path>
+              <path id="chartLine" fill="none" style="stroke: var(--chart-color);" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d=""></path>
+            </svg>
+            <div id="chartTooltip" class="chart-tooltip">0</div>
+          </div>
+          <div class="chart-labels" id="chartLabels"></div>
+        </div>
+      </div>
+
+      <!-- Segmented Control -->
+      <div class="tab-control">
+        <button class="tab-btn active" id="tabActions" data-i18n="tab_actions">Eylemler</button>
+        <button class="tab-btn" id="tabStats" data-i18n="tab_stats">İstatistikler</button>
+      </div>
+
+      <!-- Actions View -->
+      <div class="tab-content active" id="viewActions">
+        <div class="actions-group">
+          <button class="action-btn" id="btnManualBlock">
+            <span class="label" data-i18n="action_manual_block">Reklamları elle engelle</span>
+            <span class="arrow"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+          </button>
+          <button class="action-btn" id="btnManageRules">
+            <span class="label" data-i18n="action_manage_rules">Özel Engellemelerim</span>
+            <span class="arrow"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+          </button>
+          <button class="action-btn" id="btnReportIssue">
+            <span class="label" data-i18n="action_report">Tanı bilgisini kopyala</span>
+            <span class="arrow"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+          </button>
+          <button class="action-btn" id="btnClearSiteRules">
+            <span class="label" data-i18n="action_clear_site">Site kurallarını temizle</span>
+            <span class="arrow"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+          </button>
+          <button class="action-btn" id="btnAddSegment">
+            <span class="label" data-i18n="popup_add_segment">Segment ekle (YouTube)</span>
+            <span class="arrow"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Stats View -->
+      <div class="tab-content" id="viewStats">
+        <div class="stats-list">
+          <div class="stat-list-item">
+            <span class="label" data-i18n="chart_ads">Reklamlar</span>
+            <span class="val" id="statAds">0</span>
+          </div>
+          <div class="stat-list-item">
+            <span class="label" data-i18n="chart_trackers">İzleyiciler</span>
+            <span class="val" id="statTrackers">0</span>
+          </div>
+          <div class="stat-list-item">
+            <span class="label" data-i18n="chart_cdn">CDN</span>
+            <span class="val" id="statCdn">0</span>
+          </div>
+          <div class="stat-list-item">
+            <span class="label" data-i18n="chart_other">Diğer</span>
+            <span class="val" id="statOther">0</span>
+          </div>
+          <div class="stat-list-item">
+            <span class="label" data-i18n="popup_sponsor_skipped">Sponsor atlanan</span>
+            <span class="val" id="statSkipped">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" data-i18n="footer_made_by">made by lave</div>
+  </div>
+
+  <!-- Promo Container -->
+  
+
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Rules Overlay -->
+  <div class="rules-overlay" id="rulesOverlay">
+    <div class="overlay-header">
+      <button class="icon-btn" id="btnBackRules">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      </button>
+      <h3 data-i18n="rules_title">Özel Kurallarım</h3>
+    </div>
+    <div class="overlay-body" id="rulesList"></div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
