@@ -14,10 +14,10 @@ let vadLangData = null;
 let vadLangReady = new Promise(resolve => {
     chrome.storage.local.get({vadblockLang: 'auto'}, (r) => {
         if (r.vadblockLang && r.vadblockLang !== 'auto') {
-            fetch(chrome.runtime.getURL('_locales/' + r.vadblockLang + '/messages.json'))
-                .then(res => res.json())
-                .then(json => { vadLangData = json; resolve(); })
-                .catch(() => resolve());
+            chrome.runtime.sendMessage({ type: 'GET_MESSAGES', lang: r.vadblockLang }, (json) => {
+                if (json && typeof json === 'object') vadLangData = json;
+                resolve();
+            });
         } else {
             resolve();
         }

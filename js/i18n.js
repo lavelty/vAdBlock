@@ -73,17 +73,10 @@
             if (callback) callback();
             return;
         }
-        const url = chrome.runtime.getURL('_locales/' + lang + '/messages.json');
-        fetch(url)
-            .then((r) => r.json())
-            .then((json) => {
-                overrideMessages = json;
-                if (callback) callback();
-            })
-            .catch(() => {
-                overrideMessages = null;
-                if (callback) callback();
-            });
+        chrome.runtime.sendMessage({ type: 'GET_MESSAGES', lang }, (json) => {
+            overrideMessages = (json && typeof json === 'object') ? json : null;
+            if (callback) callback();
+        });
     }
 
     function refresh(callback) {

@@ -10,9 +10,10 @@
   try {
       const { vadblockLang } = await chrome.storage.local.get({vadblockLang: 'auto'});
       if (vadblockLang && vadblockLang !== 'auto') {
-          const url = chrome.runtime.getURL('_locales/' + vadblockLang + '/messages.json');
-          const res = await fetch(url);
-          vadLangData = await res.json();
+          const json = await new Promise((resolve) => {
+              chrome.runtime.sendMessage({ type: 'GET_MESSAGES', lang: vadblockLang }, (resp) => resolve(resp));
+          });
+          if (json && typeof json === 'object') vadLangData = json;
       }
   } catch (e) { }
 

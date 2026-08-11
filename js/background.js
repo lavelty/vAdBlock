@@ -403,6 +403,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     } else if (message.type === 'GET_PAGE_STATS') {
         sendResponse(pageBlocked[message.tabId] || 0);
         return true;
+    } else if (message.type === 'GET_MESSAGES') {
+        const lang = message.lang;
+        if (!lang || !/^[a-z]{2}(_[A-Z]{2})?$/.test(lang)) { sendResponse(null); return; }
+        fetch(chrome.runtime.getURL('_locales/' + lang + '/messages.json'))
+            .then((r) => r.json())
+            .then((json) => sendResponse(json))
+            .catch(() => sendResponse(null));
+        return true;
     }
 });
 
@@ -420,7 +428,7 @@ function syncAllowlistRules() {
                 'riotgames.com', 'auth.riotgames.com', 'valorant.com', 'leagueoflegends.com', 
                 'twitch.tv', 'discord.com', 'github.com', 'microsoft.com', 'live.com', 
                 'office.com', 'apple.com', 'icloud.com', 'steampowered.com', 'epicgames.com',
-                'mail.google.com', 'spaceship.com'
+                'mail.google.com', 'spaceship.com', 'natro.com'
             ];
             
             const combinedAllowlist = [...new Set([...(r.allowlist || []), ...DEFAULT_ALLOWLIST])];
