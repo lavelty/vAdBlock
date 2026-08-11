@@ -4,11 +4,8 @@
    Ayarlar -> Daha Fazla -> Sponsor API URL: https://siten.com/api
 */
 
-// ─── MySQL bilgileri (cPanel -> MySQL Databases'ten al) ───
-$DB_HOST = 'localhost';
-$DB_NAME = 'SENIN_DB_ADIN';
-$DB_USER = 'SENIN_DB_KULLANICIN';
-$DB_PASS = 'SENIN_DB_SIFREN';
+// ─── Yapılandırma (DB bilgileri config.php'de, aynı klasöre yükle) ───
+require __DIR__ . '/config.php';
 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
@@ -57,7 +54,10 @@ ensureColumn($mysqli, 'video_title',    'VARCHAR(255) NOT NULL DEFAULT \'\'');
 ensureColumn($mysqli, 'video_duration', 'DECIMAL(10,2) NOT NULL DEFAULT 0');
 ensureColumn($mysqli, 'ip_address',     'VARCHAR(45) NOT NULL DEFAULT \'\'');
 ensureColumn($mysqli, 'status',         'VARCHAR(16) NOT NULL DEFAULT \'pending\'');
-$mysqli->query("CREATE INDEX idx_status ON sponsor_segments (status)");
+$idx = $mysqli->query("SHOW INDEX FROM sponsor_segments WHERE Key_name = 'idx_status'");
+if ($idx && $idx->num_rows === 0) {
+    $mysqli->query("CREATE INDEX idx_status ON sponsor_segments (status)");
+}
 
 $allowedCategories = ['sponsor', 'selfpromo', 'interaction', 'intro', 'outro', 'preview', 'music_offtopic'];
 

@@ -1,20 +1,49 @@
 <?php
 /* vAdBlock SponsorSkip — Admin Kontrol Paneli
-   cPanel: public_html/api/admin.php olarak yükle (skipsegments.php ile aynı klasöre).
-   Şifreyi aşağıdan değiştir. Sonra https://siten.com/api/admin.php ile aç.
+   cPanel: public_html/api/admin.php olarak yükle (config.php ile aynı klasöre).
+   Şifre ve DB bilgileri config.php'de. Sonra https://siten.com/api/admin.php ile aç.
 */
 
-// ─── MySQL bilgileri (skipsegments.php ile aynı olmalı) ───
-$DB_HOST = 'localhost';
-$DB_NAME = 'SENIN_DB_ADIN';
-$DB_USER = 'SENIN_DB_KULLANICIN';
-$DB_PASS = 'SENIN_DB_SIFREN';
-
-// ─── Yönetim şifresi (MUTLAKA DEĞİŞTİR) ───
-$ADMIN_PASS = 'DEGISTIR_BUNU';
+// ─── Yapılandırma (DB + yönetim şifresi) ───
+require __DIR__ . '/config.php';
 
 // ─── Yardımcılar ───
 function esc($s) { return htmlspecialchars((string)$s, ENT_QUOTES, 'UTF-8'); }
+
+// Tabloyu oluştur + eski tablodan eksik sütunları ekle (eski şemadan yükseltme)
+function ensureSchema($mysqli) {
+    $mysqli->query("CREATE TABLE IF NOT EXISTS sponsor_segments (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        video_id VARCHAR(32) NOT NULL,
+        start_time DECIMAL(10,2) NOT NULL,
+        end_time DECIMAL(10,2) NOT NULL,
+        category VARCHAR(32) NOT NULL DEFAULT 'sponsor',
+        user_id VARCHAR(64) NOT NULL DEFAULT '',
+        video_title VARCHAR(255) NOT NULL DEFAULT '',
+        video_duration DECIMAL(10,2) NOT NULL DEFAULT 0,
+        ip_address VARCHAR(45) NOT NULL DEFAULT '',
+        status VARCHAR(16) NOT NULL DEFAULT 'pending',
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        INDEX idx_video (video_id),
+        INDEX idx_status (status)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+    $cols = [
+        'video_title'    => 'VARCHAR(255) NOT NULL DEFAULT \'\'',
+        'video_duration' => 'DECIMAL(10,2) NOT NULL DEFAULT 0',
+        'ip_address'     => 'VARCHAR(45) NOT NULL DEFAULT \'\'',
+        'status'         => 'VARCHAR(16) NOT NULL DEFAULT \'pending\''
+    ];
+    foreach ($cols as $col => $def) {
+        $r = $mysqli->query("SHOW COLUMNS FROM sponsor_segments LIKE '" . $col . "'");
+        if ($r && $r->num_rows === 0) {
+            $mysqli->query("ALTER TABLE sponsor_segments ADD COLUMN " . $col . " " . $def);
+        }
+    }
+    $idx = $mysqli->query("SHOW INDEX FROM sponsor_segments WHERE Key_name = 'idx_status'");
+    if ($idx && $idx->num_rows === 0) {
+        $mysqli->query("CREATE INDEX idx_status ON sponsor_segments (status)");
+    }
+}
 
 function fmtSec($sec) {
     $sec = max(0, (int) round((float) $sec));
@@ -54,6 +83,8 @@ session_start();
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['admin_ok'])) {
     $mysqli = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
     if (!$mysqli->connect_errno) {
+        $mysqli->set_charset('utf8mb4');
+        ensureSchema($mysqli);
         $action = $_POST['action'] ?? '';
         $id = isset($_POST['id']) ? (int) $_POST['id'] : 0;
         if ($id > 0) {
@@ -196,6 +227,7 @@ $loggedIn = !empty($_SESSION['admin_ok']);
       exit;
   }
   $mysqli->set_charset('utf8mb4');
+  ensureSchema($mysqli);
 
   $filter = $_GET['f'] ?? 'pending';
   if (!in_array($filter, ['all', 'pending', 'approved', 'rejected'], true)) $filter = 'pending';
