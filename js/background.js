@@ -156,7 +156,7 @@ function syncTempSiteRules() {
         id: hashTempDomain(d),
         priority: 99999,
         action: { type: 'allowAllRequests' },
-        condition: { initiatorDomains: [d], resourceTypes: ['main_frame', 'sub_frame'] }
+        condition: { requestDomains: [d], resourceTypes: ['main_frame', 'sub_frame'] }
     }));
     chrome.declarativeNetRequest.getDynamicRules((existing) => {
         const toRemove = existing.filter(r => r.id >= 2000000 && r.id < 3000000).map(r => r.id);
@@ -266,7 +266,7 @@ async function doSyncFilterRules() {
                     id: 4100000 + (bid - 4000000),
                     priority: 99999,
                     action: { type: 'allowAllRequests' },
-                    condition: { initiatorDomains: [domain], resourceTypes: ['main_frame', 'sub_frame'] }
+                    condition: { requestDomains: [domain], resourceTypes: ['main_frame', 'sub_frame'] }
                 });
             } else {
                 addRules.push({
@@ -361,7 +361,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                     priority: 99999,
                     action: { type: "allowAllRequests" },
                     condition: {
-                        initiatorDomains: [message.domain],
+                        requestDomains: [message.domain],
                         resourceTypes: ["main_frame", "sub_frame"]
                     }
                 }],
@@ -438,7 +438,7 @@ function syncAllowlistRules() {
                 priority: 99999,
                 action: { type: "allowAllRequests" },
                 condition: {
-                    initiatorDomains: [domain],
+                    requestDomains: [domain],
                     resourceTypes: ["main_frame", "sub_frame"]
                 }
             }));
