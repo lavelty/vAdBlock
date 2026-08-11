@@ -120,6 +120,7 @@
   let categoryMenuEl = null;
   let previewingIntervalGlobal = null;
   let previewPausedTime = null;
+  let previewCategory = 'sponsor';
 
   // ─── Yardımcılar ───
   function getVideoId() {
@@ -1022,11 +1023,13 @@
       opt.appendChild(lbl);
       opt.addEventListener('click', () => {
         selectedCategory = cat.id;
+        previewCategory = cat.id;
         catButtons.forEach(b => {
           const isMe = (b.id === selectedCategory);
           b.el.style.borderColor = isMe ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.08)';
           b.el.style.background = isMe ? 'rgba(255,255,255,0.03)' : 'rgba(255,255,255,0.03)';
         });
+        updatePreviewBlock(start, end);
       });
       grid.appendChild(opt);
       catButtons.push({ id: cat.id, el: opt });
@@ -1087,6 +1090,8 @@
   function updatePreviewBlock(start, end) {
     const container = document.getElementById('vadblock-sb-overlays');
     if (!container || !videoEl || !videoEl.duration) return;
+    // Önizleme bloğu seçili kategori renginde gösterilir (onaylanınca görüneceği renk).
+    const color = CATEGORY_COLORS[previewCategory] || CATEGORY_COLORS.sponsor;
     let prev = container.querySelector('#vadblock-sb-preview');
     if (!prev) {
       prev = document.createElement('div');
@@ -1095,14 +1100,18 @@
         position: absolute;
         top: 0;
         bottom: 0;
-        background: rgba(0, 212, 0, 0.4);
-        border: 1px solid rgba(0, 212, 0, 0.8);
+        background: ${color}66;
+        border: 1px solid ${color};
         z-index: 42;
         pointer-events: none;
         min-width: 2px;
         box-sizing: border-box;
+        transition: background 0.15s ease, border-color 0.15s ease;
       `;
       container.appendChild(prev);
+    } else {
+      prev.style.background = color + '66';
+      prev.style.borderColor = color;
     }
     const dur = videoEl.duration;
     const startPct = (start / dur) * 100;
